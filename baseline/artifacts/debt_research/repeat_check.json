@@ -1,0 +1,11 @@
+{
+  "selected.npz": {
+    "weights_equal": true,
+    "max_abs_diff": 0.0
+  },
+  "last.npz": {
+    "weights_equal": true,
+    "max_abs_diff": 0.0
+  },
+  "validation_exact": true
+}

@@ -1,0 +1,56 @@
+{
+  "test": "test2",
+  "passed": false,
+  "updates": 5000,
+  "temperature": 0.05,
+  "initial": [
+    {
+      "context": "low_fuel",
+      "entropy": 0.0027831413317471743,
+      "minimum_max_probability": 0.9996930360794067,
+      "median_max_probability": 0.9997168779373169
+    },
+    {
+      "context": "bank",
+      "entropy": 0.0015935235423967242,
+      "minimum_max_probability": 0.9998347759246826,
+      "median_max_probability": 0.999848484992981
+    }
+  ],
+  "final": [
+    {
+      "context": "low_fuel",
+      "entropy": 0.788176417350769,
+      "minimum_max_probability": 0.5601813793182373,
+      "median_max_probability": 0.5643435120582581
+    },
+    {
+      "context": "bank",
+      "entropy": 1.61495041847229,
+      "minimum_max_probability": 0.2955135703086853,
+      "median_max_probability": 0.30110275745391846
+    }
+  ],
+  "first_curriculum_stage": {
+    "wins": 0,
+    "starvation": 16,
+    "meals_per_episode": 0.0,
+    "refills_per_episode": 0.0,
+    "terminal_at_zero_fuel": 0
+  },
+  "food_prerequisite": {
+    "wins": 0,
+    "starvation": 16,
+    "meals_per_episode": 2.0,
+    "refills_per_episode": 0.0,
+    "terminal_at_zero_fuel": 0
+  },
+  "standard": {
+    "wins": 0,
+    "starvation": 16,
+    "meals_per_episode": 0.0,
+    "refills_per_episode": 1.0,
+    "terminal_at_zero_fuel": 0
+  },
+  "scope": "Warm fork using the historical 194-feature architecture. This does not certify fresh 370-feature training."
+}

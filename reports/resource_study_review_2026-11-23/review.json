@@ -1,0 +1,2322 @@
+{
+  "review_date_moscow": "2026-11-23",
+  "task_status": "completed",
+  "study_state": "needs_learning_diagnosis",
+  "models": [
+    {
+      "model": "dsac_mlp",
+      "training_complete": false,
+      "qualified_development": false,
+      "registered_decision_budget": 262144,
+      "actual_network_decisions": 79872,
+      "physical_ticks": 1943043,
+      "optimizer_updates": 9792,
+      "elapsed_training_seconds": 1198.2755701616406,
+      "passed_curriculum_stages": 3,
+      "total_curriculum_stages": 14,
+      "last_lesson": "meal_then_ownership",
+      "last_gate": {
+        "active": 0,
+        "ownership": 0,
+        "collision": 0,
+        "deadline": 0,
+        "starvation": 16,
+        "episodes": 16,
+        "completed_actions": {
+          "paid": 0,
+          "missed": 0,
+          "loans": 0,
+          "car_payments": 0,
+          "micro_payments": 0,
+          "spins": 0,
+          "hands": 0,
+          "wins": 0,
+          "losses": 0,
+          "pushes": 0,
+          "sleeps": 0,
+          "meals": 0,
+          "refills": 0,
+          "fees": 0
+        },
+        "starved_with_at_least_40_cash": 16,
+        "starved_without_completed_meal": 16,
+        "mean_cash_at_starvation": 100.0,
+        "source": "Recorded resource study input (stage_03_step_001943043)"
+      },
+      "failure": {
+        "reason": "Actor failed its lesson gate after both physical and decision exposure caps",
+        "stage": 3,
+        "physical_transitions": 1943043,
+        "network_decisions": 79872
+      },
+      "selected_standard_development": {
+        "active": 0,
+        "ownership": 0,
+        "collision": 0,
+        "deadline": 0,
+        "starvation": 64,
+        "episodes": 64,
+        "completed_actions": {
+          "paid": 118,
+          "missed": 68,
+          "loans": 3,
+          "car_payments": 131,
+          "micro_payments": 4,
+          "spins": 0,
+          "hands": 0,
+          "wins": 0,
+          "losses": 0,
+          "pushes": 0,
+          "sleeps": 1,
+          "meals": 0,
+          "refills": 0,
+          "fees": 0
+        },
+        "starved_with_at_least_40_cash": 58,
+        "starved_without_completed_meal": 64,
+        "mean_cash_at_starvation": 167.890625,
+        "source": "Recorded resource study input (step_000605920)"
+      },
+      "selected_behavior": {
+        "active_intentions_by_action": [
+          25,
+          4152,
+          1,
+          2,
+          0,
+          0,
+          1,
+          1,
+          0,
+          1,
+          4,
+          0,
+          20,
+          167,
+          0,
+          6,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "episodes_with_food_intention": 2,
+        "first_food_intention_satiety": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          0.5603975057601929,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          0.15059787034988403,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "potential_driver_stalls_64_ticks": 0,
+        "maximum_stopped_drive_ticks": 5,
+        "scope": "Prolonged low-speed ticks while DRIVE was requested, excluding voluntary Wait."
+      },
+      "latest_saved_standard_validation": {
+        "active": 0,
+        "ownership": 0,
+        "collision": 0,
+        "deadline": 0,
+        "starvation": 64,
+        "episodes": 64,
+        "completed_actions": {
+          "paid": 0,
+          "missed": 192,
+          "loans": 4288,
+          "car_payments": 384,
+          "micro_payments": 4009,
+          "spins": 0,
+          "hands": 0,
+          "wins": 0,
+          "losses": 0,
+          "pushes": 0,
+          "sleeps": 0,
+          "meals": 0,
+          "refills": 0,
+          "fees": 0
+        },
+        "starved_with_at_least_40_cash": 23,
+        "starved_without_completed_meal": 64,
+        "mean_cash_at_starvation": 35.9375,
+        "source": "Recorded resource study input (step_001643531)"
+      },
+      "retained_skills": {},
+      "checkpoints": {
+        "initial": {
+          "path": "Recorded resource study input (initial.npz)",
+          "sha256": "9483db49548dc9b09ef115d4a10e16e5463f841263e796f2bcd2cfefadd74c8d",
+          "physical_transitions": 0
+        },
+        "selected": {
+          "path": "Recorded resource study input (selected.npz)",
+          "sha256": "61bdc67372c9a8670948e7f7a442b5f7ea65029a6cc8ef00b9de8e75084b0a44",
+          "physical_transitions": 605920
+        },
+        "last": {
+          "path": "Recorded resource study input (last.npz)",
+          "sha256": "cc5e1eba534666096d02a8368e67ced114ed9236d021a004e5610035e6814c92",
+          "physical_transitions": 1943043
+        }
+      }
+    },
+    {
+      "model": "ppo_mlp",
+      "training_complete": false,
+      "qualified_development": false,
+      "registered_decision_budget": 262144,
+      "actual_network_decisions": 151552,
+      "physical_ticks": 6431870,
+      "optimizer_updates": 7104,
+      "elapsed_training_seconds": 2360.0840803226456,
+      "passed_curriculum_stages": 12,
+      "total_curriculum_stages": 14,
+      "last_lesson": "home_debt_500",
+      "last_gate": {
+        "active": 0,
+        "ownership": 1,
+        "collision": 0,
+        "deadline": 0,
+        "starvation": 15,
+        "episodes": 16,
+        "completed_actions": {
+          "paid": 32,
+          "missed": 0,
+          "loans": 0,
+          "car_payments": 37,
+          "micro_payments": 0,
+          "spins": 0,
+          "hands": 0,
+          "wins": 0,
+          "losses": 0,
+          "pushes": 0,
+          "sleeps": 0,
+          "meals": 0,
+          "refills": 0,
+          "fees": 0
+        },
+        "starved_with_at_least_40_cash": 1,
+        "starved_without_completed_meal": 15,
+        "mean_cash_at_starvation": 5.100922584533691,
+        "source": "Recorded resource study input (stage_12_step_006431870)"
+      },
+      "failure": {
+        "reason": "Actor failed its lesson gate after both physical and decision exposure caps",
+        "stage": 12,
+        "physical_transitions": 6431870,
+        "network_decisions": 151552
+      },
+      "selected_standard_development": {
+        "active": 0,
+        "ownership": 8,
+        "collision": 0,
+        "deadline": 0,
+        "starvation": 56,
+        "episodes": 64,
+        "completed_actions": {
+          "paid": 128,
+          "missed": 1,
+          "loans": 0,
+          "car_payments": 131,
+          "micro_payments": 0,
+          "spins": 1,
+          "hands": 0,
+          "wins": 0,
+          "losses": 1,
+          "pushes": 0,
+          "sleeps": 0,
+          "meals": 0,
+          "refills": 0,
+          "fees": 0
+        },
+        "starved_with_at_least_40_cash": 7,
+        "starved_without_completed_meal": 56,
+        "mean_cash_at_starvation": 10.901786804199219,
+        "source": "Recorded resource study input (step_006217060)"
+      },
+      "selected_behavior": {
+        "active_intentions_by_action": [
+          2,
+          219,
+          1,
+          0,
+          1,
+          0,
+          2,
+          0,
+          0,
+          0,
+          0,
+          1,
+          5,
+          126,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          15
+        ],
+        "episodes_with_food_intention": 1,
+        "first_food_intention_satiety": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          0.023097533732652664,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "potential_driver_stalls_64_ticks": 0,
+        "maximum_stopped_drive_ticks": 15,
+        "scope": "Prolonged low-speed ticks while DRIVE was requested, excluding voluntary Wait."
+      },
+      "latest_saved_standard_validation": {
+        "active": 0,
+        "ownership": 8,
+        "collision": 0,
+        "deadline": 0,
+        "starvation": 56,
+        "episodes": 64,
+        "completed_actions": {
+          "paid": 128,
+          "missed": 1,
+          "loans": 0,
+          "car_payments": 131,
+          "micro_payments": 0,
+          "spins": 1,
+          "hands": 0,
+          "wins": 0,
+          "losses": 1,
+          "pushes": 0,
+          "sleeps": 0,
+          "meals": 0,
+          "refills": 0,
+          "fees": 0
+        },
+        "starved_with_at_least_40_cash": 7,
+        "starved_without_completed_meal": 56,
+        "mean_cash_at_starvation": 10.901786804199219,
+        "source": "Recorded resource study input (step_006217060)"
+      },
+      "retained_skills": {},
+      "checkpoints": {
+        "initial": {
+          "path": "Recorded resource study input (initial.npz)",
+          "sha256": "5f78b2b97d2c870c7200398812723559d36a6174a6439309efb26c7f4c8c33e8",
+          "physical_transitions": 0
+        },
+        "selected": {
+          "path": "Recorded resource study input (selected.npz)",
+          "sha256": "b61e89938fbca1f7244feec7770e6ad3b1e4c1bbe21213c91bad0f7882554e6f",
+          "physical_transitions": 6217060
+        },
+        "last": {
+          "path": "Recorded resource study input (last.npz)",
+          "sha256": "220a2499a16432410f698f7ab5cc5b11451cce7d2803b3071c88bd1683b50cbd",
+          "physical_transitions": 6431870
+        }
+      }
+    },
+    {
+      "model": "dsac_gru",
+      "training_complete": true,
+      "qualified_development": true,
+      "registered_decision_budget": 262144,
+      "actual_network_decisions": 262144,
+      "physical_ticks": 8220846,
+      "optimizer_updates": 32576,
+      "elapsed_training_seconds": 12420.897906985134,
+      "passed_curriculum_stages": 14,
+      "total_curriculum_stages": 14,
+      "last_lesson": "standard_home_actor",
+      "last_gate": {
+        "active": 0,
+        "ownership": 8,
+        "collision": 0,
+        "deadline": 0,
+        "starvation": 8,
+        "episodes": 16,
+        "completed_actions": {
+          "paid": 57,
+          "missed": 28,
+          "loans": 23,
+          "car_payments": 94,
+          "micro_payments": 15,
+          "spins": 0,
+          "hands": 0,
+          "wins": 0,
+          "losses": 0,
+          "pushes": 0,
+          "sleeps": 0,
+          "meals": 47,
+          "refills": 15,
+          "fees": 0
+        },
+        "starved_with_at_least_40_cash": 8,
+        "starved_without_completed_meal": 0,
+        "mean_cash_at_starvation": 216.493408203125,
+        "source": "Recorded resource study input (stage_13_step_005093888)"
+      },
+      "failure": null,
+      "selected_standard_development": {
+        "active": 0,
+        "ownership": 60,
+        "collision": 0,
+        "deadline": 0,
+        "starvation": 4,
+        "episodes": 64,
+        "completed_actions": {
+          "paid": 223,
+          "missed": 48,
+          "loans": 1,
+          "car_payments": 375,
+          "micro_payments": 0,
+          "spins": 0,
+          "hands": 0,
+          "wins": 0,
+          "losses": 0,
+          "pushes": 0,
+          "sleeps": 0,
+          "meals": 102,
+          "refills": 108,
+          "fees": 5
+        },
+        "starved_with_at_least_40_cash": 4,
+        "starved_without_completed_meal": 0,
+        "mean_cash_at_starvation": 270.8044738769531,
+        "source": "Recorded resource study input (dsac_gru)"
+      },
+      "selected_behavior": {
+        "active_intentions_by_action": [
+          64,
+          345,
+          0,
+          0,
+          0,
+          104,
+          108,
+          0,
+          0,
+          0,
+          1,
+          0,
+          376,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          61
+        ],
+        "episodes_with_food_intention": 60,
+        "first_food_intention_satiety": [
+          0.2522972524166107,
+          0.36599716544151306,
+          0.36189717054367065,
+          0.23259738087654114,
+          0.24869726598262787,
+          0.36189717054367065,
+          0.23259738087654114,
+          0.36419716477394104,
+          0.24919725954532623,
+          0.3636971712112427,
+          0.3636971712112427,
+          0.23259738087654114,
+          0.36829715967178345,
+          0.24639728665351868,
+          0.22439739108085632,
+          0.2289973646402359,
+          0.25099724531173706,
+          null,
+          0.25099724531173706,
+          0.37059715390205383,
+          0.2522972524166107,
+          0.36599716544151306,
+          0.3741970956325531,
+          null,
+          0.3669971823692322,
+          0.24869726598262787,
+          0.2522972524166107,
+          0.37059715390205383,
+          0.3687971532344818,
+          0.24049727618694305,
+          0.36599716544151306,
+          null,
+          0.3687971532344818,
+          0.3636971712112427,
+          0.3728971481323242,
+          0.37059715390205383,
+          0.3646971881389618,
+          0.24509724974632263,
+          0.3636971712112427,
+          0.37059715390205383,
+          0.36419716477394104,
+          0.36599716544151306,
+          0.3636971712112427,
+          0.360097199678421,
+          0.3664971590042114,
+          0.3636971712112427,
+          0.36189717054367065,
+          0.37059715390205383,
+          0.24049727618694305,
+          0.36929717659950256,
+          0.2514972388744354,
+          0.36189717054367065,
+          0.2514972388744354,
+          null,
+          0.24049727618694305,
+          0.236197367310524,
+          0.36189717054367065,
+          0.3687971532344818,
+          0.2545972466468811,
+          0.24229730665683746,
+          0.24639728665351868,
+          0.2514972388744354,
+          0.2514972388744354,
+          0.2522972524166107
+        ],
+        "potential_driver_stalls_64_ticks": 0,
+        "maximum_stopped_drive_ticks": 6,
+        "scope": "Prolonged low-speed ticks while DRIVE was requested, excluding voluntary Wait."
+      },
+      "latest_saved_standard_validation": {
+        "active": 0,
+        "ownership": 60,
+        "collision": 0,
+        "deadline": 0,
+        "starvation": 4,
+        "episodes": 64,
+        "completed_actions": {
+          "paid": 223,
+          "missed": 48,
+          "loans": 1,
+          "car_payments": 375,
+          "micro_payments": 0,
+          "spins": 0,
+          "hands": 0,
+          "wins": 0,
+          "losses": 0,
+          "pushes": 0,
+          "sleeps": 0,
+          "meals": 102,
+          "refills": 108,
+          "fees": 5
+        },
+        "starved_with_at_least_40_cash": 4,
+        "starved_without_completed_meal": 0,
+        "mean_cash_at_starvation": 270.8044738769531,
+        "source": "Recorded resource study input (step_008220846)"
+      },
+      "retained_skills": {
+        "earning": {
+          "active": 0,
+          "ownership": 16,
+          "collision": 0,
+          "deadline": 0,
+          "starvation": 0,
+          "episodes": 16,
+          "completed_actions": {
+            "paid": 16,
+            "missed": 0,
+            "loans": 0,
+            "car_payments": 32,
+            "micro_payments": 0,
+            "spins": 0,
+            "hands": 0,
+            "wins": 0,
+            "losses": 0,
+            "pushes": 0,
+            "sleeps": 0,
+            "meals": 0,
+            "refills": 0,
+            "fees": 0
+          },
+          "starved_with_at_least_40_cash": 0,
+          "starved_without_completed_meal": 0,
+          "mean_cash_at_starvation": null,
+          "source": "Recorded resource study input (earning)"
+        },
+        "food_approach": {
+          "active": 0,
+          "ownership": 13,
+          "collision": 0,
+          "deadline": 0,
+          "starvation": 3,
+          "episodes": 16,
+          "completed_actions": {
+            "paid": 16,
+            "missed": 16,
+            "loans": 0,
+            "car_payments": 16,
+            "micro_payments": 0,
+            "spins": 0,
+            "hands": 0,
+            "wins": 0,
+            "losses": 0,
+            "pushes": 0,
+            "sleeps": 0,
+            "meals": 16,
+            "refills": 16,
+            "fees": 0
+          },
+          "starved_with_at_least_40_cash": 3,
+          "starved_without_completed_meal": 0,
+          "mean_cash_at_starvation": 207.3505096435547,
+          "source": "Recorded resource study input (food_approach)"
+        },
+        "fuel": {
+          "active": 0,
+          "ownership": 16,
+          "collision": 0,
+          "deadline": 0,
+          "starvation": 0,
+          "episodes": 16,
+          "completed_actions": {
+            "paid": 16,
+            "missed": 0,
+            "loans": 0,
+            "car_payments": 32,
+            "micro_payments": 0,
+            "spins": 0,
+            "hands": 0,
+            "wins": 0,
+            "losses": 0,
+            "pushes": 0,
+            "sleeps": 0,
+            "meals": 0,
+            "refills": 16,
+            "fees": 0
+          },
+          "starved_with_at_least_40_cash": 0,
+          "starved_without_completed_meal": 0,
+          "mean_cash_at_starvation": null,
+          "source": "Recorded resource study input (fuel)"
+        },
+        "personal_debt": {
+          "active": 0,
+          "ownership": 16,
+          "collision": 0,
+          "deadline": 0,
+          "starvation": 0,
+          "episodes": 16,
+          "completed_actions": {
+            "paid": 17,
+            "missed": 3,
+            "loans": 20,
+            "car_payments": 48,
+            "micro_payments": 19,
+            "spins": 0,
+            "hands": 0,
+            "wins": 0,
+            "losses": 0,
+            "pushes": 0,
+            "sleeps": 0,
+            "meals": 3,
+            "refills": 4,
+            "fees": 0
+          },
+          "starved_with_at_least_40_cash": 0,
+          "starved_without_completed_meal": 0,
+          "mean_cash_at_starvation": null,
+          "source": "Recorded resource study input (personal_debt)"
+        }
+      },
+      "checkpoints": {
+        "initial": {
+          "path": "Recorded resource study input (initial.npz)",
+          "sha256": "203156ceade4a7ac7191297f5f6143ebfa5ae182a38c0aef3b57a7635a3615a8",
+          "physical_transitions": 0
+        },
+        "selected": {
+          "path": "Recorded resource study input (selected.npz)",
+          "sha256": "9b2a150d1543cf4a4728ee792175c73480a4b0ba11019f8f92279852acb1409f",
+          "physical_transitions": 8220846
+        },
+        "last": {
+          "path": "Recorded resource study input (last.npz)",
+          "sha256": "dae1e7d6cf298fb8fd0923c7db9e9f1a31317bc65c1f164d1a6822771116b67d",
+          "physical_transitions": 8220846
+        },
+        "final": {
+          "path": "Recorded resource study input (final.npz)",
+          "sha256": "dae1e7d6cf298fb8fd0923c7db9e9f1a31317bc65c1f164d1a6822771116b67d",
+          "physical_transitions": 8220846
+        }
+      }
+    },
+    {
+      "model": "ppo_gru",
+      "training_complete": false,
+      "qualified_development": false,
+      "registered_decision_budget": 262144,
+      "actual_network_decisions": 139264,
+      "physical_ticks": 6356600,
+      "optimizer_updates": 6528,
+      "elapsed_training_seconds": 2280.102321287617,
+      "passed_curriculum_stages": 12,
+      "total_curriculum_stages": 14,
+      "last_lesson": "home_debt_500",
+      "last_gate": {
+        "active": 0,
+        "ownership": 1,
+        "collision": 0,
+        "deadline": 0,
+        "starvation": 15,
+        "episodes": 16,
+        "completed_actions": {
+          "paid": 32,
+          "missed": 0,
+          "loans": 0,
+          "car_payments": 45,
+          "micro_payments": 0,
+          "spins": 0,
+          "hands": 0,
+          "wins": 0,
+          "losses": 0,
+          "pushes": 0,
+          "sleeps": 0,
+          "meals": 0,
+          "refills": 0,
+          "fees": 0
+        },
+        "starved_with_at_least_40_cash": 13,
+        "starved_without_completed_meal": 15,
+        "mean_cash_at_starvation": 174.33949279785156,
+        "source": "Recorded resource study input (stage_12_step_006356600)"
+      },
+      "failure": {
+        "reason": "Actor failed its lesson gate after both physical and decision exposure caps",
+        "stage": 12,
+        "physical_transitions": 6356600,
+        "network_decisions": 139264
+      },
+      "selected_standard_development": {
+        "active": 0,
+        "ownership": 3,
+        "collision": 0,
+        "deadline": 0,
+        "starvation": 61,
+        "episodes": 64,
+        "completed_actions": {
+          "paid": 123,
+          "missed": 7,
+          "loans": 3,
+          "car_payments": 275,
+          "micro_payments": 4,
+          "spins": 0,
+          "hands": 0,
+          "wins": 0,
+          "losses": 0,
+          "pushes": 0,
+          "sleeps": 4,
+          "meals": 1,
+          "refills": 0,
+          "fees": 0
+        },
+        "starved_with_at_least_40_cash": 22,
+        "starved_without_completed_meal": 60,
+        "mean_cash_at_starvation": 53.70079803466797,
+        "source": "Recorded resource study input (step_003617139)"
+      },
+      "selected_behavior": {
+        "active_intentions_by_action": [
+          0,
+          194,
+          8,
+          1,
+          0,
+          1,
+          4,
+          1,
+          0,
+          3,
+          0,
+          0,
+          275,
+          1,
+          0,
+          0,
+          4,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          7
+        ],
+        "episodes_with_food_intention": 1,
+        "first_food_intention_satiety": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          0.8500000238418579,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "potential_driver_stalls_64_ticks": 0,
+        "maximum_stopped_drive_ticks": 15,
+        "scope": "Prolonged low-speed ticks while DRIVE was requested, excluding voluntary Wait."
+      },
+      "latest_saved_standard_validation": {
+        "active": 0,
+        "ownership": 1,
+        "collision": 0,
+        "deadline": 0,
+        "starvation": 63,
+        "episodes": 64,
+        "completed_actions": {
+          "paid": 124,
+          "missed": 5,
+          "loans": 2,
+          "car_payments": 177,
+          "micro_payments": 0,
+          "spins": 0,
+          "hands": 1,
+          "wins": 0,
+          "losses": 1,
+          "pushes": 0,
+          "sleeps": 1,
+          "meals": 1,
+          "refills": 2,
+          "fees": 0
+        },
+        "starved_with_at_least_40_cash": 48,
+        "starved_without_completed_meal": 62,
+        "mean_cash_at_starvation": 166.43606567382812,
+        "source": "Recorded resource study input (step_005926442)"
+      },
+      "retained_skills": {},
+      "checkpoints": {
+        "initial": {
+          "path": "Recorded resource study input (initial.npz)",
+          "sha256": "a7bf8f7708b067c16bea42cb30609a30389a17b82ce70c35d66def4fd9205aef",
+          "physical_transitions": 0
+        },
+        "selected": {
+          "path": "Recorded resource study input (selected.npz)",
+          "sha256": "70fbdeee76ede7946b9a5f8edda9399a9a81d932a114790838dfb759ab0a7443",
+          "physical_transitions": 3617139
+        },
+        "last": {
+          "path": "Recorded resource study input (last.npz)",
+          "sha256": "22067b9995a545a322cb206e1a5dffa102cab9d5cb900a632c6e43768a21d979",
+          "physical_transitions": 6356600
+        }
+      }
+    }
+  ],
+  "checks": [
+    {
+      "check": "all_authenticated_incremental_archives_downloaded",
+      "passed": true,
+      "source": "Recorded resource study input (downloads.json)",
+      "details": null
+    },
+    {
+      "check": "decision_accounting_monotone_512",
+      "passed": true,
+      "source": "Recorded resource study input (training.jsonl)",
+      "details": null
+    },
+    {
+      "check": "finite_training_losses",
+      "passed": true,
+      "source": "Recorded resource study input (training.jsonl)",
+      "details": null
+    },
+    {
+      "check": "physical_tick_accounting_monotone",
+      "passed": true,
+      "source": "Recorded resource study input (training.jsonl)",
+      "details": null
+    },
+    {
+      "check": "curriculum_stages_passed_in_order",
+      "passed": true,
+      "source": "Recorded resource study input (curriculum_gates.jsonl)",
+      "details": null
+    },
+    {
+      "check": "completion_and_failure_not_both_present",
+      "passed": true,
+      "source": "Recorded resource study input (dsac_mlp)",
+      "details": null
+    },
+    {
+      "check": "failure_counter_matches_training",
+      "passed": true,
+      "source": "Recorded resource study input (curriculum_failure.json)",
+      "details": null
+    },
+    {
+      "check": "finite_checkpoint_weights",
+      "passed": true,
+      "source": "Recorded resource study input (initial.npz)",
+      "details": null
+    },
+    {
+      "check": "finite_checkpoint_weights",
+      "passed": true,
+      "source": "Recorded resource study input (selected.npz)",
+      "details": null
+    },
+    {
+      "check": "selected_weights_changed_from_initial",
+      "passed": true,
+      "source": "Recorded resource study input (selected.npz)",
+      "details": null
+    },
+    {
+      "check": "frozen_training_source_hashes_match",
+      "passed": true,
+      "source": "Recorded resource study input (source)",
+      "details": {
+        "missing": [],
+        "different": []
+      }
+    },
+    {
+      "check": "finite_checkpoint_weights",
+      "passed": true,
+      "source": "Recorded resource study input (last.npz)",
+      "details": null
+    },
+    {
+      "check": "unique_scenario_ids",
+      "passed": true,
+      "source": "Recorded resource study input (endpoints.npz)",
+      "details": null
+    },
+    {
+      "check": "scenario_ids_match_record",
+      "passed": true,
+      "source": "Recorded resource study input (endpoints.npz)",
+      "details": null
+    },
+    {
+      "check": "valid_outcomes",
+      "passed": true,
+      "source": "Recorded resource study input (endpoints.npz)",
+      "details": null
+    },
+    {
+      "check": "reported_outcomes_match_endpoints",
+      "passed": true,
+      "source": "Recorded resource study input (evaluation.json)",
+      "details": null
+    },
+    {
+      "check": "finite_numeric_endpoints",
+      "passed": true,
+      "source": "Recorded resource study input (endpoints.npz)",
+      "details": null
+    },
+    {
+      "check": "ownership_requires_all_debts_cleared",
+      "passed": true,
+      "source": "Recorded resource study input (endpoints.npz)",
+      "details": null
+    },
+    {
+      "check": "nonnegative_balances",
+      "passed": true,
+      "source": "Recorded resource study input (endpoints.npz)",
+      "details": null
+    },
+    {
+      "check": "aggregate_microloan_balance_matches",
+      "passed": true,
+      "source": "Recorded resource study input (endpoints.npz)",
+      "details": null
+    },
+    {
+      "check": "reported_mean_return_matches",
+      "passed": true,
+      "source": "Recorded resource study input (evaluation.json)",
+      "details": null
+    },
+    {
+      "check": "reported_percentiles_match",
+      "passed": true,
+      "source": "Recorded resource study input (evaluation.json)",
+      "details": null
+    },
+    {
+      "check": "unique_scenario_ids",
+      "passed": true,
+      "source": "Recorded resource study input (endpoints.npz)",
+      "details": null
+    },
+    {
+      "check": "scenario_ids_match_record",
+      "passed": true,
+      "source": "Recorded resource study input (endpoints.npz)",
+      "details": null
+    },
+    {
+      "check": "valid_outcomes",
+      "passed": true,
+      "source": "Recorded resource study input (endpoints.npz)",
+      "details": null
+    },
+    {
+      "check": "reported_outcomes_match_endpoints",
+      "passed": true,
+      "source": "Recorded resource study input (evaluation.json)",
+      "details": null
+    },
+    {
+      "check": "finite_numeric_endpoints",
+      "passed": true,
+      "source": "Recorded resource study input (endpoints.npz)",
+      "details": null
+    },
+    {
+      "check": "ownership_requires_all_debts_cleared",
+      "passed": true,
+      "source": "Recorded resource study input (endpoints.npz)",
+      "details": null
+    },
+    {
+      "check": "nonnegative_balances",
+      "passed": true,
+      "source": "Recorded resource study input (endpoints.npz)",
+      "details": null
+    },
+    {
+      "check": "aggregate_microloan_balance_matches",
+      "passed": true,
+      "source": "Recorded resource study input (endpoints.npz)",
+      "details": null
+    },
+    {
+      "check": "reported_mean_return_matches",
+      "passed": true,
+      "source": "Recorded resource study input (evaluation.json)",
+      "details": null
+    },
+    {
+      "check": "reported_percentiles_match",
+      "passed": true,
+      "source": "Recorded resource study input (evaluation.json)",
+      "details": null
+    },
+    {
+      "check": "last_gate_outcome_count_matches",
+      "passed": true,
+      "source": "Recorded resource study input (stage_03_step_001943043)",
+      "details": null
+    },
+    {
+      "check": "unique_scenario_ids",
+      "passed": true,
+      "source": "Recorded resource study input (endpoints.npz)",
+      "details": null
+    },
+    {
+      "check": "scenario_ids_match_record",
+      "passed": true,
+      "source": "Recorded resource study input (endpoints.npz)",
+      "details": null
+    },
+    {
+      "check": "valid_outcomes",
+      "passed": true,
+      "source": "Recorded resource study input (endpoints.npz)",
+      "details": null
+    },
+    {
+      "check": "reported_outcomes_match_endpoints",
+      "passed": true,
+      "source": "Recorded resource study input (evaluation.json)",
+      "details": null
+    },
+    {
+      "check": "finite_numeric_endpoints",
+      "passed": true,
+      "source": "Recorded resource study input (endpoints.npz)",
+      "details": null
+    },
+    {
+      "check": "ownership_requires_all_debts_cleared",
+      "passed": true,
+      "source": "Recorded resource study input (endpoints.npz)",
+      "details": null
+    },
+    {
+      "check": "nonnegative_balances",
+      "passed": true,
+      "source": "Recorded resource study input (endpoints.npz)",
+      "details": null
+    },
+    {
+      "check": "aggregate_microloan_balance_matches",
+      "passed": true,
+      "source": "Recorded resource study input (endpoints.npz)",
+      "details": null
+    },
+    {
+      "check": "reported_mean_return_matches",
+      "passed": true,
+      "source": "Recorded resource study input (evaluation.json)",
+      "details": null
+    },
+    {
+      "check": "reported_percentiles_match",
+      "passed": true,
+      "source": "Recorded resource study input (evaluation.json)",
+      "details": null
+    },
+    {
+      "check": "decision_accounting_monotone_512",
+      "passed": true,
+      "source": "Recorded resource study input (training.jsonl)",
+      "details": null
+    },
+    {
+      "check": "finite_training_losses",
+      "passed": true,
+      "source": "Recorded resource study input (training.jsonl)",
+      "details": null
+    },
+    {
+      "check": "physical_tick_accounting_monotone",
+      "passed": true,
+      "source": "Recorded resource study input (training.jsonl)",
+      "details": null
+    },
+    {
+      "check": "curriculum_stages_passed_in_order",
+      "passed": true,
+      "source": "Recorded resource study input (curriculum_gates.jsonl)",
+      "details": null
+    },
+    {
+      "check": "completion_and_failure_not_both_present",
+      "passed": true,
+      "source": "Recorded resource study input (ppo_mlp)",
+      "details": null
+    },
+    {
+      "check": "failure_counter_matches_training",
+      "passed": true,
+      "source": "Recorded resource study input (curriculum_failure.json)",
+      "details": null
+    },
+    {
+      "check": "finite_checkpoint_weights",
+      "passed": true,
+      "source": "Recorded resource study input (initial.npz)",
+      "details": null
+    },
+    {
+      "check": "finite_checkpoint_weights",
+      "passed": true,
+      "source": "Recorded resource study input (selected.npz)",
+      "details": null
+    },
+    {
+      "check": "selected_weights_changed_from_initial",
+      "passed": true,
+      "source": "Recorded resource study input (selected.npz)",
+      "details": null
+    },
+    {
+      "check": "frozen_training_source_hashes_match",
+      "passed": true,
+      "source": "Recorded resource study input (source)",
+      "details": {
+        "missing": [],
+        "different": []
+      }
+    },
+    {
+      "check": "finite_checkpoint_weights",
+      "passed": true,
+      "source": "Recorded resource study input (last.npz)",
+      "details": null
+    },
+    {
+      "check": "unique_scenario_ids",
+      "passed": true,
+      "source": "Recorded resource study input (endpoints.npz)",
+      "details": null
+    },
+    {
+      "check": "scenario_ids_match_record",
+      "passed": true,
+      "source": "Recorded resource study input (endpoints.npz)",
+      "details": null
+    },
+    {
+      "check": "valid_outcomes",
+      "passed": true,
+      "source": "Recorded resource study input (endpoints.npz)",
+      "details": null
+    },
+    {
+      "check": "reported_outcomes_match_endpoints",
+      "passed": true,
+      "source": "Recorded resource study input (evaluation.json)",
+      "details": null
+    },
+    {
+      "check": "finite_numeric_endpoints",
+      "passed": true,
+      "source": "Recorded resource study input (endpoints.npz)",
+      "details": null
+    },
+    {
+      "check": "ownership_requires_all_debts_cleared",
+      "passed": true,
+      "source": "Recorded resource study input (endpoints.npz)",
+      "details": null
+    },
+    {
+      "check": "nonnegative_balances",
+      "passed": true,
+      "source": "Recorded resource study input (endpoints.npz)",
+      "details": null
+    },
+    {
+      "check": "aggregate_microloan_balance_matches",
+      "passed": true,
+      "source": "Recorded resource study input (endpoints.npz)",
+      "details": null
+    },
+    {
+      "check": "reported_mean_return_matches",
+      "passed": true,
+      "source": "Recorded resource study input (evaluation.json)",
+      "details": null
+    },
+    {
+      "check": "reported_percentiles_match",
+      "passed": true,
+      "source": "Recorded resource study input (evaluation.json)",
+      "details": null
+    },
+    {
+      "check": "unique_scenario_ids",
+      "passed": true,
+      "source": "Recorded resource study input (endpoints.npz)",
+      "details": null
+    },
+    {
+      "check": "scenario_ids_match_record",
+      "passed": true,
+      "source": "Recorded resource study input (endpoints.npz)",
+      "details": null
+    },
+    {
+      "check": "valid_outcomes",
+      "passed": true,
+      "source": "Recorded resource study input (endpoints.npz)",
+      "details": null
+    },
+    {
+      "check": "reported_outcomes_match_endpoints",
+      "passed": true,
+      "source": "Recorded resource study input (evaluation.json)",
+      "details": null
+    },
+    {
+      "check": "finite_numeric_endpoints",
+      "passed": true,
+      "source": "Recorded resource study input (endpoints.npz)",
+      "details": null
+    },
+    {
+      "check": "ownership_requires_all_debts_cleared",
+      "passed": true,
+      "source": "Recorded resource study input (endpoints.npz)",
+      "details": null
+    },
+    {
+      "check": "nonnegative_balances",
+      "passed": true,
+      "source": "Recorded resource study input (endpoints.npz)",
+      "details": null
+    },
+    {
+      "check": "aggregate_microloan_balance_matches",
+      "passed": true,
+      "source": "Recorded resource study input (endpoints.npz)",
+      "details": null
+    },
+    {
+      "check": "reported_mean_return_matches",
+      "passed": true,
+      "source": "Recorded resource study input (evaluation.json)",
+      "details": null
+    },
+    {
+      "check": "reported_percentiles_match",
+      "passed": true,
+      "source": "Recorded resource study input (evaluation.json)",
+      "details": null
+    },
+    {
+      "check": "last_gate_outcome_count_matches",
+      "passed": true,
+      "source": "Recorded resource study input (stage_12_step_006431870)",
+      "details": null
+    },
+    {
+      "check": "unique_scenario_ids",
+      "passed": true,
+      "source": "Recorded resource study input (endpoints.npz)",
+      "details": null
+    },
+    {
+      "check": "scenario_ids_match_record",
+      "passed": true,
+      "source": "Recorded resource study input (endpoints.npz)",
+      "details": null
+    },
+    {
+      "check": "valid_outcomes",
+      "passed": true,
+      "source": "Recorded resource study input (endpoints.npz)",
+      "details": null
+    },
+    {
+      "check": "reported_outcomes_match_endpoints",
+      "passed": true,
+      "source": "Recorded resource study input (evaluation.json)",
+      "details": null
+    },
+    {
+      "check": "finite_numeric_endpoints",
+      "passed": true,
+      "source": "Recorded resource study input (endpoints.npz)",
+      "details": null
+    },
+    {
+      "check": "ownership_requires_all_debts_cleared",
+      "passed": true,
+      "source": "Recorded resource study input (endpoints.npz)",
+      "details": null
+    },
+    {
+      "check": "nonnegative_balances",
+      "passed": true,
+      "source": "Recorded resource study input (endpoints.npz)",
+      "details": null
+    },
+    {
+      "check": "aggregate_microloan_balance_matches",
+      "passed": true,
+      "source": "Recorded resource study input (endpoints.npz)",
+      "details": null
+    },
+    {
+      "check": "reported_mean_return_matches",
+      "passed": true,
+      "source": "Recorded resource study input (evaluation.json)",
+      "details": null
+    },
+    {
+      "check": "reported_percentiles_match",
+      "passed": true,
+      "source": "Recorded resource study input (evaluation.json)",
+      "details": null
+    },
+    {
+      "check": "decision_accounting_monotone_512",
+      "passed": true,
+      "source": "Recorded resource study input (training.jsonl)",
+      "details": null
+    },
+    {
+      "check": "finite_training_losses",
+      "passed": true,
+      "source": "Recorded resource study input (training.jsonl)",
+      "details": null
+    },
+    {
+      "check": "physical_tick_accounting_monotone",
+      "passed": true,
+      "source": "Recorded resource study input (training.jsonl)",
+      "details": null
+    },
+    {
+      "check": "curriculum_stages_passed_in_order",
+      "passed": true,
+      "source": "Recorded resource study input (curriculum_gates.jsonl)",
+      "details": null
+    },
+    {
+      "check": "completion_and_failure_not_both_present",
+      "passed": true,
+      "source": "Recorded resource study input (dsac_gru)",
+      "details": null
+    },
+    {
+      "check": "completed_full_registered_decision_budget",
+      "passed": true,
+      "source": "Recorded resource study input (complete.json)",
+      "details": null
+    },
+    {
+      "check": "finite_checkpoint_weights",
+      "passed": true,
+      "source": "Recorded resource study input (initial.npz)",
+      "details": null
+    },
+    {
+      "check": "finite_checkpoint_weights",
+      "passed": true,
+      "source": "Recorded resource study input (selected.npz)",
+      "details": null
+    },
+    {
+      "check": "selected_weights_changed_from_initial",
+      "passed": true,
+      "source": "Recorded resource study input (selected.npz)",
+      "details": null
+    },
+    {
+      "check": "frozen_training_source_hashes_match",
+      "passed": true,
+      "source": "Recorded resource study input (source)",
+      "details": {
+        "missing": [],
+        "different": []
+      }
+    },
+    {
+      "check": "finite_checkpoint_weights",
+      "passed": true,
+      "source": "Recorded resource study input (last.npz)",
+      "details": null
+    },
+    {
+      "check": "finite_checkpoint_weights",
+      "passed": true,
+      "source": "Recorded resource study input (final.npz)",
+      "details": null
+    },
+    {
+      "check": "unique_scenario_ids",
+      "passed": true,
+      "source": "Recorded resource study input (endpoints.npz)",
+      "details": null
+    },
+    {
+      "check": "scenario_ids_match_record",
+      "passed": true,
+      "source": "Recorded resource study input (endpoints.npz)",
+      "details": null
+    },
+    {
+      "check": "valid_outcomes",
+      "passed": true,
+      "source": "Recorded resource study input (endpoints.npz)",
+      "details": null
+    },
+    {
+      "check": "reported_outcomes_match_endpoints",
+      "passed": true,
+      "source": "Recorded resource study input (evaluation.json)",
+      "details": null
+    },
+    {
+      "check": "finite_numeric_endpoints",
+      "passed": true,
+      "source": "Recorded resource study input (endpoints.npz)",
+      "details": null
+    },
+    {
+      "check": "ownership_requires_all_debts_cleared",
+      "passed": true,
+      "source": "Recorded resource study input (endpoints.npz)",
+      "details": null
+    },
+    {
+      "check": "nonnegative_balances",
+      "passed": true,
+      "source": "Recorded resource study input (endpoints.npz)",
+      "details": null
+    },
+    {
+      "check": "aggregate_microloan_balance_matches",
+      "passed": true,
+      "source": "Recorded resource study input (endpoints.npz)",
+      "details": null
+    },
+    {
+      "check": "reported_mean_return_matches",
+      "passed": true,
+      "source": "Recorded resource study input (evaluation.json)",
+      "details": null
+    },
+    {
+      "check": "reported_percentiles_match",
+      "passed": true,
+      "source": "Recorded resource study input (evaluation.json)",
+      "details": null
+    },
+    {
+      "check": "unique_scenario_ids",
+      "passed": true,
+      "source": "Recorded resource study input (endpoints.npz)",
+      "details": null
+    },
+    {
+      "check": "scenario_ids_match_record",
+      "passed": true,
+      "source": "Recorded resource study input (endpoints.npz)",
+      "details": null
+    },
+    {
+      "check": "valid_outcomes",
+      "passed": true,
+      "source": "Recorded resource study input (endpoints.npz)",
+      "details": null
+    },
+    {
+      "check": "reported_outcomes_match_endpoints",
+      "passed": true,
+      "source": "Recorded resource study input (evaluation.json)",
+      "details": null
+    },
+    {
+      "check": "finite_numeric_endpoints",
+      "passed": true,
+      "source": "Recorded resource study input (endpoints.npz)",
+      "details": null
+    },
+    {
+      "check": "ownership_requires_all_debts_cleared",
+      "passed": true,
+      "source": "Recorded resource study input (endpoints.npz)",
+      "details": null
+    },
+    {
+      "check": "nonnegative_balances",
+      "passed": true,
+      "source": "Recorded resource study input (endpoints.npz)",
+      "details": null
+    },
+    {
+      "check": "aggregate_microloan_balance_matches",
+      "passed": true,
+      "source": "Recorded resource study input (endpoints.npz)",
+      "details": null
+    },
+    {
+      "check": "reported_mean_return_matches",
+      "passed": true,
+      "source": "Recorded resource study input (evaluation.json)",
+      "details": null
+    },
+    {
+      "check": "reported_percentiles_match",
+      "passed": true,
+      "source": "Recorded resource study input (evaluation.json)",
+      "details": null
+    },
+    {
+      "check": "last_gate_outcome_count_matches",
+      "passed": true,
+      "source": "Recorded resource study input (stage_13_step_005093888)",
+      "details": null
+    },
+    {
+      "check": "unique_scenario_ids",
+      "passed": true,
+      "source": "Recorded resource study input (endpoints.npz)",
+      "details": null
+    },
+    {
+      "check": "scenario_ids_match_record",
+      "passed": true,
+      "source": "Recorded resource study input (endpoints.npz)",
+      "details": null
+    },
+    {
+      "check": "valid_outcomes",
+      "passed": true,
+      "source": "Recorded resource study input (endpoints.npz)",
+      "details": null
+    },
+    {
+      "check": "reported_outcomes_match_endpoints",
+      "passed": true,
+      "source": "Recorded resource study input (evaluation.json)",
+      "details": null
+    },
+    {
+      "check": "finite_numeric_endpoints",
+      "passed": true,
+      "source": "Recorded resource study input (endpoints.npz)",
+      "details": null
+    },
+    {
+      "check": "ownership_requires_all_debts_cleared",
+      "passed": true,
+      "source": "Recorded resource study input (endpoints.npz)",
+      "details": null
+    },
+    {
+      "check": "nonnegative_balances",
+      "passed": true,
+      "source": "Recorded resource study input (endpoints.npz)",
+      "details": null
+    },
+    {
+      "check": "aggregate_microloan_balance_matches",
+      "passed": true,
+      "source": "Recorded resource study input (endpoints.npz)",
+      "details": null
+    },
+    {
+      "check": "reported_mean_return_matches",
+      "passed": true,
+      "source": "Recorded resource study input (evaluation.json)",
+      "details": null
+    },
+    {
+      "check": "reported_percentiles_match",
+      "passed": true,
+      "source": "Recorded resource study input (evaluation.json)",
+      "details": null
+    },
+    {
+      "check": "unique_scenario_ids",
+      "passed": true,
+      "source": "Recorded resource study input (endpoints.npz)",
+      "details": null
+    },
+    {
+      "check": "scenario_ids_match_record",
+      "passed": true,
+      "source": "Recorded resource study input (endpoints.npz)",
+      "details": null
+    },
+    {
+      "check": "valid_outcomes",
+      "passed": true,
+      "source": "Recorded resource study input (endpoints.npz)",
+      "details": null
+    },
+    {
+      "check": "reported_outcomes_match_endpoints",
+      "passed": true,
+      "source": "Recorded resource study input (evaluation.json)",
+      "details": null
+    },
+    {
+      "check": "finite_numeric_endpoints",
+      "passed": true,
+      "source": "Recorded resource study input (endpoints.npz)",
+      "details": null
+    },
+    {
+      "check": "ownership_requires_all_debts_cleared",
+      "passed": true,
+      "source": "Recorded resource study input (endpoints.npz)",
+      "details": null
+    },
+    {
+      "check": "nonnegative_balances",
+      "passed": true,
+      "source": "Recorded resource study input (endpoints.npz)",
+      "details": null
+    },
+    {
+      "check": "aggregate_microloan_balance_matches",
+      "passed": true,
+      "source": "Recorded resource study input (endpoints.npz)",
+      "details": null
+    },
+    {
+      "check": "reported_mean_return_matches",
+      "passed": true,
+      "source": "Recorded resource study input (evaluation.json)",
+      "details": null
+    },
+    {
+      "check": "reported_percentiles_match",
+      "passed": true,
+      "source": "Recorded resource study input (evaluation.json)",
+      "details": null
+    },
+    {
+      "check": "unique_scenario_ids",
+      "passed": true,
+      "source": "Recorded resource study input (endpoints.npz)",
+      "details": null
+    },
+    {
+      "check": "scenario_ids_match_record",
+      "passed": true,
+      "source": "Recorded resource study input (endpoints.npz)",
+      "details": null
+    },
+    {
+      "check": "valid_outcomes",
+      "passed": true,
+      "source": "Recorded resource study input (endpoints.npz)",
+      "details": null
+    },
+    {
+      "check": "reported_outcomes_match_endpoints",
+      "passed": true,
+      "source": "Recorded resource study input (evaluation.json)",
+      "details": null
+    },
+    {
+      "check": "finite_numeric_endpoints",
+      "passed": true,
+      "source": "Recorded resource study input (endpoints.npz)",
+      "details": null
+    },
+    {
+      "check": "ownership_requires_all_debts_cleared",
+      "passed": true,
+      "source": "Recorded resource study input (endpoints.npz)",
+      "details": null
+    },
+    {
+      "check": "nonnegative_balances",
+      "passed": true,
+      "source": "Recorded resource study input (endpoints.npz)",
+      "details": null
+    },
+    {
+      "check": "aggregate_microloan_balance_matches",
+      "passed": true,
+      "source": "Recorded resource study input (endpoints.npz)",
+      "details": null
+    },
+    {
+      "check": "reported_mean_return_matches",
+      "passed": true,
+      "source": "Recorded resource study input (evaluation.json)",
+      "details": null
+    },
+    {
+      "check": "reported_percentiles_match",
+      "passed": true,
+      "source": "Recorded resource study input (evaluation.json)",
+      "details": null
+    },
+    {
+      "check": "unique_scenario_ids",
+      "passed": true,
+      "source": "Recorded resource study input (endpoints.npz)",
+      "details": null
+    },
+    {
+      "check": "scenario_ids_match_record",
+      "passed": true,
+      "source": "Recorded resource study input (endpoints.npz)",
+      "details": null
+    },
+    {
+      "check": "valid_outcomes",
+      "passed": true,
+      "source": "Recorded resource study input (endpoints.npz)",
+      "details": null
+    },
+    {
+      "check": "reported_outcomes_match_endpoints",
+      "passed": true,
+      "source": "Recorded resource study input (evaluation.json)",
+      "details": null
+    },
+    {
+      "check": "finite_numeric_endpoints",
+      "passed": true,
+      "source": "Recorded resource study input (endpoints.npz)",
+      "details": null
+    },
+    {
+      "check": "ownership_requires_all_debts_cleared",
+      "passed": true,
+      "source": "Recorded resource study input (endpoints.npz)",
+      "details": null
+    },
+    {
+      "check": "nonnegative_balances",
+      "passed": true,
+      "source": "Recorded resource study input (endpoints.npz)",
+      "details": null
+    },
+    {
+      "check": "aggregate_microloan_balance_matches",
+      "passed": true,
+      "source": "Recorded resource study input (endpoints.npz)",
+      "details": null
+    },
+    {
+      "check": "reported_mean_return_matches",
+      "passed": true,
+      "source": "Recorded resource study input (evaluation.json)",
+      "details": null
+    },
+    {
+      "check": "reported_percentiles_match",
+      "passed": true,
+      "source": "Recorded resource study input (evaluation.json)",
+      "details": null
+    },
+    {
+      "check": "unique_scenario_ids",
+      "passed": true,
+      "source": "Recorded resource study input (endpoints.npz)",
+      "details": null
+    },
+    {
+      "check": "scenario_ids_match_record",
+      "passed": true,
+      "source": "Recorded resource study input (endpoints.npz)",
+      "details": null
+    },
+    {
+      "check": "valid_outcomes",
+      "passed": true,
+      "source": "Recorded resource study input (endpoints.npz)",
+      "details": null
+    },
+    {
+      "check": "reported_outcomes_match_endpoints",
+      "passed": true,
+      "source": "Recorded resource study input (evaluation.json)",
+      "details": null
+    },
+    {
+      "check": "finite_numeric_endpoints",
+      "passed": true,
+      "source": "Recorded resource study input (endpoints.npz)",
+      "details": null
+    },
+    {
+      "check": "ownership_requires_all_debts_cleared",
+      "passed": true,
+      "source": "Recorded resource study input (endpoints.npz)",
+      "details": null
+    },
+    {
+      "check": "nonnegative_balances",
+      "passed": true,
+      "source": "Recorded resource study input (endpoints.npz)",
+      "details": null
+    },
+    {
+      "check": "aggregate_microloan_balance_matches",
+      "passed": true,
+      "source": "Recorded resource study input (endpoints.npz)",
+      "details": null
+    },
+    {
+      "check": "reported_mean_return_matches",
+      "passed": true,
+      "source": "Recorded resource study input (evaluation.json)",
+      "details": null
+    },
+    {
+      "check": "reported_percentiles_match",
+      "passed": true,
+      "source": "Recorded resource study input (evaluation.json)",
+      "details": null
+    },
+    {
+      "check": "recorded_policy_replay_passed",
+      "passed": true,
+      "source": "Recorded resource study input (audit.json)",
+      "details": null
+    },
+    {
+      "check": "recorded_audit_checkpoint_hash_matches",
+      "passed": true,
+      "source": "Recorded resource study input (audit.json)",
+      "details": null
+    },
+    {
+      "check": "recorded_audit_trace_hashes_match",
+      "passed": true,
+      "source": "Recorded resource study input (audit.json)",
+      "details": null
+    },
+    {
+      "check": "decision_accounting_monotone_512",
+      "passed": true,
+      "source": "Recorded resource study input (training.jsonl)",
+      "details": null
+    },
+    {
+      "check": "finite_training_losses",
+      "passed": true,
+      "source": "Recorded resource study input (training.jsonl)",
+      "details": null
+    },
+    {
+      "check": "physical_tick_accounting_monotone",
+      "passed": true,
+      "source": "Recorded resource study input (training.jsonl)",
+      "details": null
+    },
+    {
+      "check": "curriculum_stages_passed_in_order",
+      "passed": true,
+      "source": "Recorded resource study input (curriculum_gates.jsonl)",
+      "details": null
+    },
+    {
+      "check": "completion_and_failure_not_both_present",
+      "passed": true,
+      "source": "Recorded resource study input (ppo_gru)",
+      "details": null
+    },
+    {
+      "check": "failure_counter_matches_training",
+      "passed": true,
+      "source": "Recorded resource study input (curriculum_failure.json)",
+      "details": null
+    },
+    {
+      "check": "finite_checkpoint_weights",
+      "passed": true,
+      "source": "Recorded resource study input (initial.npz)",
+      "details": null
+    },
+    {
+      "check": "finite_checkpoint_weights",
+      "passed": true,
+      "source": "Recorded resource study input (selected.npz)",
+      "details": null
+    },
+    {
+      "check": "selected_weights_changed_from_initial",
+      "passed": true,
+      "source": "Recorded resource study input (selected.npz)",
+      "details": null
+    },
+    {
+      "check": "frozen_training_source_hashes_match",
+      "passed": true,
+      "source": "Recorded resource study input (source)",
+      "details": {
+        "missing": [],
+        "different": []
+      }
+    },
+    {
+      "check": "finite_checkpoint_weights",
+      "passed": true,
+      "source": "Recorded resource study input (last.npz)",
+      "details": null
+    },
+    {
+      "check": "unique_scenario_ids",
+      "passed": true,
+      "source": "Recorded resource study input (endpoints.npz)",
+      "details": null
+    },
+    {
+      "check": "scenario_ids_match_record",
+      "passed": true,
+      "source": "Recorded resource study input (endpoints.npz)",
+      "details": null
+    },
+    {
+      "check": "valid_outcomes",
+      "passed": true,
+      "source": "Recorded resource study input (endpoints.npz)",
+      "details": null
+    },
+    {
+      "check": "reported_outcomes_match_endpoints",
+      "passed": true,
+      "source": "Recorded resource study input (evaluation.json)",
+      "details": null
+    },
+    {
+      "check": "finite_numeric_endpoints",
+      "passed": true,
+      "source": "Recorded resource study input (endpoints.npz)",
+      "details": null
+    },
+    {
+      "check": "ownership_requires_all_debts_cleared",
+      "passed": true,
+      "source": "Recorded resource study input (endpoints.npz)",
+      "details": null
+    },
+    {
+      "check": "nonnegative_balances",
+      "passed": true,
+      "source": "Recorded resource study input (endpoints.npz)",
+      "details": null
+    },
+    {
+      "check": "aggregate_microloan_balance_matches",
+      "passed": true,
+      "source": "Recorded resource study input (endpoints.npz)",
+      "details": null
+    },
+    {
+      "check": "reported_mean_return_matches",
+      "passed": true,
+      "source": "Recorded resource study input (evaluation.json)",
+      "details": null
+    },
+    {
+      "check": "reported_percentiles_match",
+      "passed": true,
+      "source": "Recorded resource study input (evaluation.json)",
+      "details": null
+    },
+    {
+      "check": "unique_scenario_ids",
+      "passed": true,
+      "source": "Recorded resource study input (endpoints.npz)",
+      "details": null
+    },
+    {
+      "check": "scenario_ids_match_record",
+      "passed": true,
+      "source": "Recorded resource study input (endpoints.npz)",
+      "details": null
+    },
+    {
+      "check": "valid_outcomes",
+      "passed": true,
+      "source": "Recorded resource study input (endpoints.npz)",
+      "details": null
+    },
+    {
+      "check": "reported_outcomes_match_endpoints",
+      "passed": true,
+      "source": "Recorded resource study input (evaluation.json)",
+      "details": null
+    },
+    {
+      "check": "finite_numeric_endpoints",
+      "passed": true,
+      "source": "Recorded resource study input (endpoints.npz)",
+      "details": null
+    },
+    {
+      "check": "ownership_requires_all_debts_cleared",
+      "passed": true,
+      "source": "Recorded resource study input (endpoints.npz)",
+      "details": null
+    },
+    {
+      "check": "nonnegative_balances",
+      "passed": true,
+      "source": "Recorded resource study input (endpoints.npz)",
+      "details": null
+    },
+    {
+      "check": "aggregate_microloan_balance_matches",
+      "passed": true,
+      "source": "Recorded resource study input (endpoints.npz)",
+      "details": null
+    },
+    {
+      "check": "reported_mean_return_matches",
+      "passed": true,
+      "source": "Recorded resource study input (evaluation.json)",
+      "details": null
+    },
+    {
+      "check": "reported_percentiles_match",
+      "passed": true,
+      "source": "Recorded resource study input (evaluation.json)",
+      "details": null
+    },
+    {
+      "check": "last_gate_outcome_count_matches",
+      "passed": true,
+      "source": "Recorded resource study input (stage_12_step_006356600)",
+      "details": null
+    },
+    {
+      "check": "unique_scenario_ids",
+      "passed": true,
+      "source": "Recorded resource study input (endpoints.npz)",
+      "details": null
+    },
+    {
+      "check": "scenario_ids_match_record",
+      "passed": true,
+      "source": "Recorded resource study input (endpoints.npz)",
+      "details": null
+    },
+    {
+      "check": "valid_outcomes",
+      "passed": true,
+      "source": "Recorded resource study input (endpoints.npz)",
+      "details": null
+    },
+    {
+      "check": "reported_outcomes_match_endpoints",
+      "passed": true,
+      "source": "Recorded resource study input (evaluation.json)",
+      "details": null
+    },
+    {
+      "check": "finite_numeric_endpoints",
+      "passed": true,
+      "source": "Recorded resource study input (endpoints.npz)",
+      "details": null
+    },
+    {
+      "check": "ownership_requires_all_debts_cleared",
+      "passed": true,
+      "source": "Recorded resource study input (endpoints.npz)",
+      "details": null
+    },
+    {
+      "check": "nonnegative_balances",
+      "passed": true,
+      "source": "Recorded resource study input (endpoints.npz)",
+      "details": null
+    },
+    {
+      "check": "aggregate_microloan_balance_matches",
+      "passed": true,
+      "source": "Recorded resource study input (endpoints.npz)",
+      "details": null
+    },
+    {
+      "check": "reported_mean_return_matches",
+      "passed": true,
+      "source": "Recorded resource study input (evaluation.json)",
+      "details": null
+    },
+    {
+      "check": "reported_percentiles_match",
+      "passed": true,
+      "source": "Recorded resource study input (evaluation.json)",
+      "details": null
+    },
+    {
+      "check": "no_final_experiments_claimed_when_none_exist",
+      "passed": true,
+      "source": "Recorded resource study input (status.json)",
+      "details": null
+    }
+  ],
+  "checks_passed": 214,
+  "checks_failed": [],
+  "issues": [
+    {
+      "severity": "high",
+      "finding": "Three learners failed registered curriculum gates. This cohort is not ready for a four-policy final comparison."
+    },
+    {
+      "severity": "medium",
+      "finding": "Original auto-report uses network_decisions and updates_this_chunk, while raw records use network_decisions_total and optimizer_updates_this_chunk. Its missing decision counts and zero update totals are reporting errors; raw logs have been recomputed here."
+    },
+    {
+      "severity": "medium",
+      "finding": "For failed learners readiness.json stores ownership=0 as a failure placeholder, not a measured selected-policy success count. Use independently checked endpoint files instead."
+    }
+  ],
+  "final_evaluation_records": 0,
+  "planned_final_evaluation_records": 120,
+  "planned_final_episodes": 30720,
+  "qualification_scope": "Development/selection scenarios only; one initialization per architecture; failed models stopped at unequal budgets."
+}

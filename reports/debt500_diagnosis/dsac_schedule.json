@@ -1,0 +1,37 @@
+{
+  "0": {
+    "ownership": 108,
+    "paid": 99,
+    "meals": 362,
+    "loans": 521,
+    "chunks": 12
+  },
+  "1": {
+    "ownership": 2653,
+    "paid": 55,
+    "meals": 245,
+    "loans": 330,
+    "chunks": 23
+  },
+  "2": {
+    "ownership": 0,
+    "paid": 0,
+    "meals": 0,
+    "loans": 4752,
+    "chunks": 227
+  },
+  "3": {
+    "ownership": 0,
+    "paid": 0,
+    "meals": 1,
+    "loans": 170239,
+    "chunks": 562
+  },
+  "4": {
+    "ownership": 0,
+    "paid": 0,
+    "meals": 832,
+    "loans": 141434,
+    "chunks": 485
+  }
+}

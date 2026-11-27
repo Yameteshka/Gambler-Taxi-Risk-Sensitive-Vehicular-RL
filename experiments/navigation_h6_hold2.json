@@ -1,0 +1,3780 @@
+{
+  "scope": "Navigation only: all directed service pairs, fixed initial east heading, ten development traffic scenarios. Arrival is not a full-game ownership result.",
+  "routes": 900,
+  "arrivals": 527,
+  "rate": 0.5855555555555556,
+  "collisions": 283,
+  "horizon": 6,
+  "hold": 2,
+  "unfinished": 90,
+  "max_physical_ticks": 256,
+  "elapsed_seconds": 5.400458359999902,
+  "failures": [
+    {
+      "scenario": 1,
+      "from": "Home",
+      "to": "Garage",
+      "outcome": 2,
+      "position": [
+        15.916443824768066,
+        20.9811954498291
+      ]
+    },
+    {
+      "scenario": 1,
+      "from": "Bank",
+      "to": "Work",
+      "outcome": 2,
+      "position": [
+        19.246660232543945,
+        23.94297981262207
+      ]
+    },
+    {
+      "scenario": 1,
+      "from": "Bank",
+      "to": "Slots",
+      "outcome": 2,
+      "position": [
+        19.256277084350586,
+        23.868364334106445
+      ]
+    },
+    {
+      "scenario": 1,
+      "from": "Bank",
+      "to": "Blackjack",
+      "outcome": 2,
+      "position": [
+        19.256277084350586,
+        23.868364334106445
+      ]
+    },
+    {
+      "scenario": 1,
+      "from": "Bank",
+      "to": "Budget diner",
+      "outcome": 2,
+      "position": [
+        19.244224548339844,
+        23.959733963012695
+      ]
+    },
+    {
+      "scenario": 1,
+      "from": "Bank",
+      "to": "Cafe",
+      "outcome": 2,
+      "position": [
+        19.256277084350586,
+        23.868364334106445
+      ]
+    },
+    {
+      "scenario": 1,
+      "from": "Bank",
+      "to": "Restaurant",
+      "outcome": 2,
+      "position": [
+        19.256277084350586,
+        23.868364334106445
+      ]
+    },
+    {
+      "scenario": 1,
+      "from": "Garage",
+      "to": "Home",
+      "outcome": 0,
+      "position": [
+        25.96246337890625,
+        25.572702407836914
+      ]
+    },
+    {
+      "scenario": 1,
+      "from": "Garage",
+      "to": "Work",
+      "outcome": 0,
+      "position": [
+        25.96246337890625,
+        25.572702407836914
+      ]
+    },
+    {
+      "scenario": 1,
+      "from": "Garage",
+      "to": "Bank",
+      "outcome": 0,
+      "position": [
+        25.96246337890625,
+        25.572702407836914
+      ]
+    },
+    {
+      "scenario": 1,
+      "from": "Garage",
+      "to": "Slots",
+      "outcome": 0,
+      "position": [
+        25.96246337890625,
+        25.572702407836914
+      ]
+    },
+    {
+      "scenario": 1,
+      "from": "Garage",
+      "to": "Blackjack",
+      "outcome": 0,
+      "position": [
+        25.958187103271484,
+        25.57764434814453
+      ]
+    },
+    {
+      "scenario": 1,
+      "from": "Garage",
+      "to": "Fuel station",
+      "outcome": 0,
+      "position": [
+        25.96246337890625,
+        25.572702407836914
+      ]
+    },
+    {
+      "scenario": 1,
+      "from": "Garage",
+      "to": "Budget diner",
+      "outcome": 0,
+      "position": [
+        25.96246337890625,
+        25.572702407836914
+      ]
+    },
+    {
+      "scenario": 1,
+      "from": "Garage",
+      "to": "Cafe",
+      "outcome": 0,
+      "position": [
+        25.96246337890625,
+        25.572702407836914
+      ]
+    },
+    {
+      "scenario": 1,
+      "from": "Garage",
+      "to": "Restaurant",
+      "outcome": 0,
+      "position": [
+        25.96246337890625,
+        25.572702407836914
+      ]
+    },
+    {
+      "scenario": 1,
+      "from": "Slots",
+      "to": "Home",
+      "outcome": 2,
+      "position": [
+        19.007652282714844,
+        10.070364952087402
+      ]
+    },
+    {
+      "scenario": 1,
+      "from": "Slots",
+      "to": "Work",
+      "outcome": 2,
+      "position": [
+        19.007652282714844,
+        10.070364952087402
+      ]
+    },
+    {
+      "scenario": 1,
+      "from": "Slots",
+      "to": "Garage",
+      "outcome": 2,
+      "position": [
+        19.056262969970703,
+        10.101358413696289
+      ]
+    },
+    {
+      "scenario": 1,
+      "from": "Blackjack",
+      "to": "Home",
+      "outcome": 2,
+      "position": [
+        21.0048828125,
+        11.186057090759277
+      ]
+    },
+    {
+      "scenario": 1,
+      "from": "Blackjack",
+      "to": "Work",
+      "outcome": 2,
+      "position": [
+        20.64789390563965,
+        10.641756057739258
+      ]
+    },
+    {
+      "scenario": 1,
+      "from": "Fuel station",
+      "to": "Bank",
+      "outcome": 2,
+      "position": [
+        15.071974754333496,
+        20.562931060791016
+      ]
+    },
+    {
+      "scenario": 1,
+      "from": "Budget diner",
+      "to": "Bank",
+      "outcome": 2,
+      "position": [
+        15.938313484191895,
+        20.36194610595703
+      ]
+    },
+    {
+      "scenario": 1,
+      "from": "Budget diner",
+      "to": "Cafe",
+      "outcome": 2,
+      "position": [
+        22.39789581298828,
+        13.484518051147461
+      ]
+    },
+    {
+      "scenario": 1,
+      "from": "Cafe",
+      "to": "Home",
+      "outcome": 2,
+      "position": [
+        34.66471862792969,
+        13.272005081176758
+      ]
+    },
+    {
+      "scenario": 1,
+      "from": "Cafe",
+      "to": "Work",
+      "outcome": 2,
+      "position": [
+        34.68581008911133,
+        13.259001731872559
+      ]
+    },
+    {
+      "scenario": 1,
+      "from": "Cafe",
+      "to": "Bank",
+      "outcome": 2,
+      "position": [
+        34.74363327026367,
+        13.369348526000977
+      ]
+    },
+    {
+      "scenario": 1,
+      "from": "Cafe",
+      "to": "Garage",
+      "outcome": 2,
+      "position": [
+        34.74363327026367,
+        13.369348526000977
+      ]
+    },
+    {
+      "scenario": 1,
+      "from": "Cafe",
+      "to": "Slots",
+      "outcome": 2,
+      "position": [
+        34.70574951171875,
+        13.246243476867676
+      ]
+    },
+    {
+      "scenario": 1,
+      "from": "Cafe",
+      "to": "Blackjack",
+      "outcome": 2,
+      "position": [
+        34.70574951171875,
+        13.246243476867676
+      ]
+    },
+    {
+      "scenario": 1,
+      "from": "Cafe",
+      "to": "Fuel station",
+      "outcome": 2,
+      "position": [
+        34.70574951171875,
+        13.246243476867676
+      ]
+    },
+    {
+      "scenario": 1,
+      "from": "Cafe",
+      "to": "Budget diner",
+      "outcome": 2,
+      "position": [
+        34.70574951171875,
+        13.246243476867676
+      ]
+    },
+    {
+      "scenario": 1,
+      "from": "Restaurant",
+      "to": "Home",
+      "outcome": 2,
+      "position": [
+        34.66471862792969,
+        16.72798728942871
+      ]
+    },
+    {
+      "scenario": 1,
+      "from": "Restaurant",
+      "to": "Work",
+      "outcome": 2,
+      "position": [
+        34.68581008911133,
+        16.740997314453125
+      ]
+    },
+    {
+      "scenario": 1,
+      "from": "Restaurant",
+      "to": "Bank",
+      "outcome": 2,
+      "position": [
+        34.70574951171875,
+        16.753751754760742
+      ]
+    },
+    {
+      "scenario": 1,
+      "from": "Restaurant",
+      "to": "Garage",
+      "outcome": 2,
+      "position": [
+        34.70574951171875,
+        16.753751754760742
+      ]
+    },
+    {
+      "scenario": 1,
+      "from": "Restaurant",
+      "to": "Slots",
+      "outcome": 2,
+      "position": [
+        34.74363327026367,
+        16.630647659301758
+      ]
+    },
+    {
+      "scenario": 1,
+      "from": "Restaurant",
+      "to": "Blackjack",
+      "outcome": 2,
+      "position": [
+        34.74363327026367,
+        16.630647659301758
+      ]
+    },
+    {
+      "scenario": 1,
+      "from": "Restaurant",
+      "to": "Fuel station",
+      "outcome": 2,
+      "position": [
+        34.74363327026367,
+        16.630647659301758
+      ]
+    },
+    {
+      "scenario": 1,
+      "from": "Restaurant",
+      "to": "Budget diner",
+      "outcome": 2,
+      "position": [
+        34.74363327026367,
+        16.630647659301758
+      ]
+    },
+    {
+      "scenario": 2,
+      "from": "Home",
+      "to": "Garage",
+      "outcome": 2,
+      "position": [
+        16.194049835205078,
+        21.019582748413086
+      ]
+    },
+    {
+      "scenario": 2,
+      "from": "Bank",
+      "to": "Home",
+      "outcome": 2,
+      "position": [
+        19.256486892700195,
+        23.839488983154297
+      ]
+    },
+    {
+      "scenario": 2,
+      "from": "Bank",
+      "to": "Work",
+      "outcome": 2,
+      "position": [
+        19.257280349731445,
+        23.821962356567383
+      ]
+    },
+    {
+      "scenario": 2,
+      "from": "Bank",
+      "to": "Slots",
+      "outcome": 2,
+      "position": [
+        19.269426345825195,
+        23.65877914428711
+      ]
+    },
+    {
+      "scenario": 2,
+      "from": "Bank",
+      "to": "Blackjack",
+      "outcome": 2,
+      "position": [
+        19.269426345825195,
+        23.65877914428711
+      ]
+    },
+    {
+      "scenario": 2,
+      "from": "Bank",
+      "to": "Fuel station",
+      "outcome": 2,
+      "position": [
+        19.257638931274414,
+        23.811147689819336
+      ]
+    },
+    {
+      "scenario": 2,
+      "from": "Bank",
+      "to": "Budget diner",
+      "outcome": 2,
+      "position": [
+        19.25800323486328,
+        23.756086349487305
+      ]
+    },
+    {
+      "scenario": 2,
+      "from": "Bank",
+      "to": "Cafe",
+      "outcome": 2,
+      "position": [
+        19.269426345825195,
+        23.65877914428711
+      ]
+    },
+    {
+      "scenario": 2,
+      "from": "Bank",
+      "to": "Restaurant",
+      "outcome": 2,
+      "position": [
+        19.269426345825195,
+        23.65877914428711
+      ]
+    },
+    {
+      "scenario": 2,
+      "from": "Garage",
+      "to": "Home",
+      "outcome": 0,
+      "position": [
+        25.96246337890625,
+        25.572702407836914
+      ]
+    },
+    {
+      "scenario": 2,
+      "from": "Garage",
+      "to": "Work",
+      "outcome": 0,
+      "position": [
+        25.96246337890625,
+        25.572702407836914
+      ]
+    },
+    {
+      "scenario": 2,
+      "from": "Garage",
+      "to": "Bank",
+      "outcome": 0,
+      "position": [
+        25.96246337890625,
+        25.572702407836914
+      ]
+    },
+    {
+      "scenario": 2,
+      "from": "Garage",
+      "to": "Slots",
+      "outcome": 0,
+      "position": [
+        25.96246337890625,
+        25.572702407836914
+      ]
+    },
+    {
+      "scenario": 2,
+      "from": "Garage",
+      "to": "Blackjack",
+      "outcome": 0,
+      "position": [
+        25.958187103271484,
+        25.57764434814453
+      ]
+    },
+    {
+      "scenario": 2,
+      "from": "Garage",
+      "to": "Fuel station",
+      "outcome": 0,
+      "position": [
+        25.96246337890625,
+        25.572702407836914
+      ]
+    },
+    {
+      "scenario": 2,
+      "from": "Garage",
+      "to": "Budget diner",
+      "outcome": 0,
+      "position": [
+        25.96246337890625,
+        25.572702407836914
+      ]
+    },
+    {
+      "scenario": 2,
+      "from": "Garage",
+      "to": "Cafe",
+      "outcome": 0,
+      "position": [
+        25.96246337890625,
+        25.572702407836914
+      ]
+    },
+    {
+      "scenario": 2,
+      "from": "Garage",
+      "to": "Restaurant",
+      "outcome": 0,
+      "position": [
+        25.96246337890625,
+        25.572702407836914
+      ]
+    },
+    {
+      "scenario": 2,
+      "from": "Slots",
+      "to": "Bank",
+      "outcome": 2,
+      "position": [
+        19.85033416748047,
+        10.352684020996094
+      ]
+    },
+    {
+      "scenario": 2,
+      "from": "Blackjack",
+      "to": "Home",
+      "outcome": 2,
+      "position": [
+        21.149215698242188,
+        11.070107460021973
+      ]
+    },
+    {
+      "scenario": 2,
+      "from": "Blackjack",
+      "to": "Work",
+      "outcome": 2,
+      "position": [
+        20.78607177734375,
+        10.444011688232422
+      ]
+    },
+    {
+      "scenario": 2,
+      "from": "Fuel station",
+      "to": "Bank",
+      "outcome": 2,
+      "position": [
+        15.217306137084961,
+        20.78316307067871
+      ]
+    },
+    {
+      "scenario": 2,
+      "from": "Budget diner",
+      "to": "Bank",
+      "outcome": 2,
+      "position": [
+        16.090930938720703,
+        20.40953826904297
+      ]
+    },
+    {
+      "scenario": 2,
+      "from": "Cafe",
+      "to": "Home",
+      "outcome": 2,
+      "position": [
+        34.363826751708984,
+        13.402750015258789
+      ]
+    },
+    {
+      "scenario": 2,
+      "from": "Cafe",
+      "to": "Work",
+      "outcome": 2,
+      "position": [
+        34.417808532714844,
+        13.385232925415039
+      ]
+    },
+    {
+      "scenario": 2,
+      "from": "Cafe",
+      "to": "Bank",
+      "outcome": 2,
+      "position": [
+        34.43429946899414,
+        13.707112312316895
+      ]
+    },
+    {
+      "scenario": 2,
+      "from": "Cafe",
+      "to": "Garage",
+      "outcome": 2,
+      "position": [
+        34.43429946899414,
+        13.707112312316895
+      ]
+    },
+    {
+      "scenario": 2,
+      "from": "Cafe",
+      "to": "Slots",
+      "outcome": 2,
+      "position": [
+        34.43124771118164,
+        13.38039779663086
+      ]
+    },
+    {
+      "scenario": 2,
+      "from": "Cafe",
+      "to": "Blackjack",
+      "outcome": 2,
+      "position": [
+        34.43124771118164,
+        13.38039779663086
+      ]
+    },
+    {
+      "scenario": 2,
+      "from": "Cafe",
+      "to": "Fuel station",
+      "outcome": 2,
+      "position": [
+        34.43124771118164,
+        13.38039779663086
+      ]
+    },
+    {
+      "scenario": 2,
+      "from": "Cafe",
+      "to": "Budget diner",
+      "outcome": 2,
+      "position": [
+        34.43124771118164,
+        13.38039779663086
+      ]
+    },
+    {
+      "scenario": 2,
+      "from": "Restaurant",
+      "to": "Home",
+      "outcome": 2,
+      "position": [
+        34.363826751708984,
+        16.597244262695312
+      ]
+    },
+    {
+      "scenario": 2,
+      "from": "Restaurant",
+      "to": "Work",
+      "outcome": 2,
+      "position": [
+        34.417808532714844,
+        16.61476707458496
+      ]
+    },
+    {
+      "scenario": 2,
+      "from": "Restaurant",
+      "to": "Bank",
+      "outcome": 2,
+      "position": [
+        34.431251525878906,
+        16.619596481323242
+      ]
+    },
+    {
+      "scenario": 2,
+      "from": "Restaurant",
+      "to": "Garage",
+      "outcome": 2,
+      "position": [
+        34.431251525878906,
+        16.619596481323242
+      ]
+    },
+    {
+      "scenario": 2,
+      "from": "Restaurant",
+      "to": "Slots",
+      "outcome": 2,
+      "position": [
+        34.43429946899414,
+        16.292882919311523
+      ]
+    },
+    {
+      "scenario": 2,
+      "from": "Restaurant",
+      "to": "Blackjack",
+      "outcome": 2,
+      "position": [
+        34.43429946899414,
+        16.292882919311523
+      ]
+    },
+    {
+      "scenario": 2,
+      "from": "Restaurant",
+      "to": "Fuel station",
+      "outcome": 2,
+      "position": [
+        34.43429946899414,
+        16.292882919311523
+      ]
+    },
+    {
+      "scenario": 2,
+      "from": "Restaurant",
+      "to": "Budget diner",
+      "outcome": 2,
+      "position": [
+        34.43429946899414,
+        16.292882919311523
+      ]
+    },
+    {
+      "scenario": 3,
+      "from": "Home",
+      "to": "Garage",
+      "outcome": 2,
+      "position": [
+        16.251659393310547,
+        21.052165985107422
+      ]
+    },
+    {
+      "scenario": 3,
+      "from": "Bank",
+      "to": "Home",
+      "outcome": 2,
+      "position": [
+        19.256486892700195,
+        23.839488983154297
+      ]
+    },
+    {
+      "scenario": 3,
+      "from": "Bank",
+      "to": "Work",
+      "outcome": 2,
+      "position": [
+        19.257883071899414,
+        23.750267028808594
+      ]
+    },
+    {
+      "scenario": 3,
+      "from": "Bank",
+      "to": "Slots",
+      "outcome": 2,
+      "position": [
+        19.277231216430664,
+        23.659095764160156
+      ]
+    },
+    {
+      "scenario": 3,
+      "from": "Bank",
+      "to": "Blackjack",
+      "outcome": 2,
+      "position": [
+        19.277231216430664,
+        23.659095764160156
+      ]
+    },
+    {
+      "scenario": 3,
+      "from": "Bank",
+      "to": "Fuel station",
+      "outcome": 2,
+      "position": [
+        19.257638931274414,
+        23.811147689819336
+      ]
+    },
+    {
+      "scenario": 3,
+      "from": "Bank",
+      "to": "Budget diner",
+      "outcome": 2,
+      "position": [
+        19.25800323486328,
+        23.756086349487305
+      ]
+    },
+    {
+      "scenario": 3,
+      "from": "Bank",
+      "to": "Cafe",
+      "outcome": 2,
+      "position": [
+        19.277231216430664,
+        23.659095764160156
+      ]
+    },
+    {
+      "scenario": 3,
+      "from": "Bank",
+      "to": "Restaurant",
+      "outcome": 2,
+      "position": [
+        19.277231216430664,
+        23.659095764160156
+      ]
+    },
+    {
+      "scenario": 3,
+      "from": "Garage",
+      "to": "Home",
+      "outcome": 0,
+      "position": [
+        25.96246337890625,
+        25.572702407836914
+      ]
+    },
+    {
+      "scenario": 3,
+      "from": "Garage",
+      "to": "Work",
+      "outcome": 0,
+      "position": [
+        25.96246337890625,
+        25.572702407836914
+      ]
+    },
+    {
+      "scenario": 3,
+      "from": "Garage",
+      "to": "Bank",
+      "outcome": 0,
+      "position": [
+        25.96246337890625,
+        25.572702407836914
+      ]
+    },
+    {
+      "scenario": 3,
+      "from": "Garage",
+      "to": "Slots",
+      "outcome": 0,
+      "position": [
+        25.96246337890625,
+        25.572702407836914
+      ]
+    },
+    {
+      "scenario": 3,
+      "from": "Garage",
+      "to": "Blackjack",
+      "outcome": 0,
+      "position": [
+        25.958187103271484,
+        25.57764434814453
+      ]
+    },
+    {
+      "scenario": 3,
+      "from": "Garage",
+      "to": "Fuel station",
+      "outcome": 0,
+      "position": [
+        25.96246337890625,
+        25.572702407836914
+      ]
+    },
+    {
+      "scenario": 3,
+      "from": "Garage",
+      "to": "Budget diner",
+      "outcome": 0,
+      "position": [
+        25.96246337890625,
+        25.572702407836914
+      ]
+    },
+    {
+      "scenario": 3,
+      "from": "Garage",
+      "to": "Cafe",
+      "outcome": 0,
+      "position": [
+        25.96246337890625,
+        25.572702407836914
+      ]
+    },
+    {
+      "scenario": 3,
+      "from": "Garage",
+      "to": "Restaurant",
+      "outcome": 0,
+      "position": [
+        25.96246337890625,
+        25.572702407836914
+      ]
+    },
+    {
+      "scenario": 3,
+      "from": "Slots",
+      "to": "Bank",
+      "outcome": 2,
+      "position": [
+        19.752033233642578,
+        10.450648307800293
+      ]
+    },
+    {
+      "scenario": 3,
+      "from": "Slots",
+      "to": "Garage",
+      "outcome": 2,
+      "position": [
+        19.056262969970703,
+        10.101358413696289
+      ]
+    },
+    {
+      "scenario": 3,
+      "from": "Blackjack",
+      "to": "Home",
+      "outcome": 2,
+      "position": [
+        21.06382942199707,
+        11.170245170593262
+      ]
+    },
+    {
+      "scenario": 3,
+      "from": "Blackjack",
+      "to": "Work",
+      "outcome": 2,
+      "position": [
+        20.751218795776367,
+        10.582843780517578
+      ]
+    },
+    {
+      "scenario": 3,
+      "from": "Blackjack",
+      "to": "Bank",
+      "outcome": 2,
+      "position": [
+        21.228168487548828,
+        11.827555656433105
+      ]
+    },
+    {
+      "scenario": 3,
+      "from": "Budget diner",
+      "to": "Bank",
+      "outcome": 2,
+      "position": [
+        16.039934158325195,
+        20.554983139038086
+      ]
+    },
+    {
+      "scenario": 3,
+      "from": "Cafe",
+      "to": "Home",
+      "outcome": 2,
+      "position": [
+        34.53728103637695,
+        13.33866024017334
+      ]
+    },
+    {
+      "scenario": 3,
+      "from": "Cafe",
+      "to": "Work",
+      "outcome": 2,
+      "position": [
+        34.517330169677734,
+        13.347380638122559
+      ]
+    },
+    {
+      "scenario": 3,
+      "from": "Cafe",
+      "to": "Bank",
+      "outcome": 2,
+      "position": [
+        34.67107009887695,
+        13.464091300964355
+      ]
+    },
+    {
+      "scenario": 3,
+      "from": "Cafe",
+      "to": "Garage",
+      "outcome": 2,
+      "position": [
+        34.67107009887695,
+        13.464091300964355
+      ]
+    },
+    {
+      "scenario": 3,
+      "from": "Cafe",
+      "to": "Slots",
+      "outcome": 2,
+      "position": [
+        34.5218391418457,
+        13.345341682434082
+      ]
+    },
+    {
+      "scenario": 3,
+      "from": "Cafe",
+      "to": "Blackjack",
+      "outcome": 2,
+      "position": [
+        34.5218391418457,
+        13.345341682434082
+      ]
+    },
+    {
+      "scenario": 3,
+      "from": "Cafe",
+      "to": "Fuel station",
+      "outcome": 2,
+      "position": [
+        34.5218391418457,
+        13.345341682434082
+      ]
+    },
+    {
+      "scenario": 3,
+      "from": "Cafe",
+      "to": "Budget diner",
+      "outcome": 2,
+      "position": [
+        34.5218391418457,
+        13.345341682434082
+      ]
+    },
+    {
+      "scenario": 3,
+      "from": "Restaurant",
+      "to": "Home",
+      "outcome": 2,
+      "position": [
+        34.53728103637695,
+        16.661334991455078
+      ]
+    },
+    {
+      "scenario": 3,
+      "from": "Restaurant",
+      "to": "Work",
+      "outcome": 2,
+      "position": [
+        34.517330169677734,
+        16.652618408203125
+      ]
+    },
+    {
+      "scenario": 3,
+      "from": "Restaurant",
+      "to": "Bank",
+      "outcome": 2,
+      "position": [
+        34.5218391418457,
+        16.65465545654297
+      ]
+    },
+    {
+      "scenario": 3,
+      "from": "Restaurant",
+      "to": "Garage",
+      "outcome": 2,
+      "position": [
+        34.5218391418457,
+        16.65465545654297
+      ]
+    },
+    {
+      "scenario": 3,
+      "from": "Restaurant",
+      "to": "Slots",
+      "outcome": 2,
+      "position": [
+        34.67107009887695,
+        16.535905838012695
+      ]
+    },
+    {
+      "scenario": 3,
+      "from": "Restaurant",
+      "to": "Blackjack",
+      "outcome": 2,
+      "position": [
+        34.67107009887695,
+        16.535905838012695
+      ]
+    },
+    {
+      "scenario": 3,
+      "from": "Restaurant",
+      "to": "Fuel station",
+      "outcome": 2,
+      "position": [
+        34.67107009887695,
+        16.535905838012695
+      ]
+    },
+    {
+      "scenario": 3,
+      "from": "Restaurant",
+      "to": "Budget diner",
+      "outcome": 2,
+      "position": [
+        34.67107009887695,
+        16.535905838012695
+      ]
+    },
+    {
+      "scenario": 4,
+      "from": "Home",
+      "to": "Garage",
+      "outcome": 2,
+      "position": [
+        15.866389274597168,
+        20.83426856994629
+      ]
+    },
+    {
+      "scenario": 4,
+      "from": "Bank",
+      "to": "Slots",
+      "outcome": 2,
+      "position": [
+        19.247709274291992,
+        23.93802261352539
+      ]
+    },
+    {
+      "scenario": 4,
+      "from": "Bank",
+      "to": "Blackjack",
+      "outcome": 2,
+      "position": [
+        19.247709274291992,
+        23.93802261352539
+      ]
+    },
+    {
+      "scenario": 4,
+      "from": "Bank",
+      "to": "Cafe",
+      "outcome": 2,
+      "position": [
+        19.247709274291992,
+        23.93802261352539
+      ]
+    },
+    {
+      "scenario": 4,
+      "from": "Bank",
+      "to": "Restaurant",
+      "outcome": 2,
+      "position": [
+        19.247709274291992,
+        23.93802261352539
+      ]
+    },
+    {
+      "scenario": 4,
+      "from": "Garage",
+      "to": "Home",
+      "outcome": 0,
+      "position": [
+        25.96246337890625,
+        25.572702407836914
+      ]
+    },
+    {
+      "scenario": 4,
+      "from": "Garage",
+      "to": "Work",
+      "outcome": 0,
+      "position": [
+        25.96246337890625,
+        25.572702407836914
+      ]
+    },
+    {
+      "scenario": 4,
+      "from": "Garage",
+      "to": "Bank",
+      "outcome": 0,
+      "position": [
+        25.96246337890625,
+        25.572702407836914
+      ]
+    },
+    {
+      "scenario": 4,
+      "from": "Garage",
+      "to": "Slots",
+      "outcome": 0,
+      "position": [
+        25.96246337890625,
+        25.572702407836914
+      ]
+    },
+    {
+      "scenario": 4,
+      "from": "Garage",
+      "to": "Blackjack",
+      "outcome": 0,
+      "position": [
+        25.958187103271484,
+        25.57764434814453
+      ]
+    },
+    {
+      "scenario": 4,
+      "from": "Garage",
+      "to": "Fuel station",
+      "outcome": 0,
+      "position": [
+        25.96246337890625,
+        25.572702407836914
+      ]
+    },
+    {
+      "scenario": 4,
+      "from": "Garage",
+      "to": "Budget diner",
+      "outcome": 0,
+      "position": [
+        25.96246337890625,
+        25.572702407836914
+      ]
+    },
+    {
+      "scenario": 4,
+      "from": "Garage",
+      "to": "Cafe",
+      "outcome": 0,
+      "position": [
+        25.96246337890625,
+        25.572702407836914
+      ]
+    },
+    {
+      "scenario": 4,
+      "from": "Garage",
+      "to": "Restaurant",
+      "outcome": 0,
+      "position": [
+        25.96246337890625,
+        25.572702407836914
+      ]
+    },
+    {
+      "scenario": 4,
+      "from": "Slots",
+      "to": "Bank",
+      "outcome": 2,
+      "position": [
+        19.808767318725586,
+        10.122986793518066
+      ]
+    },
+    {
+      "scenario": 4,
+      "from": "Blackjack",
+      "to": "Home",
+      "outcome": 2,
+      "position": [
+        21.491018295288086,
+        11.061450958251953
+      ]
+    },
+    {
+      "scenario": 4,
+      "from": "Blackjack",
+      "to": "Work",
+      "outcome": 2,
+      "position": [
+        20.68367576599121,
+        10.479562759399414
+      ]
+    },
+    {
+      "scenario": 4,
+      "from": "Fuel station",
+      "to": "Bank",
+      "outcome": 2,
+      "position": [
+        14.930337905883789,
+        20.534976959228516
+      ]
+    },
+    {
+      "scenario": 4,
+      "from": "Fuel station",
+      "to": "Cafe",
+      "outcome": 2,
+      "position": [
+        22.29239845275879,
+        13.408973693847656
+      ]
+    },
+    {
+      "scenario": 4,
+      "from": "Budget diner",
+      "to": "Bank",
+      "outcome": 2,
+      "position": [
+        15.94538688659668,
+        20.059574127197266
+      ]
+    },
+    {
+      "scenario": 4,
+      "from": "Cafe",
+      "to": "Home",
+      "outcome": 2,
+      "position": [
+        34.40473556518555,
+        13.38930606842041
+      ]
+    },
+    {
+      "scenario": 4,
+      "from": "Cafe",
+      "to": "Work",
+      "outcome": 2,
+      "position": [
+        34.366737365722656,
+        13.403868675231934
+      ]
+    },
+    {
+      "scenario": 4,
+      "from": "Cafe",
+      "to": "Bank",
+      "outcome": 2,
+      "position": [
+        34.516666412353516,
+        13.634306907653809
+      ]
+    },
+    {
+      "scenario": 4,
+      "from": "Cafe",
+      "to": "Garage",
+      "outcome": 2,
+      "position": [
+        34.516666412353516,
+        13.634306907653809
+      ]
+    },
+    {
+      "scenario": 4,
+      "from": "Cafe",
+      "to": "Slots",
+      "outcome": 2,
+      "position": [
+        34.45462417602539,
+        13.372137069702148
+      ]
+    },
+    {
+      "scenario": 4,
+      "from": "Cafe",
+      "to": "Blackjack",
+      "outcome": 2,
+      "position": [
+        34.45462417602539,
+        13.372137069702148
+      ]
+    },
+    {
+      "scenario": 4,
+      "from": "Cafe",
+      "to": "Fuel station",
+      "outcome": 2,
+      "position": [
+        34.45462417602539,
+        13.372137069702148
+      ]
+    },
+    {
+      "scenario": 4,
+      "from": "Cafe",
+      "to": "Budget diner",
+      "outcome": 2,
+      "position": [
+        34.45462417602539,
+        13.372137069702148
+      ]
+    },
+    {
+      "scenario": 4,
+      "from": "Restaurant",
+      "to": "Home",
+      "outcome": 2,
+      "position": [
+        34.40473556518555,
+        16.610689163208008
+      ]
+    },
+    {
+      "scenario": 4,
+      "from": "Restaurant",
+      "to": "Work",
+      "outcome": 2,
+      "position": [
+        34.366737365722656,
+        16.596128463745117
+      ]
+    },
+    {
+      "scenario": 4,
+      "from": "Restaurant",
+      "to": "Bank",
+      "outcome": 2,
+      "position": [
+        34.45462417602539,
+        16.627857208251953
+      ]
+    },
+    {
+      "scenario": 4,
+      "from": "Restaurant",
+      "to": "Garage",
+      "outcome": 2,
+      "position": [
+        34.45462417602539,
+        16.627857208251953
+      ]
+    },
+    {
+      "scenario": 4,
+      "from": "Restaurant",
+      "to": "Slots",
+      "outcome": 2,
+      "position": [
+        34.516666412353516,
+        16.36568832397461
+      ]
+    },
+    {
+      "scenario": 4,
+      "from": "Restaurant",
+      "to": "Blackjack",
+      "outcome": 2,
+      "position": [
+        34.516666412353516,
+        16.36568832397461
+      ]
+    },
+    {
+      "scenario": 4,
+      "from": "Restaurant",
+      "to": "Fuel station",
+      "outcome": 2,
+      "position": [
+        34.516666412353516,
+        16.36568832397461
+      ]
+    },
+    {
+      "scenario": 4,
+      "from": "Restaurant",
+      "to": "Budget diner",
+      "outcome": 2,
+      "position": [
+        34.516666412353516,
+        16.36568832397461
+      ]
+    },
+    {
+      "scenario": 5,
+      "from": "Home",
+      "to": "Garage",
+      "outcome": 2,
+      "position": [
+        15.866389274597168,
+        20.83426856994629
+      ]
+    },
+    {
+      "scenario": 5,
+      "from": "Bank",
+      "to": "Slots",
+      "outcome": 2,
+      "position": [
+        19.248186111450195,
+        23.93462371826172
+      ]
+    },
+    {
+      "scenario": 5,
+      "from": "Bank",
+      "to": "Blackjack",
+      "outcome": 2,
+      "position": [
+        19.248186111450195,
+        23.93462371826172
+      ]
+    },
+    {
+      "scenario": 5,
+      "from": "Bank",
+      "to": "Cafe",
+      "outcome": 2,
+      "position": [
+        19.248186111450195,
+        23.93462371826172
+      ]
+    },
+    {
+      "scenario": 5,
+      "from": "Bank",
+      "to": "Restaurant",
+      "outcome": 2,
+      "position": [
+        19.248186111450195,
+        23.93462371826172
+      ]
+    },
+    {
+      "scenario": 5,
+      "from": "Garage",
+      "to": "Home",
+      "outcome": 0,
+      "position": [
+        25.96246337890625,
+        25.572702407836914
+      ]
+    },
+    {
+      "scenario": 5,
+      "from": "Garage",
+      "to": "Work",
+      "outcome": 0,
+      "position": [
+        25.96246337890625,
+        25.572702407836914
+      ]
+    },
+    {
+      "scenario": 5,
+      "from": "Garage",
+      "to": "Bank",
+      "outcome": 0,
+      "position": [
+        25.96246337890625,
+        25.572702407836914
+      ]
+    },
+    {
+      "scenario": 5,
+      "from": "Garage",
+      "to": "Slots",
+      "outcome": 0,
+      "position": [
+        25.96246337890625,
+        25.572702407836914
+      ]
+    },
+    {
+      "scenario": 5,
+      "from": "Garage",
+      "to": "Blackjack",
+      "outcome": 0,
+      "position": [
+        25.958187103271484,
+        25.57764434814453
+      ]
+    },
+    {
+      "scenario": 5,
+      "from": "Garage",
+      "to": "Fuel station",
+      "outcome": 0,
+      "position": [
+        25.96246337890625,
+        25.572702407836914
+      ]
+    },
+    {
+      "scenario": 5,
+      "from": "Garage",
+      "to": "Budget diner",
+      "outcome": 0,
+      "position": [
+        25.96246337890625,
+        25.572702407836914
+      ]
+    },
+    {
+      "scenario": 5,
+      "from": "Garage",
+      "to": "Cafe",
+      "outcome": 0,
+      "position": [
+        25.96246337890625,
+        25.572702407836914
+      ]
+    },
+    {
+      "scenario": 5,
+      "from": "Garage",
+      "to": "Restaurant",
+      "outcome": 0,
+      "position": [
+        25.96246337890625,
+        25.572702407836914
+      ]
+    },
+    {
+      "scenario": 5,
+      "from": "Slots",
+      "to": "Bank",
+      "outcome": 2,
+      "position": [
+        19.78730010986328,
+        10.093831062316895
+      ]
+    },
+    {
+      "scenario": 5,
+      "from": "Blackjack",
+      "to": "Home",
+      "outcome": 2,
+      "position": [
+        21.615772247314453,
+        11.042924880981445
+      ]
+    },
+    {
+      "scenario": 5,
+      "from": "Blackjack",
+      "to": "Work",
+      "outcome": 2,
+      "position": [
+        20.9384765625,
+        10.476096153259277
+      ]
+    },
+    {
+      "scenario": 5,
+      "from": "Blackjack",
+      "to": "Bank",
+      "outcome": 2,
+      "position": [
+        21.541839599609375,
+        11.671101570129395
+      ]
+    },
+    {
+      "scenario": 5,
+      "from": "Fuel station",
+      "to": "Bank",
+      "outcome": 2,
+      "position": [
+        14.948620796203613,
+        20.580745697021484
+      ]
+    },
+    {
+      "scenario": 5,
+      "from": "Fuel station",
+      "to": "Cafe",
+      "outcome": 2,
+      "position": [
+        22.48402976989746,
+        13.485747337341309
+      ]
+    },
+    {
+      "scenario": 5,
+      "from": "Budget diner",
+      "to": "Bank",
+      "outcome": 2,
+      "position": [
+        15.96365737915039,
+        20.1035099029541
+      ]
+    },
+    {
+      "scenario": 5,
+      "from": "Budget diner",
+      "to": "Cafe",
+      "outcome": 2,
+      "position": [
+        22.411357879638672,
+        13.430999755859375
+      ]
+    },
+    {
+      "scenario": 5,
+      "from": "Cafe",
+      "to": "Home",
+      "outcome": 2,
+      "position": [
+        34.353946685791016,
+        13.407322883605957
+      ]
+    },
+    {
+      "scenario": 5,
+      "from": "Cafe",
+      "to": "Work",
+      "outcome": 2,
+      "position": [
+        34.517330169677734,
+        13.347380638122559
+      ]
+    },
+    {
+      "scenario": 5,
+      "from": "Cafe",
+      "to": "Bank",
+      "outcome": 2,
+      "position": [
+        34.53803634643555,
+        13.64272403717041
+      ]
+    },
+    {
+      "scenario": 5,
+      "from": "Cafe",
+      "to": "Garage",
+      "outcome": 2,
+      "position": [
+        34.53803634643555,
+        13.64272403717041
+      ]
+    },
+    {
+      "scenario": 5,
+      "from": "Cafe",
+      "to": "Slots",
+      "outcome": 2,
+      "position": [
+        34.48311996459961,
+        13.36132526397705
+      ]
+    },
+    {
+      "scenario": 5,
+      "from": "Cafe",
+      "to": "Blackjack",
+      "outcome": 2,
+      "position": [
+        34.48311996459961,
+        13.36132526397705
+      ]
+    },
+    {
+      "scenario": 5,
+      "from": "Cafe",
+      "to": "Fuel station",
+      "outcome": 2,
+      "position": [
+        34.48311996459961,
+        13.36132526397705
+      ]
+    },
+    {
+      "scenario": 5,
+      "from": "Cafe",
+      "to": "Budget diner",
+      "outcome": 2,
+      "position": [
+        34.48311996459961,
+        13.36132526397705
+      ]
+    },
+    {
+      "scenario": 5,
+      "from": "Restaurant",
+      "to": "Home",
+      "outcome": 2,
+      "position": [
+        34.353946685791016,
+        16.592670440673828
+      ]
+    },
+    {
+      "scenario": 5,
+      "from": "Restaurant",
+      "to": "Work",
+      "outcome": 2,
+      "position": [
+        34.517330169677734,
+        16.652618408203125
+      ]
+    },
+    {
+      "scenario": 5,
+      "from": "Restaurant",
+      "to": "Bank",
+      "outcome": 2,
+      "position": [
+        34.48311996459961,
+        16.638669967651367
+      ]
+    },
+    {
+      "scenario": 5,
+      "from": "Restaurant",
+      "to": "Garage",
+      "outcome": 2,
+      "position": [
+        34.48311996459961,
+        16.638669967651367
+      ]
+    },
+    {
+      "scenario": 5,
+      "from": "Restaurant",
+      "to": "Slots",
+      "outcome": 2,
+      "position": [
+        34.53803634643555,
+        16.357271194458008
+      ]
+    },
+    {
+      "scenario": 5,
+      "from": "Restaurant",
+      "to": "Blackjack",
+      "outcome": 2,
+      "position": [
+        34.53803634643555,
+        16.357271194458008
+      ]
+    },
+    {
+      "scenario": 5,
+      "from": "Restaurant",
+      "to": "Fuel station",
+      "outcome": 2,
+      "position": [
+        34.53803634643555,
+        16.357271194458008
+      ]
+    },
+    {
+      "scenario": 5,
+      "from": "Restaurant",
+      "to": "Budget diner",
+      "outcome": 2,
+      "position": [
+        34.53803634643555,
+        16.357271194458008
+      ]
+    },
+    {
+      "scenario": 6,
+      "from": "Home",
+      "to": "Garage",
+      "outcome": 2,
+      "position": [
+        15.866389274597168,
+        20.83426856994629
+      ]
+    },
+    {
+      "scenario": 6,
+      "from": "Bank",
+      "to": "Slots",
+      "outcome": 2,
+      "position": [
+        19.248186111450195,
+        23.93462371826172
+      ]
+    },
+    {
+      "scenario": 6,
+      "from": "Bank",
+      "to": "Blackjack",
+      "outcome": 2,
+      "position": [
+        19.248186111450195,
+        23.93462371826172
+      ]
+    },
+    {
+      "scenario": 6,
+      "from": "Bank",
+      "to": "Cafe",
+      "outcome": 2,
+      "position": [
+        19.248186111450195,
+        23.93462371826172
+      ]
+    },
+    {
+      "scenario": 6,
+      "from": "Bank",
+      "to": "Restaurant",
+      "outcome": 2,
+      "position": [
+        19.248186111450195,
+        23.93462371826172
+      ]
+    },
+    {
+      "scenario": 6,
+      "from": "Garage",
+      "to": "Home",
+      "outcome": 0,
+      "position": [
+        25.96246337890625,
+        25.572702407836914
+      ]
+    },
+    {
+      "scenario": 6,
+      "from": "Garage",
+      "to": "Work",
+      "outcome": 0,
+      "position": [
+        25.96246337890625,
+        25.572702407836914
+      ]
+    },
+    {
+      "scenario": 6,
+      "from": "Garage",
+      "to": "Bank",
+      "outcome": 0,
+      "position": [
+        25.96246337890625,
+        25.572702407836914
+      ]
+    },
+    {
+      "scenario": 6,
+      "from": "Garage",
+      "to": "Slots",
+      "outcome": 0,
+      "position": [
+        25.96246337890625,
+        25.572702407836914
+      ]
+    },
+    {
+      "scenario": 6,
+      "from": "Garage",
+      "to": "Blackjack",
+      "outcome": 0,
+      "position": [
+        25.958187103271484,
+        25.57764434814453
+      ]
+    },
+    {
+      "scenario": 6,
+      "from": "Garage",
+      "to": "Fuel station",
+      "outcome": 0,
+      "position": [
+        25.96246337890625,
+        25.572702407836914
+      ]
+    },
+    {
+      "scenario": 6,
+      "from": "Garage",
+      "to": "Budget diner",
+      "outcome": 0,
+      "position": [
+        25.96246337890625,
+        25.572702407836914
+      ]
+    },
+    {
+      "scenario": 6,
+      "from": "Garage",
+      "to": "Cafe",
+      "outcome": 0,
+      "position": [
+        25.96246337890625,
+        25.572702407836914
+      ]
+    },
+    {
+      "scenario": 6,
+      "from": "Garage",
+      "to": "Restaurant",
+      "outcome": 0,
+      "position": [
+        25.96246337890625,
+        25.572702407836914
+      ]
+    },
+    {
+      "scenario": 6,
+      "from": "Blackjack",
+      "to": "Home",
+      "outcome": 2,
+      "position": [
+        21.171220779418945,
+        11.160839080810547
+      ]
+    },
+    {
+      "scenario": 6,
+      "from": "Blackjack",
+      "to": "Work",
+      "outcome": 2,
+      "position": [
+        20.801254272460938,
+        10.554315567016602
+      ]
+    },
+    {
+      "scenario": 6,
+      "from": "Fuel station",
+      "to": "Bank",
+      "outcome": 2,
+      "position": [
+        14.948620796203613,
+        20.580745697021484
+      ]
+    },
+    {
+      "scenario": 6,
+      "from": "Budget diner",
+      "to": "Bank",
+      "outcome": 2,
+      "position": [
+        15.96365737915039,
+        20.1035099029541
+      ]
+    },
+    {
+      "scenario": 6,
+      "from": "Cafe",
+      "to": "Home",
+      "outcome": 2,
+      "position": [
+        34.427940368652344,
+        13.381702423095703
+      ]
+    },
+    {
+      "scenario": 6,
+      "from": "Cafe",
+      "to": "Work",
+      "outcome": 2,
+      "position": [
+        34.417808532714844,
+        13.385232925415039
+      ]
+    },
+    {
+      "scenario": 6,
+      "from": "Cafe",
+      "to": "Bank",
+      "outcome": 2,
+      "position": [
+        34.50409698486328,
+        13.62418270111084
+      ]
+    },
+    {
+      "scenario": 6,
+      "from": "Cafe",
+      "to": "Garage",
+      "outcome": 2,
+      "position": [
+        34.50409698486328,
+        13.62418270111084
+      ]
+    },
+    {
+      "scenario": 6,
+      "from": "Cafe",
+      "to": "Slots",
+      "outcome": 2,
+      "position": [
+        34.43124771118164,
+        13.38039779663086
+      ]
+    },
+    {
+      "scenario": 6,
+      "from": "Cafe",
+      "to": "Blackjack",
+      "outcome": 2,
+      "position": [
+        34.43124771118164,
+        13.38039779663086
+      ]
+    },
+    {
+      "scenario": 6,
+      "from": "Cafe",
+      "to": "Fuel station",
+      "outcome": 2,
+      "position": [
+        34.43124771118164,
+        13.38039779663086
+      ]
+    },
+    {
+      "scenario": 6,
+      "from": "Cafe",
+      "to": "Budget diner",
+      "outcome": 2,
+      "position": [
+        34.43124771118164,
+        13.38039779663086
+      ]
+    },
+    {
+      "scenario": 6,
+      "from": "Restaurant",
+      "to": "Home",
+      "outcome": 2,
+      "position": [
+        34.427940368652344,
+        16.6182918548584
+      ]
+    },
+    {
+      "scenario": 6,
+      "from": "Restaurant",
+      "to": "Work",
+      "outcome": 2,
+      "position": [
+        34.417808532714844,
+        16.61476707458496
+      ]
+    },
+    {
+      "scenario": 6,
+      "from": "Restaurant",
+      "to": "Bank",
+      "outcome": 2,
+      "position": [
+        34.431251525878906,
+        16.619596481323242
+      ]
+    },
+    {
+      "scenario": 6,
+      "from": "Restaurant",
+      "to": "Garage",
+      "outcome": 2,
+      "position": [
+        34.431251525878906,
+        16.619596481323242
+      ]
+    },
+    {
+      "scenario": 6,
+      "from": "Restaurant",
+      "to": "Slots",
+      "outcome": 2,
+      "position": [
+        34.50409698486328,
+        16.375812530517578
+      ]
+    },
+    {
+      "scenario": 6,
+      "from": "Restaurant",
+      "to": "Blackjack",
+      "outcome": 2,
+      "position": [
+        34.50409698486328,
+        16.375812530517578
+      ]
+    },
+    {
+      "scenario": 6,
+      "from": "Restaurant",
+      "to": "Fuel station",
+      "outcome": 2,
+      "position": [
+        34.50409698486328,
+        16.375812530517578
+      ]
+    },
+    {
+      "scenario": 6,
+      "from": "Restaurant",
+      "to": "Budget diner",
+      "outcome": 2,
+      "position": [
+        34.50409698486328,
+        16.375812530517578
+      ]
+    },
+    {
+      "scenario": 7,
+      "from": "Home",
+      "to": "Garage",
+      "outcome": 2,
+      "position": [
+        16.157310485839844,
+        20.99880599975586
+      ]
+    },
+    {
+      "scenario": 7,
+      "from": "Bank",
+      "to": "Home",
+      "outcome": 2,
+      "position": [
+        19.256486892700195,
+        23.839488983154297
+      ]
+    },
+    {
+      "scenario": 7,
+      "from": "Bank",
+      "to": "Work",
+      "outcome": 2,
+      "position": [
+        19.257883071899414,
+        23.750267028808594
+      ]
+    },
+    {
+      "scenario": 7,
+      "from": "Bank",
+      "to": "Slots",
+      "outcome": 2,
+      "position": [
+        19.277231216430664,
+        23.659095764160156
+      ]
+    },
+    {
+      "scenario": 7,
+      "from": "Bank",
+      "to": "Blackjack",
+      "outcome": 2,
+      "position": [
+        19.277231216430664,
+        23.659095764160156
+      ]
+    },
+    {
+      "scenario": 7,
+      "from": "Bank",
+      "to": "Fuel station",
+      "outcome": 2,
+      "position": [
+        19.257638931274414,
+        23.811147689819336
+      ]
+    },
+    {
+      "scenario": 7,
+      "from": "Bank",
+      "to": "Budget diner",
+      "outcome": 2,
+      "position": [
+        19.25800323486328,
+        23.756086349487305
+      ]
+    },
+    {
+      "scenario": 7,
+      "from": "Bank",
+      "to": "Cafe",
+      "outcome": 2,
+      "position": [
+        19.277231216430664,
+        23.659095764160156
+      ]
+    },
+    {
+      "scenario": 7,
+      "from": "Bank",
+      "to": "Restaurant",
+      "outcome": 2,
+      "position": [
+        19.277231216430664,
+        23.659095764160156
+      ]
+    },
+    {
+      "scenario": 7,
+      "from": "Garage",
+      "to": "Home",
+      "outcome": 0,
+      "position": [
+        25.96246337890625,
+        25.572702407836914
+      ]
+    },
+    {
+      "scenario": 7,
+      "from": "Garage",
+      "to": "Work",
+      "outcome": 0,
+      "position": [
+        25.96246337890625,
+        25.572702407836914
+      ]
+    },
+    {
+      "scenario": 7,
+      "from": "Garage",
+      "to": "Bank",
+      "outcome": 0,
+      "position": [
+        25.96246337890625,
+        25.572702407836914
+      ]
+    },
+    {
+      "scenario": 7,
+      "from": "Garage",
+      "to": "Slots",
+      "outcome": 0,
+      "position": [
+        25.96246337890625,
+        25.572702407836914
+      ]
+    },
+    {
+      "scenario": 7,
+      "from": "Garage",
+      "to": "Blackjack",
+      "outcome": 0,
+      "position": [
+        25.958187103271484,
+        25.57764434814453
+      ]
+    },
+    {
+      "scenario": 7,
+      "from": "Garage",
+      "to": "Fuel station",
+      "outcome": 0,
+      "position": [
+        25.96246337890625,
+        25.572702407836914
+      ]
+    },
+    {
+      "scenario": 7,
+      "from": "Garage",
+      "to": "Budget diner",
+      "outcome": 0,
+      "position": [
+        25.96246337890625,
+        25.572702407836914
+      ]
+    },
+    {
+      "scenario": 7,
+      "from": "Garage",
+      "to": "Cafe",
+      "outcome": 0,
+      "position": [
+        25.96246337890625,
+        25.572702407836914
+      ]
+    },
+    {
+      "scenario": 7,
+      "from": "Garage",
+      "to": "Restaurant",
+      "outcome": 0,
+      "position": [
+        25.96246337890625,
+        25.572702407836914
+      ]
+    },
+    {
+      "scenario": 7,
+      "from": "Slots",
+      "to": "Bank",
+      "outcome": 2,
+      "position": [
+        19.78730010986328,
+        10.093831062316895
+      ]
+    },
+    {
+      "scenario": 7,
+      "from": "Blackjack",
+      "to": "Home",
+      "outcome": 2,
+      "position": [
+        21.615772247314453,
+        11.042924880981445
+      ]
+    },
+    {
+      "scenario": 7,
+      "from": "Blackjack",
+      "to": "Work",
+      "outcome": 2,
+      "position": [
+        20.9384765625,
+        10.476096153259277
+      ]
+    },
+    {
+      "scenario": 7,
+      "from": "Blackjack",
+      "to": "Bank",
+      "outcome": 2,
+      "position": [
+        21.541839599609375,
+        11.671101570129395
+      ]
+    },
+    {
+      "scenario": 7,
+      "from": "Fuel station",
+      "to": "Bank",
+      "outcome": 2,
+      "position": [
+        15.31013011932373,
+        20.923826217651367
+      ]
+    },
+    {
+      "scenario": 7,
+      "from": "Budget diner",
+      "to": "Bank",
+      "outcome": 2,
+      "position": [
+        16.069862365722656,
+        20.35887908935547
+      ]
+    },
+    {
+      "scenario": 7,
+      "from": "Cafe",
+      "to": "Home",
+      "outcome": 2,
+      "position": [
+        34.56580352783203,
+        13.32537841796875
+      ]
+    },
+    {
+      "scenario": 7,
+      "from": "Cafe",
+      "to": "Work",
+      "outcome": 2,
+      "position": [
+        34.533538818359375,
+        13.340291976928711
+      ]
+    },
+    {
+      "scenario": 7,
+      "from": "Cafe",
+      "to": "Bank",
+      "outcome": 2,
+      "position": [
+        34.67107009887695,
+        13.464091300964355
+      ]
+    },
+    {
+      "scenario": 7,
+      "from": "Cafe",
+      "to": "Garage",
+      "outcome": 2,
+      "position": [
+        34.67107009887695,
+        13.464091300964355
+      ]
+    },
+    {
+      "scenario": 7,
+      "from": "Cafe",
+      "to": "Slots",
+      "outcome": 2,
+      "position": [
+        34.5218391418457,
+        13.345341682434082
+      ]
+    },
+    {
+      "scenario": 7,
+      "from": "Cafe",
+      "to": "Blackjack",
+      "outcome": 2,
+      "position": [
+        34.5218391418457,
+        13.345341682434082
+      ]
+    },
+    {
+      "scenario": 7,
+      "from": "Cafe",
+      "to": "Fuel station",
+      "outcome": 2,
+      "position": [
+        34.5218391418457,
+        13.345341682434082
+      ]
+    },
+    {
+      "scenario": 7,
+      "from": "Cafe",
+      "to": "Budget diner",
+      "outcome": 2,
+      "position": [
+        34.5218391418457,
+        13.345341682434082
+      ]
+    },
+    {
+      "scenario": 7,
+      "from": "Restaurant",
+      "to": "Home",
+      "outcome": 2,
+      "position": [
+        34.56580352783203,
+        16.67461585998535
+      ]
+    },
+    {
+      "scenario": 7,
+      "from": "Restaurant",
+      "to": "Work",
+      "outcome": 2,
+      "position": [
+        34.533538818359375,
+        16.659706115722656
+      ]
+    },
+    {
+      "scenario": 7,
+      "from": "Restaurant",
+      "to": "Bank",
+      "outcome": 2,
+      "position": [
+        34.5218391418457,
+        16.65465545654297
+      ]
+    },
+    {
+      "scenario": 7,
+      "from": "Restaurant",
+      "to": "Garage",
+      "outcome": 2,
+      "position": [
+        34.5218391418457,
+        16.65465545654297
+      ]
+    },
+    {
+      "scenario": 7,
+      "from": "Restaurant",
+      "to": "Slots",
+      "outcome": 2,
+      "position": [
+        34.67107009887695,
+        16.535905838012695
+      ]
+    },
+    {
+      "scenario": 7,
+      "from": "Restaurant",
+      "to": "Blackjack",
+      "outcome": 2,
+      "position": [
+        34.67107009887695,
+        16.535905838012695
+      ]
+    },
+    {
+      "scenario": 7,
+      "from": "Restaurant",
+      "to": "Fuel station",
+      "outcome": 2,
+      "position": [
+        34.67107009887695,
+        16.535905838012695
+      ]
+    },
+    {
+      "scenario": 7,
+      "from": "Restaurant",
+      "to": "Budget diner",
+      "outcome": 2,
+      "position": [
+        34.67107009887695,
+        16.535905838012695
+      ]
+    },
+    {
+      "scenario": 8,
+      "from": "Home",
+      "to": "Garage",
+      "outcome": 2,
+      "position": [
+        15.772041320800781,
+        20.780908584594727
+      ]
+    },
+    {
+      "scenario": 8,
+      "from": "Bank",
+      "to": "Slots",
+      "outcome": 2,
+      "position": [
+        19.248186111450195,
+        23.93462371826172
+      ]
+    },
+    {
+      "scenario": 8,
+      "from": "Bank",
+      "to": "Blackjack",
+      "outcome": 2,
+      "position": [
+        19.248186111450195,
+        23.93462371826172
+      ]
+    },
+    {
+      "scenario": 8,
+      "from": "Bank",
+      "to": "Cafe",
+      "outcome": 2,
+      "position": [
+        19.248186111450195,
+        23.93462371826172
+      ]
+    },
+    {
+      "scenario": 8,
+      "from": "Bank",
+      "to": "Restaurant",
+      "outcome": 2,
+      "position": [
+        19.248186111450195,
+        23.93462371826172
+      ]
+    },
+    {
+      "scenario": 8,
+      "from": "Garage",
+      "to": "Home",
+      "outcome": 0,
+      "position": [
+        25.96246337890625,
+        25.572702407836914
+      ]
+    },
+    {
+      "scenario": 8,
+      "from": "Garage",
+      "to": "Work",
+      "outcome": 0,
+      "position": [
+        25.96246337890625,
+        25.572702407836914
+      ]
+    },
+    {
+      "scenario": 8,
+      "from": "Garage",
+      "to": "Bank",
+      "outcome": 0,
+      "position": [
+        25.96246337890625,
+        25.572702407836914
+      ]
+    },
+    {
+      "scenario": 8,
+      "from": "Garage",
+      "to": "Slots",
+      "outcome": 0,
+      "position": [
+        25.96246337890625,
+        25.572702407836914
+      ]
+    },
+    {
+      "scenario": 8,
+      "from": "Garage",
+      "to": "Blackjack",
+      "outcome": 0,
+      "position": [
+        25.958187103271484,
+        25.57764434814453
+      ]
+    },
+    {
+      "scenario": 8,
+      "from": "Garage",
+      "to": "Fuel station",
+      "outcome": 0,
+      "position": [
+        25.96246337890625,
+        25.572702407836914
+      ]
+    },
+    {
+      "scenario": 8,
+      "from": "Garage",
+      "to": "Budget diner",
+      "outcome": 0,
+      "position": [
+        25.96246337890625,
+        25.572702407836914
+      ]
+    },
+    {
+      "scenario": 8,
+      "from": "Garage",
+      "to": "Cafe",
+      "outcome": 0,
+      "position": [
+        25.96246337890625,
+        25.572702407836914
+      ]
+    },
+    {
+      "scenario": 8,
+      "from": "Garage",
+      "to": "Restaurant",
+      "outcome": 0,
+      "position": [
+        25.96246337890625,
+        25.572702407836914
+      ]
+    },
+    {
+      "scenario": 8,
+      "from": "Blackjack",
+      "to": "Home",
+      "outcome": 2,
+      "position": [
+        21.596139907836914,
+        10.986065864562988
+      ]
+    },
+    {
+      "scenario": 8,
+      "from": "Blackjack",
+      "to": "Work",
+      "outcome": 2,
+      "position": [
+        21.111616134643555,
+        10.377367973327637
+      ]
+    },
+    {
+      "scenario": 8,
+      "from": "Blackjack",
+      "to": "Bank",
+      "outcome": 2,
+      "position": [
+        21.62682342529297,
+        11.4518461227417
+      ]
+    },
+    {
+      "scenario": 8,
+      "from": "Fuel station",
+      "to": "Bank",
+      "outcome": 2,
+      "position": [
+        14.990886688232422,
+        20.680557250976562
+      ]
+    },
+    {
+      "scenario": 8,
+      "from": "Budget diner",
+      "to": "Bank",
+      "outcome": 2,
+      "position": [
+        15.96365737915039,
+        20.1035099029541
+      ]
+    },
+    {
+      "scenario": 8,
+      "from": "Cafe",
+      "to": "Home",
+      "outcome": 2,
+      "position": [
+        34.66471862792969,
+        13.272005081176758
+      ]
+    },
+    {
+      "scenario": 8,
+      "from": "Cafe",
+      "to": "Work",
+      "outcome": 2,
+      "position": [
+        34.75242233276367,
+        13.21403694152832
+      ]
+    },
+    {
+      "scenario": 8,
+      "from": "Cafe",
+      "to": "Bank",
+      "outcome": 2,
+      "position": [
+        34.74363327026367,
+        13.369348526000977
+      ]
+    },
+    {
+      "scenario": 8,
+      "from": "Cafe",
+      "to": "Garage",
+      "outcome": 2,
+      "position": [
+        34.74363327026367,
+        13.369348526000977
+      ]
+    },
+    {
+      "scenario": 8,
+      "from": "Cafe",
+      "to": "Slots",
+      "outcome": 2,
+      "position": [
+        34.70574951171875,
+        13.246243476867676
+      ]
+    },
+    {
+      "scenario": 8,
+      "from": "Cafe",
+      "to": "Blackjack",
+      "outcome": 2,
+      "position": [
+        34.70574951171875,
+        13.246243476867676
+      ]
+    },
+    {
+      "scenario": 8,
+      "from": "Cafe",
+      "to": "Fuel station",
+      "outcome": 2,
+      "position": [
+        34.70574951171875,
+        13.246243476867676
+      ]
+    },
+    {
+      "scenario": 8,
+      "from": "Cafe",
+      "to": "Budget diner",
+      "outcome": 2,
+      "position": [
+        34.70574951171875,
+        13.246243476867676
+      ]
+    },
+    {
+      "scenario": 8,
+      "from": "Restaurant",
+      "to": "Home",
+      "outcome": 2,
+      "position": [
+        34.66471862792969,
+        16.72798728942871
+      ]
+    },
+    {
+      "scenario": 8,
+      "from": "Restaurant",
+      "to": "Work",
+      "outcome": 2,
+      "position": [
+        34.75242233276367,
+        16.785959243774414
+      ]
+    },
+    {
+      "scenario": 8,
+      "from": "Restaurant",
+      "to": "Bank",
+      "outcome": 2,
+      "position": [
+        34.70574951171875,
+        16.753751754760742
+      ]
+    },
+    {
+      "scenario": 8,
+      "from": "Restaurant",
+      "to": "Garage",
+      "outcome": 2,
+      "position": [
+        34.70574951171875,
+        16.753751754760742
+      ]
+    },
+    {
+      "scenario": 8,
+      "from": "Restaurant",
+      "to": "Slots",
+      "outcome": 2,
+      "position": [
+        34.74363327026367,
+        16.630647659301758
+      ]
+    },
+    {
+      "scenario": 8,
+      "from": "Restaurant",
+      "to": "Blackjack",
+      "outcome": 2,
+      "position": [
+        34.74363327026367,
+        16.630647659301758
+      ]
+    },
+    {
+      "scenario": 8,
+      "from": "Restaurant",
+      "to": "Fuel station",
+      "outcome": 2,
+      "position": [
+        34.74363327026367,
+        16.630647659301758
+      ]
+    },
+    {
+      "scenario": 8,
+      "from": "Restaurant",
+      "to": "Budget diner",
+      "outcome": 2,
+      "position": [
+        34.74363327026367,
+        16.630647659301758
+      ]
+    },
+    {
+      "scenario": 9,
+      "from": "Home",
+      "to": "Garage",
+      "outcome": 2,
+      "position": [
+        15.733872413635254,
+        20.759321212768555
+      ]
+    },
+    {
+      "scenario": 9,
+      "from": "Bank",
+      "to": "Slots",
+      "outcome": 2,
+      "position": [
+        19.247709274291992,
+        23.93802261352539
+      ]
+    },
+    {
+      "scenario": 9,
+      "from": "Bank",
+      "to": "Blackjack",
+      "outcome": 2,
+      "position": [
+        19.247709274291992,
+        23.93802261352539
+      ]
+    },
+    {
+      "scenario": 9,
+      "from": "Bank",
+      "to": "Cafe",
+      "outcome": 2,
+      "position": [
+        19.247709274291992,
+        23.93802261352539
+      ]
+    },
+    {
+      "scenario": 9,
+      "from": "Bank",
+      "to": "Restaurant",
+      "outcome": 2,
+      "position": [
+        19.247709274291992,
+        23.93802261352539
+      ]
+    },
+    {
+      "scenario": 9,
+      "from": "Garage",
+      "to": "Home",
+      "outcome": 0,
+      "position": [
+        25.96246337890625,
+        25.572702407836914
+      ]
+    },
+    {
+      "scenario": 9,
+      "from": "Garage",
+      "to": "Work",
+      "outcome": 0,
+      "position": [
+        25.96246337890625,
+        25.572702407836914
+      ]
+    },
+    {
+      "scenario": 9,
+      "from": "Garage",
+      "to": "Bank",
+      "outcome": 0,
+      "position": [
+        25.96246337890625,
+        25.572702407836914
+      ]
+    },
+    {
+      "scenario": 9,
+      "from": "Garage",
+      "to": "Slots",
+      "outcome": 0,
+      "position": [
+        25.96246337890625,
+        25.572702407836914
+      ]
+    },
+    {
+      "scenario": 9,
+      "from": "Garage",
+      "to": "Blackjack",
+      "outcome": 0,
+      "position": [
+        25.958187103271484,
+        25.57764434814453
+      ]
+    },
+    {
+      "scenario": 9,
+      "from": "Garage",
+      "to": "Fuel station",
+      "outcome": 0,
+      "position": [
+        25.96246337890625,
+        25.572702407836914
+      ]
+    },
+    {
+      "scenario": 9,
+      "from": "Garage",
+      "to": "Budget diner",
+      "outcome": 0,
+      "position": [
+        25.96246337890625,
+        25.572702407836914
+      ]
+    },
+    {
+      "scenario": 9,
+      "from": "Garage",
+      "to": "Cafe",
+      "outcome": 0,
+      "position": [
+        25.96246337890625,
+        25.572702407836914
+      ]
+    },
+    {
+      "scenario": 9,
+      "from": "Garage",
+      "to": "Restaurant",
+      "outcome": 0,
+      "position": [
+        25.96246337890625,
+        25.572702407836914
+      ]
+    },
+    {
+      "scenario": 9,
+      "from": "Slots",
+      "to": "Bank",
+      "outcome": 2,
+      "position": [
+        19.808767318725586,
+        10.122986793518066
+      ]
+    },
+    {
+      "scenario": 9,
+      "from": "Blackjack",
+      "to": "Home",
+      "outcome": 2,
+      "position": [
+        21.27674674987793,
+        11.130184173583984
+      ]
+    },
+    {
+      "scenario": 9,
+      "from": "Blackjack",
+      "to": "Work",
+      "outcome": 2,
+      "position": [
+        20.68367576599121,
+        10.479562759399414
+      ]
+    },
+    {
+      "scenario": 9,
+      "from": "Fuel station",
+      "to": "Bank",
+      "outcome": 2,
+      "position": [
+        14.972657203674316,
+        20.634765625
+      ]
+    },
+    {
+      "scenario": 9,
+      "from": "Budget diner",
+      "to": "Bank",
+      "outcome": 2,
+      "position": [
+        15.94538688659668,
+        20.059574127197266
+      ]
+    },
+    {
+      "scenario": 9,
+      "from": "Cafe",
+      "to": "Home",
+      "outcome": 2,
+      "position": [
+        34.762306213378906,
+        13.206878662109375
+      ]
+    },
+    {
+      "scenario": 9,
+      "from": "Cafe",
+      "to": "Work",
+      "outcome": 2,
+      "position": [
+        34.75242233276367,
+        13.21403694152832
+      ]
+    },
+    {
+      "scenario": 9,
+      "from": "Cafe",
+      "to": "Bank",
+      "outcome": 2,
+      "position": [
+        34.78266525268555,
+        13.267471313476562
+      ]
+    },
+    {
+      "scenario": 9,
+      "from": "Cafe",
+      "to": "Garage",
+      "outcome": 2,
+      "position": [
+        34.78266525268555,
+        13.267471313476562
+      ]
+    },
+    {
+      "scenario": 9,
+      "from": "Cafe",
+      "to": "Slots",
+      "outcome": 2,
+      "position": [
+        34.70574951171875,
+        13.246243476867676
+      ]
+    },
+    {
+      "scenario": 9,
+      "from": "Cafe",
+      "to": "Blackjack",
+      "outcome": 2,
+      "position": [
+        34.70574951171875,
+        13.246243476867676
+      ]
+    },
+    {
+      "scenario": 9,
+      "from": "Cafe",
+      "to": "Fuel station",
+      "outcome": 2,
+      "position": [
+        34.70574951171875,
+        13.246243476867676
+      ]
+    },
+    {
+      "scenario": 9,
+      "from": "Cafe",
+      "to": "Budget diner",
+      "outcome": 2,
+      "position": [
+        34.70574951171875,
+        13.246243476867676
+      ]
+    },
+    {
+      "scenario": 9,
+      "from": "Restaurant",
+      "to": "Home",
+      "outcome": 2,
+      "position": [
+        34.762306213378906,
+        16.793115615844727
+      ]
+    },
+    {
+      "scenario": 9,
+      "from": "Restaurant",
+      "to": "Work",
+      "outcome": 2,
+      "position": [
+        34.75242233276367,
+        16.785959243774414
+      ]
+    },
+    {
+      "scenario": 9,
+      "from": "Restaurant",
+      "to": "Bank",
+      "outcome": 2,
+      "position": [
+        34.70574951171875,
+        16.753751754760742
+      ]
+    },
+    {
+      "scenario": 9,
+      "from": "Restaurant",
+      "to": "Garage",
+      "outcome": 2,
+      "position": [
+        34.70574951171875,
+        16.753751754760742
+      ]
+    },
+    {
+      "scenario": 9,
+      "from": "Restaurant",
+      "to": "Slots",
+      "outcome": 2,
+      "position": [
+        34.78266525268555,
+        16.732526779174805
+      ]
+    },
+    {
+      "scenario": 9,
+      "from": "Restaurant",
+      "to": "Blackjack",
+      "outcome": 2,
+      "position": [
+        34.78266525268555,
+        16.732526779174805
+      ]
+    },
+    {
+      "scenario": 9,
+      "from": "Restaurant",
+      "to": "Fuel station",
+      "outcome": 2,
+      "position": [
+        34.78266525268555,
+        16.732526779174805
+      ]
+    },
+    {
+      "scenario": 9,
+      "from": "Restaurant",
+      "to": "Budget diner",
+      "outcome": 2,
+      "position": [
+        34.78266525268555,
+        16.732526779174805
+      ]
+    },
+    {
+      "scenario": 10,
+      "from": "Home",
+      "to": "Garage",
+      "outcome": 2,
+      "position": [
+        15.772041320800781,
+        20.780908584594727
+      ]
+    },
+    {
+      "scenario": 10,
+      "from": "Bank",
+      "to": "Slots",
+      "outcome": 2,
+      "position": [
+        19.248186111450195,
+        23.93462371826172
+      ]
+    },
+    {
+      "scenario": 10,
+      "from": "Bank",
+      "to": "Blackjack",
+      "outcome": 2,
+      "position": [
+        19.248186111450195,
+        23.93462371826172
+      ]
+    },
+    {
+      "scenario": 10,
+      "from": "Bank",
+      "to": "Cafe",
+      "outcome": 2,
+      "position": [
+        19.248186111450195,
+        23.93462371826172
+      ]
+    },
+    {
+      "scenario": 10,
+      "from": "Bank",
+      "to": "Restaurant",
+      "outcome": 2,
+      "position": [
+        19.248186111450195,
+        23.93462371826172
+      ]
+    },
+    {
+      "scenario": 10,
+      "from": "Garage",
+      "to": "Home",
+      "outcome": 0,
+      "position": [
+        25.96246337890625,
+        25.572702407836914
+      ]
+    },
+    {
+      "scenario": 10,
+      "from": "Garage",
+      "to": "Work",
+      "outcome": 0,
+      "position": [
+        25.96246337890625,
+        25.572702407836914
+      ]
+    },
+    {
+      "scenario": 10,
+      "from": "Garage",
+      "to": "Bank",
+      "outcome": 0,
+      "position": [
+        25.96246337890625,
+        25.572702407836914
+      ]
+    },
+    {
+      "scenario": 10,
+      "from": "Garage",
+      "to": "Slots",
+      "outcome": 0,
+      "position": [
+        25.96246337890625,
+        25.572702407836914
+      ]
+    },
+    {
+      "scenario": 10,
+      "from": "Garage",
+      "to": "Blackjack",
+      "outcome": 0,
+      "position": [
+        25.958187103271484,
+        25.57764434814453
+      ]
+    },
+    {
+      "scenario": 10,
+      "from": "Garage",
+      "to": "Fuel station",
+      "outcome": 0,
+      "position": [
+        25.96246337890625,
+        25.572702407836914
+      ]
+    },
+    {
+      "scenario": 10,
+      "from": "Garage",
+      "to": "Budget diner",
+      "outcome": 0,
+      "position": [
+        25.96246337890625,
+        25.572702407836914
+      ]
+    },
+    {
+      "scenario": 10,
+      "from": "Garage",
+      "to": "Cafe",
+      "outcome": 0,
+      "position": [
+        25.96246337890625,
+        25.572702407836914
+      ]
+    },
+    {
+      "scenario": 10,
+      "from": "Garage",
+      "to": "Restaurant",
+      "outcome": 0,
+      "position": [
+        25.96246337890625,
+        25.572702407836914
+      ]
+    },
+    {
+      "scenario": 10,
+      "from": "Slots",
+      "to": "Bank",
+      "outcome": 2,
+      "position": [
+        19.752033233642578,
+        10.450648307800293
+      ]
+    },
+    {
+      "scenario": 10,
+      "from": "Slots",
+      "to": "Garage",
+      "outcome": 2,
+      "position": [
+        19.056262969970703,
+        10.101358413696289
+      ]
+    },
+    {
+      "scenario": 10,
+      "from": "Blackjack",
+      "to": "Home",
+      "outcome": 2,
+      "position": [
+        21.16853141784668,
+        11.14220142364502
+      ]
+    },
+    {
+      "scenario": 10,
+      "from": "Blackjack",
+      "to": "Work",
+      "outcome": 2,
+      "position": [
+        20.751218795776367,
+        10.582843780517578
+      ]
+    },
+    {
+      "scenario": 10,
+      "from": "Fuel station",
+      "to": "Bank",
+      "outcome": 2,
+      "position": [
+        14.930337905883789,
+        20.534976959228516
+      ]
+    },
+    {
+      "scenario": 10,
+      "from": "Budget diner",
+      "to": "Bank",
+      "outcome": 2,
+      "position": [
+        15.96365737915039,
+        20.1035099029541
+      ]
+    },
+    {
+      "scenario": 10,
+      "from": "Cafe",
+      "to": "Home",
+      "outcome": 2,
+      "position": [
+        34.363826751708984,
+        13.402750015258789
+      ]
+    },
+    {
+      "scenario": 10,
+      "from": "Cafe",
+      "to": "Work",
+      "outcome": 2,
+      "position": [
+        34.200531005859375,
+        13.450303077697754
+      ]
+    },
+    {
+      "scenario": 10,
+      "from": "Cafe",
+      "to": "Bank",
+      "outcome": 2,
+      "position": [
+        34.427852630615234,
+        13.84038257598877
+      ]
+    },
+    {
+      "scenario": 10,
+      "from": "Cafe",
+      "to": "Garage",
+      "outcome": 2,
+      "position": [
+        34.427852630615234,
+        13.84038257598877
+      ]
+    },
+    {
+      "scenario": 10,
+      "from": "Cafe",
+      "to": "Slots",
+      "outcome": 2,
+      "position": [
+        34.34102249145508,
+        13.407439231872559
+      ]
+    },
+    {
+      "scenario": 10,
+      "from": "Cafe",
+      "to": "Blackjack",
+      "outcome": 2,
+      "position": [
+        34.34102249145508,
+        13.407439231872559
+      ]
+    },
+    {
+      "scenario": 10,
+      "from": "Cafe",
+      "to": "Fuel station",
+      "outcome": 2,
+      "position": [
+        34.34102249145508,
+        13.407439231872559
+      ]
+    },
+    {
+      "scenario": 10,
+      "from": "Cafe",
+      "to": "Budget diner",
+      "outcome": 2,
+      "position": [
+        34.34102249145508,
+        13.407439231872559
+      ]
+    },
+    {
+      "scenario": 10,
+      "from": "Restaurant",
+      "to": "Home",
+      "outcome": 2,
+      "position": [
+        34.363826751708984,
+        16.597244262695312
+      ]
+    },
+    {
+      "scenario": 10,
+      "from": "Restaurant",
+      "to": "Work",
+      "outcome": 2,
+      "position": [
+        34.200531005859375,
+        16.549697875976562
+      ]
+    },
+    {
+      "scenario": 10,
+      "from": "Restaurant",
+      "to": "Bank",
+      "outcome": 2,
+      "position": [
+        34.341026306152344,
+        16.592557907104492
+      ]
+    },
+    {
+      "scenario": 10,
+      "from": "Restaurant",
+      "to": "Garage",
+      "outcome": 2,
+      "position": [
+        34.341026306152344,
+        16.592557907104492
+      ]
+    },
+    {
+      "scenario": 10,
+      "from": "Restaurant",
+      "to": "Slots",
+      "outcome": 2,
+      "position": [
+        34.4278564453125,
+        16.15961456298828
+      ]
+    },
+    {
+      "scenario": 10,
+      "from": "Restaurant",
+      "to": "Blackjack",
+      "outcome": 2,
+      "position": [
+        34.4278564453125,
+        16.15961456298828
+      ]
+    },
+    {
+      "scenario": 10,
+      "from": "Restaurant",
+      "to": "Fuel station",
+      "outcome": 2,
+      "position": [
+        34.4278564453125,
+        16.15961456298828
+      ]
+    },
+    {
+      "scenario": 10,
+      "from": "Restaurant",
+      "to": "Budget diner",
+      "outcome": 2,
+      "position": [
+        34.4278564453125,
+        16.15961456298828
+      ]
+    }
+  ],
+  "source_hashes": {
+    "src/algorithms/hybrid_dsac.py": "4678f35feff829c971fb8f4c9a2e6e907fef945736816ed61fefdef64691d426",
+    "src/algorithms/recurrent_dsac.py": "b948e431f82ae23c6a981e13dd90d7217f662a61d39408a6ff61a3eca1b281c1",
+    "src/analytic_checks.py": "2ce5f6fdeb53600d7113f64bbc5c2db499da8088a803318a6044c18ebf5d10c9",
+    "src/audit_results.py": "d9606fd4135824db9820043af05a828934d33aa43b6b481691e266044f48d2df",
+    "src/audit_strategy.py": "06c988e8dbfa700be4bcf4a6cb78c8ce966ac1077667c71323cbc17c29b53b4c",
+    "src/build_reports.py": "5f0033168272eac3981d64e776d513e0996a3819ae683650c14622fa3d2139a3",
+    "src/critic_certificate.py": "3ea3549e643cf00c1d8c0c563b1db94d9fe115cf7591962c275d97e32f3a8336",
+    "src/env/__init__.py": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+    "src/env/base.py": "bcfb81a2b6e20892077e3e32274f5f2ad06e30e8c3c19deda8d84409de1eb33c",
+    "src/env/cards.py": "bcc275ea8b62dc724a5962c407e09a762035cd04d898a9ef7bed50f30a5a0cdd",
+    "src/env/city.py": "76d63e3bf981748996f33eecb255533d41de1355a171f83698e69522eba9b600",
+    "src/env/resource_taxi.py": "a69253ba8a71828a5c1f5b08edc50e93cb759876ad103a67adeaf92aabc4b4a2",
+    "src/env/tasks.py": "0b5b26623354a0f5d8cc6a81285da680c1cd86a79d705434c3e0007b872c0610",
+    "src/evaluate.py": "0d8a38d5a04b49953138935628e0b4102fbaffcaeb5e1397ac2cb006a0356918",
+    "src/evaluate_strategy.py": "1f38fc191dafb9be804174bca7e1f71e553588e9128326ab5e8c70b1d3431dfa",
+    "src/models.py": "25235d9989705f9e2e813b472903eb3efffcb062abb5462122a54ebce7cf3e4e",
+    "src/navigation.py": "f9a0a18245092f89dffcb24fd8264b74f4de80f54413b0b8da55031c744e847e",
+    "src/policy_probes.py": "4adb5d70c5d3044bbf0301b6854fcc6d4e93481aefb218c0b6353cdfcf453924",
+    "src/protocol.py": "26556594dcc3715869a897a1dfa30f3c90fb52c4fbc362b50939b0d5de7d84df",
+    "src/render_replay.py": "26f40319e8044c8d734d9e4b5cf2e0c3ade05b0730403ee0602bb6903a7cd419",
+    "src/run_suite.py": "942b55df1d445ae0bf040ece65bd98e4b6c0dbdf2ae82fb9cfd7f44db9483bd0",
+    "src/statistics_report.py": "79329826d28e2925fbba34bfd44437deeb92d108b41274b2fe0d96b05664c49c",
+    "src/strategy.py": "9928b9b2aef6b4cd69b9fac9f8af7d1fbe41f4594945eb5259c707072342cb73",
+    "src/strategy_training.py": "09e2c3e3ea093c4bb5767fb4db4f6e9e8b314f22703fb07463d0ae32152cf4d6",
+    "src/telemetry.py": "de2395a528def357753ffc393f421422171df6a4640146718a0ce4dd76a523a8",
+    "src/train.py": "44b64dd4e3850eea1cba20f3d40a00bc2283ddceced97ea3e99ea67093b995df",
+    "src/utils/__init__.py": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+    "src/utils/autoreset.py": "4c1943534abfd0acd5e3a9aef62030565707e976d9cd981bf1de0ac24e27f589",
+    "src/utils/renderer.py": "f3e8fafe6cc4bd263e6a003a258047f3978e17138e39c7f2793175b1c8ebd6fb",
+    "src/utils/utils.py": "5ed497161778550e682f55616387055ae3137ad6f067ca40719a97e297a5faeb",
+    "src/verify.py": "bec92b840168493015330cac0152f9c6e6d475444519b5c202ba136d808b5e96",
+    "src/verify_learning.py": "460f60caa53631f493535efb7e7ed855c664b834af74d943e0e4efad08449162",
+    "src/verify_strategy.py": "0c6c4f53d947a065ca075a2caaa00506d386c4e1c90fcbe272e924b9d1f43ab1"
+  },
+  "benchmark_source_sha256": "78177f6357f30656579122327fb1afacc4e3e5e69fdc38ab0978941d59e05d69"
+}

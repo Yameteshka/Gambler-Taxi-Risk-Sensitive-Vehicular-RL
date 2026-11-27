@@ -1,0 +1,11 @@
+{
+  "physical_steps": 614296,
+  "network_decisions": 9216,
+  "optimizer_updates": 576,
+  "mean_physical_steps_per_decision": 66.65538194444444,
+  "updates_per_decision": 0.0625,
+  "reward_scale": "Ownership is approximately +1; finite unsuccessful base return is -0.1.",
+  "entropy_upper_bound_initial_config": 4.741492462297708,
+  "entropy_upper_bound_proposed_fixed_config": 0.013933172697424107,
+  "bound_assumptions": "Discounted entropy return, at most one decision per physical tick, categorical <= log(26), tanh control in [-1,1]^2 with differential entropy <= log(4). This is a conservative mathematical upper bound, NOT observed entropy reward and NOT a proof of the failure cause."
+}

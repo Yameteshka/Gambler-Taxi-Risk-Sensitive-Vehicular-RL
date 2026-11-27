@@ -1,0 +1,608 @@
+{
+  "scope": "Development-only execution tests of requested food destinations. Fixed repeated commands test mechanics; no learned weights are changed and no examples enter training.",
+  "cases": [
+    {
+      "scenario": 1,
+      "start": "Home",
+      "destination": "Budget diner",
+      "first_intention_delivered": true,
+      "delivered_with_repeated_target": true,
+      "completion_tick": 37,
+      "outcome": 0,
+      "cash": 95.75120544433594
+    },
+    {
+      "scenario": 1,
+      "start": "Home",
+      "destination": "Cafe",
+      "first_intention_delivered": true,
+      "delivered_with_repeated_target": true,
+      "completion_tick": 104,
+      "outcome": 0,
+      "cash": 84.97669982910156
+    },
+    {
+      "scenario": 1,
+      "start": "Home",
+      "destination": "Restaurant",
+      "first_intention_delivered": true,
+      "delivered_with_repeated_target": true,
+      "completion_tick": 109,
+      "outcome": 0,
+      "cash": 63.117027282714844
+    },
+    {
+      "scenario": 1,
+      "start": "Work",
+      "destination": "Budget diner",
+      "first_intention_delivered": true,
+      "delivered_with_repeated_target": true,
+      "completion_tick": 45,
+      "outcome": 0,
+      "cash": 95.75120544433594
+    },
+    {
+      "scenario": 1,
+      "start": "Work",
+      "destination": "Cafe",
+      "first_intention_delivered": true,
+      "delivered_with_repeated_target": true,
+      "completion_tick": 79,
+      "outcome": 0,
+      "cash": 84.97669982910156
+    },
+    {
+      "scenario": 1,
+      "start": "Work",
+      "destination": "Restaurant",
+      "first_intention_delivered": true,
+      "delivered_with_repeated_target": true,
+      "completion_tick": 84,
+      "outcome": 0,
+      "cash": 63.117027282714844
+    },
+    {
+      "scenario": 2,
+      "start": "Home",
+      "destination": "Budget diner",
+      "first_intention_delivered": true,
+      "delivered_with_repeated_target": true,
+      "completion_tick": 37,
+      "outcome": 0,
+      "cash": 95.64407348632812
+    },
+    {
+      "scenario": 2,
+      "start": "Home",
+      "destination": "Cafe",
+      "first_intention_delivered": true,
+      "delivered_with_repeated_target": true,
+      "completion_tick": 104,
+      "outcome": 0,
+      "cash": 85.56817626953125
+    },
+    {
+      "scenario": 2,
+      "start": "Home",
+      "destination": "Restaurant",
+      "first_intention_delivered": true,
+      "delivered_with_repeated_target": true,
+      "completion_tick": 109,
+      "outcome": 0,
+      "cash": 62.674171447753906
+    },
+    {
+      "scenario": 2,
+      "start": "Work",
+      "destination": "Budget diner",
+      "first_intention_delivered": true,
+      "delivered_with_repeated_target": true,
+      "completion_tick": 45,
+      "outcome": 0,
+      "cash": 95.64407348632812
+    },
+    {
+      "scenario": 2,
+      "start": "Work",
+      "destination": "Cafe",
+      "first_intention_delivered": true,
+      "delivered_with_repeated_target": true,
+      "completion_tick": 79,
+      "outcome": 0,
+      "cash": 85.56817626953125
+    },
+    {
+      "scenario": 2,
+      "start": "Work",
+      "destination": "Restaurant",
+      "first_intention_delivered": true,
+      "delivered_with_repeated_target": true,
+      "completion_tick": 84,
+      "outcome": 0,
+      "cash": 62.674171447753906
+    },
+    {
+      "scenario": 3,
+      "start": "Home",
+      "destination": "Budget diner",
+      "first_intention_delivered": true,
+      "delivered_with_repeated_target": true,
+      "completion_tick": 37,
+      "outcome": 0,
+      "cash": 94.13933563232422
+    },
+    {
+      "scenario": 3,
+      "start": "Home",
+      "destination": "Cafe",
+      "first_intention_delivered": true,
+      "delivered_with_repeated_target": true,
+      "completion_tick": 104,
+      "outcome": 0,
+      "cash": 84.3570327758789
+    },
+    {
+      "scenario": 3,
+      "start": "Home",
+      "destination": "Restaurant",
+      "first_intention_delivered": true,
+      "delivered_with_repeated_target": true,
+      "completion_tick": 109,
+      "outcome": 0,
+      "cash": 64.38908386230469
+    },
+    {
+      "scenario": 3,
+      "start": "Work",
+      "destination": "Budget diner",
+      "first_intention_delivered": true,
+      "delivered_with_repeated_target": true,
+      "completion_tick": 45,
+      "outcome": 0,
+      "cash": 94.13933563232422
+    },
+    {
+      "scenario": 3,
+      "start": "Work",
+      "destination": "Cafe",
+      "first_intention_delivered": true,
+      "delivered_with_repeated_target": true,
+      "completion_tick": 79,
+      "outcome": 0,
+      "cash": 84.3570327758789
+    },
+    {
+      "scenario": 3,
+      "start": "Work",
+      "destination": "Restaurant",
+      "first_intention_delivered": true,
+      "delivered_with_repeated_target": true,
+      "completion_tick": 84,
+      "outcome": 0,
+      "cash": 64.38908386230469
+    },
+    {
+      "scenario": 4,
+      "start": "Home",
+      "destination": "Budget diner",
+      "first_intention_delivered": true,
+      "delivered_with_repeated_target": true,
+      "completion_tick": 37,
+      "outcome": 0,
+      "cash": 94.50846099853516
+    },
+    {
+      "scenario": 4,
+      "start": "Home",
+      "destination": "Cafe",
+      "first_intention_delivered": true,
+      "delivered_with_repeated_target": true,
+      "completion_tick": 104,
+      "outcome": 0,
+      "cash": 83.33738708496094
+    },
+    {
+      "scenario": 4,
+      "start": "Home",
+      "destination": "Restaurant",
+      "first_intention_delivered": true,
+      "delivered_with_repeated_target": true,
+      "completion_tick": 109,
+      "outcome": 0,
+      "cash": 60.96290588378906
+    },
+    {
+      "scenario": 4,
+      "start": "Work",
+      "destination": "Budget diner",
+      "first_intention_delivered": true,
+      "delivered_with_repeated_target": true,
+      "completion_tick": 45,
+      "outcome": 0,
+      "cash": 94.50846099853516
+    },
+    {
+      "scenario": 4,
+      "start": "Work",
+      "destination": "Cafe",
+      "first_intention_delivered": true,
+      "delivered_with_repeated_target": true,
+      "completion_tick": 79,
+      "outcome": 0,
+      "cash": 83.33738708496094
+    },
+    {
+      "scenario": 4,
+      "start": "Work",
+      "destination": "Restaurant",
+      "first_intention_delivered": true,
+      "delivered_with_repeated_target": true,
+      "completion_tick": 84,
+      "outcome": 0,
+      "cash": 60.96290588378906
+    },
+    {
+      "scenario": 5,
+      "start": "Home",
+      "destination": "Budget diner",
+      "first_intention_delivered": true,
+      "delivered_with_repeated_target": true,
+      "completion_tick": 37,
+      "outcome": 0,
+      "cash": 94.7061996459961
+    },
+    {
+      "scenario": 5,
+      "start": "Home",
+      "destination": "Cafe",
+      "first_intention_delivered": true,
+      "delivered_with_repeated_target": true,
+      "completion_tick": 104,
+      "outcome": 0,
+      "cash": 82.77957153320312
+    },
+    {
+      "scenario": 5,
+      "start": "Home",
+      "destination": "Restaurant",
+      "first_intention_delivered": true,
+      "delivered_with_repeated_target": true,
+      "completion_tick": 109,
+      "outcome": 0,
+      "cash": 61.50342559814453
+    },
+    {
+      "scenario": 5,
+      "start": "Work",
+      "destination": "Budget diner",
+      "first_intention_delivered": true,
+      "delivered_with_repeated_target": true,
+      "completion_tick": 45,
+      "outcome": 0,
+      "cash": 94.7061996459961
+    },
+    {
+      "scenario": 5,
+      "start": "Work",
+      "destination": "Cafe",
+      "first_intention_delivered": true,
+      "delivered_with_repeated_target": true,
+      "completion_tick": 79,
+      "outcome": 0,
+      "cash": 82.77957153320312
+    },
+    {
+      "scenario": 5,
+      "start": "Work",
+      "destination": "Restaurant",
+      "first_intention_delivered": true,
+      "delivered_with_repeated_target": true,
+      "completion_tick": 84,
+      "outcome": 0,
+      "cash": 61.50342559814453
+    },
+    {
+      "scenario": 6,
+      "start": "Home",
+      "destination": "Budget diner",
+      "first_intention_delivered": true,
+      "delivered_with_repeated_target": true,
+      "completion_tick": 37,
+      "outcome": 0,
+      "cash": 94.4517822265625
+    },
+    {
+      "scenario": 6,
+      "start": "Home",
+      "destination": "Cafe",
+      "first_intention_delivered": true,
+      "delivered_with_repeated_target": true,
+      "completion_tick": 104,
+      "outcome": 0,
+      "cash": 84.61538696289062
+    },
+    {
+      "scenario": 6,
+      "start": "Home",
+      "destination": "Restaurant",
+      "first_intention_delivered": true,
+      "delivered_with_repeated_target": true,
+      "completion_tick": 109,
+      "outcome": 0,
+      "cash": 63.82792663574219
+    },
+    {
+      "scenario": 6,
+      "start": "Work",
+      "destination": "Budget diner",
+      "first_intention_delivered": true,
+      "delivered_with_repeated_target": true,
+      "completion_tick": 45,
+      "outcome": 0,
+      "cash": 94.4517822265625
+    },
+    {
+      "scenario": 6,
+      "start": "Work",
+      "destination": "Cafe",
+      "first_intention_delivered": true,
+      "delivered_with_repeated_target": true,
+      "completion_tick": 79,
+      "outcome": 0,
+      "cash": 84.61538696289062
+    },
+    {
+      "scenario": 6,
+      "start": "Work",
+      "destination": "Restaurant",
+      "first_intention_delivered": true,
+      "delivered_with_repeated_target": true,
+      "completion_tick": 84,
+      "outcome": 0,
+      "cash": 63.82792663574219
+    },
+    {
+      "scenario": 7,
+      "start": "Home",
+      "destination": "Budget diner",
+      "first_intention_delivered": true,
+      "delivered_with_repeated_target": true,
+      "completion_tick": 37,
+      "outcome": 0,
+      "cash": 94.07571411132812
+    },
+    {
+      "scenario": 7,
+      "start": "Home",
+      "destination": "Cafe",
+      "first_intention_delivered": true,
+      "delivered_with_repeated_target": true,
+      "completion_tick": 104,
+      "outcome": 0,
+      "cash": 82.24371337890625
+    },
+    {
+      "scenario": 7,
+      "start": "Home",
+      "destination": "Restaurant",
+      "first_intention_delivered": true,
+      "delivered_with_repeated_target": true,
+      "completion_tick": 109,
+      "outcome": 0,
+      "cash": 69.31985473632812
+    },
+    {
+      "scenario": 7,
+      "start": "Work",
+      "destination": "Budget diner",
+      "first_intention_delivered": true,
+      "delivered_with_repeated_target": true,
+      "completion_tick": 45,
+      "outcome": 0,
+      "cash": 94.07571411132812
+    },
+    {
+      "scenario": 7,
+      "start": "Work",
+      "destination": "Cafe",
+      "first_intention_delivered": true,
+      "delivered_with_repeated_target": true,
+      "completion_tick": 79,
+      "outcome": 0,
+      "cash": 82.24371337890625
+    },
+    {
+      "scenario": 7,
+      "start": "Work",
+      "destination": "Restaurant",
+      "first_intention_delivered": true,
+      "delivered_with_repeated_target": true,
+      "completion_tick": 84,
+      "outcome": 0,
+      "cash": 69.31985473632812
+    },
+    {
+      "scenario": 8,
+      "start": "Home",
+      "destination": "Budget diner",
+      "first_intention_delivered": true,
+      "delivered_with_repeated_target": true,
+      "completion_tick": 37,
+      "outcome": 0,
+      "cash": 94.70553588867188
+    },
+    {
+      "scenario": 8,
+      "start": "Home",
+      "destination": "Cafe",
+      "first_intention_delivered": true,
+      "delivered_with_repeated_target": true,
+      "completion_tick": 104,
+      "outcome": 0,
+      "cash": 84.96913146972656
+    },
+    {
+      "scenario": 8,
+      "start": "Home",
+      "destination": "Restaurant",
+      "first_intention_delivered": true,
+      "delivered_with_repeated_target": true,
+      "completion_tick": 109,
+      "outcome": 0,
+      "cash": 68.56129455566406
+    },
+    {
+      "scenario": 8,
+      "start": "Work",
+      "destination": "Budget diner",
+      "first_intention_delivered": true,
+      "delivered_with_repeated_target": true,
+      "completion_tick": 45,
+      "outcome": 0,
+      "cash": 94.70553588867188
+    },
+    {
+      "scenario": 8,
+      "start": "Work",
+      "destination": "Cafe",
+      "first_intention_delivered": true,
+      "delivered_with_repeated_target": true,
+      "completion_tick": 79,
+      "outcome": 0,
+      "cash": 84.96913146972656
+    },
+    {
+      "scenario": 8,
+      "start": "Work",
+      "destination": "Restaurant",
+      "first_intention_delivered": true,
+      "delivered_with_repeated_target": true,
+      "completion_tick": 84,
+      "outcome": 0,
+      "cash": 68.56129455566406
+    },
+    {
+      "scenario": 9,
+      "start": "Home",
+      "destination": "Budget diner",
+      "first_intention_delivered": true,
+      "delivered_with_repeated_target": true,
+      "completion_tick": 37,
+      "outcome": 0,
+      "cash": 94.79332733154297
+    },
+    {
+      "scenario": 9,
+      "start": "Home",
+      "destination": "Cafe",
+      "first_intention_delivered": true,
+      "delivered_with_repeated_target": true,
+      "completion_tick": 104,
+      "outcome": 0,
+      "cash": 83.54042053222656
+    },
+    {
+      "scenario": 9,
+      "start": "Home",
+      "destination": "Restaurant",
+      "first_intention_delivered": true,
+      "delivered_with_repeated_target": true,
+      "completion_tick": 109,
+      "outcome": 0,
+      "cash": 69.79380798339844
+    },
+    {
+      "scenario": 9,
+      "start": "Work",
+      "destination": "Budget diner",
+      "first_intention_delivered": true,
+      "delivered_with_repeated_target": true,
+      "completion_tick": 45,
+      "outcome": 0,
+      "cash": 94.79332733154297
+    },
+    {
+      "scenario": 9,
+      "start": "Work",
+      "destination": "Cafe",
+      "first_intention_delivered": true,
+      "delivered_with_repeated_target": true,
+      "completion_tick": 79,
+      "outcome": 0,
+      "cash": 83.54042053222656
+    },
+    {
+      "scenario": 9,
+      "start": "Work",
+      "destination": "Restaurant",
+      "first_intention_delivered": true,
+      "delivered_with_repeated_target": true,
+      "completion_tick": 84,
+      "outcome": 0,
+      "cash": 69.79380798339844
+    },
+    {
+      "scenario": 10,
+      "start": "Home",
+      "destination": "Budget diner",
+      "first_intention_delivered": true,
+      "delivered_with_repeated_target": true,
+      "completion_tick": 37,
+      "outcome": 0,
+      "cash": 94.14041900634766
+    },
+    {
+      "scenario": 10,
+      "start": "Home",
+      "destination": "Cafe",
+      "first_intention_delivered": true,
+      "delivered_with_repeated_target": true,
+      "completion_tick": 104,
+      "outcome": 0,
+      "cash": 82.25811004638672
+    },
+    {
+      "scenario": 10,
+      "start": "Home",
+      "destination": "Restaurant",
+      "first_intention_delivered": true,
+      "delivered_with_repeated_target": true,
+      "completion_tick": 109,
+      "outcome": 0,
+      "cash": 62.54166030883789
+    },
+    {
+      "scenario": 10,
+      "start": "Work",
+      "destination": "Budget diner",
+      "first_intention_delivered": true,
+      "delivered_with_repeated_target": true,
+      "completion_tick": 45,
+      "outcome": 0,
+      "cash": 94.14041900634766
+    },
+    {
+      "scenario": 10,
+      "start": "Work",
+      "destination": "Cafe",
+      "first_intention_delivered": true,
+      "delivered_with_repeated_target": true,
+      "completion_tick": 79,
+      "outcome": 0,
+      "cash": 82.25811004638672
+    },
+    {
+      "scenario": 10,
+      "start": "Work",
+      "destination": "Restaurant",
+      "first_intention_delivered": true,
+      "delivered_with_repeated_target": true,
+      "completion_tick": 84,
+      "outcome": 0,
+      "cash": 62.54166030883789
+    }
+  ],
+  "one_intention_deliveries": 60,
+  "repeated_target_deliveries": 60,
+  "total_cases": 60
+}

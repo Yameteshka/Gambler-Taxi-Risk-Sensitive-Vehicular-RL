@@ -1,0 +1,29 @@
+{
+  "passed": true,
+  "scope": "Frozen-critic logit gradient only; no full-game learning claim.",
+  "best_legal_actions": [
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5
+  ],
+  "restaurant_q_mean": 0.8334317207336426,
+  "buy_q_mean": -0.07745710015296936,
+  "restaurant_reverse_gradient_mean": -4.587741991857186e-11,
+  "restaurant_forward_gradient_mean": -0.0625,
+  "gradient_magnitude_ratio_restaurant": 1362326016.0,
+  "restaurant_probability_before": 8.055153766228784e-10,
+  "restaurant_probability_after_one_logit_step": 5.932683233567104e-09
+}

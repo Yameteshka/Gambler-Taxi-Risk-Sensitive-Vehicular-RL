@@ -1,0 +1,17 @@
+path,group,bytes
+baseline/artifacts/assignment1.mp4,baseline,665878
+baseline/artifacts/assignment2.mp4,baseline,653836
+baseline/artifacts/bank_repayment.mp4,baseline,755255
+baseline/artifacts/casino_policy.mp4,baseline,691615
+baseline/artifacts/chase_losses.mp4,baseline,1583909
+baseline/artifacts/debt_chase.mp4,baseline,4245719
+baseline/artifacts/debt_cycle.mp4,baseline,1613476
+baseline/artifacts/debt_research/cases/seed_91038.mp4,baseline,3959372
+baseline/artifacts/debt_upside.mp4,baseline,1918472
+baseline/artifacts/debt_work.mp4,baseline,3599940
+baseline/artifacts/dependence.mp4,baseline,781566
+baseline/artifacts/hard_world_policy.mp4,baseline,2191861
+baseline/artifacts/hard_world_risk_policy.mp4,baseline,1851450
+baseline/artifacts/hard_world_work.mp4,baseline,2071857
+media/video/calibrated-reference-replay.mp4,media,828344
+media/video/environment-demonstration.mp4,media,618797

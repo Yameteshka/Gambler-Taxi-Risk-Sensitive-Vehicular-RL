@@ -1,0 +1,706 @@
+{
+  "summary": {
+    "meal_deliveries": 49,
+    "venues": {
+      "0": 49
+    },
+    "meal_count_per_eating_episode": {
+      "1": 13,
+      "3": 5,
+      "6": 1,
+      "2": 3,
+      "4": 1,
+      "5": 1
+    },
+    "mean_total_portion_per_eating_episode": 0.09907303595294555,
+    "eating_episodes_starved": 24,
+    "examples": [
+      {
+        "scenario": 1000002,
+        "meals": 1,
+        "nominal_portions_total": 0.05396074056625366,
+        "last_meal_tick": 252,
+        "last_meal_satiety_after": 0.27085793018341064,
+        "end_tick": 375,
+        "outcome": 4,
+        "cash_at_end": 344.02557373046875
+      },
+      {
+        "scenario": 1000004,
+        "meals": 1,
+        "nominal_portions_total": 0.041353654116392136,
+        "last_meal_tick": 288,
+        "last_meal_satiety_after": 0.1914515495300293,
+        "end_tick": 377,
+        "outcome": 4,
+        "cash_at_end": 169.5391387939453
+      },
+      {
+        "scenario": 1000008,
+        "meals": 3,
+        "nominal_portions_total": 0.1362648457288742,
+        "last_meal_tick": 317,
+        "last_meal_satiety_after": 0.2366626262664795,
+        "end_tick": 426,
+        "outcome": 4,
+        "cash_at_end": 157.7158966064453
+      },
+      {
+        "scenario": 1000013,
+        "meals": 1,
+        "nominal_portions_total": 0.05339441075921059,
+        "last_meal_tick": 276,
+        "last_meal_satiety_after": 0.22759220004081726,
+        "end_tick": 381,
+        "outcome": 4,
+        "cash_at_end": 127.22200012207031
+      },
+      {
+        "scenario": 1000019,
+        "meals": 6,
+        "nominal_portions_total": 0.3118894621729851,
+        "last_meal_tick": 448,
+        "last_meal_satiety_after": 0.07248738408088684,
+        "end_tick": 480,
+        "outcome": 4,
+        "cash_at_end": 273.7373046875
+      }
+    ]
+  },
+  "episodes": [
+    {
+      "scenario": 1000002,
+      "meals": 1,
+      "nominal_portions_total": 0.05396074056625366,
+      "last_meal_tick": 252,
+      "last_meal_satiety_after": 0.27085793018341064,
+      "end_tick": 375,
+      "outcome": 4,
+      "cash_at_end": 344.02557373046875
+    },
+    {
+      "scenario": 1000004,
+      "meals": 1,
+      "nominal_portions_total": 0.041353654116392136,
+      "last_meal_tick": 288,
+      "last_meal_satiety_after": 0.1914515495300293,
+      "end_tick": 377,
+      "outcome": 4,
+      "cash_at_end": 169.5391387939453
+    },
+    {
+      "scenario": 1000008,
+      "meals": 3,
+      "nominal_portions_total": 0.1362648457288742,
+      "last_meal_tick": 317,
+      "last_meal_satiety_after": 0.2366626262664795,
+      "end_tick": 426,
+      "outcome": 4,
+      "cash_at_end": 157.7158966064453
+    },
+    {
+      "scenario": 1000013,
+      "meals": 1,
+      "nominal_portions_total": 0.05339441075921059,
+      "last_meal_tick": 276,
+      "last_meal_satiety_after": 0.22759220004081726,
+      "end_tick": 381,
+      "outcome": 4,
+      "cash_at_end": 127.22200012207031
+    },
+    {
+      "scenario": 1000019,
+      "meals": 6,
+      "nominal_portions_total": 0.3118894621729851,
+      "last_meal_tick": 448,
+      "last_meal_satiety_after": 0.07248738408088684,
+      "end_tick": 480,
+      "outcome": 4,
+      "cash_at_end": 273.7373046875
+    },
+    {
+      "scenario": 1000020,
+      "meals": 1,
+      "nominal_portions_total": 0.041093967854976654,
+      "last_meal_tick": 263,
+      "last_meal_satiety_after": 0.24069154262542725,
+      "end_tick": 373,
+      "outcome": 4,
+      "cash_at_end": 169.54550170898438
+    },
+    {
+      "scenario": 1000021,
+      "meals": 3,
+      "nominal_portions_total": 0.13467513397336006,
+      "last_meal_tick": 340,
+      "last_meal_satiety_after": 0.17167270183563232,
+      "end_tick": 419,
+      "outcome": 4,
+      "cash_at_end": 162.8820343017578
+    },
+    {
+      "scenario": 1000024,
+      "meals": 1,
+      "nominal_portions_total": 0.04553471878170967,
+      "last_meal_tick": 276,
+      "last_meal_satiety_after": 0.22173260152339935,
+      "end_tick": 378,
+      "outcome": 4,
+      "cash_at_end": 230.67269897460938
+    },
+    {
+      "scenario": 1000026,
+      "meals": 1,
+      "nominal_portions_total": 0.047845859080553055,
+      "last_meal_tick": 273,
+      "last_meal_satiety_after": 0.2254435271024704,
+      "end_tick": 377,
+      "outcome": 4,
+      "cash_at_end": 170.47694396972656
+    },
+    {
+      "scenario": 1000029,
+      "meals": 2,
+      "nominal_portions_total": 0.08637381717562675,
+      "last_meal_tick": 273,
+      "last_meal_satiety_after": 0.2684715688228607,
+      "end_tick": 395,
+      "outcome": 4,
+      "cash_at_end": 120.07664489746094
+    },
+    {
+      "scenario": 1000031,
+      "meals": 1,
+      "nominal_portions_total": 0.045508794486522675,
+      "last_meal_tick": 286,
+      "last_meal_satiety_after": 0.2002066969871521,
+      "end_tick": 379,
+      "outcome": 4,
+      "cash_at_end": 170.33255004882812
+    },
+    {
+      "scenario": 1000032,
+      "meals": 4,
+      "nominal_portions_total": 0.19302914291620255,
+      "last_meal_tick": 273,
+      "last_meal_satiety_after": 0.3756268322467804,
+      "end_tick": 443,
+      "outcome": 4,
+      "cash_at_end": 0.0
+    },
+    {
+      "scenario": 1000035,
+      "meals": 1,
+      "nominal_portions_total": 0.04113755747675896,
+      "last_meal_tick": 339,
+      "last_meal_satiety_after": 0.07743501663208008,
+      "end_tick": 373,
+      "outcome": 4,
+      "cash_at_end": 230.7882080078125
+    },
+    {
+      "scenario": 1000036,
+      "meals": 2,
+      "nominal_portions_total": 0.09945765882730484,
+      "last_meal_tick": 274,
+      "last_meal_satiety_after": 0.27775537967681885,
+      "end_tick": 400,
+      "outcome": 4,
+      "cash_at_end": 122.6114501953125
+    },
+    {
+      "scenario": 1000040,
+      "meals": 1,
+      "nominal_portions_total": 0.04579504579305649,
+      "last_meal_tick": 278,
+      "last_meal_satiety_after": 0.21689292788505554,
+      "end_tick": 378,
+      "outcome": 4,
+      "cash_at_end": 126.94110870361328
+    },
+    {
+      "scenario": 1000042,
+      "meals": 5,
+      "nominal_portions_total": 0.26879164204001427,
+      "last_meal_tick": 255,
+      "last_meal_satiety_after": 0.4827888607978821,
+      "end_tick": 471,
+      "outcome": 4,
+      "cash_at_end": 0.0
+    },
+    {
+      "scenario": 1000043,
+      "meals": 2,
+      "nominal_portions_total": 0.09146756306290627,
+      "last_meal_tick": 284,
+      "last_meal_satiety_after": 0.25176551938056946,
+      "end_tick": 399,
+      "outcome": 4,
+      "cash_at_end": 123.20040893554688
+    },
+    {
+      "scenario": 1000048,
+      "meals": 1,
+      "nominal_portions_total": 0.05895530804991722,
+      "last_meal_tick": 280,
+      "last_meal_satiety_after": 0.22395312786102295,
+      "end_tick": 383,
+      "outcome": 4,
+      "cash_at_end": 170.46310424804688
+    },
+    {
+      "scenario": 1000049,
+      "meals": 1,
+      "nominal_portions_total": 0.04072717949748039,
+      "last_meal_tick": 272,
+      "last_meal_satiety_after": 0.22362495958805084,
+      "end_tick": 375,
+      "outcome": 4,
+      "cash_at_end": 270.7739562988281
+    },
+    {
+      "scenario": 1000050,
+      "meals": 3,
+      "nominal_portions_total": 0.1367318145930767,
+      "last_meal_tick": 278,
+      "last_meal_satiety_after": 0.30732959508895874,
+      "end_tick": 418,
+      "outcome": 4,
+      "cash_at_end": 159.64468383789062
+    },
+    {
+      "scenario": 1000051,
+      "meals": 3,
+      "nominal_portions_total": 0.14976264163851738,
+      "last_meal_tick": 262,
+      "last_meal_satiety_after": 0.3506600856781006,
+      "end_tick": 421,
+      "outcome": 4,
+      "cash_at_end": 0.0
+    },
+    {
+      "scenario": 1000055,
+      "meals": 1,
+      "nominal_portions_total": 0.04670386761426926,
+      "last_meal_tick": 265,
+      "last_meal_satiety_after": 0.24320152401924133,
+      "end_tick": 378,
+      "outcome": 4,
+      "cash_at_end": 170.23585510253906
+    },
+    {
+      "scenario": 1000059,
+      "meals": 3,
+      "nominal_portions_total": 0.15189947560429573,
+      "last_meal_tick": 265,
+      "last_meal_satiety_after": 0.3468969166278839,
+      "end_tick": 422,
+      "outcome": 4,
+      "cash_at_end": 0.0
+    },
+    {
+      "scenario": 1000062,
+      "meals": 1,
+      "nominal_portions_total": 0.05539856106042862,
+      "last_meal_tick": 283,
+      "last_meal_satiety_after": 0.21399641036987305,
+      "end_tick": 382,
+      "outcome": 4,
+      "cash_at_end": 230.95306396484375
+    }
+  ],
+  "meals": [
+    {
+      "scenario": 1000002,
+      "tick": 252,
+      "venue": 0,
+      "portion": 0.05396074056625366,
+      "satiety_after": 0.27085793018341064,
+      "cash": 344.02557373046875
+    },
+    {
+      "scenario": 1000042,
+      "tick": 247,
+      "venue": 0,
+      "portion": 0.054076187312603,
+      "satiety_after": 0.2824734151363373,
+      "cash": 169.79678344726562
+    },
+    {
+      "scenario": 1000055,
+      "tick": 265,
+      "venue": 0,
+      "portion": 0.04670386761426926,
+      "satiety_after": 0.24320152401924133,
+      "cash": 170.23585510253906
+    },
+    {
+      "scenario": 1000020,
+      "tick": 263,
+      "venue": 0,
+      "portion": 0.041093967854976654,
+      "satiety_after": 0.24069154262542725,
+      "cash": 169.54550170898438
+    },
+    {
+      "scenario": 1000032,
+      "tick": 267,
+      "venue": 0,
+      "portion": 0.04690250754356384,
+      "satiety_after": 0.24030020833015442,
+      "cash": 231.78985595703125
+    },
+    {
+      "scenario": 1000013,
+      "tick": 276,
+      "venue": 0,
+      "portion": 0.05339441075921059,
+      "satiety_after": 0.22759220004081726,
+      "cash": 127.22200012207031
+    },
+    {
+      "scenario": 1000036,
+      "tick": 272,
+      "venue": 0,
+      "portion": 0.05188776180148125,
+      "satiety_after": 0.2337854951620102,
+      "cash": 126.93072509765625
+    },
+    {
+      "scenario": 1000050,
+      "tick": 274,
+      "venue": 0,
+      "portion": 0.05106394737958908,
+      "satiety_after": 0.2288617193698883,
+      "cash": 169.88156127929688
+    },
+    {
+      "scenario": 1000026,
+      "tick": 273,
+      "venue": 0,
+      "portion": 0.047845859080553055,
+      "satiety_after": 0.2254435271024704,
+      "cash": 170.47694396972656
+    },
+    {
+      "scenario": 1000048,
+      "tick": 280,
+      "venue": 0,
+      "portion": 0.05895530804991722,
+      "satiety_after": 0.22395312786102295,
+      "cash": 170.46310424804688
+    },
+    {
+      "scenario": 1000032,
+      "tick": 269,
+      "venue": 0,
+      "portion": 0.04941604658961296,
+      "satiety_after": 0.28611624240875244,
+      "cash": 227.3297119140625
+    },
+    {
+      "scenario": 1000036,
+      "tick": 274,
+      "venue": 0,
+      "portion": 0.04756989702582359,
+      "satiety_after": 0.27775537967681885,
+      "cash": 122.6114501953125
+    },
+    {
+      "scenario": 1000042,
+      "tick": 249,
+      "venue": 0,
+      "portion": 0.053930290043354034,
+      "satiety_after": 0.3328036963939667,
+      "cash": 164.59356689453125
+    },
+    {
+      "scenario": 1000050,
+      "tick": 276,
+      "venue": 0,
+      "portion": 0.04185694456100464,
+      "satiety_after": 0.2671186625957489,
+      "cash": 164.76312255859375
+    },
+    {
+      "scenario": 1000049,
+      "tick": 272,
+      "venue": 0,
+      "portion": 0.04072717949748039,
+      "satiety_after": 0.22362495958805084,
+      "cash": 270.7739562988281
+    },
+    {
+      "scenario": 1000040,
+      "tick": 278,
+      "venue": 0,
+      "portion": 0.04579504579305649,
+      "satiety_after": 0.21689292788505554,
+      "cash": 126.94110870361328
+    },
+    {
+      "scenario": 1000032,
+      "tick": 271,
+      "venue": 0,
+      "portion": 0.04456701502203941,
+      "satiety_after": 0.3270832598209381,
+      "cash": 222.86956787109375
+    },
+    {
+      "scenario": 1000042,
+      "tick": 251,
+      "venue": 0,
+      "portion": 0.05013580247759819,
+      "satiety_after": 0.3793394863605499,
+      "cash": 159.39035034179688
+    },
+    {
+      "scenario": 1000050,
+      "tick": 278,
+      "venue": 0,
+      "portion": 0.043810922652482986,
+      "satiety_after": 0.30732959508895874,
+      "cash": 159.64468383789062
+    },
+    {
+      "scenario": 1000024,
+      "tick": 276,
+      "venue": 0,
+      "portion": 0.04553471878170967,
+      "satiety_after": 0.22173260152339935,
+      "cash": 230.67269897460938
+    },
+    {
+      "scenario": 1000029,
+      "tick": 271,
+      "venue": 0,
+      "portion": 0.04491809010505676,
+      "satiety_after": 0.23061585426330566,
+      "cash": 125.66332244873047
+    },
+    {
+      "scenario": 1000031,
+      "tick": 286,
+      "venue": 0,
+      "portion": 0.045508794486522675,
+      "satiety_after": 0.2002066969871521,
+      "cash": 170.33255004882812
+    },
+    {
+      "scenario": 1000043,
+      "tick": 282,
+      "venue": 0,
+      "portion": 0.049949727952480316,
+      "satiety_after": 0.21384769678115845,
+      "cash": 127.22520446777344
+    },
+    {
+      "scenario": 1000004,
+      "tick": 288,
+      "venue": 0,
+      "portion": 0.041353654116392136,
+      "satiety_after": 0.1914515495300293,
+      "cash": 169.5391387939453
+    },
+    {
+      "scenario": 1000062,
+      "tick": 283,
+      "venue": 0,
+      "portion": 0.05539856106042862,
+      "satiety_after": 0.21399641036987305,
+      "cash": 230.95306396484375
+    },
+    {
+      "scenario": 1000029,
+      "tick": 273,
+      "venue": 0,
+      "portion": 0.04145572707056999,
+      "satiety_after": 0.2684715688228607,
+      "cash": 120.07664489746094
+    },
+    {
+      "scenario": 1000032,
+      "tick": 273,
+      "venue": 0,
+      "portion": 0.05214357376098633,
+      "satiety_after": 0.3756268322467804,
+      "cash": 218.409423828125
+    },
+    {
+      "scenario": 1000042,
+      "tick": 253,
+      "venue": 0,
+      "portion": 0.053162649273872375,
+      "satiety_after": 0.42890214920043945,
+      "cash": 154.1871337890625
+    },
+    {
+      "scenario": 1000043,
+      "tick": 284,
+      "venue": 0,
+      "portion": 0.04151783511042595,
+      "satiety_after": 0.25176551938056946,
+      "cash": 123.20040893554688
+    },
+    {
+      "scenario": 1000008,
+      "tick": 313,
+      "venue": 0,
+      "portion": 0.04825117439031601,
+      "satiety_after": 0.15584896504878998,
+      "cash": 169.23863220214844
+    },
+    {
+      "scenario": 1000008,
+      "tick": 315,
+      "venue": 0,
+      "portion": 0.04793228954076767,
+      "satiety_after": 0.200181245803833,
+      "cash": 163.47726440429688
+    },
+    {
+      "scenario": 1000042,
+      "tick": 255,
+      "venue": 0,
+      "portion": 0.05748671293258667,
+      "satiety_after": 0.4827888607978821,
+      "cash": 148.98391723632812
+    },
+    {
+      "scenario": 1000008,
+      "tick": 317,
+      "venue": 0,
+      "portion": 0.04008138179779053,
+      "satiety_after": 0.2366626262664795,
+      "cash": 157.7158966064453
+    },
+    {
+      "scenario": 1000059,
+      "tick": 261,
+      "venue": 0,
+      "portion": 0.04049497842788696,
+      "satiety_after": 0.24269244074821472,
+      "cash": 257.817138671875
+    },
+    {
+      "scenario": 1000059,
+      "tick": 263,
+      "venue": 0,
+      "portion": 0.058655746281147,
+      "satiety_after": 0.2977481782436371,
+      "cash": 253.19149780273438
+    },
+    {
+      "scenario": 1000059,
+      "tick": 265,
+      "venue": 0,
+      "portion": 0.052748750895261765,
+      "satiety_after": 0.3468969166278839,
+      "cash": 248.56585693359375
+    },
+    {
+      "scenario": 1000019,
+      "tick": 250,
+      "venue": 0,
+      "portion": 0.05763063579797745,
+      "satiety_after": 0.28412801027297974,
+      "cash": 125.68985748291016
+    },
+    {
+      "scenario": 1000051,
+      "tick": 258,
+      "venue": 0,
+      "portion": 0.05543965846300125,
+      "satiety_after": 0.26353710889816284,
+      "cash": 302.1875
+    },
+    {
+      "scenario": 1000035,
+      "tick": 339,
+      "venue": 0,
+      "portion": 0.04113755747675896,
+      "satiety_after": 0.07743501663208008,
+      "cash": 230.7882080078125
+    },
+    {
+      "scenario": 1000019,
+      "tick": 252,
+      "venue": 0,
+      "portion": 0.052721381187438965,
+      "satiety_after": 0.33324939012527466,
+      "cash": 120.12971496582031
+    },
+    {
+      "scenario": 1000051,
+      "tick": 260,
+      "venue": 0,
+      "portion": 0.04376950487494469,
+      "satiety_after": 0.3037066161632538,
+      "cash": 298.125
+    },
+    {
+      "scenario": 1000019,
+      "tick": 254,
+      "venue": 0,
+      "portion": 0.04816019535064697,
+      "satiety_after": 0.3778095841407776,
+      "cash": 114.56957244873047
+    },
+    {
+      "scenario": 1000051,
+      "tick": 262,
+      "venue": 0,
+      "portion": 0.05055347830057144,
+      "satiety_after": 0.3506600856781006,
+      "cash": 294.0625
+    },
+    {
+      "scenario": 1000019,
+      "tick": 256,
+      "venue": 0,
+      "portion": 0.05044890567660332,
+      "satiety_after": 0.42465847730636597,
+      "cash": 109.00942993164062
+    },
+    {
+      "scenario": 1000019,
+      "tick": 258,
+      "venue": 0,
+      "portion": 0.05085119605064392,
+      "satiety_after": 0.47190967202186584,
+      "cash": 103.44928741455078
+    },
+    {
+      "scenario": 1000021,
+      "tick": 336,
+      "venue": 0,
+      "portion": 0.0503513403236866,
+      "satiety_after": 0.09454891085624695,
+      "cash": 170.96067810058594
+    },
+    {
+      "scenario": 1000021,
+      "tick": 338,
+      "venue": 0,
+      "portion": 0.043018124997615814,
+      "satiety_after": 0.13396704196929932,
+      "cash": 166.92135620117188
+    },
+    {
+      "scenario": 1000021,
+      "tick": 340,
+      "venue": 0,
+      "portion": 0.04130566865205765,
+      "satiety_after": 0.17167270183563232,
+      "cash": 162.8820343017578
+    },
+    {
+      "scenario": 1000019,
+      "tick": 448,
+      "venue": 0,
+      "portion": 0.052077148109674454,
+      "satiety_after": 0.07248738408088684,
+      "cash": 273.7373046875
+    }
+  ]
+}

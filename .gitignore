@@ -1,0 +1,14 @@
+__pycache__/
+.venv*/
+*.tmp
+runs/
+
+# Local experiment output and archived source copies
+/artifacts/
+/exports/
+/experiments/archive_interrupted_study/
+/baseline/instructions/
+/baseline/src/algorithms/readme.md
+/experiments/queue_status.json
+/reports/local_food_recovery/execution_status.json
+/reports/replay_gallery.html

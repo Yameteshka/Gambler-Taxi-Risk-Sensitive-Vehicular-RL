@@ -1,0 +1,210 @@
+[
+  {
+    "pilot": "runs\\pilots\\dsac_mlp_10d_curriculum_dynamic_repA\\616881e803_4194304",
+    "kind": "dsac_mlp",
+    "steps": 4194304,
+    "state": "home",
+    "cue": [
+      0.4333333969116211,
+      0.0,
+      0.14000000059604645
+    ],
+    "mean_control": [
+      -0.9999629855155945,
+      -0.9999924302101135
+    ],
+    "raw_std": [
+      1.6487212181091309,
+      1.6487212181091309
+    ],
+    "probabilities": {
+      "Drive": 1.0,
+      "Sleep": 2.766433127021628e-08,
+      "Wait": 9.357539632048884e-09,
+      "Work": 0.0,
+      "Eat": 0.0
+    }
+  },
+  {
+    "pilot": "runs\\pilots\\dsac_mlp_10d_curriculum_dynamic_repA\\616881e803_4194304",
+    "kind": "dsac_mlp",
+    "steps": 4194304,
+    "state": "work",
+    "cue": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "mean_control": [
+      -0.9999666213989258,
+      -0.999993622303009
+    ],
+    "raw_std": [
+      1.6487212181091309,
+      1.6487212181091309
+    ],
+    "probabilities": {
+      "Drive": 0.9998481869697571,
+      "Work": 0.0001518521021353081,
+      "Wait": 7.186507389178587e-09,
+      "Sleep": 0.0,
+      "Eat": 0.0
+    }
+  },
+  {
+    "pilot": "runs\\pilots\\dsac_mlp_10d_curriculum_dynamic_repA\\616881e803_4194304",
+    "kind": "dsac_mlp",
+    "steps": 4194304,
+    "state": "hungry_diner",
+    "cue": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "mean_control": [
+      -0.9999743700027466,
+      -0.9999957084655762
+    ],
+    "raw_std": [
+      1.6487212181091309,
+      1.6487212181091309
+    ],
+    "probabilities": {
+      "Drive": 0.9997513890266418,
+      "Eat": 0.00024854973889887333,
+      "Wait": 2.8109776728513225e-09,
+      "Work": 0.0,
+      "Sleep": 0.0
+    }
+  },
+  {
+    "pilot": "runs\\pilots\\dsac_mlp_10d_curriculum_dynamic_repA\\616881e803_4194304",
+    "kind": "dsac_mlp",
+    "steps": 4194304,
+    "state": "solvent_bank",
+    "cue": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "mean_control": [
+      -0.9999967813491821,
+      -0.999999463558197
+    ],
+    "raw_std": [
+      1.6487212181091309,
+      1.6487212181091309
+    ],
+    "probabilities": {
+      "Borrow 100": 0.9942697882652283,
+      "Drive": 0.0057284533977508545,
+      "Car payment 100": 8.265051860689709e-07,
+      "Pay car in full": 5.309870516612136e-07,
+      "Car payment 25": 1.8807006085808098e-07
+    }
+  },
+  {
+    "pilot": "runs\\pilots\\ppo_mlp_10d_curriculum_dynamic_repA\\616881e803_4194304",
+    "kind": "ppo_mlp",
+    "steps": 4194304,
+    "state": "home",
+    "cue": [
+      0.4333333969116211,
+      0.0,
+      0.14000000059604645
+    ],
+    "mean_control": [
+      -0.8377327919006348,
+      0.9508691430091858
+    ],
+    "raw_std": [
+      0.455234169960022,
+      1.1632758378982544
+    ],
+    "probabilities": {
+      "Sleep": 0.7599353194236755,
+      "Wait": 0.2178797721862793,
+      "Drive": 0.0221849512308836,
+      "Work": 0.0,
+      "Eat": 0.0
+    }
+  },
+  {
+    "pilot": "runs\\pilots\\ppo_mlp_10d_curriculum_dynamic_repA\\616881e803_4194304",
+    "kind": "ppo_mlp",
+    "steps": 4194304,
+    "state": "work",
+    "cue": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "mean_control": [
+      -0.8018233776092529,
+      0.9389091730117798
+    ],
+    "raw_std": [
+      0.33476781845092773,
+      0.7187448143959045
+    ],
+    "probabilities": {
+      "Wait": 0.5201296210289001,
+      "Drive": 0.45743417739868164,
+      "Work": 0.02243618108332157,
+      "Sleep": 0.0,
+      "Eat": 0.0
+    }
+  },
+  {
+    "pilot": "runs\\pilots\\ppo_mlp_10d_curriculum_dynamic_repA\\616881e803_4194304",
+    "kind": "ppo_mlp",
+    "steps": 4194304,
+    "state": "hungry_diner",
+    "cue": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "mean_control": [
+      -0.935012698173523,
+      0.9880872368812561
+    ],
+    "raw_std": [
+      0.581443727016449,
+      1.2371512651443481
+    ],
+    "probabilities": {
+      "Drive": 0.5090767741203308,
+      "Wait": 0.25108602643013,
+      "Eat": 0.2398371398448944,
+      "Work": 0.0,
+      "Sleep": 0.0
+    }
+  },
+  {
+    "pilot": "runs\\pilots\\ppo_mlp_10d_curriculum_dynamic_repA\\616881e803_4194304",
+    "kind": "ppo_mlp",
+    "steps": 4194304,
+    "state": "solvent_bank",
+    "cue": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "mean_control": [
+      -0.7015575170516968,
+      0.8865314722061157
+    ],
+    "raw_std": [
+      0.3529205918312073,
+      0.7607627511024475
+    ],
+    "probabilities": {
+      "Car payment 100": 0.42030179500579834,
+      "Borrow 25": 0.15698274970054626,
+      "Car payment 25": 0.09785743802785873,
+      "Drive": 0.0856141448020935,
+      "Pay car in full": 0.07309271395206451
+    }
+  }
+]

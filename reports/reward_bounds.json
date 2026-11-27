@@ -1,0 +1,11 @@
+{
+  "discount": 0.999,
+  "failure_cost": 0.1,
+  "financial_range_for_common_start": 0.2,
+  "finite_task_pathwise_ownership_lower_bounds": {
+    "5": 0.30708477596676914,
+    "10": 0.03352530458841019,
+    "30": -0.18949617572040717
+  },
+  "scope": "Reward ordering for trajectories from a common initial financial state. Not optimality, learnability, or an ordering of policies with different success probabilities."
+}

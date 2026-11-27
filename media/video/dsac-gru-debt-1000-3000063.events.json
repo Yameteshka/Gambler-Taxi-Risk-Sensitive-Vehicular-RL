@@ -1,0 +1,186 @@
+[
+  {
+    "tick": 1,
+    "text": "Intention selected: Wait."
+  },
+  {
+    "tick": 9,
+    "text": "Intention selected: Work."
+  },
+  {
+    "tick": 65,
+    "text": "Shift completed: wages received."
+  },
+  {
+    "tick": 108,
+    "text": "Intention selected: Restaurant."
+  },
+  {
+    "tick": 177,
+    "text": "Meal delivered; satiety restored by the recorded portion."
+  },
+  {
+    "tick": 178,
+    "text": "Intention selected: Work."
+  },
+  {
+    "tick": 225,
+    "text": "Work window missed."
+  },
+  {
+    "tick": 272,
+    "text": "Intention selected: Refill 5."
+  },
+  {
+    "tick": 312,
+    "text": "Refueling completed."
+  },
+  {
+    "tick": 313,
+    "text": "Intention selected: Work."
+  },
+  {
+    "tick": 390,
+    "text": "Shift completed: wages received."
+  },
+  {
+    "tick": 391,
+    "text": "Intention selected: Restaurant."
+  },
+  {
+    "tick": 462,
+    "text": "Meal delivered; satiety restored by the recorded portion."
+  },
+  {
+    "tick": 463,
+    "text": "Intention selected: Work."
+  },
+  {
+    "tick": 465,
+    "text": "Scheduled-payment shortfall: late fee charged."
+  },
+  {
+    "tick": 562,
+    "text": "Shift completed: wages received."
+  },
+  {
+    "tick": 563,
+    "text": "Intention selected: Refill 5."
+  },
+  {
+    "tick": 606,
+    "text": "Refueling completed."
+  },
+  {
+    "tick": 607,
+    "text": "Intention selected: Work."
+  },
+  {
+    "tick": 689,
+    "text": "Shift completed: wages received."
+  },
+  {
+    "tick": 690,
+    "text": "Intention selected: Wait."
+  },
+  {
+    "tick": 706,
+    "text": "Intention selected: Work."
+  },
+  {
+    "tick": 707,
+    "text": "Intention selected: Restaurant."
+  },
+  {
+    "tick": 790,
+    "text": "Meal delivered; satiety restored by the recorded portion."
+  },
+  {
+    "tick": 791,
+    "text": "Intention selected: Work."
+  },
+  {
+    "tick": 845,
+    "text": "Work window missed."
+  },
+  {
+    "tick": 868,
+    "text": "Intention selected: Refill 5."
+  },
+  {
+    "tick": 912,
+    "text": "Refueling completed."
+  },
+  {
+    "tick": 913,
+    "text": "Intention selected: Work."
+  },
+  {
+    "tick": 930,
+    "text": "Scheduled-payment shortfall: late fee charged."
+  },
+  {
+    "tick": 989,
+    "text": "Shift completed: wages received."
+  },
+  {
+    "tick": 990,
+    "text": "Intention selected: Wait."
+  },
+  {
+    "tick": 1014,
+    "text": "Intention selected: Car payment 100."
+  },
+  {
+    "tick": 1051,
+    "text": "Car payment: $100.00."
+  },
+  {
+    "tick": 1054,
+    "text": "Car payment: $100.00."
+  },
+  {
+    "tick": 1057,
+    "text": "Car payment: $100.00."
+  },
+  {
+    "tick": 1060,
+    "text": "Car payment: $100.00."
+  },
+  {
+    "tick": 1063,
+    "text": "Car payment: $100.00."
+  },
+  {
+    "tick": 1066,
+    "text": "Car payment: $100.00."
+  },
+  {
+    "tick": 1069,
+    "text": "Car payment: $100.00."
+  },
+  {
+    "tick": 1072,
+    "text": "Car payment: $100.00."
+  },
+  {
+    "tick": 1075,
+    "text": "Car payment: $100.00."
+  },
+  {
+    "tick": 1078,
+    "text": "Car payment: $100.00."
+  },
+  {
+    "tick": 1081,
+    "text": "Car payment: $55.08."
+  },
+  {
+    "tick": 1084,
+    "text": "Intention selected: Complete ownership."
+  },
+  {
+    "tick": 1114,
+    "text": "Ownership completed"
+  }
+]

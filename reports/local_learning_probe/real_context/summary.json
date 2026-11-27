@@ -1,0 +1,46 @@
+{
+  "passed": true,
+  "mechanics": [
+    {
+      "context": 2,
+      "action": "Work",
+      "field": "wages",
+      "before": 0.0,
+      "after": 131.25
+    },
+    {
+      "context": 3,
+      "action": "Restaurant",
+      "field": "satiety",
+      "before": 0.11999999731779099,
+      "after": 0.8089784383773804
+    },
+    {
+      "context": 4,
+      "action": "Fill tank",
+      "field": "fuel",
+      "before": 0.0,
+      "after": 25.0
+    },
+    {
+      "context": 5,
+      "action": "Sleep",
+      "field": "fatigue",
+      "before": 0.949999988079071,
+      "after": 0.20120017230510712
+    },
+    {
+      "context": 6,
+      "action": "Pay microloans in full",
+      "field": "micro_debt",
+      "before": 50.0,
+      "after": 0.0
+    }
+  ],
+  "learned_real_transition_contexts": {
+    "dsac_mlp": true,
+    "ppo_mlp": true
+  },
+  "one_intention_termination_is_benchmark_only": true,
+  "scope": "Mechanical resource recovery in real states plus actual-reward contextual learning. Long-horizon transfer is not established."
+}

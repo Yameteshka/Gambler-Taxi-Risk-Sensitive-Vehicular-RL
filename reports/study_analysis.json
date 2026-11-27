@@ -1,0 +1,8 @@
+{
+  "groups": [],
+  "paired_tail_comparisons": {},
+  "estimand": "Mean per-trained-policy statistic across independent initializations, with common scenario columns. Not the tail of a pooled policy mixture.",
+  "warning": "Exploratory intervals; no multiplicity correction. Five initializations and about thirteen tail scenarios per policy limit precision.",
+  "postprocessing_sha256": "64564012efeaa7509fbf10d6bf9a3108ec492af98b28961ef253ca7d349a91d2",
+  "checkpoint_sha256": {}
+}

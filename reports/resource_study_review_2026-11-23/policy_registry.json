@@ -1,0 +1,58 @@
+[
+  {
+    "model": "dsac_mlp",
+    "status": "unqualified",
+    "canonical_selected_checkpoint": {
+      "path": "Recorded resource study input (selected.npz)",
+      "sha256": "61bdc67372c9a8670948e7f7a442b5f7ea65029a6cc8ef00b9de8e75084b0a44",
+      "physical_transitions": 605920
+    },
+    "selected_standard_development_ownership": 0,
+    "selected_standard_development_episodes": 64,
+    "final_test_evaluated": false,
+    "training_completed": false,
+    "source_snapshot": "Recorded resource study input (source)"
+  },
+  {
+    "model": "ppo_mlp",
+    "status": "unqualified",
+    "canonical_selected_checkpoint": {
+      "path": "Recorded resource study input (selected.npz)",
+      "sha256": "b61e89938fbca1f7244feec7770e6ad3b1e4c1bbe21213c91bad0f7882554e6f",
+      "physical_transitions": 6217060
+    },
+    "selected_standard_development_ownership": 8,
+    "selected_standard_development_episodes": 64,
+    "final_test_evaluated": false,
+    "training_completed": false,
+    "source_snapshot": "Recorded resource study input (source)"
+  },
+  {
+    "model": "dsac_gru",
+    "status": "qualified_development_only",
+    "canonical_selected_checkpoint": {
+      "path": "Recorded resource study input (selected.npz)",
+      "sha256": "9b2a150d1543cf4a4728ee792175c73480a4b0ba11019f8f92279852acb1409f",
+      "physical_transitions": 8220846
+    },
+    "selected_standard_development_ownership": 60,
+    "selected_standard_development_episodes": 64,
+    "final_test_evaluated": false,
+    "training_completed": true,
+    "source_snapshot": "Recorded resource study input (source)"
+  },
+  {
+    "model": "ppo_gru",
+    "status": "unqualified",
+    "canonical_selected_checkpoint": {
+      "path": "Recorded resource study input (selected.npz)",
+      "sha256": "70fbdeee76ede7946b9a5f8edda9399a9a81d932a114790838dfb759ab0a7443",
+      "physical_transitions": 3617139
+    },
+    "selected_standard_development_ownership": 3,
+    "selected_standard_development_episodes": 64,
+    "final_test_evaluated": false,
+    "training_completed": false,
+    "source_snapshot": "Recorded resource study input (source)"
+  }
+]

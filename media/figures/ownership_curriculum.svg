@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="694.44pt" height="191.232pt" viewBox="0 0 694.44 191.232" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <title>Ownership Curriculum</title>
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title>Ownership Curriculum</dc:title>
+    <dc:description>Six groups of the historical 14-stage reset curriculum.</dc:description>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.1, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 191.232 
+L 694.44 191.232 
+L 694.44 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 26.88894 123.672747 
+L 117.20496 123.672747 
+Q 121.59456 123.672747 121.59456 119.07328 
+L 121.59456 67.559253 
+Q 121.59456 62.959787 117.20496 62.959787 
+L 26.88894 62.959787 
+Q 22.49934 62.959787 22.49934 67.559253 
+L 22.49934 119.07328 
+Q 22.49934 123.672747 26.88894 123.672747 
+z
+" clip-path="url(#p77bf186985)" style="fill: #f2f6fa; stroke: #b5c3d4; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 122.607056 94.466133 
+Q 126.366322 94.466133 129.175259 94.466133 
+" clip-path="url(#p77bf186985)" style="fill: none; stroke: #6d7f94; stroke-width: 0.85; stroke-linecap: round"/>
+    <path d="M 124.375259 92.066133 
+L 129.175259 94.466133 
+L 124.375259 96.866133 
+z
+" clip-path="url(#p77bf186985)" style="fill: #6d7f94; stroke: #6d7f94; stroke-width: 0.85; stroke-linecap: round"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 135.53154 123.672747 
+L 225.84756 123.672747 
+Q 230.23716 123.672747 230.23716 119.07328 
+L 230.23716 67.559253 
+Q 230.23716 62.959787 225.84756 62.959787 
+L 135.53154 62.959787 
+Q 131.14194 62.959787 131.14194 67.559253 
+L 131.14194 119.07328 
+Q 131.14194 123.672747 135.53154 123.672747 
+z
+" clip-path="url(#p77bf186985)" style="fill: #f2f6fa; stroke: #b5c3d4; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 231.249656 94.466133 
+Q 235.008922 94.466133 237.817859 94.466133 
+" clip-path="url(#p77bf186985)" style="fill: none; stroke: #6d7f94; stroke-width: 0.85; stroke-linecap: round"/>
+    <path d="M 233.017859 92.066133 
+L 237.817859 94.466133 
+L 233.017859 96.866133 
+z
+" clip-path="url(#p77bf186985)" style="fill: #6d7f94; stroke: #6d7f94; stroke-width: 0.85; stroke-linecap: round"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 244.17414 123.672747 
+L 334.49016 123.672747 
+Q 338.87976 123.672747 338.87976 119.07328 
+L 338.87976 67.559253 
+Q 338.87976 62.959787 334.49016 62.959787 
+L 244.17414 62.959787 
+Q 239.78454 62.959787 239.78454 67.559253 
+L 239.78454 119.07328 
+Q 239.78454 123.672747 244.17414 123.672747 
+z
+" clip-path="url(#p77bf186985)" style="fill: #f2f6fa; stroke: #b5c3d4; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 339.892256 94.466133 
+Q 343.651522 94.466133 346.460459 94.466133 
+" clip-path="url(#p77bf186985)" style="fill: none; stroke: #6d7f94; stroke-width: 0.85; stroke-linecap: round"/>
+    <path d="M 341.660459 92.066133 
+L 346.460459 94.466133 
+L 341.660459 96.866133 
+z
+" clip-path="url(#p77bf186985)" style="fill: #6d7f94; stroke: #6d7f94; stroke-width: 0.85; stroke-linecap: round"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 352.81674 123.672747 
+L 443.13276 123.672747 
+Q 447.52236 123.672747 447.52236 119.07328 
+L 447.52236 67.559253 
+Q 447.52236 62.959787 443.13276 62.959787 
+L 352.81674 62.959787 
+Q 348.42714 62.959787 348.42714 67.559253 
+L 348.42714 119.07328 
+Q 348.42714 123.672747 352.81674 123.672747 
+z
+" clip-path="url(#p77bf186985)" style="fill: #f2f6fa; stroke: #b5c3d4; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 448.534856 94.466133 
+Q 452.294122 94.466133 455.103059 94.466133 
+" clip-path="url(#p77bf186985)" style="fill: none; stroke: #6d7f94; stroke-width: 0.85; stroke-linecap: round"/>
+    <path d="M 450.303059 92.066133 
+L 455.103059 94.466133 
+L 450.303059 96.866133 
+z
+" clip-path="url(#p77bf186985)" style="fill: #6d7f94; stroke: #6d7f94; stroke-width: 0.85; stroke-linecap: round"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 461.45934 123.672747 
+L 551.77536 123.672747 
+Q 556.16496 123.672747 556.16496 119.07328 
+L 556.16496 67.559253 
+Q 556.16496 62.959787 551.77536 62.959787 
+L 461.45934 62.959787 
+Q 457.06974 62.959787 457.06974 67.559253 
+L 457.06974 119.07328 
+Q 457.06974 123.672747 461.45934 123.672747 
+z
+" clip-path="url(#p77bf186985)" style="fill: #f2f6fa; stroke: #b5c3d4; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 557.177456 94.466133 
+Q 560.936722 94.466133 563.745659 94.466133 
+" clip-path="url(#p77bf186985)" style="fill: none; stroke: #6d7f94; stroke-width: 0.85; stroke-linecap: round"/>
+    <path d="M 558.945659 92.066133 
+L 563.745659 94.466133 
+L 558.945659 96.866133 
+z
+" clip-path="url(#p77bf186985)" style="fill: #6d7f94; stroke: #6d7f94; stroke-width: 0.85; stroke-linecap: round"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 570.10194 123.672747 
+L 660.41796 123.672747 
+Q 664.80756 123.672747 664.80756 119.07328 
+L 664.80756 67.559253 
+Q 664.80756 62.959787 660.41796 62.959787 
+L 570.10194 62.959787 
+Q 565.71234 62.959787 565.71234 67.559253 
+L 565.71234 119.07328 
+Q 565.71234 123.672747 570.10194 123.672747 
+z
+" clip-path="url(#p77bf186985)" style="fill: #f2f6fa; stroke: #b5c3d4; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 600; font-size: 13px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #25344a" x="23.487" y="33.5232" transform="rotate(-0 23.487 33.5232)">Training curriculum</text>
+   </g>
+   <g id="text_2">
+    <text style="font-weight: 600; font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #25344a" x="31.7175" y="81.941904" transform="rotate(-0 31.7175 81.941904)">Settle debt</text>
+   </g>
+   <g id="text_3">
+    <text style="font-size: 8px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #526174" x="31.7175" y="100.348833" transform="rotate(-0 31.7175 100.348833)">Garage and bank</text>
+   </g>
+   <g id="text_4">
+    <text style="font-weight: 600; font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #25344a" x="140.3601" y="81.941904" transform="rotate(-0 140.3601 81.941904)">Earning</text>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 8px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #526174" x="140.3601" y="100.348833" transform="rotate(-0 140.3601 100.348833)">Work and payment</text>
+   </g>
+   <g id="text_6">
+    <text style="font-weight: 600; font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #25344a" x="249.0027" y="81.941904" transform="rotate(-0 249.0027 81.941904)">Food</text>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 8px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #526174" x="249.0027" y="101.123833" transform="rotate(-0 249.0027 101.123833)">Purchase and travel</text>
+   </g>
+   <g id="text_8">
+    <text style="font-weight: 600; font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #25344a" x="357.6453" y="81.941123" transform="rotate(-0 357.6453 81.941123)">Resources</text>
+   </g>
+   <g id="text_9">
+    <text style="font-size: 8px; font-family: 'DejaVu Sans'; fill: #526174" transform="translate(357.6453 100.348833)">Fuel, fatigue,</text>
+    <text style="font-size: 8px; font-family: 'DejaVu Sans'; fill: #526174" transform="translate(357.6453 111.148833)">personal debt</text>
+   </g>
+   <g id="text_10">
+    <text style="font-weight: 600; font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #25344a" x="466.2879" y="81.941123" transform="rotate(-0 466.2879 81.941123)">Home starts</text>
+   </g>
+   <g id="text_11">
+    <text style="font-size: 8px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #526174" x="466.2879" y="100.592583" transform="rotate(-0 466.2879 100.592583)">$250, $350, $500</text>
+   </g>
+   <g id="text_12">
+    <text style="font-weight: 600; font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #25344a" x="574.9305" y="81.941904" transform="rotate(-0 574.9305 81.941904)">Full campaign</text>
+   </g>
+   <g id="text_13">
+    <text style="font-size: 8px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #526174" x="574.9305" y="101.123833" transform="rotate(-0 574.9305 101.123833)">Start at home</text>
+   </g>
+   <g id="text_14">
+    <text style="font-size: 8.6px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #526174" x="23.487" y="147.934933" transform="rotate(-0 23.487 147.934933)">The four runs used the same 14-lesson schedule and a limit of 262,144 decisions each.</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p77bf186985">
+   <rect x="18" y="18" width="658.44" height="155.232"/>
+  </clipPath>
+ </defs>
+</svg>

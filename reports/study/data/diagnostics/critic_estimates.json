@@ -1,0 +1,90 @@
+[
+  {
+    "checkpoint": "Recorded resource study input (learner_000518965.pkl.gz)",
+    "mean_min_twin_q": {
+      "Wait": 0.33728089928627014,
+      "Work": 0.015095703303813934,
+      "Sleep": 0.05928899347782135,
+      "Diner": 0.048864275217056274,
+      "Cafe": 0.08135986328125,
+      "Restaurant": 0.001579210627824068,
+      "Buy": 0.44508132338523865
+    },
+    "at_actor_mean_style": {
+      "Wait": 0.33728089928627014,
+      "Work": 0.05261203646659851,
+      "Sleep": 0.09883171319961548,
+      "Diner": 0.08065306395292282,
+      "Cafe": 0.1119646430015564,
+      "Restaurant": 0.03183596953749657,
+      "Buy": 0.4466933608055115
+    },
+    "actor_food_probability": 1.0818280316016171e-07
+  },
+  {
+    "checkpoint": "artifacts/local_food_recovery/dsac_mlp_control/learner.pkl.gz",
+    "mean_min_twin_q": {
+      "Wait": -0.11408871412277222,
+      "Work": -0.13057108223438263,
+      "Sleep": -0.13466176390647888,
+      "Diner": -0.12697316706180573,
+      "Cafe": -0.08300226926803589,
+      "Restaurant": 0.799257755279541,
+      "Buy": -0.09844759106636047
+    },
+    "at_actor_mean_style": {
+      "Wait": -0.11408871412277222,
+      "Work": -0.10923007130622864,
+      "Sleep": -0.10263212025165558,
+      "Diner": -0.09054416418075562,
+      "Cafe": -0.06997814774513245,
+      "Restaurant": 0.833431601524353,
+      "Buy": -0.07745710015296936
+    },
+    "actor_food_probability": 2.761401329820501e-09
+  },
+  {
+    "checkpoint": "artifacts/local_food_recovery/dsac_mlp_control_head0.2_foodonly_continued/learner.pkl.gz",
+    "mean_min_twin_q": {
+      "Wait": -0.1302100419998169,
+      "Work": -0.1422712802886963,
+      "Sleep": -0.1485685110092163,
+      "Diner": -0.15975889563560486,
+      "Cafe": -0.13542315363883972,
+      "Restaurant": 0.7157160639762878,
+      "Buy": -0.12569747865200043
+    },
+    "at_actor_mean_style": {
+      "Wait": -0.1302100419998169,
+      "Work": -0.108820341527462,
+      "Sleep": -0.09541936218738556,
+      "Diner": -0.11682996153831482,
+      "Cafe": -0.10811057686805725,
+      "Restaurant": 0.8516082167625427,
+      "Buy": -0.10721877217292786
+    },
+    "actor_food_probability": 2.5714321054692846e-06
+  },
+  {
+    "checkpoint": "artifacts/local_food_recovery/dsac_mlp_entropy/learner.pkl.gz",
+    "mean_min_twin_q": {
+      "Wait": -0.11271913349628448,
+      "Work": -0.12419012933969498,
+      "Sleep": -0.12410937249660492,
+      "Diner": -0.11101551353931427,
+      "Cafe": -0.07518812268972397,
+      "Restaurant": 0.8253251314163208,
+      "Buy": -0.08565858006477356
+    },
+    "at_actor_mean_style": {
+      "Wait": -0.11271913349628448,
+      "Work": -0.1068946048617363,
+      "Sleep": -0.09774748980998993,
+      "Diner": -0.07629931718111038,
+      "Cafe": -0.07239221781492233,
+      "Restaurant": 0.8244367837905884,
+      "Buy": -0.06529338657855988
+    },
+    "actor_food_probability": 2.669493071039142e-09
+  }
+]

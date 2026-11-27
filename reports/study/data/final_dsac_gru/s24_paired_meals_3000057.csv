@@ -1,0 +1,19 @@
+condition,scenario_id,venue,tick,raw_satiety_portion,source_chunk
+S01,3000057,Restaurant site,340,0.744315,standard/trace_00000.npz
+S01,3000057,Restaurant site,350,0.634573,standard/trace_00001.npz
+S24,3000057,Restaurant site,271,0.137598,food_site_identity_swap/trace_00000.npz
+S24,3000057,Restaurant site,276,0.140389,food_site_identity_swap/trace_00000.npz
+S24,3000057,Restaurant site,457,0.12064,food_site_identity_swap/trace_00001.npz
+S24,3000057,Restaurant site,462,0.12271,food_site_identity_swap/trace_00001.npz
+S24,3000057,Restaurant site,467,0.15218,food_site_identity_swap/trace_00001.npz
+S24,3000057,Restaurant site,472,0.13575,food_site_identity_swap/trace_00001.npz
+S24,3000057,Restaurant site,477,0.17863,food_site_identity_swap/trace_00001.npz
+S24,3000057,Restaurant site,482,0.174954,food_site_identity_swap/trace_00001.npz
+S24,3000057,Restaurant site,487,0.13843,food_site_identity_swap/trace_00001.npz
+S24,3000057,Restaurant site,897,0.127767,food_site_identity_swap/trace_00022.npz
+S24,3000057,Restaurant site,902,0.144328,food_site_identity_swap/trace_00022.npz
+S24,3000057,Restaurant site,907,0.170868,food_site_identity_swap/trace_00022.npz
+S24,3000057,Restaurant site,1095,0.121214,food_site_identity_swap/trace_00022.npz
+S24,3000057,Restaurant site,1100,0.177918,food_site_identity_swap/trace_00022.npz
+S24,3000057,Restaurant site,1105,0.146309,food_site_identity_swap/trace_00023.npz
+S24,3000057,Restaurant site,1110,0.176487,food_site_identity_swap/trace_00023.npz

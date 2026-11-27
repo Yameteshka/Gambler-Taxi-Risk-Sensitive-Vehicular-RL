@@ -1,0 +1,9 @@
+src/** text eol=lf
+requirements.txt text eol=lf
+baseline/** -text
+runs/** -text
+artifacts/**/source/** -text
+*.npz -text
+*.gz -text
+*.mp4 -text
+*.pdf -text

@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "on_policy_log_probability_matches": true,
+  "gradient_norm": 0.09601211547851562,
+  "start_scenarios": [
+    11,
+    30
+  ],
+  "no_expert_action_labels": true
+}

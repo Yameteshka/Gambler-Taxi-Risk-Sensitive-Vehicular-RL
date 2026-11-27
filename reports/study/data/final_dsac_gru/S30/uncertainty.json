@@ -1,0 +1,23 @@
+{
+  "n": 256,
+  "success_rate_95ci": [
+    0.8157948225987579,
+    0.9000262817168199
+  ],
+  "mean_return_95ci": [
+    0.4326932728290558,
+    0.49245636537671084
+  ],
+  "p05": -0.0863400474190712,
+  "p05_95ci": [
+    -0.08727766573429108,
+    -0.08413129299879074
+  ],
+  "lower_cvar05": -0.08765801042318344,
+  "lower_cvar05_95ci": [
+    -0.08827546332031488,
+    -0.08666114322841167
+  ],
+  "effective_tail_observations": 12.8,
+  "interpretation": "Conditional scenario-sample uncertainty for this trained policy; not a proof or training-seed uncertainty."
+}

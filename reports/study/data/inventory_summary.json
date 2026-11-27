@@ -1,0 +1,11 @@
+{
+  "file_counts": {
+    "baseline": 238,
+    "experiments": 100,
+    "reports": 222,
+    "src": 37
+  },
+  "evaluation_metadata_records": 1671,
+  "historical_video_files": 16,
+  "scope": "File counts cover the published paths in this index. Evaluation records describe development, training checks and earlier studies."
+}

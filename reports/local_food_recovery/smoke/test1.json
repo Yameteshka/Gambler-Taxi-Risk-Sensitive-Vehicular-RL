@@ -1,0 +1,11 @@
+{
+  "test": "test1",
+  "passed": true,
+  "accuracy": 1.0,
+  "examples": 32,
+  "correct": 32,
+  "completed_meals": 1,
+  "completed_refills": 1,
+  "random_episode_completed": true,
+  "exact_history_and_zero_reset_action": true
+}

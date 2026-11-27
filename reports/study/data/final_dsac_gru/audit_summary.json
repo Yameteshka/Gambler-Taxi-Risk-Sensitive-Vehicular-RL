@@ -1,0 +1,14 @@
+{
+  "audited_conditions": 30,
+  "episodes": 7680,
+  "active_physical_ticks_replayed": 4976191,
+  "exact_replay_conditions": 30,
+  "ownership_with_debt_violations": 0,
+  "casino_wager_intentions": 0,
+  "episodes_with_casino_intention": 0,
+  "slot_spins": 0,
+  "blackjack_hands": 0,
+  "inherited_loans": 512,
+  "new_loans": 145,
+  "episodes_with_new_loan": 142
+}

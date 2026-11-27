@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "masked_sampling_matches_enumeration": true,
+  "terminal_no_bootstrap": true,
+  "mixture_loss_equals_weighted_component_losses": true,
+  "fixed_temperatures_unchanged": true,
+  "critic_layer_norm": true,
+  "multihead": false,
+  "history_does_not_cross_reset_only_curriculum_boundary": true
+}

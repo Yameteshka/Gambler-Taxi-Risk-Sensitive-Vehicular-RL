@@ -1,0 +1,868 @@
+{
+  "kind": "ppo_mlp",
+  "settings": {},
+  "exploration": 0.2,
+  "history": [
+    {
+      "iteration": 0,
+      "transitions": 512,
+      "success_rates": {
+        "real_food_scenario_11": 0.0,
+        "real_food_scenario_12": 0.0,
+        "real_food_scenario_13": 0.0,
+        "real_food_scenario_14": 0.0,
+        "real_food_scenario_15": 0.0,
+        "real_food_scenario_16": 0.0
+      },
+      "mean_events": [
+        [
+          0.0,
+          0.1015625,
+          0.0078125,
+          0.0078125,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.1015625,
+          0.0078125,
+          0.0078125,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.1015625,
+          0.0078125,
+          0.0078125,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.1015625,
+          0.0078125,
+          0.0078125,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.1015625,
+          0.0078125,
+          0.0078125,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.1171875,
+          0.0234375,
+          0.0078125,
+          0.0,
+          0.0
+        ]
+      ],
+      "elapsed_seconds": 6.321085435999976
+    },
+    {
+      "iteration": 20,
+      "transitions": 10752,
+      "success_rates": {
+        "real_food_scenario_11": 0.9921875,
+        "real_food_scenario_12": 0.9921875,
+        "real_food_scenario_13": 0.984375,
+        "real_food_scenario_14": 0.984375,
+        "real_food_scenario_15": 0.984375,
+        "real_food_scenario_16": 0.9921875
+      },
+      "mean_events": [
+        [
+          0.0,
+          1.1484375,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.1640625,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.1328125,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.1015625,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.1171875,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.15625,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "elapsed_seconds": 6.813153868999962
+    },
+    {
+      "iteration": 40,
+      "transitions": 20992,
+      "success_rates": {
+        "real_food_scenario_11": 1.0,
+        "real_food_scenario_12": 1.0,
+        "real_food_scenario_13": 1.0,
+        "real_food_scenario_14": 1.0,
+        "real_food_scenario_15": 1.0,
+        "real_food_scenario_16": 1.0
+      },
+      "mean_events": [
+        [
+          0.0,
+          1.0625,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.09375,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0625,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0546875,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0546875,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0703125,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "elapsed_seconds": 7.259299446
+    },
+    {
+      "iteration": 60,
+      "transitions": 31232,
+      "success_rates": {
+        "real_food_scenario_11": 1.0,
+        "real_food_scenario_12": 1.0,
+        "real_food_scenario_13": 1.0,
+        "real_food_scenario_14": 1.0,
+        "real_food_scenario_15": 1.0,
+        "real_food_scenario_16": 1.0
+      },
+      "mean_events": [
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "elapsed_seconds": 7.705825728000036
+    },
+    {
+      "iteration": 80,
+      "transitions": 41472,
+      "success_rates": {
+        "real_food_scenario_11": 1.0,
+        "real_food_scenario_12": 1.0,
+        "real_food_scenario_13": 1.0,
+        "real_food_scenario_14": 1.0,
+        "real_food_scenario_15": 1.0,
+        "real_food_scenario_16": 1.0
+      },
+      "mean_events": [
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "elapsed_seconds": 8.148382482999978
+    },
+    {
+      "iteration": 100,
+      "transitions": 51712,
+      "success_rates": {
+        "real_food_scenario_11": 1.0,
+        "real_food_scenario_12": 1.0,
+        "real_food_scenario_13": 1.0,
+        "real_food_scenario_14": 1.0,
+        "real_food_scenario_15": 1.0,
+        "real_food_scenario_16": 1.0
+      },
+      "mean_events": [
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "elapsed_seconds": 8.598057065000035
+    },
+    {
+      "iteration": 120,
+      "transitions": 61952,
+      "success_rates": {
+        "real_food_scenario_11": 1.0,
+        "real_food_scenario_12": 1.0,
+        "real_food_scenario_13": 1.0,
+        "real_food_scenario_14": 1.0,
+        "real_food_scenario_15": 1.0,
+        "real_food_scenario_16": 1.0
+      },
+      "mean_events": [
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "elapsed_seconds": 9.073379856999964
+    },
+    {
+      "iteration": 140,
+      "transitions": 72192,
+      "success_rates": {
+        "real_food_scenario_11": 1.0,
+        "real_food_scenario_12": 1.0,
+        "real_food_scenario_13": 1.0,
+        "real_food_scenario_14": 1.0,
+        "real_food_scenario_15": 1.0,
+        "real_food_scenario_16": 1.0
+      },
+      "mean_events": [
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "elapsed_seconds": 9.517913673999942
+    },
+    {
+      "iteration": 160,
+      "transitions": 82432,
+      "success_rates": {
+        "real_food_scenario_11": 1.0,
+        "real_food_scenario_12": 1.0,
+        "real_food_scenario_13": 1.0,
+        "real_food_scenario_14": 1.0,
+        "real_food_scenario_15": 1.0,
+        "real_food_scenario_16": 1.0
+      },
+      "mean_events": [
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "elapsed_seconds": 9.949805849999962
+    },
+    {
+      "iteration": 180,
+      "transitions": 92672,
+      "success_rates": {
+        "real_food_scenario_11": 1.0,
+        "real_food_scenario_12": 1.0,
+        "real_food_scenario_13": 1.0,
+        "real_food_scenario_14": 1.0,
+        "real_food_scenario_15": 1.0,
+        "real_food_scenario_16": 1.0
+      },
+      "mean_events": [
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "elapsed_seconds": 10.405395884999962
+    },
+    {
+      "iteration": 200,
+      "transitions": 102912,
+      "success_rates": {
+        "real_food_scenario_11": 1.0,
+        "real_food_scenario_12": 1.0,
+        "real_food_scenario_13": 1.0,
+        "real_food_scenario_14": 1.0,
+        "real_food_scenario_15": 1.0,
+        "real_food_scenario_16": 1.0
+      },
+      "mean_events": [
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "elapsed_seconds": 10.849564646999966
+    },
+    {
+      "iteration": 220,
+      "transitions": 113152,
+      "success_rates": {
+        "real_food_scenario_11": 1.0,
+        "real_food_scenario_12": 1.0,
+        "real_food_scenario_13": 1.0,
+        "real_food_scenario_14": 1.0,
+        "real_food_scenario_15": 1.0,
+        "real_food_scenario_16": 1.0
+      },
+      "mean_events": [
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "elapsed_seconds": 11.27423813400003
+    },
+    {
+      "iteration": 239,
+      "transitions": 122880,
+      "success_rates": {
+        "real_food_scenario_11": 1.0,
+        "real_food_scenario_12": 1.0,
+        "real_food_scenario_13": 1.0,
+        "real_food_scenario_14": 1.0,
+        "real_food_scenario_15": 1.0,
+        "real_food_scenario_16": 1.0
+      },
+      "mean_events": [
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "elapsed_seconds": 11.671674981000024
+    }
+  ],
+  "passed": true,
+  "acceptance": "Every context >=70% success in each of the final three checks; no best-checkpoint substitution.",
+  "probe_source_sha256": "244164d257c3ed7ac71a03d93b214cb17a26944c5f9b1eaa0316f0bdd403460a",
+  "scope": "Three-intention ownership benchmark; actual real-simulator rewards, observations and variable-duration discounts. Fixed driving style, cached scenario realizations, artificial three-intention cutoff. Not full-game performance.",
+  "no_action_labels": true,
+  "source_hashes": {
+    "src/algorithms/hybrid_dsac.py": "ed62910dc1f00343873bf3b4e846a94453e8f84c3082e2b166b22a985197718f",
+    "src/algorithms/recurrent_dsac.py": "0543be5d41221fc43331640d93614cf4dc118bd3533c20063c71c186c99138d3",
+    "src/analytic_checks.py": "2ce5f6fdeb53600d7113f64bbc5c2db499da8088a803318a6044c18ebf5d10c9",
+    "src/audit_results.py": "d9606fd4135824db9820043af05a828934d33aa43b6b481691e266044f48d2df",
+    "src/audit_strategy.py": "06c988e8dbfa700be4bcf4a6cb78c8ce966ac1077667c71323cbc17c29b53b4c",
+    "src/build_reports.py": "f62f4808d6281ca01298ca3d3b394c2cc1aad5c834f3d2a1aa075ff52028350d",
+    "src/critic_certificate.py": "3ea3549e643cf00c1d8c0c563b1db94d9fe115cf7591962c275d97e32f3a8336",
+    "src/env/__init__.py": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+    "src/env/base.py": "bcfb81a2b6e20892077e3e32274f5f2ad06e30e8c3c19deda8d84409de1eb33c",
+    "src/env/cards.py": "bcc275ea8b62dc724a5962c407e09a762035cd04d898a9ef7bed50f30a5a0cdd",
+    "src/env/city.py": "76d63e3bf981748996f33eecb255533d41de1355a171f83698e69522eba9b600",
+    "src/env/resource_taxi.py": "55eb1851387648e2d053bf103bcaf432c0a6d67c1447f84f7379f164a0352a02",
+    "src/env/tasks.py": "0b5b26623354a0f5d8cc6a81285da680c1cd86a79d705434c3e0007b872c0610",
+    "src/evaluate.py": "0d8a38d5a04b49953138935628e0b4102fbaffcaeb5e1397ac2cb006a0356918",
+    "src/evaluate_strategy.py": "cbc7278dbe9c27052f4e946f7defa8e4df58e8a98102864ae188248a41b5469c",
+    "src/models.py": "6ee6a29079cf54ed9dd29f7dda5539adca026d074988a153b64b4595a0699e50",
+    "src/navigation.py": "ee32988d7d4746b44146d00eb61853f4e9850d3c9a4e9166b726a770d5773462",
+    "src/policy_probes.py": "4adb5d70c5d3044bbf0301b6854fcc6d4e93481aefb218c0b6353cdfcf453924",
+    "src/progressive_curriculum.py": "6d7516747e25e3ed19091eccd0be61ddd9609198899bb4c63ee322cec319ee0a",
+    "src/protocol.py": "b1d46607fe7e7ad7ec9dd51a83f1ee2179b4655c581dc95324403e472d8d784e",
+    "src/render_replay.py": "26f40319e8044c8d734d9e4b5cf2e0c3ade05b0730403ee0602bb6903a7cd419",
+    "src/resource_curriculum.py": "c5904bf1fa01a6e11e109cbc9174761716432d1a29693ab2990761be5acd274b",
+    "src/run_suite.py": "40286896afe51dd3d64d7bbb1f61c868d48d7006cd8ed328d6d4afb1d688ed64",
+    "src/statistics_report.py": "79329826d28e2925fbba34bfd44437deeb92d108b41274b2fe0d96b05664c49c",
+    "src/strategy.py": "27c0ee905f4fa4733a0c1ecbacc262eb719b92b58ed754857c4c97f5153dda37",
+    "src/strategy_training.py": "0ac755b8f146e979b13d2c6882e8ea4a904e22940c9ea2a1af354d1e4117392e",
+    "src/telemetry.py": "de2395a528def357753ffc393f421422171df6a4640146718a0ce4dd76a523a8",
+    "src/train.py": "44b64dd4e3850eea1cba20f3d40a00bc2283ddceced97ea3e99ea67093b995df",
+    "src/utils/__init__.py": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+    "src/utils/autoreset.py": "4c1943534abfd0acd5e3a9aef62030565707e976d9cd981bf1de0ac24e27f589",
+    "src/utils/renderer.py": "f3e8fafe6cc4bd263e6a003a258047f3978e17138e39c7f2793175b1c8ebd6fb",
+    "src/utils/utils.py": "5ed497161778550e682f55616387055ae3137ad6f067ca40719a97e297a5faeb",
+    "src/verify.py": "bec92b840168493015330cac0152f9c6e6d475444519b5c202ba136d808b5e96",
+    "src/verify_learning.py": "d0329933cfb24c2cab00a4ae521f6e956d5db47edf3db406add586e6de097166",
+    "src/verify_strategy.py": "91a6c22944e300b142d2ea9ea6ad39684b5792315a99210ea02dbcb2f900d8b6"
+  }
+}

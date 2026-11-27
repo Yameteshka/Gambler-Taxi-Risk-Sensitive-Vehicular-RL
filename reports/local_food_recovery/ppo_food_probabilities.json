@@ -1,0 +1,137 @@
+[
+  {
+    "model": "ppo_mlp",
+    "context": "food_lesson",
+    "satiety": [
+      0.12,
+      0.2
+    ],
+    "cash_min": 40,
+    "n": 16,
+    "food_p_median": 0.994348019361496,
+    "food_p_max": 0.9959361553192139,
+    "work_p_mean": 0.0006022119050612673,
+    "car_payment_p_mean": 0.004594601850840263,
+    "median_learned_share_of_mixed_food_probability": 0.9636574382755603
+  },
+  {
+    "model": "ppo_mlp",
+    "context": "selected_standard",
+    "satiety": [
+      0,
+      0.12
+    ],
+    "cash_min": 40,
+    "n": 8,
+    "food_p_median": 0.0005380421789595857,
+    "food_p_max": 0.0024187047965824604,
+    "work_p_mean": 0.034875439247116446,
+    "car_payment_p_mean": 0.34364962577819824,
+    "median_learned_share_of_mixed_food_probability": 0.01204716480309038
+  },
+  {
+    "model": "ppo_mlp",
+    "context": "selected_standard",
+    "satiety": [
+      0.12,
+      0.2
+    ],
+    "cash_min": 40,
+    "n": 5,
+    "food_p_median": 2.079294245049823e-05,
+    "food_p_max": 0.013877511024475098,
+    "work_p_mean": 0.024901969422353433,
+    "car_payment_p_mean": 0.563823652267456,
+    "median_learned_share_of_mixed_food_probability": 0.0005264772178135039
+  },
+  {
+    "model": "ppo_mlp",
+    "context": "selected_standard",
+    "satiety": [
+      0.2,
+      0.45
+    ],
+    "cash_min": 40,
+    "n": 64,
+    "food_p_median": 0.0008466629078611732,
+    "food_p_max": 0.004762148950248957,
+    "work_p_mean": 0.011143885098135797,
+    "car_payment_p_mean": 0.9833366274833679,
+    "median_learned_share_of_mixed_food_probability": 0.022079165304815386
+  },
+  {
+    "model": "ppo_gru",
+    "context": "food_lesson",
+    "satiety": [
+      0.12,
+      0.2
+    ],
+    "cash_min": 40,
+    "n": 16,
+    "food_p_median": 0.9898287653923035,
+    "food_p_max": 0.9902768731117249,
+    "work_p_mean": 0.0021514027466764674,
+    "car_payment_p_mean": 0.0040859526343410835,
+    "median_learned_share_of_mixed_food_probability": 0.9634975664384466
+  },
+  {
+    "model": "ppo_gru",
+    "context": "food_lesson",
+    "satiety": [
+      0.2,
+      0.45
+    ],
+    "cash_min": 40,
+    "n": 1,
+    "food_p_median": 0.0007233631913550198,
+    "food_p_max": 0.0007233631913550198,
+    "work_p_mean": 0.02739139273762703,
+    "car_payment_p_mean": 0.969637393951416,
+    "median_learned_share_of_mixed_food_probability": 0.017995430960960686
+  },
+  {
+    "model": "ppo_gru",
+    "context": "selected_standard",
+    "satiety": [
+      0,
+      0.12
+    ],
+    "cash_min": 40,
+    "n": 57,
+    "food_p_median": 0.0050207809545099735,
+    "food_p_max": 0.014269387349486351,
+    "work_p_mean": 0.39195822949292497,
+    "car_payment_p_mean": 0.5196692964486909,
+    "median_learned_share_of_mixed_food_probability": 0.1180782864708284
+  },
+  {
+    "model": "ppo_gru",
+    "context": "selected_standard",
+    "satiety": [
+      0.12,
+      0.2
+    ],
+    "cash_min": 40,
+    "n": 21,
+    "food_p_median": 0.0004461306962184608,
+    "food_p_max": 0.037929121404886246,
+    "work_p_mean": 0.11021911521397885,
+    "car_payment_p_mean": 0.8686381901303927,
+    "median_learned_share_of_mixed_food_probability": 0.011756948285188933
+  },
+  {
+    "model": "ppo_gru",
+    "context": "selected_standard",
+    "satiety": [
+      0.2,
+      0.45
+    ],
+    "cash_min": 40,
+    "n": 74,
+    "food_p_median": 0.00042620029125828296,
+    "food_p_max": 0.04089370369911194,
+    "work_p_mean": 0.10913296673144843,
+    "car_payment_p_mean": 0.8571199570857996,
+    "median_learned_share_of_mixed_food_probability": 0.011237617957976037
+  }
+]

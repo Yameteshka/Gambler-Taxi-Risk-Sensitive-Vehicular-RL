@@ -1,0 +1,1794 @@
+[
+  {
+    "kind": "ppo_mlp",
+    "checkpoint": "initial",
+    "training_steps": 0,
+    "scope": "Synthetic matched states; zero recurrent history, exploration mixture disabled. Policy sensitivity, not a counterfactual episode result.",
+    "contexts": [
+      {
+        "place": "Home",
+        "satiety": 0.05,
+        "meal_probability": 0.15022574365139008,
+        "repay_probability": 0.149353489279747,
+        "borrow_probability": 0.14988026022911072,
+        "work_probability": 0.050123412162065506
+      },
+      {
+        "place": "Home",
+        "satiety": 0.2,
+        "meal_probability": 0.15022632479667664,
+        "repay_probability": 0.14935427904129028,
+        "borrow_probability": 0.14988934993743896,
+        "work_probability": 0.050122134387493134
+      },
+      {
+        "place": "Home",
+        "satiety": 0.8,
+        "meal_probability": 0.15024149417877197,
+        "repay_probability": 0.1493842899799347,
+        "borrow_probability": 0.14989756047725677,
+        "work_probability": 0.050089865922927856
+      },
+      {
+        "place": "Bank",
+        "satiety": 0.05,
+        "meal_probability": 0.15028956532478333,
+        "repay_probability": 0.1492391675710678,
+        "borrow_probability": 0.1497960239648819,
+        "work_probability": 0.05016687139868736
+      },
+      {
+        "place": "Bank",
+        "satiety": 0.2,
+        "meal_probability": 0.15028858184814453,
+        "repay_probability": 0.14923852682113647,
+        "borrow_probability": 0.14980605244636536,
+        "work_probability": 0.050163570791482925
+      },
+      {
+        "place": "Bank",
+        "satiety": 0.8,
+        "meal_probability": 0.1502888947725296,
+        "repay_probability": 0.14930300414562225,
+        "borrow_probability": 0.14982128143310547,
+        "work_probability": 0.05012422427535057
+      },
+      {
+        "place": "Budget diner",
+        "satiety": 0.05,
+        "meal_probability": 0.15033191442489624,
+        "repay_probability": 0.1493167281150818,
+        "borrow_probability": 0.14997434616088867,
+        "work_probability": 0.0500902384519577
+      },
+      {
+        "place": "Budget diner",
+        "satiety": 0.2,
+        "meal_probability": 0.15033182501792908,
+        "repay_probability": 0.14931565523147583,
+        "borrow_probability": 0.14998559653759003,
+        "work_probability": 0.050089281052351
+      },
+      {
+        "place": "Budget diner",
+        "satiety": 0.8,
+        "meal_probability": 0.1503307819366455,
+        "repay_probability": 0.14931276440620422,
+        "borrow_probability": 0.15002933144569397,
+        "work_probability": 0.05008620023727417
+      },
+      {
+        "place": "Cafe",
+        "satiety": 0.05,
+        "meal_probability": 0.15048184990882874,
+        "repay_probability": 0.1489121913909912,
+        "borrow_probability": 0.150068461894989,
+        "work_probability": 0.04996936023235321
+      },
+      {
+        "place": "Cafe",
+        "satiety": 0.2,
+        "meal_probability": 0.15048228204250336,
+        "repay_probability": 0.148907870054245,
+        "borrow_probability": 0.15007981657981873,
+        "work_probability": 0.04996532201766968
+      },
+      {
+        "place": "Cafe",
+        "satiety": 0.8,
+        "meal_probability": 0.15048334002494812,
+        "repay_probability": 0.14889222383499146,
+        "borrow_probability": 0.15012425184249878,
+        "work_probability": 0.049950242042541504
+      },
+      {
+        "place": "Restaurant",
+        "satiety": 0.05,
+        "meal_probability": 0.1505117267370224,
+        "repay_probability": 0.1490178108215332,
+        "borrow_probability": 0.14981324970722198,
+        "work_probability": 0.05001009628176689
+      },
+      {
+        "place": "Restaurant",
+        "satiety": 0.2,
+        "meal_probability": 0.15051156282424927,
+        "repay_probability": 0.14901423454284668,
+        "borrow_probability": 0.14982345700263977,
+        "work_probability": 0.05000558868050575
+      },
+      {
+        "place": "Restaurant",
+        "satiety": 0.8,
+        "meal_probability": 0.15051019191741943,
+        "repay_probability": 0.14900144934654236,
+        "borrow_probability": 0.14986345171928406,
+        "work_probability": 0.0499887578189373
+      }
+    ]
+  },
+  {
+    "kind": "ppo_mlp",
+    "checkpoint": "stage_0",
+    "training_steps": 450373,
+    "scope": "Synthetic matched states; zero recurrent history, exploration mixture disabled. Policy sensitivity, not a counterfactual episode result.",
+    "contexts": [
+      {
+        "place": "Home",
+        "satiety": 0.05,
+        "meal_probability": 0.01912245899438858,
+        "repay_probability": 0.6073404550552368,
+        "borrow_probability": 0.06772932410240173,
+        "work_probability": 0.16198591887950897
+      },
+      {
+        "place": "Home",
+        "satiety": 0.2,
+        "meal_probability": 0.018935948610305786,
+        "repay_probability": 0.6088682413101196,
+        "borrow_probability": 0.06732793152332306,
+        "work_probability": 0.16200318932533264
+      },
+      {
+        "place": "Home",
+        "satiety": 0.8,
+        "meal_probability": 0.01846061460673809,
+        "repay_probability": 0.6133664846420288,
+        "borrow_probability": 0.06612148880958557,
+        "work_probability": 0.16176357865333557
+      },
+      {
+        "place": "Bank",
+        "satiety": 0.05,
+        "meal_probability": 0.01692991331219673,
+        "repay_probability": 0.6215092539787292,
+        "borrow_probability": 0.06361836194992065,
+        "work_probability": 0.16524529457092285
+      },
+      {
+        "place": "Bank",
+        "satiety": 0.2,
+        "meal_probability": 0.016757380217313766,
+        "repay_probability": 0.6230154037475586,
+        "borrow_probability": 0.06321949511766434,
+        "work_probability": 0.1652318686246872
+      },
+      {
+        "place": "Bank",
+        "satiety": 0.8,
+        "meal_probability": 0.016210397705435753,
+        "repay_probability": 0.6286217570304871,
+        "borrow_probability": 0.0617869533598423,
+        "work_probability": 0.16472910344600677
+      },
+      {
+        "place": "Budget diner",
+        "satiety": 0.05,
+        "meal_probability": 0.01969614252448082,
+        "repay_probability": 0.6010795831680298,
+        "borrow_probability": 0.06892117112874985,
+        "work_probability": 0.16348625719547272
+      },
+      {
+        "place": "Budget diner",
+        "satiety": 0.2,
+        "meal_probability": 0.01950545608997345,
+        "repay_probability": 0.6026228070259094,
+        "borrow_probability": 0.06851546466350555,
+        "work_probability": 0.16351217031478882
+      },
+      {
+        "place": "Budget diner",
+        "satiety": 0.8,
+        "meal_probability": 0.018774759024381638,
+        "repay_probability": 0.608583390712738,
+        "borrow_probability": 0.06694591045379639,
+        "work_probability": 0.16360510885715485
+      },
+      {
+        "place": "Cafe",
+        "satiety": 0.05,
+        "meal_probability": 0.018651820719242096,
+        "repay_probability": 0.6044478416442871,
+        "borrow_probability": 0.06698385626077652,
+        "work_probability": 0.1680215299129486
+      },
+      {
+        "place": "Cafe",
+        "satiety": 0.2,
+        "meal_probability": 0.018473420292139053,
+        "repay_probability": 0.6059479117393494,
+        "borrow_probability": 0.06658565253019333,
+        "work_probability": 0.16803032159805298
+      },
+      {
+        "place": "Cafe",
+        "satiety": 0.8,
+        "meal_probability": 0.017790140584111214,
+        "repay_probability": 0.6117422580718994,
+        "borrow_probability": 0.06504576653242111,
+        "work_probability": 0.16805480420589447
+      },
+      {
+        "place": "Restaurant",
+        "satiety": 0.05,
+        "meal_probability": 0.01657852716743946,
+        "repay_probability": 0.6234995722770691,
+        "borrow_probability": 0.06214261054992676,
+        "work_probability": 0.16708844900131226
+      },
+      {
+        "place": "Restaurant",
+        "satiety": 0.2,
+        "meal_probability": 0.016416462138295174,
+        "repay_probability": 0.624942421913147,
+        "borrow_probability": 0.061761416494846344,
+        "work_probability": 0.1670658141374588
+      },
+      {
+        "place": "Restaurant",
+        "satiety": 0.8,
+        "meal_probability": 0.015796776860952377,
+        "repay_probability": 0.6305054426193237,
+        "borrow_probability": 0.06029031425714493,
+        "work_probability": 0.16697074472904205
+      }
+    ]
+  },
+  {
+    "kind": "ppo_mlp",
+    "checkpoint": "stage_1",
+    "training_steps": 1058933,
+    "scope": "Synthetic matched states; zero recurrent history, exploration mixture disabled. Policy sensitivity, not a counterfactual episode result.",
+    "contexts": [
+      {
+        "place": "Home",
+        "satiety": 0.05,
+        "meal_probability": 0.00032981368713080883,
+        "repay_probability": 0.9833122491836548,
+        "borrow_probability": 0.001428718096576631,
+        "work_probability": 0.01136450283229351
+      },
+      {
+        "place": "Home",
+        "satiety": 0.2,
+        "meal_probability": 0.00031490076798945665,
+        "repay_probability": 0.9838134050369263,
+        "borrow_probability": 0.0013710531638935208,
+        "work_probability": 0.011070763692259789
+      },
+      {
+        "place": "Home",
+        "satiety": 0.8,
+        "meal_probability": 0.0002688440144993365,
+        "repay_probability": 0.9854215383529663,
+        "borrow_probability": 0.0011880886740982533,
+        "work_probability": 0.010117181576788425
+      },
+      {
+        "place": "Bank",
+        "satiety": 0.05,
+        "meal_probability": 0.0004132308531552553,
+        "repay_probability": 0.9804036617279053,
+        "borrow_probability": 0.0017643875908106565,
+        "work_probability": 0.013115700334310532
+      },
+      {
+        "place": "Bank",
+        "satiety": 0.2,
+        "meal_probability": 0.00039412803016602993,
+        "repay_probability": 0.9810082912445068,
+        "borrow_probability": 0.0016916163731366396,
+        "work_probability": 0.012770235538482666
+      },
+      {
+        "place": "Bank",
+        "satiety": 0.8,
+        "meal_probability": 0.000325892586261034,
+        "repay_probability": 0.9832929968833923,
+        "borrow_probability": 0.0014246434438973665,
+        "work_probability": 0.011434350162744522
+      },
+      {
+        "place": "Budget diner",
+        "satiety": 0.05,
+        "meal_probability": 0.0004700812278315425,
+        "repay_probability": 0.9784218072891235,
+        "borrow_probability": 0.001962060807272792,
+        "work_probability": 0.014341512694954872
+      },
+      {
+        "place": "Budget diner",
+        "satiety": 0.2,
+        "meal_probability": 0.0004486414254643023,
+        "repay_probability": 0.9790801405906677,
+        "borrow_probability": 0.0018821426201611757,
+        "work_probability": 0.013969235122203827
+      },
+      {
+        "place": "Budget diner",
+        "satiety": 0.8,
+        "meal_probability": 0.0003735960926860571,
+        "repay_probability": 0.9814684391021729,
+        "borrow_probability": 0.001598644768819213,
+        "work_probability": 0.012596740387380123
+      },
+      {
+        "place": "Cafe",
+        "satiety": 0.05,
+        "meal_probability": 0.0009840212296694517,
+        "repay_probability": 0.9642946720123291,
+        "borrow_probability": 0.003736180253326893,
+        "work_probability": 0.022094126790761948
+      },
+      {
+        "place": "Cafe",
+        "satiety": 0.2,
+        "meal_probability": 0.0009391505154781044,
+        "repay_probability": 0.9653996825218201,
+        "borrow_probability": 0.0035843756049871445,
+        "work_probability": 0.0215303935110569
+      },
+      {
+        "place": "Cafe",
+        "satiety": 0.8,
+        "meal_probability": 0.0007813235279172659,
+        "repay_probability": 0.9694287776947021,
+        "borrow_probability": 0.00304276030510664,
+        "work_probability": 0.01943279802799225
+      },
+      {
+        "place": "Restaurant",
+        "satiety": 0.05,
+        "meal_probability": 0.000720101990737021,
+        "repay_probability": 0.9713296890258789,
+        "borrow_probability": 0.0028359454590827227,
+        "work_probability": 0.018287843093276024
+      },
+      {
+        "place": "Restaurant",
+        "satiety": 0.2,
+        "meal_probability": 0.0006871885852888227,
+        "repay_probability": 0.9722168445587158,
+        "borrow_probability": 0.0027201625052839518,
+        "work_probability": 0.01781367138028145
+      },
+      {
+        "place": "Restaurant",
+        "satiety": 0.8,
+        "meal_probability": 0.0005716315936297178,
+        "repay_probability": 0.975446343421936,
+        "borrow_probability": 0.002308010123670101,
+        "work_probability": 0.01605619676411152
+      }
+    ]
+  },
+  {
+    "kind": "ppo_mlp",
+    "checkpoint": "stage_2",
+    "training_steps": 2107705,
+    "scope": "Synthetic matched states; zero recurrent history, exploration mixture disabled. Policy sensitivity, not a counterfactual episode result.",
+    "contexts": [
+      {
+        "place": "Home",
+        "satiety": 0.05,
+        "meal_probability": 8.836643974063918e-05,
+        "repay_probability": 0.028817281126976013,
+        "borrow_probability": 0.000872728880494833,
+        "work_probability": 0.6786400675773621
+      },
+      {
+        "place": "Home",
+        "satiety": 0.2,
+        "meal_probability": 8.40863649500534e-05,
+        "repay_probability": 0.029686912894248962,
+        "borrow_probability": 0.0008293192950077355,
+        "work_probability": 0.6783199310302734
+      },
+      {
+        "place": "Home",
+        "satiety": 0.8,
+        "meal_probability": 7.099387585185468e-05,
+        "repay_probability": 0.03758418560028076,
+        "borrow_probability": 0.0007196111255325377,
+        "work_probability": 0.6595183610916138
+      },
+      {
+        "place": "Bank",
+        "satiety": 0.05,
+        "meal_probability": 7.093079329933971e-05,
+        "repay_probability": 0.32813653349876404,
+        "borrow_probability": 0.0016017844900488853,
+        "work_probability": 0.24749936163425446
+      },
+      {
+        "place": "Bank",
+        "satiety": 0.2,
+        "meal_probability": 6.633919838350266e-05,
+        "repay_probability": 0.33731797337532043,
+        "borrow_probability": 0.0015010428614914417,
+        "work_probability": 0.24379435181617737
+      },
+      {
+        "place": "Bank",
+        "satiety": 0.8,
+        "meal_probability": 5.3360985475592315e-05,
+        "repay_probability": 0.35829463601112366,
+        "borrow_probability": 0.0012322752736508846,
+        "work_probability": 0.23119620978832245
+      },
+      {
+        "place": "Budget diner",
+        "satiety": 0.05,
+        "meal_probability": 0.00012651884753722697,
+        "repay_probability": 0.026790698990225792,
+        "borrow_probability": 0.0012254444882273674,
+        "work_probability": 0.6751226782798767
+      },
+      {
+        "place": "Budget diner",
+        "satiety": 0.2,
+        "meal_probability": 0.00012050519580952823,
+        "repay_probability": 0.02748073637485504,
+        "borrow_probability": 0.0011641322635114193,
+        "work_probability": 0.6756355166435242
+      },
+      {
+        "place": "Budget diner",
+        "satiety": 0.8,
+        "meal_probability": 9.926824714057148e-05,
+        "repay_probability": 0.030741997063159943,
+        "borrow_probability": 0.0009498568251729012,
+        "work_probability": 0.6762876510620117
+      },
+      {
+        "place": "Cafe",
+        "satiety": 0.05,
+        "meal_probability": 0.00015330903988797218,
+        "repay_probability": 0.27922266721725464,
+        "borrow_probability": 0.0024690390564501286,
+        "work_probability": 0.3333323001861572
+      },
+      {
+        "place": "Cafe",
+        "satiety": 0.2,
+        "meal_probability": 0.00014396454207599163,
+        "repay_probability": 0.2876778542995453,
+        "borrow_probability": 0.002323370659723878,
+        "work_probability": 0.32929903268814087
+      },
+      {
+        "place": "Cafe",
+        "satiety": 0.8,
+        "meal_probability": 0.00011167685443069786,
+        "repay_probability": 0.3227570652961731,
+        "borrow_probability": 0.0018143045017495751,
+        "work_probability": 0.3122471272945404
+      },
+      {
+        "place": "Restaurant",
+        "satiety": 0.05,
+        "meal_probability": 8.113485091598704e-05,
+        "repay_probability": 0.4928355813026428,
+        "borrow_probability": 0.0019160625524818897,
+        "work_probability": 0.1690303385257721
+      },
+      {
+        "place": "Restaurant",
+        "satiety": 0.2,
+        "meal_probability": 7.530013681389391e-05,
+        "repay_probability": 0.5041407942771912,
+        "borrow_probability": 0.0017844343092292547,
+        "work_probability": 0.16487658023834229
+      },
+      {
+        "place": "Restaurant",
+        "satiety": 0.8,
+        "meal_probability": 5.583695019595325e-05,
+        "repay_probability": 0.5478049516677856,
+        "borrow_probability": 0.0013376644346863031,
+        "work_probability": 0.1489904820919037
+      }
+    ]
+  },
+  {
+    "kind": "ppo_mlp",
+    "checkpoint": "stage_3",
+    "training_steps": 3145830,
+    "scope": "Synthetic matched states; zero recurrent history, exploration mixture disabled. Policy sensitivity, not a counterfactual episode result.",
+    "contexts": [
+      {
+        "place": "Home",
+        "satiety": 0.05,
+        "meal_probability": 0.0005192715907469392,
+        "repay_probability": 0.014253312721848488,
+        "borrow_probability": 0.0011476080399006605,
+        "work_probability": 0.788343071937561
+      },
+      {
+        "place": "Home",
+        "satiety": 0.2,
+        "meal_probability": 0.0004902488435618579,
+        "repay_probability": 0.014770058915019035,
+        "borrow_probability": 0.0010808480437844992,
+        "work_probability": 0.790796160697937
+      },
+      {
+        "place": "Home",
+        "satiety": 0.8,
+        "meal_probability": 0.00040089176036417484,
+        "repay_probability": 0.02092139609158039,
+        "borrow_probability": 0.0008941490086726844,
+        "work_probability": 0.79723060131073
+      },
+      {
+        "place": "Bank",
+        "satiety": 0.05,
+        "meal_probability": 0.00041848060209304094,
+        "repay_probability": 0.24408915638923645,
+        "borrow_probability": 0.0012723563704639673,
+        "work_probability": 0.686609148979187
+      },
+      {
+        "place": "Bank",
+        "satiety": 0.2,
+        "meal_probability": 0.00038536181091330945,
+        "repay_probability": 0.25443387031555176,
+        "borrow_probability": 0.001171013107523322,
+        "work_probability": 0.6787938475608826
+      },
+      {
+        "place": "Bank",
+        "satiety": 0.8,
+        "meal_probability": 0.0002889056340791285,
+        "repay_probability": 0.28390228748321533,
+        "borrow_probability": 0.000887518166564405,
+        "work_probability": 0.6536123752593994
+      },
+      {
+        "place": "Budget diner",
+        "satiety": 0.05,
+        "meal_probability": 0.0005637584254145622,
+        "repay_probability": 0.014696009457111359,
+        "borrow_probability": 0.0012802394339814782,
+        "work_probability": 0.8125544786453247
+      },
+      {
+        "place": "Budget diner",
+        "satiety": 0.2,
+        "meal_probability": 0.0005338200135156512,
+        "repay_probability": 0.015152239240705967,
+        "borrow_probability": 0.0012063594767823815,
+        "work_probability": 0.8153172135353088
+      },
+      {
+        "place": "Budget diner",
+        "satiety": 0.8,
+        "meal_probability": 0.00042603258043527603,
+        "repay_probability": 0.017424408346414566,
+        "borrow_probability": 0.0009471093071624637,
+        "work_probability": 0.8254199028015137
+      },
+      {
+        "place": "Cafe",
+        "satiety": 0.05,
+        "meal_probability": 0.00029255382833071053,
+        "repay_probability": 0.26788631081581116,
+        "borrow_probability": 0.0007681041024625301,
+        "work_probability": 0.7073661684989929
+      },
+      {
+        "place": "Cafe",
+        "satiety": 0.2,
+        "meal_probability": 0.00027012807549908757,
+        "repay_probability": 0.2777716815471649,
+        "borrow_probability": 0.0007078610360622406,
+        "work_probability": 0.6985533237457275
+      },
+      {
+        "place": "Cafe",
+        "satiety": 0.8,
+        "meal_probability": 0.00019444935605861247,
+        "repay_probability": 0.3197733163833618,
+        "borrow_probability": 0.0005065343575552106,
+        "work_probability": 0.6603451371192932
+      },
+      {
+        "place": "Restaurant",
+        "satiety": 0.05,
+        "meal_probability": 0.00021357485093176365,
+        "repay_probability": 0.45262208580970764,
+        "borrow_probability": 0.0006345530855469406,
+        "work_probability": 0.5301134586334229
+      },
+      {
+        "place": "Restaurant",
+        "satiety": 0.2,
+        "meal_probability": 0.00019464499200694263,
+        "repay_probability": 0.46652737259864807,
+        "borrow_probability": 0.0005779329803772271,
+        "work_probability": 0.517136812210083
+      },
+      {
+        "place": "Restaurant",
+        "satiety": 0.8,
+        "meal_probability": 0.0001330479426542297,
+        "repay_probability": 0.5212588906288147,
+        "borrow_probability": 0.00039443152491003275,
+        "work_probability": 0.4656112492084503
+      }
+    ]
+  },
+  {
+    "kind": "ppo_mlp",
+    "checkpoint": "selected",
+    "training_steps": 3947196,
+    "scope": "Synthetic matched states; zero recurrent history, exploration mixture disabled. Policy sensitivity, not a counterfactual episode result.",
+    "contexts": [
+      {
+        "place": "Home",
+        "satiety": 0.05,
+        "meal_probability": 0.00038224071613512933,
+        "repay_probability": 0.012442680075764656,
+        "borrow_probability": 0.0012081942986696959,
+        "work_probability": 0.8213620185852051
+      },
+      {
+        "place": "Home",
+        "satiety": 0.2,
+        "meal_probability": 0.0003546934458427131,
+        "repay_probability": 0.012602239847183228,
+        "borrow_probability": 0.0011215859558433294,
+        "work_probability": 0.8258644342422485
+      },
+      {
+        "place": "Home",
+        "satiety": 0.8,
+        "meal_probability": 0.00026940350653603673,
+        "repay_probability": 0.015789547935128212,
+        "borrow_probability": 0.0008842039969749749,
+        "work_probability": 0.8402376770973206
+      },
+      {
+        "place": "Bank",
+        "satiety": 0.05,
+        "meal_probability": 0.0005485215224325657,
+        "repay_probability": 0.28694918751716614,
+        "borrow_probability": 0.0027336811181157827,
+        "work_probability": 0.6284763813018799
+      },
+      {
+        "place": "Bank",
+        "satiety": 0.2,
+        "meal_probability": 0.0004948655841872096,
+        "repay_probability": 0.2975424528121948,
+        "borrow_probability": 0.0024896874092519283,
+        "work_probability": 0.6221261620521545
+      },
+      {
+        "place": "Bank",
+        "satiety": 0.8,
+        "meal_probability": 0.0003399349807295948,
+        "repay_probability": 0.29821494221687317,
+        "borrow_probability": 0.0017727089580148458,
+        "work_probability": 0.6281030178070068
+      },
+      {
+        "place": "Budget diner",
+        "satiety": 0.05,
+        "meal_probability": 0.0004824126954190433,
+        "repay_probability": 0.01828860118985176,
+        "borrow_probability": 0.0016711500938981771,
+        "work_probability": 0.8143461346626282
+      },
+      {
+        "place": "Budget diner",
+        "satiety": 0.2,
+        "meal_probability": 0.00045106984907761216,
+        "repay_probability": 0.01850208267569542,
+        "borrow_probability": 0.0015579583123326302,
+        "work_probability": 0.8193049430847168
+      },
+      {
+        "place": "Budget diner",
+        "satiety": 0.8,
+        "meal_probability": 0.0003393068618606776,
+        "repay_probability": 0.01972643844783306,
+        "borrow_probability": 0.001164124347269535,
+        "work_probability": 0.837549090385437
+      },
+      {
+        "place": "Cafe",
+        "satiety": 0.05,
+        "meal_probability": 0.0004889923729933798,
+        "repay_probability": 0.6320970058441162,
+        "borrow_probability": 0.002466261852532625,
+        "work_probability": 0.3354438543319702
+      },
+      {
+        "place": "Cafe",
+        "satiety": 0.2,
+        "meal_probability": 0.0004382995830383152,
+        "repay_probability": 0.643263578414917,
+        "borrow_probability": 0.0022279974073171616,
+        "work_probability": 0.3265480101108551
+      },
+      {
+        "place": "Cafe",
+        "satiety": 0.8,
+        "meal_probability": 0.0002772926527541131,
+        "repay_probability": 0.6860331892967224,
+        "borrow_probability": 0.001459857914596796,
+        "work_probability": 0.2914230525493622
+      },
+      {
+        "place": "Restaurant",
+        "satiety": 0.05,
+        "meal_probability": 0.0003136421146336943,
+        "repay_probability": 0.7491649985313416,
+        "borrow_probability": 0.0017809228738769889,
+        "work_probability": 0.22990985214710236
+      },
+      {
+        "place": "Restaurant",
+        "satiety": 0.2,
+        "meal_probability": 0.0002771876170299947,
+        "repay_probability": 0.7591753005981445,
+        "borrow_probability": 0.0015908053610473871,
+        "work_probability": 0.221542090177536
+      },
+      {
+        "place": "Restaurant",
+        "satiety": 0.8,
+        "meal_probability": 0.0001665538438828662,
+        "repay_probability": 0.7956987619400024,
+        "borrow_probability": 0.00100048934109509,
+        "work_probability": 0.19036835432052612
+      }
+    ]
+  },
+  {
+    "kind": "ppo_mlp",
+    "checkpoint": "final",
+    "training_steps": 4199557,
+    "scope": "Synthetic matched states; zero recurrent history, exploration mixture disabled. Policy sensitivity, not a counterfactual episode result.",
+    "contexts": [
+      {
+        "place": "Home",
+        "satiety": 0.05,
+        "meal_probability": 0.0012627618853002787,
+        "repay_probability": 0.020567957311868668,
+        "borrow_probability": 0.0025646036956459284,
+        "work_probability": 0.841515064239502
+      },
+      {
+        "place": "Home",
+        "satiety": 0.2,
+        "meal_probability": 0.00117959245108068,
+        "repay_probability": 0.020344868302345276,
+        "borrow_probability": 0.002392745343968272,
+        "work_probability": 0.8456690907478333
+      },
+      {
+        "place": "Home",
+        "satiety": 0.8,
+        "meal_probability": 0.0009577574674040079,
+        "repay_probability": 0.02256501466035843,
+        "borrow_probability": 0.001974250189960003,
+        "work_probability": 0.8551758527755737
+      },
+      {
+        "place": "Bank",
+        "satiety": 0.05,
+        "meal_probability": 0.003417437896132469,
+        "repay_probability": 0.26819273829460144,
+        "borrow_probability": 0.00795887503772974,
+        "work_probability": 0.5959086418151855
+      },
+      {
+        "place": "Bank",
+        "satiety": 0.2,
+        "meal_probability": 0.003136273007839918,
+        "repay_probability": 0.275402307510376,
+        "borrow_probability": 0.007339718285948038,
+        "work_probability": 0.5944470763206482
+      },
+      {
+        "place": "Bank",
+        "satiety": 0.8,
+        "meal_probability": 0.002222706563770771,
+        "repay_probability": 0.27423352003097534,
+        "borrow_probability": 0.005397883243858814,
+        "work_probability": 0.6084057092666626
+      },
+      {
+        "place": "Budget diner",
+        "satiety": 0.05,
+        "meal_probability": 0.001680396730080247,
+        "repay_probability": 0.030281931161880493,
+        "borrow_probability": 0.003585304832085967,
+        "work_probability": 0.8168384432792664
+      },
+      {
+        "place": "Budget diner",
+        "satiety": 0.2,
+        "meal_probability": 0.001582204713486135,
+        "repay_probability": 0.030033187940716743,
+        "borrow_probability": 0.0033622239716351032,
+        "work_probability": 0.821736216545105
+      },
+      {
+        "place": "Budget diner",
+        "satiety": 0.8,
+        "meal_probability": 0.0012227540137246251,
+        "repay_probability": 0.029388785362243652,
+        "borrow_probability": 0.0025703730061650276,
+        "work_probability": 0.839720606803894
+      },
+      {
+        "place": "Cafe",
+        "satiety": 0.05,
+        "meal_probability": 0.003739133244380355,
+        "repay_probability": 0.6016209721565247,
+        "borrow_probability": 0.0068703945726156235,
+        "work_probability": 0.3217644691467285
+      },
+      {
+        "place": "Cafe",
+        "satiety": 0.2,
+        "meal_probability": 0.0034226197749376297,
+        "repay_probability": 0.6117112636566162,
+        "borrow_probability": 0.006303967442363501,
+        "work_probability": 0.3161560595035553
+      },
+      {
+        "place": "Cafe",
+        "satiety": 0.8,
+        "meal_probability": 0.0023415926843881607,
+        "repay_probability": 0.6511977910995483,
+        "borrow_probability": 0.004378429148346186,
+        "work_probability": 0.2924693524837494
+      },
+      {
+        "place": "Restaurant",
+        "satiety": 0.05,
+        "meal_probability": 0.003101408015936613,
+        "repay_probability": 0.7116611003875732,
+        "borrow_probability": 0.005816536024212837,
+        "work_probability": 0.2293962687253952
+      },
+      {
+        "place": "Restaurant",
+        "satiety": 0.2,
+        "meal_probability": 0.002804955467581749,
+        "repay_probability": 0.7218242883682251,
+        "borrow_probability": 0.005279126577079296,
+        "work_probability": 0.22319965064525604
+      },
+      {
+        "place": "Restaurant",
+        "satiety": 0.8,
+        "meal_probability": 0.0018325895071029663,
+        "repay_probability": 0.7597991824150085,
+        "borrow_probability": 0.003515484742820263,
+        "work_probability": 0.1987682282924652
+      }
+    ]
+  },
+  {
+    "kind": "ppo_gru",
+    "checkpoint": "initial",
+    "training_steps": 0,
+    "scope": "Synthetic matched states; zero recurrent history, exploration mixture disabled. Policy sensitivity, not a counterfactual episode result.",
+    "contexts": [
+      {
+        "place": "Home",
+        "satiety": 0.05,
+        "meal_probability": 0.15000739693641663,
+        "repay_probability": 0.1502324342727661,
+        "borrow_probability": 0.1496129035949707,
+        "work_probability": 0.050048828125
+      },
+      {
+        "place": "Home",
+        "satiety": 0.2,
+        "meal_probability": 0.15000687539577484,
+        "repay_probability": 0.15023167431354523,
+        "borrow_probability": 0.1496162712574005,
+        "work_probability": 0.05004821717739105
+      },
+      {
+        "place": "Home",
+        "satiety": 0.8,
+        "meal_probability": 0.15001532435417175,
+        "repay_probability": 0.1502532958984375,
+        "borrow_probability": 0.1496203988790512,
+        "work_probability": 0.050034113228321075
+      },
+      {
+        "place": "Bank",
+        "satiety": 0.05,
+        "meal_probability": 0.14998169243335724,
+        "repay_probability": 0.15036579966545105,
+        "borrow_probability": 0.1495198905467987,
+        "work_probability": 0.04992798715829849
+      },
+      {
+        "place": "Bank",
+        "satiety": 0.2,
+        "meal_probability": 0.14998185634613037,
+        "repay_probability": 0.15036541223526,
+        "borrow_probability": 0.14952415227890015,
+        "work_probability": 0.04992760717868805
+      },
+      {
+        "place": "Bank",
+        "satiety": 0.8,
+        "meal_probability": 0.14999905228614807,
+        "repay_probability": 0.15040434896945953,
+        "borrow_probability": 0.14951074123382568,
+        "work_probability": 0.04992178827524185
+      },
+      {
+        "place": "Budget diner",
+        "satiety": 0.05,
+        "meal_probability": 0.14998185634613037,
+        "repay_probability": 0.15030214190483093,
+        "borrow_probability": 0.1495799869298935,
+        "work_probability": 0.04999279975891113
+      },
+      {
+        "place": "Budget diner",
+        "satiety": 0.2,
+        "meal_probability": 0.14998099207878113,
+        "repay_probability": 0.15030169486999512,
+        "borrow_probability": 0.14958319067955017,
+        "work_probability": 0.04999217763543129
+      },
+      {
+        "place": "Budget diner",
+        "satiety": 0.8,
+        "meal_probability": 0.14997906982898712,
+        "repay_probability": 0.15029993653297424,
+        "borrow_probability": 0.1495947241783142,
+        "work_probability": 0.0499887578189373
+      },
+      {
+        "place": "Cafe",
+        "satiety": 0.05,
+        "meal_probability": 0.1500515341758728,
+        "repay_probability": 0.1505928337574005,
+        "borrow_probability": 0.1494375467300415,
+        "work_probability": 0.04982244223356247
+      },
+      {
+        "place": "Cafe",
+        "satiety": 0.2,
+        "meal_probability": 0.15005065500736237,
+        "repay_probability": 0.1505933701992035,
+        "borrow_probability": 0.14944255352020264,
+        "work_probability": 0.0498216338455677
+      },
+      {
+        "place": "Cafe",
+        "satiety": 0.8,
+        "meal_probability": 0.1500484049320221,
+        "repay_probability": 0.15059541165828705,
+        "borrow_probability": 0.1494618058204651,
+        "work_probability": 0.04981791600584984
+      },
+      {
+        "place": "Restaurant",
+        "satiety": 0.05,
+        "meal_probability": 0.15005508065223694,
+        "repay_probability": 0.15059369802474976,
+        "borrow_probability": 0.14940397441387177,
+        "work_probability": 0.049820780754089355
+      },
+      {
+        "place": "Restaurant",
+        "satiety": 0.2,
+        "meal_probability": 0.15005405247211456,
+        "repay_probability": 0.1505945324897766,
+        "borrow_probability": 0.14940956234931946,
+        "work_probability": 0.04981997236609459
+      },
+      {
+        "place": "Restaurant",
+        "satiety": 0.8,
+        "meal_probability": 0.15005084872245789,
+        "repay_probability": 0.15059766173362732,
+        "borrow_probability": 0.14943115413188934,
+        "work_probability": 0.049816228449344635
+      }
+    ]
+  },
+  {
+    "kind": "ppo_gru",
+    "checkpoint": "stage_0",
+    "training_steps": 448070,
+    "scope": "Synthetic matched states; zero recurrent history, exploration mixture disabled. Policy sensitivity, not a counterfactual episode result.",
+    "contexts": [
+      {
+        "place": "Home",
+        "satiety": 0.05,
+        "meal_probability": 0.05467958748340607,
+        "repay_probability": 0.33063504099845886,
+        "borrow_probability": 0.1101611778140068,
+        "work_probability": 0.24083273112773895
+      },
+      {
+        "place": "Home",
+        "satiety": 0.2,
+        "meal_probability": 0.05461348593235016,
+        "repay_probability": 0.3307690918445587,
+        "borrow_probability": 0.11009430885314941,
+        "work_probability": 0.2410307377576828
+      },
+      {
+        "place": "Home",
+        "satiety": 0.8,
+        "meal_probability": 0.05424648895859718,
+        "repay_probability": 0.33170562982559204,
+        "borrow_probability": 0.10959339886903763,
+        "work_probability": 0.24207358062267303
+      },
+      {
+        "place": "Bank",
+        "satiety": 0.05,
+        "meal_probability": 0.0527496412396431,
+        "repay_probability": 0.3353865146636963,
+        "borrow_probability": 0.10776574909687042,
+        "work_probability": 0.2471964806318283
+      },
+      {
+        "place": "Bank",
+        "satiety": 0.2,
+        "meal_probability": 0.05269661918282509,
+        "repay_probability": 0.3354933261871338,
+        "borrow_probability": 0.10771318525075912,
+        "work_probability": 0.24735648930072784
+      },
+      {
+        "place": "Bank",
+        "satiety": 0.8,
+        "meal_probability": 0.0522657074034214,
+        "repay_probability": 0.33665454387664795,
+        "borrow_probability": 0.10714349150657654,
+        "work_probability": 0.24854686856269836
+      },
+      {
+        "place": "Budget diner",
+        "satiety": 0.05,
+        "meal_probability": 0.055880751460790634,
+        "repay_probability": 0.3284856677055359,
+        "borrow_probability": 0.11145441234111786,
+        "work_probability": 0.23642057180404663
+      },
+      {
+        "place": "Budget diner",
+        "satiety": 0.2,
+        "meal_probability": 0.05581090599298477,
+        "repay_probability": 0.328640341758728,
+        "borrow_probability": 0.11138379573822021,
+        "work_probability": 0.23661309480667114
+      },
+      {
+        "place": "Budget diner",
+        "satiety": 0.8,
+        "meal_probability": 0.05555654689669609,
+        "repay_probability": 0.32920628786087036,
+        "borrow_probability": 0.11112764477729797,
+        "work_probability": 0.23730246722698212
+      },
+      {
+        "place": "Cafe",
+        "satiety": 0.05,
+        "meal_probability": 0.05547724664211273,
+        "repay_probability": 0.3301825523376465,
+        "borrow_probability": 0.1106286272406578,
+        "work_probability": 0.2378348708152771
+      },
+      {
+        "place": "Cafe",
+        "satiety": 0.2,
+        "meal_probability": 0.055414773523807526,
+        "repay_probability": 0.33032235503196716,
+        "borrow_probability": 0.1105678454041481,
+        "work_probability": 0.2380058318376541
+      },
+      {
+        "place": "Cafe",
+        "satiety": 0.8,
+        "meal_probability": 0.05518996715545654,
+        "repay_probability": 0.3308289051055908,
+        "borrow_probability": 0.11035144329071045,
+        "work_probability": 0.23860928416252136
+      },
+      {
+        "place": "Restaurant",
+        "satiety": 0.05,
+        "meal_probability": 0.052978966385126114,
+        "repay_probability": 0.33690017461776733,
+        "borrow_probability": 0.10752691328525543,
+        "work_probability": 0.24485918879508972
+      },
+      {
+        "place": "Restaurant",
+        "satiety": 0.2,
+        "meal_probability": 0.052927933633327484,
+        "repay_probability": 0.33701133728027344,
+        "borrow_probability": 0.10747849941253662,
+        "work_probability": 0.24500367045402527
+      },
+      {
+        "place": "Restaurant",
+        "satiety": 0.8,
+        "meal_probability": 0.052747201174497604,
+        "repay_probability": 0.33740776777267456,
+        "borrow_probability": 0.10731092840433121,
+        "work_probability": 0.2455027848482132
+      }
+    ]
+  },
+  {
+    "kind": "ppo_gru",
+    "checkpoint": "stage_1",
+    "training_steps": 1051020,
+    "scope": "Synthetic matched states; zero recurrent history, exploration mixture disabled. Policy sensitivity, not a counterfactual episode result.",
+    "contexts": [
+      {
+        "place": "Home",
+        "satiety": 0.05,
+        "meal_probability": 0.002211624523624778,
+        "repay_probability": 0.9573379158973694,
+        "borrow_probability": 0.004835584666579962,
+        "work_probability": 0.024250341579318047
+      },
+      {
+        "place": "Home",
+        "satiety": 0.2,
+        "meal_probability": 0.0021978190634399652,
+        "repay_probability": 0.9578819274902344,
+        "borrow_probability": 0.004794771783053875,
+        "work_probability": 0.023831602185964584
+      },
+      {
+        "place": "Home",
+        "satiety": 0.8,
+        "meal_probability": 0.00215771677903831,
+        "repay_probability": 0.95957350730896,
+        "borrow_probability": 0.004669605754315853,
+        "work_probability": 0.02251218631863594
+      },
+      {
+        "place": "Bank",
+        "satiety": 0.05,
+        "meal_probability": 0.002439586678519845,
+        "repay_probability": 0.9504276514053345,
+        "borrow_probability": 0.005417718086391687,
+        "work_probability": 0.029248956590890884
+      },
+      {
+        "place": "Bank",
+        "satiety": 0.2,
+        "meal_probability": 0.0024153506383299828,
+        "repay_probability": 0.951278567314148,
+        "borrow_probability": 0.005350632593035698,
+        "work_probability": 0.02861015684902668
+      },
+      {
+        "place": "Bank",
+        "satiety": 0.8,
+        "meal_probability": 0.002295376732945442,
+        "repay_probability": 0.9552152752876282,
+        "borrow_probability": 0.005028918385505676,
+        "work_probability": 0.025706712156534195
+      },
+      {
+        "place": "Budget diner",
+        "satiety": 0.05,
+        "meal_probability": 0.002660142257809639,
+        "repay_probability": 0.9432637691497803,
+        "borrow_probability": 0.005976141430437565,
+        "work_probability": 0.03453856334090233
+      },
+      {
+        "place": "Budget diner",
+        "satiety": 0.2,
+        "meal_probability": 0.002628923859447241,
+        "repay_probability": 0.9442812204360962,
+        "borrow_probability": 0.0058934129774570465,
+        "work_probability": 0.03379045054316521
+      },
+      {
+        "place": "Budget diner",
+        "satiety": 0.8,
+        "meal_probability": 0.0025226925499737263,
+        "repay_probability": 0.947973370552063,
+        "borrow_probability": 0.005603749305009842,
+        "work_probability": 0.03102908469736576
+      },
+      {
+        "place": "Cafe",
+        "satiety": 0.05,
+        "meal_probability": 0.003581410041078925,
+        "repay_probability": 0.9222887754440308,
+        "borrow_probability": 0.008080230094492435,
+        "work_probability": 0.0481826476752758
+      },
+      {
+        "place": "Cafe",
+        "satiety": 0.2,
+        "meal_probability": 0.003525746986269951,
+        "repay_probability": 0.9235786199569702,
+        "borrow_probability": 0.007948505692183971,
+        "work_probability": 0.047341249883174896
+      },
+      {
+        "place": "Cafe",
+        "satiety": 0.8,
+        "meal_probability": 0.003328470978885889,
+        "repay_probability": 0.9285557270050049,
+        "borrow_probability": 0.007468150928616524,
+        "work_probability": 0.04397842660546303
+      },
+      {
+        "place": "Restaurant",
+        "satiety": 0.05,
+        "meal_probability": 0.003080641385167837,
+        "repay_probability": 0.932866096496582,
+        "borrow_probability": 0.006971314549446106,
+        "work_probability": 0.041540276259183884
+      },
+      {
+        "place": "Restaurant",
+        "satiety": 0.2,
+        "meal_probability": 0.0030379779636859894,
+        "repay_probability": 0.9340239763259888,
+        "borrow_probability": 0.006865337025374174,
+        "work_probability": 0.04073658213019371
+      },
+      {
+        "place": "Restaurant",
+        "satiety": 0.8,
+        "meal_probability": 0.0028862236067652702,
+        "repay_probability": 0.9384752511978149,
+        "borrow_probability": 0.00647687166929245,
+        "work_probability": 0.03756387159228325
+      }
+    ]
+  },
+  {
+    "kind": "ppo_gru",
+    "checkpoint": "stage_2",
+    "training_steps": 2113372,
+    "scope": "Synthetic matched states; zero recurrent history, exploration mixture disabled. Policy sensitivity, not a counterfactual episode result.",
+    "contexts": [
+      {
+        "place": "Home",
+        "satiety": 0.05,
+        "meal_probability": 0.00030388630693778396,
+        "repay_probability": 0.003024640493094921,
+        "borrow_probability": 0.0006058207363821566,
+        "work_probability": 0.9693886041641235
+      },
+      {
+        "place": "Home",
+        "satiety": 0.2,
+        "meal_probability": 0.00029571683262474835,
+        "repay_probability": 0.0029692251700907946,
+        "borrow_probability": 0.0005852742469869554,
+        "work_probability": 0.9699267148971558
+      },
+      {
+        "place": "Home",
+        "satiety": 0.8,
+        "meal_probability": 0.00028572199516929686,
+        "repay_probability": 0.0029838690534234047,
+        "borrow_probability": 0.0005594641552306712,
+        "work_probability": 0.9694401025772095
+      },
+      {
+        "place": "Bank",
+        "satiety": 0.05,
+        "meal_probability": 0.0013604797422885895,
+        "repay_probability": 0.04247426986694336,
+        "borrow_probability": 0.002813407452777028,
+        "work_probability": 0.7615400552749634
+      },
+      {
+        "place": "Bank",
+        "satiety": 0.2,
+        "meal_probability": 0.0013262014836072922,
+        "repay_probability": 0.04378286749124527,
+        "borrow_probability": 0.0026919320225715637,
+        "work_probability": 0.7605090141296387
+      },
+      {
+        "place": "Bank",
+        "satiety": 0.8,
+        "meal_probability": 0.0014126896858215332,
+        "repay_probability": 0.0664205327630043,
+        "borrow_probability": 0.0027393982745707035,
+        "work_probability": 0.6770902872085571
+      },
+      {
+        "place": "Budget diner",
+        "satiety": 0.05,
+        "meal_probability": 0.0005162429879419506,
+        "repay_probability": 0.004174169152975082,
+        "borrow_probability": 0.0011278653983026743,
+        "work_probability": 0.9533862471580505
+      },
+      {
+        "place": "Budget diner",
+        "satiety": 0.2,
+        "meal_probability": 0.0004824521893169731,
+        "repay_probability": 0.003997195512056351,
+        "borrow_probability": 0.0010449897963553667,
+        "work_probability": 0.9560672640800476
+      },
+      {
+        "place": "Budget diner",
+        "satiety": 0.8,
+        "meal_probability": 0.000355767784640193,
+        "repay_probability": 0.0032592350617051125,
+        "borrow_probability": 0.0007262321887537837,
+        "work_probability": 0.9669631123542786
+      },
+      {
+        "place": "Cafe",
+        "satiety": 0.05,
+        "meal_probability": 0.0007916697068139911,
+        "repay_probability": 0.00777104776352644,
+        "borrow_probability": 0.0017244042828679085,
+        "work_probability": 0.9393517374992371
+      },
+      {
+        "place": "Cafe",
+        "satiety": 0.2,
+        "meal_probability": 0.0007331825327128172,
+        "repay_probability": 0.007494688965380192,
+        "borrow_probability": 0.0015802890993654728,
+        "work_probability": 0.942783534526825
+      },
+      {
+        "place": "Cafe",
+        "satiety": 0.8,
+        "meal_probability": 0.0005857880460098386,
+        "repay_probability": 0.006902361288666725,
+        "borrow_probability": 0.001186059438623488,
+        "work_probability": 0.9497632384300232
+      },
+      {
+        "place": "Restaurant",
+        "satiety": 0.05,
+        "meal_probability": 0.0018909645732492208,
+        "repay_probability": 0.05808284133672714,
+        "borrow_probability": 0.004081634804606438,
+        "work_probability": 0.7238587737083435
+      },
+      {
+        "place": "Restaurant",
+        "satiety": 0.2,
+        "meal_probability": 0.0018434803932905197,
+        "repay_probability": 0.06028924509882927,
+        "borrow_probability": 0.003930273465812206,
+        "work_probability": 0.7209091186523438
+      },
+      {
+        "place": "Restaurant",
+        "satiety": 0.8,
+        "meal_probability": 0.001669070916250348,
+        "repay_probability": 0.07076475024223328,
+        "borrow_probability": 0.0033154573757201433,
+        "work_probability": 0.7091377973556519
+      }
+    ]
+  },
+  {
+    "kind": "ppo_gru",
+    "checkpoint": "stage_3",
+    "training_steps": 3161136,
+    "scope": "Synthetic matched states; zero recurrent history, exploration mixture disabled. Policy sensitivity, not a counterfactual episode result.",
+    "contexts": [
+      {
+        "place": "Home",
+        "satiety": 0.05,
+        "meal_probability": 8.224399061873555e-05,
+        "repay_probability": 0.0003770882321987301,
+        "borrow_probability": 9.758477244758978e-05,
+        "work_probability": 0.9952237010002136
+      },
+      {
+        "place": "Home",
+        "satiety": 0.2,
+        "meal_probability": 8.13008300610818e-05,
+        "repay_probability": 0.0003784114378504455,
+        "borrow_probability": 9.511821554042399e-05,
+        "work_probability": 0.9951487183570862
+      },
+      {
+        "place": "Home",
+        "satiety": 0.8,
+        "meal_probability": 8.485479338560253e-05,
+        "repay_probability": 0.0004324773035477847,
+        "borrow_probability": 9.534208220429718e-05,
+        "work_probability": 0.9940909743309021
+      },
+      {
+        "place": "Bank",
+        "satiety": 0.05,
+        "meal_probability": 0.003717881627380848,
+        "repay_probability": 0.5717336535453796,
+        "borrow_probability": 0.004176344256848097,
+        "work_probability": 0.38975974917411804
+      },
+      {
+        "place": "Bank",
+        "satiety": 0.2,
+        "meal_probability": 0.0034548211842775345,
+        "repay_probability": 0.5696181654930115,
+        "borrow_probability": 0.0038491913583129644,
+        "work_probability": 0.3942807614803314
+      },
+      {
+        "place": "Bank",
+        "satiety": 0.8,
+        "meal_probability": 0.0027206980157643557,
+        "repay_probability": 0.5538362264633179,
+        "borrow_probability": 0.002981454599648714,
+        "work_probability": 0.41446825861930847
+      },
+      {
+        "place": "Budget diner",
+        "satiety": 0.05,
+        "meal_probability": 0.00018889608327299356,
+        "repay_probability": 0.0006581727648153901,
+        "borrow_probability": 0.0002534418017603457,
+        "work_probability": 0.9905733466148376
+      },
+      {
+        "place": "Budget diner",
+        "satiety": 0.2,
+        "meal_probability": 0.00017003320681396872,
+        "repay_probability": 0.0006096831639297307,
+        "borrow_probability": 0.00022635748609900475,
+        "work_probability": 0.9913621544837952
+      },
+      {
+        "place": "Budget diner",
+        "satiety": 0.8,
+        "meal_probability": 0.0001102754904422909,
+        "repay_probability": 0.00045796678750775754,
+        "borrow_probability": 0.0001401929184794426,
+        "work_probability": 0.9942016005516052
+      },
+      {
+        "place": "Cafe",
+        "satiety": 0.05,
+        "meal_probability": 0.019449520856142044,
+        "repay_probability": 0.5691860914230347,
+        "borrow_probability": 0.02185600996017456,
+        "work_probability": 0.2974109947681427
+      },
+      {
+        "place": "Cafe",
+        "satiety": 0.2,
+        "meal_probability": 0.017403259873390198,
+        "repay_probability": 0.5707072615623474,
+        "borrow_probability": 0.019567931070923805,
+        "work_probability": 0.3082541823387146
+      },
+      {
+        "place": "Cafe",
+        "satiety": 0.8,
+        "meal_probability": 0.010651650838553905,
+        "repay_probability": 0.5664948225021362,
+        "borrow_probability": 0.011905940249562263,
+        "work_probability": 0.356097549200058
+      },
+      {
+        "place": "Restaurant",
+        "satiety": 0.05,
+        "meal_probability": 0.014319307170808315,
+        "repay_probability": 0.6636003851890564,
+        "borrow_probability": 0.015463786199688911,
+        "work_probability": 0.24293656647205353
+      },
+      {
+        "place": "Restaurant",
+        "satiety": 0.2,
+        "meal_probability": 0.012815982103347778,
+        "repay_probability": 0.6621097326278687,
+        "borrow_probability": 0.01382509060204029,
+        "work_probability": 0.2535843849182129
+      },
+      {
+        "place": "Restaurant",
+        "satiety": 0.8,
+        "meal_probability": 0.008550252765417099,
+        "repay_probability": 0.650783121585846,
+        "borrow_probability": 0.00918674748390913,
+        "work_probability": 0.2908828556537628
+      }
+    ]
+  },
+  {
+    "kind": "ppo_gru",
+    "checkpoint": "selected",
+    "training_steps": 4196532,
+    "scope": "Synthetic matched states; zero recurrent history, exploration mixture disabled. Policy sensitivity, not a counterfactual episode result.",
+    "contexts": [
+      {
+        "place": "Home",
+        "satiety": 0.05,
+        "meal_probability": 0.0001917709014378488,
+        "repay_probability": 0.0009531023097224534,
+        "borrow_probability": 0.0003762284468393773,
+        "work_probability": 0.9927001595497131
+      },
+      {
+        "place": "Home",
+        "satiety": 0.2,
+        "meal_probability": 0.00017704558558762074,
+        "repay_probability": 0.0009096328867599368,
+        "borrow_probability": 0.00034541479544714093,
+        "work_probability": 0.9931127429008484
+      },
+      {
+        "place": "Home",
+        "satiety": 0.8,
+        "meal_probability": 0.00013703916920349002,
+        "repay_probability": 0.000799313304014504,
+        "borrow_probability": 0.00026473228354007006,
+        "work_probability": 0.994021475315094
+      },
+      {
+        "place": "Bank",
+        "satiety": 0.05,
+        "meal_probability": 0.008943090215325356,
+        "repay_probability": 0.6159139275550842,
+        "borrow_probability": 0.022862659767270088,
+        "work_probability": 0.3110726475715637
+      },
+      {
+        "place": "Bank",
+        "satiety": 0.2,
+        "meal_probability": 0.008292525075376034,
+        "repay_probability": 0.6143404245376587,
+        "borrow_probability": 0.02114938758313656,
+        "work_probability": 0.3164982497692108
+      },
+      {
+        "place": "Bank",
+        "satiety": 0.8,
+        "meal_probability": 0.005983859300613403,
+        "repay_probability": 0.5859723091125488,
+        "borrow_probability": 0.015505590476095676,
+        "work_probability": 0.3571937084197998
+      },
+      {
+        "place": "Budget diner",
+        "satiety": 0.05,
+        "meal_probability": 0.0005273278802633286,
+        "repay_probability": 0.0018686469411477447,
+        "borrow_probability": 0.001093828584998846,
+        "work_probability": 0.9865370988845825
+      },
+      {
+        "place": "Budget diner",
+        "satiety": 0.2,
+        "meal_probability": 0.0004573168116621673,
+        "repay_probability": 0.0016944867093116045,
+        "borrow_probability": 0.000950280693359673,
+        "work_probability": 0.9878288507461548
+      },
+      {
+        "place": "Budget diner",
+        "satiety": 0.8,
+        "meal_probability": 0.0002915062941610813,
+        "repay_probability": 0.0012416851241141558,
+        "borrow_probability": 0.0005947716999799013,
+        "work_probability": 0.9908336997032166
+      },
+      {
+        "place": "Cafe",
+        "satiety": 0.05,
+        "meal_probability": 0.0741809755563736,
+        "repay_probability": 0.43263477087020874,
+        "borrow_probability": 0.11868725717067719,
+        "work_probability": 0.1373644471168518
+      },
+      {
+        "place": "Cafe",
+        "satiety": 0.2,
+        "meal_probability": 0.0669415071606636,
+        "repay_probability": 0.45456045866012573,
+        "borrow_probability": 0.10996679216623306,
+        "work_probability": 0.15301859378814697
+      },
+      {
+        "place": "Cafe",
+        "satiety": 0.8,
+        "meal_probability": 0.04280305653810501,
+        "repay_probability": 0.5225110054016113,
+        "borrow_probability": 0.07847534120082855,
+        "work_probability": 0.2131311297416687
+      },
+      {
+        "place": "Restaurant",
+        "satiety": 0.05,
+        "meal_probability": 0.05222894996404648,
+        "repay_probability": 0.5828532576560974,
+        "borrow_probability": 0.08820795267820358,
+        "work_probability": 0.11859162896871567
+      },
+      {
+        "place": "Restaurant",
+        "satiety": 0.2,
+        "meal_probability": 0.04690930247306824,
+        "repay_probability": 0.6012856960296631,
+        "borrow_probability": 0.08123737573623657,
+        "work_probability": 0.12760332226753235
+      },
+      {
+        "place": "Restaurant",
+        "satiety": 0.8,
+        "meal_probability": 0.030878232792019844,
+        "repay_probability": 0.6545847058296204,
+        "borrow_probability": 0.05915631353855133,
+        "work_probability": 0.15785613656044006
+      }
+    ]
+  },
+  {
+    "kind": "ppo_gru",
+    "checkpoint": "final",
+    "training_steps": 4196532,
+    "scope": "Synthetic matched states; zero recurrent history, exploration mixture disabled. Policy sensitivity, not a counterfactual episode result.",
+    "contexts": [
+      {
+        "place": "Home",
+        "satiety": 0.05,
+        "meal_probability": 0.0001917709014378488,
+        "repay_probability": 0.0009531023097224534,
+        "borrow_probability": 0.0003762284468393773,
+        "work_probability": 0.9927001595497131
+      },
+      {
+        "place": "Home",
+        "satiety": 0.2,
+        "meal_probability": 0.00017704558558762074,
+        "repay_probability": 0.0009096328867599368,
+        "borrow_probability": 0.00034541479544714093,
+        "work_probability": 0.9931127429008484
+      },
+      {
+        "place": "Home",
+        "satiety": 0.8,
+        "meal_probability": 0.00013703916920349002,
+        "repay_probability": 0.000799313304014504,
+        "borrow_probability": 0.00026473228354007006,
+        "work_probability": 0.994021475315094
+      },
+      {
+        "place": "Bank",
+        "satiety": 0.05,
+        "meal_probability": 0.008943090215325356,
+        "repay_probability": 0.6159139275550842,
+        "borrow_probability": 0.022862659767270088,
+        "work_probability": 0.3110726475715637
+      },
+      {
+        "place": "Bank",
+        "satiety": 0.2,
+        "meal_probability": 0.008292525075376034,
+        "repay_probability": 0.6143404245376587,
+        "borrow_probability": 0.02114938758313656,
+        "work_probability": 0.3164982497692108
+      },
+      {
+        "place": "Bank",
+        "satiety": 0.8,
+        "meal_probability": 0.005983859300613403,
+        "repay_probability": 0.5859723091125488,
+        "borrow_probability": 0.015505590476095676,
+        "work_probability": 0.3571937084197998
+      },
+      {
+        "place": "Budget diner",
+        "satiety": 0.05,
+        "meal_probability": 0.0005273278802633286,
+        "repay_probability": 0.0018686469411477447,
+        "borrow_probability": 0.001093828584998846,
+        "work_probability": 0.9865370988845825
+      },
+      {
+        "place": "Budget diner",
+        "satiety": 0.2,
+        "meal_probability": 0.0004573168116621673,
+        "repay_probability": 0.0016944867093116045,
+        "borrow_probability": 0.000950280693359673,
+        "work_probability": 0.9878288507461548
+      },
+      {
+        "place": "Budget diner",
+        "satiety": 0.8,
+        "meal_probability": 0.0002915062941610813,
+        "repay_probability": 0.0012416851241141558,
+        "borrow_probability": 0.0005947716999799013,
+        "work_probability": 0.9908336997032166
+      },
+      {
+        "place": "Cafe",
+        "satiety": 0.05,
+        "meal_probability": 0.0741809755563736,
+        "repay_probability": 0.43263477087020874,
+        "borrow_probability": 0.11868725717067719,
+        "work_probability": 0.1373644471168518
+      },
+      {
+        "place": "Cafe",
+        "satiety": 0.2,
+        "meal_probability": 0.0669415071606636,
+        "repay_probability": 0.45456045866012573,
+        "borrow_probability": 0.10996679216623306,
+        "work_probability": 0.15301859378814697
+      },
+      {
+        "place": "Cafe",
+        "satiety": 0.8,
+        "meal_probability": 0.04280305653810501,
+        "repay_probability": 0.5225110054016113,
+        "borrow_probability": 0.07847534120082855,
+        "work_probability": 0.2131311297416687
+      },
+      {
+        "place": "Restaurant",
+        "satiety": 0.05,
+        "meal_probability": 0.05222894996404648,
+        "repay_probability": 0.5828532576560974,
+        "borrow_probability": 0.08820795267820358,
+        "work_probability": 0.11859162896871567
+      },
+      {
+        "place": "Restaurant",
+        "satiety": 0.2,
+        "meal_probability": 0.04690930247306824,
+        "repay_probability": 0.6012856960296631,
+        "borrow_probability": 0.08123737573623657,
+        "work_probability": 0.12760332226753235
+      },
+      {
+        "place": "Restaurant",
+        "satiety": 0.8,
+        "meal_probability": 0.030878232792019844,
+        "repay_probability": 0.6545847058296204,
+        "borrow_probability": 0.05915631353855133,
+        "work_probability": 0.15785613656044006
+      }
+    ]
+  }
+]

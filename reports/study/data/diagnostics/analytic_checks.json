@@ -1,0 +1,31 @@
+{
+  "slots_expected_net_per_dollar": -0.2909090909090909,
+  "blackjack_optimal_expected_net_per_dollar": -0.06975294292849978,
+  "blackjack_scope": "Exact dynamic programming for the implemented replacement-card model, not casino blackjack in general.",
+  "hidden_regime_best_slot_expected_net_per_dollar": -0.054545454545454564,
+  "discounted_running_cost_upper_bound": 0.1,
+  "base_failure_return": "-kappa for every finite unsuccessful episode, independently of failure time; kappa=0.1. Financial increments are separate.",
+  "base_success_return": "-kappa + gamma**(T-1)*(1+kappa+cash_bonus), for T physical steps. Earlier identical success is strictly preferred.",
+  "failure_time_identity": {
+    "1": -0.1,
+    "56": -0.1,
+    "155": -0.1,
+    "473": -0.1,
+    "1550": -0.1
+  },
+  "absolute_discounted_total_financial_reward_bound": 0.2,
+  "discounted_training_rnd_bonus_bound_per_fixed_task": 0.05,
+  "financial_utility": "U(W)=0.1*clip(W/2000,-1,1); external increment U(W_next)-U(W_current). Linear within +/- $2000; saturation is explicitly reported.",
+  "shaping_identity": "sum(gamma**t * F_t) = -Phi(s0) + gamma**T*Phi(sT); Phi(terminal)=0",
+  "max_cash_without_gambling_or_borrowing_before_costs": {
+    "5": 1281.25,
+    "10": 2462.5
+  },
+  "food_expected_price_per_raw_satiety": {
+    "diner": 100.0,
+    "cafe": 100.0,
+    "restaurant": 53.84615384615385
+  },
+  "food_warning": "Ratios of means are aggregate planning benchmarks. Clipping, travel, service time, survival and liquidity change realized value.",
+  "inference_warning": "Ownership and return estimates use 256 held-out scenarios."
+}

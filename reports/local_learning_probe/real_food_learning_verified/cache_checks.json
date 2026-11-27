@@ -1,0 +1,12 @@
+{
+  "passed": false,
+  "reachable_by_meal_then_ownership": [
+    true,
+    false,
+    false,
+    false,
+    false,
+    true
+  ],
+  "depth": 3
+}

@@ -1,0 +1,582 @@
+{
+  "schema": "gamblers_taxi_experiment_design",
+  "revision": "0.11",
+  "status": "planned",
+  "updated": "2026-11-19",
+  "environment_schema": "resource_taxi",
+  "economic_values_status": "calibrated",
+  "physical_transitions_per_main_run": 4194304,
+  "parallel_envs_proposed": 64,
+  "behavioral_cloning_weight_main": 0,
+  "initial_conditions_standard": {
+    "cash": 100,
+    "car_debt": 1000,
+    "microloans": []
+  },
+  "agents": {
+    "dsac_mlp": {
+      "algorithm": "hybrid_dsac",
+      "architecture": "mlp",
+      "actor_objective": "expected_soft_return",
+      "controller": "learned_continuous"
+    },
+    "ppo_mlp": {
+      "algorithm": "hybrid_ppo",
+      "architecture": "mlp",
+      "actor_objective": "clipped_policy_gradient",
+      "controller": "learned_continuous"
+    },
+    "ppo_gru": {
+      "algorithm": "hybrid_ppo",
+      "architecture": "gru",
+      "actor_objective": "clipped_policy_gradient",
+      "controller": "learned_continuous"
+    },
+    "dsac_gru": {
+      "algorithm": "hybrid_dsac",
+      "architecture": "gru",
+      "actor_objective": "expected_soft_return",
+      "controller": "learned_continuous"
+    }
+  },
+  "horizons": {
+    "5d": {
+      "days": 5
+    },
+    "10d": {
+      "days": 10
+    },
+    "open": {
+      "days": null,
+      "evaluation_window_days": 30
+    }
+  },
+  "scenario_banks": {
+    "development": {
+      "first": 1,
+      "last": 10,
+      "training_allowed": false,
+      "final_reporting": false
+    },
+    "train": {
+      "first": 11,
+      "count_from": "training_scenario_count",
+      "last_formula": "10 + training_scenario_count"
+    },
+    "validation": {
+      "first": 1000001,
+      "last": 1000064
+    },
+    "test_standard": {
+      "first": 2000001,
+      "last": 2000256
+    },
+    "test_low_fuel": {
+      "first": 2100001,
+      "last": 2100256
+    },
+    "test_low_satiety": {
+      "first": 2200001,
+      "last": 2200256
+    },
+    "test_low_liquidity": {
+      "first": 2300001,
+      "last": 2300256
+    },
+    "test_low_income": {
+      "first": 2400001,
+      "last": 2400256
+    },
+    "test_fuel_price_shock": {
+      "first": 2500001,
+      "last": 2500256
+    },
+    "test_personal_debt": {
+      "first": 2600001,
+      "last": 2600256
+    },
+    "test_adverse_combination": {
+      "first": 2700001,
+      "last": 2700256
+    }
+  },
+  "scenario_namespace_independent_of_training_seed": true,
+  "exogenous_streams": [
+    "daily market (1)",
+    "traffic initialization (2)",
+    "actuation noise (24)",
+    "hidden regime initial (40), transition (42), noisy daily signal (41)"
+  ],
+  "outcome_streams": [
+    "meal venue (10-12), purchase ordinal",
+    "slots (30), resolved-game ordinal",
+    "blackjack (31), resolved-game ordinal and card count"
+  ],
+  "rng_key_specification": "scenario ID + stable stream ID + day/tick or purchase/game ordinal; policy RNG separate",
+  "curriculum": {
+    "accessible_fraction": 0.2,
+    "services_and_debts_fraction": 0.3,
+    "full_task_fraction": 0.5,
+    "boundary_unit": "physical_transitions",
+    "final_conditions_match_run_horizon": true,
+    "accessible_starts": "First 5%: zero-debt starts 1.56-1.60 units from ownership. Next 5%: zero-debt approach at 3 units. Next 5%: balanced near-ownership (4.5), bank ($25 debt), work (easy debt). Next 5%: same balanced cases with 6-unit ownership approach. All have $100 cash. Then intermediate-debt home starts, then full-task home starts. No demonstrations or forced actions.",
+    "substage_boundaries": [
+      0.05,
+      0.1,
+      0.15,
+      0.2,
+      0.3,
+      0.4,
+      0.5
+    ],
+    "intermediate_starts": "20-50%: medium debt; balanced work/diner/cafe/restaurant/fuel/bank/slots/blackjack service starts plus home. Home probability grows 25%, 50%, 75% in three 10% substages. Food starts have 0.2 satiety; fuel starts have one unit; casinos start at opening. At >=50%, every reset is the full standard home start.",
+    "discount_schedule": [
+      {
+        "fraction": [
+          0,
+          0.05
+        ],
+        "gamma": 0.97
+      },
+      {
+        "fraction": [
+          0.05,
+          0.1
+        ],
+        "gamma": 0.985
+      },
+      {
+        "fraction": [
+          0.1,
+          0.15
+        ],
+        "gamma": 0.995
+      },
+      {
+        "fraction": [
+          0.15,
+          0.2
+        ],
+        "gamma": 0.997
+      },
+      {
+        "fraction": [
+          0.2,
+          1
+        ],
+        "gamma": 0.999
+      }
+    ],
+    "intermediate_services": [
+      "work",
+      "diner",
+      "cafe",
+      "restaurant",
+      "fuel",
+      "bank",
+      "slots",
+      "blackjack"
+    ],
+    "intermediate_service_conditions": "Food starts have 0.2 satiety, fuel starts have one fuel unit, casino starts use tick 90. All keep $100 cash and intermediate debt; all decisions are sampled from the policy.",
+    "safe_approach_randomization": "Progressively broaden approach angles to the garage and heading error; reject tutorial starting positions within 2.2 of obstacles or map boundaries. Same economic goal and action eligibility, no action labels.",
+    "radius_distribution": "1.56 + (upper - 1.56) * Uniform(0,1)^2, upper=1.60/3/4.5/6 across four substages; short routes remain represented as the support expands."
+  },
+  "reward": {
+    "id": "ownership_financial_progress",
+    "status": "registered",
+    "gamma": 0.999,
+    "success": 1.0,
+    "success_cash_bonus_max": 0.05,
+    "success_cash_scale": 500,
+    "death": -0.1,
+    "terminal_collision": -0.1,
+    "running_time_coefficient": 0.1,
+    "running_debt_coefficient": 0,
+    "running_cost_multiplier": "1-gamma",
+    "shaping": "gamma*Phi(next)-Phi(current); terminal Phi=0",
+    "potential_navigation_weight": 0.5,
+    "potential_navigation_distance_clip": 40,
+    "potential_casino_targets": false,
+    "financial_progress": "U(W_next)-U(W_current), U(W)=0.1*clip(W/2000,-1,1); absolute value of the total discounted signed contribution is bounded by 0.2 (not the sum of absolute increments).",
+    "financial_progress_scope": "An explicit bounded secondary financial objective, separately ablated; it is not policy-invariant shaping.",
+    "finite_timeout": -0.1,
+    "terminal_running_cost": false,
+    "base_return_identity": "Every finite unsuccessful episode: -0.1 regardless of its duration. Ownership at physical step T: -0.1 + gamma**(T-1)*(1.1+reserve_bonus). The external financial increment is separate."
+  },
+  "main_controller": "learned_continuous",
+  "selection_rule": [
+    "highest_validation_mean_discounted_external_return",
+    "highest_validation_completion_rate",
+    "highest_validation_survival_rate",
+    "lowest_validation_remaining_total_debt",
+    "lowest_validation_endpoint_adjusted_completion_tick"
+  ],
+  "training_ablations": [
+    "full_task_from_start",
+    "fixed_market_training",
+    "rnd_exploration",
+    "final_payment_only",
+    "no_casino_training",
+    "dsac_gru",
+    "meal_mean_only",
+    "meal_high_variance",
+    "financial_progress_off",
+    "derived_navigation_cue_off",
+    "constant_discount_during_curriculum"
+  ],
+  "frozen_evaluation_variants": [
+    "5d",
+    "10d",
+    "open",
+    "weakened_control",
+    "actuation_noise",
+    "driving_guard",
+    "low_fuel",
+    "low_satiety",
+    "low_liquidity",
+    "low_income",
+    "fuel_price_shock",
+    "personal_debt_start",
+    "adverse_combination",
+    "meal_mean_only",
+    "meal_high_variance",
+    "food_site_identity_swap"
+  ],
+  "logging": {
+    "all_training_episodes": true,
+    "all_validation_episodes": true,
+    "all_test_episodes": true,
+    "storage": "compressed trajectory and event chunks; periodic complete state",
+    "microloans": "individual IDs and terms retained",
+    "text": "post-simulation event commentary",
+    "training_observation_vectors": false,
+    "evaluation_observation_vectors": true,
+    "full_resume_compression": "gzip level 1, lossless"
+  },
+  "freeze_requirements": [
+    "feasibility calibration",
+    "exact environment and reward configuration",
+    "algorithm optimizer and entropy configuration",
+    "source and dependency hashes",
+    "scenario and RNG specification",
+    "observation and action schema",
+    "log-size measurement"
+  ],
+  "planned_main_runs": 45,
+  "planned_extension_runs": 55,
+  "initialization_repetitions": {
+    "A": 201,
+    "B": 202,
+    "C": 203,
+    "D": 204,
+    "E": 205
+  },
+  "pilot_initialization_repetitions": [
+    "A",
+    "B"
+  ],
+  "training_scenario_count": 10000,
+  "scenario_split_id": "scenario_split_03",
+  "split_validation": "Resolve train.last from count; reject overlap with every reserved bank before any training. Development IDs are excluded from resets, replay, curriculum, and demonstrations.",
+  "development_feedback": "IDs 1-10 support design and regression checks. Final inference uses untouched test banks.",
+  "food": {
+    "status": "registered",
+    "restoration_draw_timing": "once per completed purchase",
+    "daily_price_quote_visible_before_purchase": true,
+    "same_day_reentry_resamples_price": false,
+    "observed_restoration": "min(portion, 1-satiety_before_delivery)",
+    "reference": {
+      "diner": {
+        "portion_uniform": [
+          0.04,
+          0.06
+        ],
+        "portion_mean": 0.05,
+        "price_uniform_usd": [
+          4,
+          6
+        ],
+        "service_ticks": 2,
+        "location_group": "fuel_station"
+      },
+      "cafe": {
+        "portion_uniform": [
+          0.12,
+          0.18
+        ],
+        "portion_mean": 0.15,
+        "price_uniform_usd": [
+          12,
+          18
+        ],
+        "service_ticks": 5,
+        "location_group": "distant_food_district"
+      },
+      "restaurant": {
+        "portion_uniform": [
+          0.55,
+          0.75
+        ],
+        "portion_mean": 0.65,
+        "price_uniform_usd": [
+          30,
+          40
+        ],
+        "service_ticks": 10,
+        "location_group": "distant_food_district"
+      }
+    },
+    "mean_only_portions": {
+      "diner": 0.05,
+      "cafe": 0.15,
+      "restaurant": 0.65
+    },
+    "high_variance_uniform": {
+      "diner": [
+        0.02,
+        0.08
+      ],
+      "cafe": [
+        0.06,
+        0.24
+      ],
+      "restaurant": [
+        0.35,
+        0.95
+      ]
+    },
+    "geometry": {
+      "main_locations_fixed": true,
+      "cafe_restaurant_relative_route_difference_max": 0.05,
+      "reference_origins": [
+        "home",
+        "work"
+      ],
+      "existing_map_size": [
+        30,
+        20
+      ],
+      "candidate_map_size": [
+        40,
+        30
+      ],
+      "coordinates_status": "pending_geodesic_access_checks"
+    }
+  },
+  "stochastic_offers": {
+    "daily_wage_multiplier": {
+      "distribution": "categorical",
+      "values": [
+        0.75,
+        1,
+        1.35
+      ],
+      "probabilities": [
+        0.3,
+        0.4,
+        0.3
+      ],
+      "base_wage_usd": 145,
+      "quoted_before_shift": true,
+      "locked_on_acceptance": true
+    },
+    "daily_fuel_price_multiplier": {
+      "distribution": "uniform",
+      "lower": 0.85,
+      "upper": 1.25,
+      "quoted_before_purchase": true
+    },
+    "food_prices_and_portions": "food.reference",
+    "initial_cash_standard": {
+      "distribution": "point_mass",
+      "value": 100
+    },
+    "initial_car_principal_standard": {
+      "distribution": "point_mass",
+      "value": 1000
+    },
+    "contract_terms": "fixed and public within the reference contract; changing loan terms is a separate configured market treatment",
+    "physics": "fixed reference coefficients; driving changes are named evaluations"
+  },
+  "additional_designs": [
+    {
+      "id": "X01",
+      "comparison": "stationary vs persistent hidden casino regime",
+      "status": "design_pending",
+      "retraining_required": true
+    },
+    {
+      "id": "X02",
+      "comparison": "public quotes vs reduced information",
+      "status": "design_pending",
+      "retraining_required": true
+    },
+    {
+      "id": "X03",
+      "comparison": "standard vs accelerated five-day installment calendar",
+      "status": "design_pending",
+      "retraining_required": true
+    }
+  ],
+  "training_comparison_ids": {
+    "full_task_from_start": "T01",
+    "fixed_market_training": "T02",
+    "rnd_exploration": "T03",
+    "final_payment_only": "T04",
+    "no_casino_training": "T05",
+    "dsac_gru": "T06",
+    "meal_mean_only": "T07",
+    "meal_high_variance": "T08",
+    "financial_progress_off": "T09",
+    "derived_navigation_cue_off": "T10",
+    "constant_discount_during_curriculum": "T11"
+  },
+  "development_check_scenarios": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "evaluation_designs": {
+    "H02": {
+      "frozen": true,
+      "change": "episode horizon 5d, 10d, open",
+      "reference_population": "selected ten-day main policies",
+      "scenario_bank": "test_standard"
+    },
+    "F01": {
+      "frozen": true,
+      "change": "weakened steering and braking",
+      "scenario_bank": "test_standard"
+    },
+    "F02": {
+      "frozen": true,
+      "change": "actuation noise",
+      "scenario_bank": "test_standard"
+    },
+    "F03": {
+      "frozen": true,
+      "change": "driving guard",
+      "scenario_bank": "test_standard"
+    },
+    "F04": {
+      "frozen": true,
+      "change": "low fuel",
+      "scenario_bank": "test_low_fuel"
+    },
+    "F05": {
+      "frozen": true,
+      "change": "low satiety",
+      "scenario_bank": "test_low_satiety"
+    },
+    "F06": {
+      "frozen": true,
+      "change": "low cash",
+      "scenario_bank": "test_low_liquidity"
+    },
+    "F07": {
+      "frozen": true,
+      "change": "lower income",
+      "scenario_bank": "test_low_income"
+    },
+    "F08": {
+      "frozen": true,
+      "change": "fuel-price shock",
+      "scenario_bank": "test_fuel_price_shock"
+    },
+    "F09": {
+      "frozen": true,
+      "change": "opening microloan debt",
+      "scenario_bank": "test_personal_debt"
+    },
+    "F10": {
+      "frozen": true,
+      "change": "combined adverse conditions",
+      "scenario_bank": "test_adverse_combination"
+    },
+    "F11": {
+      "frozen": true,
+      "change": "reference, mean-only, and high-variance portions",
+      "scenario_bank": "test_standard"
+    },
+    "F12": {
+      "frozen": true,
+      "change": "cafe/restaurant site identities exchanged",
+      "scenario_bank": "test_standard"
+    },
+    "P01": {
+      "frozen": true,
+      "change": "matched outcome, cash, resources, and time probes",
+      "status": "registered: cash x previous-public-event grid and one-factor satiety/fuel/fatigue/time interventions; development scenario 6, empty memory"
+    },
+    "P02": {
+      "frozen": true,
+      "change": "retained versus reset recurrent state at a matched decision",
+      "status": "registered: all active recorded decisions after tick 8 with more than one legal action"
+    },
+    "P03": {
+      "frozen": true,
+      "change": "Three physically equivalent stationary Drive actions; certify mean and W1 critic error lower bounds",
+      "scenario_bank": "development scenario 6",
+      "snapshot": "last periodic training learner; separate from validation-selected actor",
+      "assumption": "zero actuation noise; exact next-state and reward equivalence asserted before computing bounds"
+    }
+  },
+  "planned_additional_runs": 25,
+  "total_registered_runs": 125,
+  "calibrated_salary": 175,
+  "geometry": "vehicle and obstacles have unit radius; swept center clearance 2.0",
+  "additional_runs": [
+    "X01: hidden regime DSAC MLP/GRU x5",
+    "X02: reduced quotes DSAC MLP/GRU x5",
+    "X03: accelerated five-day calendar DSAC MLP x5"
+  ],
+  "policy_evaluation": {
+    "primary": "sample trained Gaussian/categorical policy using scenario ID and absolute tick, policy stream 9181",
+    "diagnostic": "argmax categorical and Gaussian mean, separate deterministic case"
+  },
+  "entropy_calibration": {
+    "initial_continuous": 0.0006,
+    "initial_discrete": 0.0012,
+    "log_bounds": [
+      -12,
+      -2
+    ],
+    "reason": "Calibration revealed saturated braking and a failure-delay reward preference. Before held-out testing, remove that preference, allow adaptive entropy recovery, bound Gaussian means smoothly, reduce critic output initialization, and diversify safe driving-school approaches. This is a bundled engineering revision, not an isolated causal effect."
+  },
+  "physics_wait": "Free WAIT coasts under zero controls and friction. It cannot freeze position or erase speed. Services require parking.",
+  "derived_navigation_cue": "Nearest service direction/distance from public resource and contract state. Same information was already present in base features; no casino target. This is an explicit feature-engineering aid, separately ablated in T10.",
+  "budget_calibration": "Pre-freeze 2M pilots failed to transfer long economic chains. Main budget doubled to 4194304; validation spacing gives about 17 model-selection checkpoints regardless of budget.",
+  "calibration_initializations": [
+    101,
+    102
+  ],
+  "execution_verification_initializations": [
+    9091,
+    9092
+  ],
+  "initialization_holdout": "Main seeds 201-205 are reserved after calibration; no pilot performance is used to select among them. Scenario IDs remain in their independent namespace.",
+  "dsac_update_settings": {
+    "critic_learning_rate": 0.00025,
+    "actor_learning_rate": 5e-05,
+    "updates_per_4096_transitions": 32,
+    "minibatch_size": 256,
+    "recurrent_history": 32,
+    "replay": "raw observations with same-lane sequence gathering and reset masks",
+    "temperature_learning_rate": 0.0003,
+    "critic_output_initialization_scale": 0.02,
+    "gaussian_mean": "3*tanh(raw_mean/3), shared by PPO and DSAC; Gaussian noise retains full action support"
+  },
+  "rnd_bonus_bound": 0.05,
+  "model_preservation": "Policy snapshots, selected learner/critics, periodic learners and a full latest resume state; source and protocol copies accompany each run.",
+  "result_validation": "Every evaluation replays all active logged actions from its exact reset, reproduces saved-policy choices and controls, checks fields and endpoints, and writes audit.json. Only audited evaluations enter reports. Independent intended-rule tests remain separate.",
+  "ppo_entropy": "Reparameterized current-policy tanh-Gaussian entropy, weighted by current Drive probability, plus exact categorical entropy. Old-action likelihood remains only in the PPO ratio; the old-action negative-loglikelihood score is not used as an entropy gradient.",
+  "ppo_encoder": "SiLU after each of the two 128-wide trunk layers, then optional GRU and linear heads.",
+  "telemetry_schema": "Every field must retain time and environment axes. Dealer up-card uses dealer[...,0]; source snapshots of prior calibration retain the historical logging bug."
+}

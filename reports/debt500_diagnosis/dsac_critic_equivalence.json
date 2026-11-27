@@ -1,0 +1,36 @@
+{
+  "checkpoint": "cluster\\debt500_study\\output\\artifacts\\debt500_study\\training\\dsac_mlp\\learner_004203138.pkl.gz",
+  "kind": "dsac_mlp",
+  "physical_transitions": 4203138,
+  "snapshot_role": "final training learner; distinct from validation-selected actor",
+  "probe": "Stationary bank, development scenario 6; Borrow 25 with three styles. Parking makes all styles physically equivalent.",
+  "verified_identical_next_state_and_reward": true,
+  "critics": [
+    {
+      "critic": 1,
+      "predicted_means": [
+        -0.19880758225917816,
+        -0.2001088410615921,
+        -0.20136983692646027
+      ],
+      "mean_gap": 0.0025622546672821045,
+      "certified_max_absolute_mean_error_lower_bound": 0.0012811273336410522,
+      "pairwise_empirical_w1_max": 0.002562250941991806,
+      "certified_max_w1_error_lower_bound": 0.001281125470995903
+    },
+    {
+      "critic": 2,
+      "predicted_means": [
+        -0.186629056930542,
+        -0.18716494739055634,
+        -0.18778379261493683
+      ],
+      "mean_gap": 0.0011547356843948364,
+      "certified_max_absolute_mean_error_lower_bound": 0.0005773678421974182,
+      "pairwise_empirical_w1_max": 0.0011547344038262963,
+      "certified_max_w1_error_lower_bound": 0.0005773672019131482
+    }
+  ],
+  "proof": "Identical reward and next state imply identical true Q=r+gamma*V for a fixed continuation policy. A prediction gap g implies at least one absolute mean error >=g/2. The triangle inequality gives the analogous W1 bound.",
+  "scope": "A pointwise critic approximation-error bound."
+}

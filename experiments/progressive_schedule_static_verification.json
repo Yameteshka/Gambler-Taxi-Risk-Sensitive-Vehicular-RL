@@ -1,0 +1,289 @@
+{
+  "passed": true,
+  "lessons": [
+    {
+      "name": "service_exposure",
+      "debt": 50.0,
+      "epsilon": 0.8,
+      "start_distribution": "services",
+      "home_probability": 0.0,
+      "hunger_multiplier": 0.65,
+      "market": "fixed"
+    },
+    {
+      "name": "exploration_50",
+      "debt": 50.0,
+      "epsilon": 0.5,
+      "start_distribution": "services",
+      "home_probability": 0.0,
+      "hunger_multiplier": 0.65,
+      "market": "fixed"
+    },
+    {
+      "name": "exploration_20",
+      "debt": 50.0,
+      "epsilon": 0.2,
+      "start_distribution": "services",
+      "home_probability": 0.0,
+      "hunger_multiplier": 0.65,
+      "market": "fixed"
+    },
+    {
+      "name": "mixed_starts",
+      "debt": 50.0,
+      "epsilon": 0.2,
+      "start_distribution": "mixed",
+      "home_probability": 0.25,
+      "hunger_multiplier": 0.65,
+      "market": "fixed"
+    },
+    {
+      "name": "debt_100",
+      "debt": 100.0,
+      "epsilon": 0.2,
+      "start_distribution": "mixed",
+      "home_probability": 0.25,
+      "hunger_multiplier": 0.65,
+      "market": "fixed"
+    },
+    {
+      "name": "debt_150",
+      "debt": 150.0,
+      "epsilon": 0.2,
+      "start_distribution": "mixed",
+      "home_probability": 0.25,
+      "hunger_multiplier": 0.65,
+      "market": "fixed"
+    },
+    {
+      "name": "debt_200",
+      "debt": 200.0,
+      "epsilon": 0.2,
+      "start_distribution": "mixed",
+      "home_probability": 0.25,
+      "hunger_multiplier": 0.65,
+      "market": "fixed"
+    },
+    {
+      "name": "debt_300",
+      "debt": 300.0,
+      "epsilon": 0.2,
+      "start_distribution": "mixed",
+      "home_probability": 0.25,
+      "hunger_multiplier": 0.65,
+      "market": "fixed"
+    },
+    {
+      "name": "debt_400",
+      "debt": 400.0,
+      "epsilon": 0.2,
+      "start_distribution": "mixed",
+      "home_probability": 0.25,
+      "hunger_multiplier": 0.65,
+      "market": "fixed"
+    },
+    {
+      "name": "debt_500",
+      "debt": 500.0,
+      "epsilon": 0.2,
+      "start_distribution": "mixed",
+      "home_probability": 0.25,
+      "hunger_multiplier": 0.65,
+      "market": "fixed"
+    },
+    {
+      "name": "home_50",
+      "debt": 500.0,
+      "epsilon": 0.2,
+      "start_distribution": "mixed",
+      "home_probability": 0.5,
+      "hunger_multiplier": 0.65,
+      "market": "fixed"
+    },
+    {
+      "name": "home_75",
+      "debt": 500.0,
+      "epsilon": 0.2,
+      "start_distribution": "mixed",
+      "home_probability": 0.75,
+      "hunger_multiplier": 0.65,
+      "market": "fixed"
+    },
+    {
+      "name": "home_100",
+      "debt": 500.0,
+      "epsilon": 0.2,
+      "start_distribution": "mixed",
+      "home_probability": 1.0,
+      "hunger_multiplier": 0.65,
+      "market": "fixed"
+    },
+    {
+      "name": "hunger_80",
+      "debt": 500.0,
+      "epsilon": 0.2,
+      "start_distribution": "mixed",
+      "home_probability": 1.0,
+      "hunger_multiplier": 0.8,
+      "market": "fixed"
+    },
+    {
+      "name": "hunger_100",
+      "debt": 500.0,
+      "epsilon": 0.2,
+      "start_distribution": "mixed",
+      "home_probability": 1.0,
+      "hunger_multiplier": 1.0,
+      "market": "fixed"
+    },
+    {
+      "name": "dynamic_market",
+      "debt": 500.0,
+      "epsilon": 0.2,
+      "start_distribution": "mixed",
+      "home_probability": 1.0,
+      "hunger_multiplier": 1.0,
+      "market": "dynamic"
+    },
+    {
+      "name": "exploration_10",
+      "debt": 500.0,
+      "epsilon": 0.1,
+      "start_distribution": "mixed",
+      "home_probability": 1.0,
+      "hunger_multiplier": 1.0,
+      "market": "dynamic"
+    },
+    {
+      "name": "exploration_05",
+      "debt": 500.0,
+      "epsilon": 0.05,
+      "start_distribution": "mixed",
+      "home_probability": 1.0,
+      "hunger_multiplier": 1.0,
+      "market": "dynamic"
+    },
+    {
+      "name": "exploration_00",
+      "debt": 500.0,
+      "epsilon": 0.0,
+      "start_distribution": "mixed",
+      "home_probability": 1.0,
+      "hunger_multiplier": 1.0,
+      "market": "dynamic"
+    }
+  ],
+  "transitions": [
+    {
+      "lesson": "exploration_50",
+      "changed": "epsilon",
+      "retain_replay": true
+    },
+    {
+      "lesson": "exploration_20",
+      "changed": "epsilon",
+      "retain_replay": true
+    },
+    {
+      "lesson": "mixed_starts",
+      "changed": "start_distribution",
+      "retain_replay": false
+    },
+    {
+      "lesson": "debt_100",
+      "changed": "debt",
+      "retain_replay": false
+    },
+    {
+      "lesson": "debt_150",
+      "changed": "debt",
+      "retain_replay": false
+    },
+    {
+      "lesson": "debt_200",
+      "changed": "debt",
+      "retain_replay": false
+    },
+    {
+      "lesson": "debt_300",
+      "changed": "debt",
+      "retain_replay": false
+    },
+    {
+      "lesson": "debt_400",
+      "changed": "debt",
+      "retain_replay": false
+    },
+    {
+      "lesson": "debt_500",
+      "changed": "debt",
+      "retain_replay": false
+    },
+    {
+      "lesson": "home_50",
+      "changed": "start_distribution",
+      "retain_replay": false
+    },
+    {
+      "lesson": "home_75",
+      "changed": "start_distribution",
+      "retain_replay": false
+    },
+    {
+      "lesson": "home_100",
+      "changed": "start_distribution",
+      "retain_replay": false
+    },
+    {
+      "lesson": "hunger_80",
+      "changed": "hunger_multiplier",
+      "retain_replay": false
+    },
+    {
+      "lesson": "hunger_100",
+      "changed": "hunger_multiplier",
+      "retain_replay": false
+    },
+    {
+      "lesson": "dynamic_market",
+      "changed": "market",
+      "retain_replay": false
+    },
+    {
+      "lesson": "exploration_10",
+      "changed": "epsilon",
+      "retain_replay": true
+    },
+    {
+      "lesson": "exploration_05",
+      "changed": "epsilon",
+      "retain_replay": true
+    },
+    {
+      "lesson": "exploration_00",
+      "changed": "epsilon",
+      "retain_replay": true
+    }
+  ],
+  "gate_rejects_exposure_only": true,
+  "gate_rejects_success_without_work_above_starting_cash": true,
+  "validation_ids": [
+    1000001,
+    1000002,
+    1000003,
+    1000004,
+    1000005,
+    1000006,
+    1000007,
+    1000008,
+    1000009,
+    1000010,
+    1000011,
+    1000012,
+    1000013,
+    1000014,
+    1000015,
+    1000016
+  ],
+  "scope": "Standard-library schedule and gate checks using a minimal configuration; JAX integration not covered."
+}

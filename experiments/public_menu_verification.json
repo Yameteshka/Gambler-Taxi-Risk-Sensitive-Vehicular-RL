@@ -1,0 +1,36 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "meals": "reference_uniform",
+      "identity_swap": false,
+      "passed": true
+    },
+    {
+      "meals": "reference_uniform",
+      "identity_swap": true,
+      "passed": true
+    },
+    {
+      "meals": "meal_mean_only",
+      "identity_swap": false,
+      "passed": true
+    },
+    {
+      "meals": "meal_mean_only",
+      "identity_swap": true,
+      "passed": true
+    },
+    {
+      "meals": "meal_high_variance",
+      "identity_swap": false,
+      "passed": true
+    },
+    {
+      "meals": "meal_high_variance",
+      "identity_swap": true,
+      "passed": true
+    }
+  ],
+  "scope": "Observation and transaction terms only; no policy is trained or resumed."
+}

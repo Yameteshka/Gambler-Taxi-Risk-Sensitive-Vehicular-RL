@@ -1,0 +1,5 @@
+model,ownership,episodes,starvation,collision,lessons_passed,decisions,ticks,optimizer_updates
+dsac_mlp,0,64,64,0,3,79872,1943043,9792
+ppo_mlp,8,64,56,0,12,151552,6431870,7104
+dsac_gru,60,64,4,0,14,262144,8220846,32576
+ppo_gru,3,64,61,0,12,139264,6356600,6528

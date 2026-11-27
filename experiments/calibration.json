@@ -1,0 +1,77 @@
+{
+  "scope": "Development-only engineering history, not held-out policy evidence. Multiple controller and geometry changes are explicitly distinguished.",
+  "records": [
+    {
+      "path": "runs/reference-reserve/evaluation.json",
+      "sha256": "91887de41109a3b427c841f42eff679cf4760e296ab462d1866ec6403e48bd1a",
+      "collision_center_clearance": 2,
+      "salary": 145,
+      "note": "Early parking/food reference; superseded",
+      "episodes": 10,
+      "ownership": 0,
+      "collision": 8,
+      "starvation": 2,
+      "deadline": 0
+    },
+    {
+      "path": "runs/reference-batchedpayment/evaluation.json",
+      "sha256": "7132f59e68b4967d05ae2841d87a230b4317065c7f9e4155807ba2229b646124",
+      "collision_center_clearance": 1,
+      "salary": 145,
+      "note": "Batched payment with distant food; superseded",
+      "episodes": 10,
+      "ownership": 0,
+      "collision": 0,
+      "starvation": 2,
+      "deadline": 8
+    },
+    {
+      "path": "runs/reference-local-food/evaluation.json",
+      "sha256": "c34ca2a6b4ac14937d971cb577ae6ff960f34c1b61e2e02bca29814008db4a60",
+      "collision_center_clearance": 1,
+      "salary": 145,
+      "note": "Local food strategy before wage calibration; superseded",
+      "episodes": 10,
+      "ownership": 0,
+      "collision": 0,
+      "starvation": 0,
+      "deadline": 10
+    },
+    {
+      "path": "runs/reference-calibrated/evaluation.json",
+      "sha256": "1d7b8d5ae16a7619f837a0082a9086297e0d9a0831196282633a926b41865759",
+      "collision_center_clearance": 1,
+      "salary": 175,
+      "note": "Point-distance collision check; superseded geometry",
+      "episodes": 10,
+      "ownership": 1,
+      "collision": 0,
+      "starvation": 0,
+      "deadline": 9
+    },
+    {
+      "path": "runs/reference-unit-circles/evaluation.json",
+      "sha256": "ef773dfc9b5dbae0d838341a87ad39a0b3627b68978440f93d88f523c6ad427f",
+      "collision_center_clearance": 2,
+      "salary": 175,
+      "note": "Final unit-circle collision geometry; development scenarios 1-10",
+      "episodes": 10,
+      "ownership": 1,
+      "collision": 7,
+      "starvation": 0,
+      "deadline": 2
+    },
+    {
+      "path": "artifacts/reference/evaluation.json",
+      "sha256": "77d3c13ab82b9411dea150f5144e55cd46e6d5befa6b47aff50a5bb72c3f81e2",
+      "collision_center_clearance": 2,
+      "salary": 175,
+      "note": "Selected scripted successful illustration, scenario 2 only",
+      "episodes": 1,
+      "ownership": 1,
+      "collision": 0,
+      "starvation": 0,
+      "deadline": 0
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+[
+  {
+    "check": "departure_replay",
+    "exit_code": 0,
+    "elapsed_seconds": 38.653166557000006
+  },
+  {
+    "check": "real_context",
+    "exit_code": 0,
+    "elapsed_seconds": 86.67948995900001
+  }
+]

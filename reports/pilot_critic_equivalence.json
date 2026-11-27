@@ -1,0 +1,35 @@
+{
+  "checkpoint": "runs\\pilots\\dsac_mlp_10d_curriculum_dynamic_repA\\616881e803_4194304\\resume.pkl.gz",
+  "kind": "dsac_mlp",
+  "physical_transitions": 4194304,
+  "probe": "Stationary standard home reset, scenario 6; all actions Drive with steering zero and acceleration -1/-0.5/0",
+  "verified_identical_next_state_and_reward": true,
+  "critics": [
+    {
+      "critic": 1,
+      "predicted_means": [
+        -0.45523226261138916,
+        -0.45858752727508545,
+        -0.4636301100254059
+      ],
+      "mean_gap": 0.008397847414016724,
+      "certified_max_absolute_mean_error_lower_bound": 0.004198923707008362,
+      "pairwise_empirical_w1_max": 0.00871580932289362,
+      "certified_max_w1_error_lower_bound": 0.00435790466144681
+    },
+    {
+      "critic": 2,
+      "predicted_means": [
+        -0.4401249587535858,
+        -0.4417053163051605,
+        -0.44597914814949036
+      ],
+      "mean_gap": 0.005854189395904541,
+      "certified_max_absolute_mean_error_lower_bound": 0.0029270946979522705,
+      "pairwise_empirical_w1_max": 0.006077531725168228,
+      "certified_max_w1_error_lower_bound": 0.003038765862584114
+    }
+  ],
+  "proof": "Identical reward and next state imply identical true Q=r+gamma*V for a fixed continuation policy. A prediction gap g implies at least one absolute mean error >=g/2. The triangle inequality gives the analogous W1 bound.",
+  "scope": "A pointwise critic approximation-error bound."
+}

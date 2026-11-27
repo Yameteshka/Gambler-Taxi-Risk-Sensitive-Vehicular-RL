@@ -1,0 +1,277 @@
+{
+  "checkpoint_sha256": "9b2a150d1543cf4a4728ee792175c73480a4b0ba11019f8f92279852acb1409f",
+  "policy": "dsac_gru",
+  "source_sha256": "51522110a4927e843cbc1e3809b5f58418c2891440b0e17f1cf0ccb7736b33e3",
+  "cases": [
+    {
+      "condition": "S01",
+      "case": "standard",
+      "bank": "test_standard",
+      "scenario_start": 3000001,
+      "episodes": 256,
+      "controller": "learned",
+      "deterministic": false
+    },
+    {
+      "condition": "S02",
+      "case": "deterministic",
+      "bank": "test_standard",
+      "scenario_start": 3000001,
+      "episodes": 256,
+      "controller": "learned",
+      "deterministic": true
+    },
+    {
+      "condition": "S03",
+      "case": "5d",
+      "bank": "test_standard",
+      "scenario_start": 3000001,
+      "episodes": 256,
+      "controller": "learned",
+      "deterministic": false
+    },
+    {
+      "condition": "S04",
+      "case": "10d",
+      "bank": "test_standard",
+      "scenario_start": 3000001,
+      "episodes": 256,
+      "controller": "learned",
+      "deterministic": false
+    },
+    {
+      "condition": "S05",
+      "case": "open",
+      "bank": "test_standard",
+      "scenario_start": 3000001,
+      "episodes": 256,
+      "controller": "learned",
+      "deterministic": false
+    },
+    {
+      "condition": "S06",
+      "case": "weakened_control",
+      "bank": "test_standard",
+      "scenario_start": 3000001,
+      "episodes": 256,
+      "controller": "learned",
+      "deterministic": false
+    },
+    {
+      "condition": "S07",
+      "case": "actuation_noise",
+      "bank": "test_standard",
+      "scenario_start": 3000001,
+      "episodes": 256,
+      "controller": "learned",
+      "deterministic": false
+    },
+    {
+      "condition": "S08",
+      "case": "low_fuel_control",
+      "bank": "test_low_fuel",
+      "scenario_start": 3100001,
+      "episodes": 256,
+      "controller": "learned",
+      "deterministic": false
+    },
+    {
+      "condition": "S09",
+      "case": "low_fuel",
+      "bank": "test_low_fuel",
+      "scenario_start": 3100001,
+      "episodes": 256,
+      "controller": "learned",
+      "deterministic": false
+    },
+    {
+      "condition": "S10",
+      "case": "low_satiety_control",
+      "bank": "test_low_satiety",
+      "scenario_start": 3200001,
+      "episodes": 256,
+      "controller": "learned",
+      "deterministic": false
+    },
+    {
+      "condition": "S11",
+      "case": "low_satiety",
+      "bank": "test_low_satiety",
+      "scenario_start": 3200001,
+      "episodes": 256,
+      "controller": "learned",
+      "deterministic": false
+    },
+    {
+      "condition": "S12",
+      "case": "low_liquidity_control",
+      "bank": "test_low_liquidity",
+      "scenario_start": 3300001,
+      "episodes": 256,
+      "controller": "learned",
+      "deterministic": false
+    },
+    {
+      "condition": "S13",
+      "case": "low_liquidity",
+      "bank": "test_low_liquidity",
+      "scenario_start": 3300001,
+      "episodes": 256,
+      "controller": "learned",
+      "deterministic": false
+    },
+    {
+      "condition": "S14",
+      "case": "low_income_control",
+      "bank": "test_low_income",
+      "scenario_start": 3400001,
+      "episodes": 256,
+      "controller": "learned",
+      "deterministic": false
+    },
+    {
+      "condition": "S15",
+      "case": "low_income",
+      "bank": "test_low_income",
+      "scenario_start": 3400001,
+      "episodes": 256,
+      "controller": "learned",
+      "deterministic": false
+    },
+    {
+      "condition": "S16",
+      "case": "fuel_price_shock_control",
+      "bank": "test_fuel_price_shock",
+      "scenario_start": 3500001,
+      "episodes": 256,
+      "controller": "learned",
+      "deterministic": false
+    },
+    {
+      "condition": "S17",
+      "case": "fuel_price_shock",
+      "bank": "test_fuel_price_shock",
+      "scenario_start": 3500001,
+      "episodes": 256,
+      "controller": "learned",
+      "deterministic": false
+    },
+    {
+      "condition": "S18",
+      "case": "personal_debt_start_control",
+      "bank": "test_personal_debt",
+      "scenario_start": 3600001,
+      "episodes": 256,
+      "controller": "learned",
+      "deterministic": false
+    },
+    {
+      "condition": "S19",
+      "case": "personal_debt_start",
+      "bank": "test_personal_debt",
+      "scenario_start": 3600001,
+      "episodes": 256,
+      "controller": "learned",
+      "deterministic": false
+    },
+    {
+      "condition": "S20",
+      "case": "adverse_combination_control",
+      "bank": "test_adverse_combination",
+      "scenario_start": 3700001,
+      "episodes": 256,
+      "controller": "learned",
+      "deterministic": false
+    },
+    {
+      "condition": "S21",
+      "case": "adverse_combination",
+      "bank": "test_adverse_combination",
+      "scenario_start": 3700001,
+      "episodes": 256,
+      "controller": "learned",
+      "deterministic": false
+    },
+    {
+      "condition": "S22",
+      "case": "meal_mean_only",
+      "bank": "test_standard",
+      "scenario_start": 3000001,
+      "episodes": 256,
+      "controller": "learned",
+      "deterministic": false
+    },
+    {
+      "condition": "S23",
+      "case": "meal_high_variance",
+      "bank": "test_standard",
+      "scenario_start": 3000001,
+      "episodes": 256,
+      "controller": "learned",
+      "deterministic": false
+    },
+    {
+      "condition": "S24",
+      "case": "food_site_identity_swap",
+      "bank": "test_standard",
+      "scenario_start": 3000001,
+      "episodes": 256,
+      "controller": "learned",
+      "deterministic": false
+    },
+    {
+      "condition": "S25",
+      "case": "driving_guard",
+      "bank": "test_standard",
+      "scenario_start": 3000001,
+      "episodes": 256,
+      "controller": "guard",
+      "deterministic": false
+    },
+    {
+      "condition": "S26",
+      "case": "initial_car_debt_100",
+      "bank": "test_standard",
+      "scenario_start": 3000001,
+      "episodes": 256,
+      "controller": "learned",
+      "deterministic": false
+    },
+    {
+      "condition": "S27",
+      "case": "initial_car_debt_250",
+      "bank": "test_standard",
+      "scenario_start": 3000001,
+      "episodes": 256,
+      "controller": "learned",
+      "deterministic": false
+    },
+    {
+      "condition": "S28",
+      "case": "initial_car_debt_1000",
+      "bank": "test_standard",
+      "scenario_start": 3000001,
+      "episodes": 256,
+      "controller": "learned",
+      "deterministic": false
+    },
+    {
+      "condition": "S29",
+      "case": "initial_car_debt_1500",
+      "bank": "test_standard",
+      "scenario_start": 3000001,
+      "episodes": 256,
+      "controller": "learned",
+      "deterministic": false
+    },
+    {
+      "condition": "S30",
+      "case": "casino_unavailable",
+      "bank": "test_standard",
+      "scenario_start": 3000001,
+      "episodes": 256,
+      "controller": "learned",
+      "deterministic": false
+    }
+  ]
+}

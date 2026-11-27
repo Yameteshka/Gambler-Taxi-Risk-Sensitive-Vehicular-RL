@@ -1,0 +1,6 @@
+{
+  "time_utc": "2026-11-19T07:10:26.808751+00:00",
+  "reason": "Stop replication after systematic failure to learn survival; compare historical demonstration-initialized method before further compute.",
+  "preserved": "All trained policies, partial resume checkpoints, evaluations and source freeze.",
+  "diagnosis": "reports/training_diagnosis.md"
+}

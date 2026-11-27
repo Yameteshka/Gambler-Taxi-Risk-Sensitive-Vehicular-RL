@@ -1,0 +1,26 @@
+[
+  {
+    "model": "dsac_mlp",
+    "path": "checkpoints/dsac_mlp.npz",
+    "sha256": "61bdc67372c9a8670948e7f7a442b5f7ea65029a6cc8ef00b9de8e75084b0a44",
+    "status": "unqualified"
+  },
+  {
+    "model": "ppo_mlp",
+    "path": "checkpoints/ppo_mlp.npz",
+    "sha256": "b61e89938fbca1f7244feec7770e6ad3b1e4c1bbe21213c91bad0f7882554e6f",
+    "status": "unqualified"
+  },
+  {
+    "model": "dsac_gru",
+    "path": "checkpoints/dsac_gru.npz",
+    "sha256": "9b2a150d1543cf4a4728ee792175c73480a4b0ba11019f8f92279852acb1409f",
+    "status": "qualified_development_only"
+  },
+  {
+    "model": "ppo_gru",
+    "path": "checkpoints/ppo_gru.npz",
+    "sha256": "70fbdeee76ede7946b9a5f8edda9399a9a81d932a114790838dfb759ab0a7443",
+    "status": "unqualified"
+  }
+]

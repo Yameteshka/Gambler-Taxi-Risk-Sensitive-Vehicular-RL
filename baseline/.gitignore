@@ -1,0 +1,6 @@
+*__pycache__
+.deps/
+.venv*/
+.pytest_cache/
+runs/
+*.tmp

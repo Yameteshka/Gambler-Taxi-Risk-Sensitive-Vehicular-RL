@@ -1,0 +1,12 @@
+{
+  "episodes": 256,
+  "sampled_action_in_both": "Wait",
+  "different_scenarios_by_field": {
+    "observation": 0,
+    "action_mask": 256,
+    "choice": 0,
+    "control": 0,
+    "raw_control": 256
+  },
+  "comparison": "S01 versus S30 on the first saved decision"
+}

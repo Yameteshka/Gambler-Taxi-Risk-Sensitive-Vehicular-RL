@@ -1,0 +1,268 @@
+{
+  "escape": true,
+  "routes": 360,
+  "arrivals": 339,
+  "collisions": 1,
+  "unfinished": 20,
+  "elapsed_seconds": 5.977738043999921,
+  "failed_cases": [
+    {
+      "from": "Garage",
+      "to": "Home",
+      "heading": 0.0,
+      "clock": 0,
+      "collision": false,
+      "position": [
+        25.776622772216797,
+        25.74774932861328
+      ],
+      "speed": 0.0
+    },
+    {
+      "from": "Garage",
+      "to": "Home",
+      "heading": 0.0,
+      "clock": 80,
+      "collision": false,
+      "position": [
+        25.776622772216797,
+        25.74774932861328
+      ],
+      "speed": 0.0
+    },
+    {
+      "from": "Garage",
+      "to": "Work",
+      "heading": 0.0,
+      "clock": 0,
+      "collision": false,
+      "position": [
+        25.776622772216797,
+        25.74774932861328
+      ],
+      "speed": 0.0
+    },
+    {
+      "from": "Garage",
+      "to": "Work",
+      "heading": 0.0,
+      "clock": 80,
+      "collision": false,
+      "position": [
+        25.776622772216797,
+        25.74774932861328
+      ],
+      "speed": 0.0
+    },
+    {
+      "from": "Garage",
+      "to": "Bank",
+      "heading": 0.0,
+      "clock": 0,
+      "collision": false,
+      "position": [
+        25.776622772216797,
+        25.74774932861328
+      ],
+      "speed": 0.0
+    },
+    {
+      "from": "Garage",
+      "to": "Bank",
+      "heading": 0.0,
+      "clock": 80,
+      "collision": false,
+      "position": [
+        25.776622772216797,
+        25.74774932861328
+      ],
+      "speed": 0.0
+    },
+    {
+      "from": "Garage",
+      "to": "Slots",
+      "heading": 0.0,
+      "clock": 0,
+      "collision": false,
+      "position": [
+        25.776622772216797,
+        25.74774932861328
+      ],
+      "speed": 0.0
+    },
+    {
+      "from": "Garage",
+      "to": "Slots",
+      "heading": 0.0,
+      "clock": 80,
+      "collision": false,
+      "position": [
+        25.776622772216797,
+        25.74774932861328
+      ],
+      "speed": 0.0
+    },
+    {
+      "from": "Garage",
+      "to": "Blackjack",
+      "heading": 0.0,
+      "clock": 0,
+      "collision": false,
+      "position": [
+        25.776622772216797,
+        25.74774932861328
+      ],
+      "speed": 0.0
+    },
+    {
+      "from": "Garage",
+      "to": "Blackjack",
+      "heading": 0.0,
+      "clock": 80,
+      "collision": false,
+      "position": [
+        25.776622772216797,
+        25.74774932861328
+      ],
+      "speed": 0.0
+    },
+    {
+      "from": "Garage",
+      "to": "Fuel station",
+      "heading": 0.0,
+      "clock": 0,
+      "collision": false,
+      "position": [
+        25.776622772216797,
+        25.74774932861328
+      ],
+      "speed": 0.0
+    },
+    {
+      "from": "Garage",
+      "to": "Fuel station",
+      "heading": 0.0,
+      "clock": 80,
+      "collision": false,
+      "position": [
+        25.776622772216797,
+        25.74774932861328
+      ],
+      "speed": 0.0
+    },
+    {
+      "from": "Garage",
+      "to": "Budget diner",
+      "heading": 0.0,
+      "clock": 0,
+      "collision": false,
+      "position": [
+        25.776622772216797,
+        25.74774932861328
+      ],
+      "speed": 0.0
+    },
+    {
+      "from": "Garage",
+      "to": "Budget diner",
+      "heading": 0.0,
+      "clock": 80,
+      "collision": false,
+      "position": [
+        25.776622772216797,
+        25.74774932861328
+      ],
+      "speed": 0.0
+    },
+    {
+      "from": "Garage",
+      "to": "Cafe",
+      "heading": 0.0,
+      "clock": 0,
+      "collision": false,
+      "position": [
+        25.776622772216797,
+        25.74774932861328
+      ],
+      "speed": 0.0
+    },
+    {
+      "from": "Garage",
+      "to": "Cafe",
+      "heading": 0.0,
+      "clock": 80,
+      "collision": false,
+      "position": [
+        25.776622772216797,
+        25.74774932861328
+      ],
+      "speed": 0.0
+    },
+    {
+      "from": "Garage",
+      "to": "Restaurant",
+      "heading": 0.0,
+      "clock": 0,
+      "collision": false,
+      "position": [
+        25.776622772216797,
+        25.74774932861328
+      ],
+      "speed": 0.0
+    },
+    {
+      "from": "Garage",
+      "to": "Restaurant",
+      "heading": 0.0,
+      "clock": 80,
+      "collision": false,
+      "position": [
+        25.776622772216797,
+        25.74774932861328
+      ],
+      "speed": 0.0
+    },
+    {
+      "from": "Blackjack",
+      "to": "Home",
+      "heading": 3.141592653589793,
+      "clock": 80,
+      "collision": false,
+      "position": [
+        18.534082412719727,
+        9.991171836853027
+      ],
+      "speed": 0.0
+    },
+    {
+      "from": "Blackjack",
+      "to": "Work",
+      "heading": 3.141592653589793,
+      "clock": 0,
+      "collision": false,
+      "position": [
+        18.534082412719727,
+        9.991171836853027
+      ],
+      "speed": 0.0
+    },
+    {
+      "from": "Blackjack",
+      "to": "Work",
+      "heading": 3.141592653589793,
+      "clock": 80,
+      "collision": true,
+      "position": [
+        18.019241333007812,
+        10.125885009765625
+      ],
+      "speed": 0.7911253571510315
+    }
+  ],
+  "arrival_tick_percentiles": [
+    86.0,
+    138.2,
+    249.0
+  ],
+  "scope": "All 90 directed venue pairs, two headings, two initial clock phases; food depletion disabled, initial fuel 25. Fixed driving style. Engineering development diagnostic only."
+}

@@ -1,0 +1,94 @@
+[
+  {
+    "tick": 1,
+    "text": "Intention selected: Wait."
+  },
+  {
+    "tick": 9,
+    "text": "Intention selected: Work."
+  },
+  {
+    "tick": 65,
+    "text": "Shift completed: wages received."
+  },
+  {
+    "tick": 67,
+    "text": "Intention selected: Car payment 100."
+  },
+  {
+    "tick": 108,
+    "text": "Car payment: $100.00."
+  },
+  {
+    "tick": 111,
+    "text": "Car payment: $100.00."
+  },
+  {
+    "tick": 114,
+    "text": "Car payment: $75.00."
+  },
+  {
+    "tick": 117,
+    "text": "Intention selected: Work."
+  },
+  {
+    "tick": 190,
+    "text": "Shift completed: wages received."
+  },
+  {
+    "tick": 191,
+    "text": "Intention selected: Restaurant."
+  },
+  {
+    "tick": 277,
+    "text": "Meal delivered; satiety restored by the recorded portion."
+  },
+  {
+    "tick": 278,
+    "text": "Intention selected: Work."
+  },
+  {
+    "tick": 377,
+    "text": "Shift completed: wages received."
+  },
+  {
+    "tick": 378,
+    "text": "Intention selected: Refill 5."
+  },
+  {
+    "tick": 417,
+    "text": "Refueling completed."
+  },
+  {
+    "tick": 418,
+    "text": "Intention selected: Work."
+  },
+  {
+    "tick": 494,
+    "text": "Shift completed: wages received."
+  },
+  {
+    "tick": 495,
+    "text": "Intention selected: Car payment 100."
+  },
+  {
+    "tick": 532,
+    "text": "Car payment: $100.00."
+  },
+  {
+    "tick": 535,
+    "text": "Car payment: $100.00."
+  },
+  {
+    "tick": 538,
+    "text": "Car payment: $29.88."
+  },
+  {
+    "tick": 541,
+    "text": "Intention selected: Complete ownership."
+  },
+  {
+    "tick": 571,
+    "text": "Ownership completed"
+  }
+]

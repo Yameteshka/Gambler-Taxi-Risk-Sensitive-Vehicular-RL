@@ -1,0 +1,3615 @@
+{
+  "protocol": {
+    "test_seed_start": 91000,
+    "test_count": 128,
+    "probe_seed_start": 97000,
+    "probe_count": 256,
+    "backend": "cuda:0",
+    "jax": "0.12.0.1",
+    "numpy": "2.5.4",
+    "optax": "0.2.9",
+    "source_sha256": {
+      "debt_learning.py": "3cb08e4687f682be72fe5aeaf6ec5a58b3329e76a59ddf38502e11af84096a5e",
+      "debt_strategy.py": "89afb4a3f4fd106ab0bf4b863d49bf9cc7954f48c2a978ccfd7be4ed59c22a8e",
+      "debt_navigation.py": "250bab09468eba59e452c975ec5553866747b1ccaa1c4de6a87dd4f0a1756d6f",
+      "debt_research.py": "5b971b5bd7418d801ea01ea244d13ac0b76b837c4307a18b257902ed01233795",
+      "debt_decisions.py": "7b95039bf8a3a02d8d068bba2aa94ba16806ed4d946803b4e311657861e4ea4b",
+      "env/base.py": "bcfb81a2b6e20892077e3e32274f5f2ad06e30e8c3c19deda8d84409de1eb33c",
+      "env/gamblers_taxi.py": "9a3debf129bfc12337083af40b6637d88e01bec97a11b50e27355f0ac985eb3d",
+      "env/city.py": "c73fb6444ade5e0ec9770738c8138ac33aff994ebc43503dbcc660e33a33ca40",
+      "algorithms/hybrid_dsac.py": "a1929db2bbe4389d7663953edc6dffc48fdcb9fc1dcabba74f1f467cd498be62",
+      "scenarios.py": "ed35ef9d91842f6be29d96c91099f066165fd47c61f6512cb2deb1ef43e24cad",
+      "train.py": "f7243353a00aa3b848a0ed6de31e1356b676660719063a2f98db9c4795ba2acf"
+    }
+  },
+  "legacy_neutral": {
+    "summary": {
+      "episodes": 128,
+      "success": 0.0,
+      "success_after_repayment": 0,
+      "debt_cleared": 0.0,
+      "mean_debt_free_tick": null,
+      "mean_final_debt": 1035.96533203125,
+      "crash": 1.0,
+      "timeout": 0.0,
+      "mean_capital": -873.4449687004089,
+      "tail20_capital": -1035.4084801307092,
+      "mean_finish_time": 341.859375,
+      "mean_habit": 0.20998404920101166,
+      "mean_anxiety": 0.7515757083892822,
+      "repeat_gambling": 0.578125,
+      "hired": 0.0,
+      "fired": 0.2421875,
+      "missed": 0.796875,
+      "paid": 1.265625,
+      "loans": 0.0,
+      "repayments": 0.0,
+      "spins": 1.3515625,
+      "hands": 0.140625,
+      "wins": 0.2265625,
+      "losses": 1.25,
+      "pushes": 0.015625,
+      "sleeps": 0.484375,
+      "impulses": 0.0,
+      "mean_debt_free_tick_or_horizon": 1550.0,
+      "mean_buyout_tick_or_horizon": 1550.0,
+      "buyouts_after_playing": 0
+    },
+    "diagnostics": {
+      "episodes_with_work_offer": 128,
+      "episodes_with_repay_offer": 0,
+      "episodes_with_shift": 128,
+      "episodes_with_repay": 0,
+      "episodes_with_gamble": 100,
+      "episodes_with_intervention": 0,
+      "median_paid": 1.0,
+      "median_terminal_tick": 281.0,
+      "crashes_before_first_pay": 0,
+      "crashes_after_first_pay": 128
+    },
+    "environment": {
+      "horizon": 1550,
+      "day": 155,
+      "shift_window": 70,
+      "shift_duration": 28,
+      "sleep_duration": 24,
+      "job_duration": 22,
+      "spin_duration": 9,
+      "loan_duration": 5,
+      "starting_cash": 18.0,
+      "late_start_probability": 0.0,
+      "salary": 145.0,
+      "buyout": 115.0,
+      "loan_unit": 60.0,
+      "loan_limit": 300.0,
+      "interest_per_tick": 0.00012,
+      "slot_stake": 55.0,
+      "slot_payout": 325.0,
+      "slot_probability": 0.12,
+      "blackjack_stake": 90.0,
+      "blackjack_win_commission": 0.1,
+      "zone_radius": 1.55,
+      "parking_speed": 0.2,
+      "dt": 0.16,
+      "max_speed": 3.8,
+      "wheelbase": 0.8,
+      "max_steer": 0.58,
+      "gamma": 0.9985,
+      "enable_emotion_effects": true,
+      "mood_traction": 0.18,
+      "tilt_steering": 0.22,
+      "enable_dependence": true,
+      "anxiety_steering": 0.42,
+      "operating_cost": 8.0,
+      "casino_open": 90,
+      "casino_close": 145,
+      "casino_round_interval": 24,
+      "timeout_shortfall_penalty": 0.25,
+      "starting_debt": 1000.0,
+      "debt_time_weight": 0.65,
+      "enable_impulse_override": false
+    },
+    "chase": {
+      "loss": {
+        "resolved_rounds": 160,
+        "episodes": 97,
+        "eligible": 70,
+        "voluntary_at_first": 70,
+        "voluntary_within_one_day": 70
+      },
+      "win": {
+        "resolved_rounds": 29,
+        "episodes": 20,
+        "eligible": 19,
+        "voluntary_at_first": 19,
+        "voluntary_within_one_day": 19
+      },
+      "push": {
+        "resolved_rounds": 2,
+        "episodes": 2,
+        "eligible": 2,
+        "voluntary_at_first": 2,
+        "voluntary_within_one_day": 2
+      }
+    },
+    "cases": {
+      "first_failure": 91000,
+      "history_with_both_games": 91027,
+      "first_repeat_after_loss": 91002,
+      "work_sleep_and_repeat": 91027
+    },
+    "probes": {
+      "pairs": 256,
+      "loss_mean": 0.9999831914901733,
+      "win_mean_matched": 0.9999433755874634,
+      "win_mean_with_payout": 0.9997919797897339,
+      "loss_minus_win": 3.9918115362524986e-05,
+      "paired_bootstrap_ci": [
+        3.657784545794129e-05,
+        4.3498212471604346e-05
+      ],
+      "modal_loss": 256,
+      "modal_win": 256,
+      "loss_feature_changes": {
+        "anxiety": {
+          "mean_delta": 4.023313522338867e-07,
+          "mean_absolute_delta": 4.023313522338867e-07
+        },
+        "cash_plus_100": {
+          "mean_delta": -8.148839697241783e-06,
+          "mean_absolute_delta": 8.148839697241783e-06
+        },
+        "debt_minus_250": {
+          "mean_delta": 1.1837109923362732e-06,
+          "mean_absolute_delta": 1.2172386050224304e-06
+        },
+        "fatigue_plus_20pp": {
+          "mean_delta": 3.93320806324482e-06,
+          "mean_absolute_delta": 3.93320806324482e-06
+        },
+        "habit": {
+          "mean_delta": -3.4831464290618896e-07,
+          "mean_absolute_delta": 3.4831464290618896e-07
+        },
+        "mood": {
+          "mean_delta": -3.988645039498806e-05,
+          "mean_absolute_delta": 3.988645039498806e-05
+        },
+        "tilt": {
+          "mean_delta": -1.1990778148174286e-07,
+          "mean_absolute_delta": 1.6274861991405487e-07
+        },
+        "two_days_later": {
+          "mean_delta": -5.150679498910904e-06,
+          "mean_absolute_delta": 5.150679498910904e-06
+        }
+      }
+    },
+    "checkpoint": {
+      "file": "debt_neutral_actor.npz",
+      "sha256": "c29ed06d07cb5caed995a7fb29a35cb03ab26f70b658b9be24b40e7ce2ee6319",
+      "metadata": {
+        "environment": {
+          "horizon": 1550,
+          "day": 155,
+          "shift_window": 70,
+          "shift_duration": 28,
+          "sleep_duration": 24,
+          "job_duration": 22,
+          "spin_duration": 9,
+          "loan_duration": 5,
+          "starting_cash": 18.0,
+          "late_start_probability": 0.0,
+          "salary": 145.0,
+          "buyout": 115.0,
+          "loan_unit": 60.0,
+          "loan_limit": 300.0,
+          "interest_per_tick": 0.00012,
+          "slot_stake": 55.0,
+          "slot_payout": 325.0,
+          "slot_probability": 0.12,
+          "blackjack_stake": 90.0,
+          "blackjack_win_commission": 0.1,
+          "zone_radius": 1.55,
+          "parking_speed": 0.2,
+          "dt": 0.16,
+          "max_speed": 3.8,
+          "wheelbase": 0.8,
+          "max_steer": 0.58,
+          "gamma": 0.9985,
+          "enable_emotion_effects": true,
+          "mood_traction": 0.18,
+          "tilt_steering": 0.22,
+          "enable_dependence": true,
+          "anxiety_steering": 0.42,
+          "operating_cost": 8.0,
+          "casino_open": 90,
+          "casino_close": 145,
+          "casino_round_interval": 24,
+          "timeout_shortfall_penalty": 0.25,
+          "starting_debt": 1000.0,
+          "debt_time_weight": 0.65
+        },
+        "agent": {
+          "width": 128,
+          "quantiles": 24,
+          "learning_rate": 0.0001,
+          "temperature_rate": 7e-05,
+          "target_rate": 0.008,
+          "risk_weight": 0.0,
+          "upside_weight": 0.0,
+          "tail_mass": 0.2,
+          "demo_weight": 7.0,
+          "gamma": 0.9985
+        },
+        "stage": 600,
+        "metrics": {
+          "episodes": 48,
+          "success": 0.0,
+          "success_after_repayment": 0,
+          "debt_cleared": 0.0,
+          "mean_debt_free_tick": null,
+          "mean_final_debt": 1036.0157470703125,
+          "crash": 1.0,
+          "timeout": 0.0,
+          "mean_capital": -841.2174021402994,
+          "tail20_capital": -1032.7587097167968,
+          "mean_finish_time": 340.9583333333333,
+          "mean_habit": 0.20751605927944183,
+          "mean_anxiety": 0.7447397112846375,
+          "repeat_gambling": 0.5625,
+          "hired": 0.0,
+          "fired": 0.20833333333333334,
+          "missed": 0.7708333333333334,
+          "paid": 1.3333333333333333,
+          "loans": 0.0,
+          "repayments": 0.0,
+          "spins": 1.3541666666666667,
+          "hands": 0.08333333333333333,
+          "wins": 0.25,
+          "losses": 1.1875,
+          "pushes": 0.0,
+          "sleeps": 0.4583333333333333,
+          "impulses": 0.0
+        },
+        "layers": 3,
+        "seed": 11
+      }
+    }
+  },
+  "legacy_neutral_guarded": {
+    "summary": {
+      "episodes": 128,
+      "success": 0.0,
+      "success_after_repayment": 0,
+      "debt_cleared": 0.0,
+      "mean_debt_free_tick": null,
+      "mean_final_debt": 1167.314697265625,
+      "crash": 0.2109375,
+      "timeout": 0.7890625,
+      "mean_capital": -1056.8099627494812,
+      "tail20_capital": -1225.804941030649,
+      "mean_finish_time": 1326.7109375,
+      "mean_habit": 0.11291275918483734,
+      "mean_anxiety": 0.7497238516807556,
+      "repeat_gambling": 0.6015625,
+      "hired": 0.0,
+      "fired": 0.8671875,
+      "missed": 2.03125,
+      "paid": 1.2734375,
+      "loans": 0.0,
+      "repayments": 0.0,
+      "spins": 1.4765625,
+      "hands": 0.15625,
+      "wins": 0.25,
+      "losses": 1.3671875,
+      "pushes": 0.015625,
+      "sleeps": 0.4921875,
+      "impulses": 0.0,
+      "mean_debt_free_tick_or_horizon": 1550.0,
+      "mean_buyout_tick_or_horizon": 1550.0,
+      "buyouts_after_playing": 0
+    },
+    "diagnostics": {
+      "episodes_with_work_offer": 128,
+      "episodes_with_repay_offer": 0,
+      "episodes_with_shift": 128,
+      "episodes_with_repay": 0,
+      "episodes_with_gamble": 111,
+      "episodes_with_intervention": 128,
+      "median_paid": 1.0,
+      "median_terminal_tick": 1550.0,
+      "crashes_before_first_pay": 0,
+      "crashes_after_first_pay": 27
+    },
+    "environment": {
+      "horizon": 1550,
+      "day": 155,
+      "shift_window": 70,
+      "shift_duration": 28,
+      "sleep_duration": 24,
+      "job_duration": 22,
+      "spin_duration": 9,
+      "loan_duration": 5,
+      "starting_cash": 18.0,
+      "late_start_probability": 0.0,
+      "salary": 145.0,
+      "buyout": 115.0,
+      "loan_unit": 60.0,
+      "loan_limit": 300.0,
+      "interest_per_tick": 0.00012,
+      "slot_stake": 55.0,
+      "slot_payout": 325.0,
+      "slot_probability": 0.12,
+      "blackjack_stake": 90.0,
+      "blackjack_win_commission": 0.1,
+      "zone_radius": 1.55,
+      "parking_speed": 0.2,
+      "dt": 0.16,
+      "max_speed": 3.8,
+      "wheelbase": 0.8,
+      "max_steer": 0.58,
+      "gamma": 0.9985,
+      "enable_emotion_effects": true,
+      "mood_traction": 0.18,
+      "tilt_steering": 0.22,
+      "enable_dependence": true,
+      "anxiety_steering": 0.42,
+      "operating_cost": 8.0,
+      "casino_open": 90,
+      "casino_close": 145,
+      "casino_round_interval": 24,
+      "timeout_shortfall_penalty": 0.25,
+      "starting_debt": 1000.0,
+      "debt_time_weight": 0.65,
+      "enable_impulse_override": false
+    },
+    "chase": {
+      "loss": {
+        "resolved_rounds": 175,
+        "episodes": 108,
+        "eligible": 74,
+        "voluntary_at_first": 74,
+        "voluntary_within_one_day": 74
+      },
+      "win": {
+        "resolved_rounds": 32,
+        "episodes": 23,
+        "eligible": 20,
+        "voluntary_at_first": 20,
+        "voluntary_within_one_day": 20
+      },
+      "push": {
+        "resolved_rounds": 2,
+        "episodes": 2,
+        "eligible": 2,
+        "voluntary_at_first": 2,
+        "voluntary_within_one_day": 2
+      }
+    },
+    "cases": {
+      "first_failure": 91000,
+      "history_with_both_games": 91027,
+      "first_repeat_after_loss": 91002,
+      "work_sleep_and_repeat": 91018
+    },
+    "probes": {
+      "pairs": 256,
+      "loss_mean": 0.9999831914901733,
+      "win_mean_matched": 0.9999433755874634,
+      "win_mean_with_payout": 0.9997919797897339,
+      "loss_minus_win": 3.9918115362524986e-05,
+      "paired_bootstrap_ci": [
+        3.657784545794129e-05,
+        4.3498212471604346e-05
+      ],
+      "modal_loss": 256,
+      "modal_win": 256,
+      "loss_feature_changes": {
+        "anxiety": {
+          "mean_delta": 4.023313522338867e-07,
+          "mean_absolute_delta": 4.023313522338867e-07
+        },
+        "cash_plus_100": {
+          "mean_delta": -8.148839697241783e-06,
+          "mean_absolute_delta": 8.148839697241783e-06
+        },
+        "debt_minus_250": {
+          "mean_delta": 1.1837109923362732e-06,
+          "mean_absolute_delta": 1.2172386050224304e-06
+        },
+        "fatigue_plus_20pp": {
+          "mean_delta": 3.93320806324482e-06,
+          "mean_absolute_delta": 3.93320806324482e-06
+        },
+        "habit": {
+          "mean_delta": -3.4831464290618896e-07,
+          "mean_absolute_delta": 3.4831464290618896e-07
+        },
+        "mood": {
+          "mean_delta": -3.988645039498806e-05,
+          "mean_absolute_delta": 3.988645039498806e-05
+        },
+        "tilt": {
+          "mean_delta": -1.1990778148174286e-07,
+          "mean_absolute_delta": 1.6274861991405487e-07
+        },
+        "two_days_later": {
+          "mean_delta": -5.150679498910904e-06,
+          "mean_absolute_delta": 5.150679498910904e-06
+        }
+      }
+    },
+    "checkpoint": {
+      "file": "debt_neutral_actor.npz",
+      "sha256": "c29ed06d07cb5caed995a7fb29a35cb03ab26f70b658b9be24b40e7ce2ee6319",
+      "metadata": {
+        "environment": {
+          "horizon": 1550,
+          "day": 155,
+          "shift_window": 70,
+          "shift_duration": 28,
+          "sleep_duration": 24,
+          "job_duration": 22,
+          "spin_duration": 9,
+          "loan_duration": 5,
+          "starting_cash": 18.0,
+          "late_start_probability": 0.0,
+          "salary": 145.0,
+          "buyout": 115.0,
+          "loan_unit": 60.0,
+          "loan_limit": 300.0,
+          "interest_per_tick": 0.00012,
+          "slot_stake": 55.0,
+          "slot_payout": 325.0,
+          "slot_probability": 0.12,
+          "blackjack_stake": 90.0,
+          "blackjack_win_commission": 0.1,
+          "zone_radius": 1.55,
+          "parking_speed": 0.2,
+          "dt": 0.16,
+          "max_speed": 3.8,
+          "wheelbase": 0.8,
+          "max_steer": 0.58,
+          "gamma": 0.9985,
+          "enable_emotion_effects": true,
+          "mood_traction": 0.18,
+          "tilt_steering": 0.22,
+          "enable_dependence": true,
+          "anxiety_steering": 0.42,
+          "operating_cost": 8.0,
+          "casino_open": 90,
+          "casino_close": 145,
+          "casino_round_interval": 24,
+          "timeout_shortfall_penalty": 0.25,
+          "starting_debt": 1000.0,
+          "debt_time_weight": 0.65
+        },
+        "agent": {
+          "width": 128,
+          "quantiles": 24,
+          "learning_rate": 0.0001,
+          "temperature_rate": 7e-05,
+          "target_rate": 0.008,
+          "risk_weight": 0.0,
+          "upside_weight": 0.0,
+          "tail_mass": 0.2,
+          "demo_weight": 7.0,
+          "gamma": 0.9985
+        },
+        "stage": 600,
+        "metrics": {
+          "episodes": 48,
+          "success": 0.0,
+          "success_after_repayment": 0,
+          "debt_cleared": 0.0,
+          "mean_debt_free_tick": null,
+          "mean_final_debt": 1036.0157470703125,
+          "crash": 1.0,
+          "timeout": 0.0,
+          "mean_capital": -841.2174021402994,
+          "tail20_capital": -1032.7587097167968,
+          "mean_finish_time": 340.9583333333333,
+          "mean_habit": 0.20751605927944183,
+          "mean_anxiety": 0.7447397112846375,
+          "repeat_gambling": 0.5625,
+          "hired": 0.0,
+          "fired": 0.20833333333333334,
+          "missed": 0.7708333333333334,
+          "paid": 1.3333333333333333,
+          "loans": 0.0,
+          "repayments": 0.0,
+          "spins": 1.3541666666666667,
+          "hands": 0.08333333333333333,
+          "wins": 0.25,
+          "losses": 1.1875,
+          "pushes": 0.0,
+          "sleeps": 0.4583333333333333,
+          "impulses": 0.0
+        },
+        "layers": 3,
+        "seed": 11
+      }
+    }
+  },
+  "legacy_upside": {
+    "summary": {
+      "episodes": 128,
+      "success": 0.0,
+      "success_after_repayment": 0,
+      "debt_cleared": 0.0,
+      "mean_debt_free_tick": null,
+      "mean_final_debt": 1036.0789794921875,
+      "crash": 1.0,
+      "timeout": 0.0,
+      "mean_capital": -824.4804439544678,
+      "tail20_capital": -991.2809495192307,
+      "mean_finish_time": 342.3984375,
+      "mean_habit": 0.24155203998088837,
+      "mean_anxiety": 0.7468169331550598,
+      "repeat_gambling": 0.5078125,
+      "hired": 0.0,
+      "fired": 0.0859375,
+      "missed": 0.59375,
+      "paid": 1.4453125,
+      "loans": 0.0,
+      "repayments": 0.0,
+      "spins": 1.2421875,
+      "hands": 0.578125,
+      "wins": 0.4765625,
+      "losses": 1.2421875,
+      "pushes": 0.1015625,
+      "sleeps": 0.484375,
+      "impulses": 0.0,
+      "mean_debt_free_tick_or_horizon": 1550.0,
+      "mean_buyout_tick_or_horizon": 1550.0,
+      "buyouts_after_playing": 0
+    },
+    "diagnostics": {
+      "episodes_with_work_offer": 128,
+      "episodes_with_repay_offer": 0,
+      "episodes_with_shift": 128,
+      "episodes_with_repay": 0,
+      "episodes_with_gamble": 90,
+      "episodes_with_intervention": 0,
+      "median_paid": 1.0,
+      "median_terminal_tick": 269.5,
+      "crashes_before_first_pay": 0,
+      "crashes_after_first_pay": 128
+    },
+    "environment": {
+      "horizon": 1550,
+      "day": 155,
+      "shift_window": 70,
+      "shift_duration": 28,
+      "sleep_duration": 24,
+      "job_duration": 22,
+      "spin_duration": 9,
+      "loan_duration": 5,
+      "starting_cash": 18.0,
+      "late_start_probability": 0.0,
+      "salary": 145.0,
+      "buyout": 115.0,
+      "loan_unit": 60.0,
+      "loan_limit": 300.0,
+      "interest_per_tick": 0.00012,
+      "slot_stake": 55.0,
+      "slot_payout": 325.0,
+      "slot_probability": 0.12,
+      "blackjack_stake": 90.0,
+      "blackjack_win_commission": 0.1,
+      "zone_radius": 1.55,
+      "parking_speed": 0.2,
+      "dt": 0.16,
+      "max_speed": 3.8,
+      "wheelbase": 0.8,
+      "max_steer": 0.58,
+      "gamma": 0.9985,
+      "enable_emotion_effects": true,
+      "mood_traction": 0.18,
+      "tilt_steering": 0.22,
+      "enable_dependence": true,
+      "anxiety_steering": 0.42,
+      "operating_cost": 8.0,
+      "casino_open": 90,
+      "casino_close": 145,
+      "casino_round_interval": 24,
+      "timeout_shortfall_penalty": 0.25,
+      "starting_debt": 1000.0,
+      "debt_time_weight": 0.65,
+      "enable_impulse_override": false
+    },
+    "chase": {
+      "loss": {
+        "resolved_rounds": 159,
+        "episodes": 87,
+        "eligible": 98,
+        "voluntary_at_first": 98,
+        "voluntary_within_one_day": 98
+      },
+      "win": {
+        "resolved_rounds": 61,
+        "episodes": 42,
+        "eligible": 36,
+        "voluntary_at_first": 36,
+        "voluntary_within_one_day": 36
+      },
+      "push": {
+        "resolved_rounds": 13,
+        "episodes": 13,
+        "eligible": 7,
+        "voluntary_at_first": 7,
+        "voluntary_within_one_day": 7
+      }
+    },
+    "cases": {
+      "first_failure": 91000,
+      "history_with_both_games": 91003,
+      "first_repeat_after_loss": 91001,
+      "work_sleep_and_repeat": 91002
+    },
+    "probes": {
+      "pairs": 256,
+      "loss_mean": 0.9999836683273315,
+      "win_mean_matched": 0.9999434947967529,
+      "win_mean_with_payout": 0.9997899532318115,
+      "loss_minus_win": 4.010717384517193e-05,
+      "paired_bootstrap_ci": [
+        3.6709161940962075e-05,
+        4.3758493848145005e-05
+      ],
+      "modal_loss": 256,
+      "modal_win": 256,
+      "loss_feature_changes": {
+        "anxiety": {
+          "mean_delta": 3.9278529584407806e-07,
+          "mean_absolute_delta": 3.9278529584407806e-07
+        },
+        "cash_plus_100": {
+          "mean_delta": -8.059432730078697e-06,
+          "mean_absolute_delta": 8.059432730078697e-06
+        },
+        "debt_minus_250": {
+          "mean_delta": 1.1415686458349228e-06,
+          "mean_absolute_delta": 1.1764932423830032e-06
+        },
+        "fatigue_plus_20pp": {
+          "mean_delta": 3.9548613131046295e-06,
+          "mean_absolute_delta": 3.9548613131046295e-06
+        },
+        "habit": {
+          "mean_delta": -3.343448042869568e-07,
+          "mean_absolute_delta": 3.343448042869568e-07
+        },
+        "mood": {
+          "mean_delta": -4.000985063612461e-05,
+          "mean_absolute_delta": 4.000985063612461e-05
+        },
+        "tilt": {
+          "mean_delta": -1.273583620786667e-07,
+          "mean_absolute_delta": 1.6647391021251678e-07
+        },
+        "two_days_later": {
+          "mean_delta": -5.17512671649456e-06,
+          "mean_absolute_delta": 5.17512671649456e-06
+        }
+      }
+    },
+    "checkpoint": {
+      "file": "debt_upside_actor.npz",
+      "sha256": "30c355dacace24967fe8c8e1c78b54bd0754ccc6273d1704cf481df18d0e0895",
+      "metadata": {
+        "environment": {
+          "horizon": 1550,
+          "day": 155,
+          "shift_window": 70,
+          "shift_duration": 28,
+          "sleep_duration": 24,
+          "job_duration": 22,
+          "spin_duration": 9,
+          "loan_duration": 5,
+          "starting_cash": 18.0,
+          "late_start_probability": 0.0,
+          "salary": 145.0,
+          "buyout": 115.0,
+          "loan_unit": 60.0,
+          "loan_limit": 300.0,
+          "interest_per_tick": 0.00012,
+          "slot_stake": 55.0,
+          "slot_payout": 325.0,
+          "slot_probability": 0.12,
+          "blackjack_stake": 90.0,
+          "blackjack_win_commission": 0.1,
+          "zone_radius": 1.55,
+          "parking_speed": 0.2,
+          "dt": 0.16,
+          "max_speed": 3.8,
+          "wheelbase": 0.8,
+          "max_steer": 0.58,
+          "gamma": 0.9985,
+          "enable_emotion_effects": true,
+          "mood_traction": 0.18,
+          "tilt_steering": 0.22,
+          "enable_dependence": true,
+          "anxiety_steering": 0.42,
+          "operating_cost": 8.0,
+          "casino_open": 90,
+          "casino_close": 145,
+          "casino_round_interval": 24,
+          "timeout_shortfall_penalty": 0.25,
+          "starting_debt": 1000.0,
+          "debt_time_weight": 0.65
+        },
+        "agent": {
+          "width": 128,
+          "quantiles": 24,
+          "learning_rate": 0.0001,
+          "temperature_rate": 7e-05,
+          "target_rate": 0.008,
+          "risk_weight": 0.0,
+          "upside_weight": 0.55,
+          "tail_mass": 0.2,
+          "demo_weight": 7.0,
+          "gamma": 0.9985
+        },
+        "stage": 650,
+        "metrics": {
+          "episodes": 48,
+          "success": 0.0,
+          "success_after_repayment": 0,
+          "debt_cleared": 0.0,
+          "mean_debt_free_tick": null,
+          "mean_final_debt": 1040.3558349609375,
+          "crash": 0.9791666666666666,
+          "timeout": 0.020833333333333332,
+          "mean_capital": -842.6928736368815,
+          "tail20_capital": -986.6525268554688,
+          "mean_finish_time": 372.9375,
+          "mean_habit": 0.2413858324289322,
+          "mean_anxiety": 0.7497909069061279,
+          "repeat_gambling": 0.5208333333333334,
+          "hired": 0.0,
+          "fired": 0.08333333333333333,
+          "missed": 0.5833333333333334,
+          "paid": 1.5625,
+          "loans": 0.0,
+          "repayments": 0.0,
+          "spins": 1.3125,
+          "hands": 0.5625,
+          "wins": 0.3958333333333333,
+          "losses": 1.4583333333333333,
+          "pushes": 0.020833333333333332,
+          "sleeps": 0.4583333333333333,
+          "impulses": 0.0
+        },
+        "layers": 3,
+        "seed": 11
+      }
+    }
+  },
+  "legacy_upside_guarded": {
+    "summary": {
+      "episodes": 128,
+      "success": 0.0,
+      "success_after_repayment": 0,
+      "debt_cleared": 0.0,
+      "mean_debt_free_tick": null,
+      "mean_final_debt": 1166.963134765625,
+      "crash": 0.21875,
+      "timeout": 0.78125,
+      "mean_capital": -1007.4036650657654,
+      "tail20_capital": -1229.577641413762,
+      "mean_finish_time": 1324.6328125,
+      "mean_habit": 0.1436094492673874,
+      "mean_anxiety": 0.7498980760574341,
+      "repeat_gambling": 0.59375,
+      "hired": 0.0,
+      "fired": 0.859375,
+      "missed": 2.0234375,
+      "paid": 1.5078125,
+      "loans": 0.0,
+      "repayments": 0.0,
+      "spins": 1.5625,
+      "hands": 0.5703125,
+      "wins": 0.4921875,
+      "losses": 1.5390625,
+      "pushes": 0.1015625,
+      "sleeps": 0.4921875,
+      "impulses": 0.0,
+      "mean_debt_free_tick_or_horizon": 1550.0,
+      "mean_buyout_tick_or_horizon": 1550.0,
+      "buyouts_after_playing": 0
+    },
+    "diagnostics": {
+      "episodes_with_work_offer": 128,
+      "episodes_with_repay_offer": 0,
+      "episodes_with_shift": 128,
+      "episodes_with_repay": 0,
+      "episodes_with_gamble": 119,
+      "episodes_with_intervention": 128,
+      "median_paid": 1.0,
+      "median_terminal_tick": 1550.0,
+      "crashes_before_first_pay": 0,
+      "crashes_after_first_pay": 28
+    },
+    "environment": {
+      "horizon": 1550,
+      "day": 155,
+      "shift_window": 70,
+      "shift_duration": 28,
+      "sleep_duration": 24,
+      "job_duration": 22,
+      "spin_duration": 9,
+      "loan_duration": 5,
+      "starting_cash": 18.0,
+      "late_start_probability": 0.0,
+      "salary": 145.0,
+      "buyout": 115.0,
+      "loan_unit": 60.0,
+      "loan_limit": 300.0,
+      "interest_per_tick": 0.00012,
+      "slot_stake": 55.0,
+      "slot_payout": 325.0,
+      "slot_probability": 0.12,
+      "blackjack_stake": 90.0,
+      "blackjack_win_commission": 0.1,
+      "zone_radius": 1.55,
+      "parking_speed": 0.2,
+      "dt": 0.16,
+      "max_speed": 3.8,
+      "wheelbase": 0.8,
+      "max_steer": 0.58,
+      "gamma": 0.9985,
+      "enable_emotion_effects": true,
+      "mood_traction": 0.18,
+      "tilt_steering": 0.22,
+      "enable_dependence": true,
+      "anxiety_steering": 0.42,
+      "operating_cost": 8.0,
+      "casino_open": 90,
+      "casino_close": 145,
+      "casino_round_interval": 24,
+      "timeout_shortfall_penalty": 0.25,
+      "starting_debt": 1000.0,
+      "debt_time_weight": 0.65,
+      "enable_impulse_override": false
+    },
+    "chase": {
+      "loss": {
+        "resolved_rounds": 197,
+        "episodes": 112,
+        "eligible": 110,
+        "voluntary_at_first": 110,
+        "voluntary_within_one_day": 110
+      },
+      "win": {
+        "resolved_rounds": 63,
+        "episodes": 43,
+        "eligible": 34,
+        "voluntary_at_first": 34,
+        "voluntary_within_one_day": 34
+      },
+      "push": {
+        "resolved_rounds": 13,
+        "episodes": 13,
+        "eligible": 7,
+        "voluntary_at_first": 7,
+        "voluntary_within_one_day": 7
+      }
+    },
+    "cases": {
+      "first_failure": 91000,
+      "history_with_both_games": 91003,
+      "first_repeat_after_loss": 91001,
+      "work_sleep_and_repeat": 91002
+    },
+    "probes": {
+      "pairs": 256,
+      "loss_mean": 0.9999836683273315,
+      "win_mean_matched": 0.9999434947967529,
+      "win_mean_with_payout": 0.9997899532318115,
+      "loss_minus_win": 4.010717384517193e-05,
+      "paired_bootstrap_ci": [
+        3.6709161940962075e-05,
+        4.3758493848145005e-05
+      ],
+      "modal_loss": 256,
+      "modal_win": 256,
+      "loss_feature_changes": {
+        "anxiety": {
+          "mean_delta": 3.9278529584407806e-07,
+          "mean_absolute_delta": 3.9278529584407806e-07
+        },
+        "cash_plus_100": {
+          "mean_delta": -8.059432730078697e-06,
+          "mean_absolute_delta": 8.059432730078697e-06
+        },
+        "debt_minus_250": {
+          "mean_delta": 1.1415686458349228e-06,
+          "mean_absolute_delta": 1.1764932423830032e-06
+        },
+        "fatigue_plus_20pp": {
+          "mean_delta": 3.9548613131046295e-06,
+          "mean_absolute_delta": 3.9548613131046295e-06
+        },
+        "habit": {
+          "mean_delta": -3.343448042869568e-07,
+          "mean_absolute_delta": 3.343448042869568e-07
+        },
+        "mood": {
+          "mean_delta": -4.000985063612461e-05,
+          "mean_absolute_delta": 4.000985063612461e-05
+        },
+        "tilt": {
+          "mean_delta": -1.273583620786667e-07,
+          "mean_absolute_delta": 1.6647391021251678e-07
+        },
+        "two_days_later": {
+          "mean_delta": -5.17512671649456e-06,
+          "mean_absolute_delta": 5.17512671649456e-06
+        }
+      }
+    },
+    "checkpoint": {
+      "file": "debt_upside_actor.npz",
+      "sha256": "30c355dacace24967fe8c8e1c78b54bd0754ccc6273d1704cf481df18d0e0895",
+      "metadata": {
+        "environment": {
+          "horizon": 1550,
+          "day": 155,
+          "shift_window": 70,
+          "shift_duration": 28,
+          "sleep_duration": 24,
+          "job_duration": 22,
+          "spin_duration": 9,
+          "loan_duration": 5,
+          "starting_cash": 18.0,
+          "late_start_probability": 0.0,
+          "salary": 145.0,
+          "buyout": 115.0,
+          "loan_unit": 60.0,
+          "loan_limit": 300.0,
+          "interest_per_tick": 0.00012,
+          "slot_stake": 55.0,
+          "slot_payout": 325.0,
+          "slot_probability": 0.12,
+          "blackjack_stake": 90.0,
+          "blackjack_win_commission": 0.1,
+          "zone_radius": 1.55,
+          "parking_speed": 0.2,
+          "dt": 0.16,
+          "max_speed": 3.8,
+          "wheelbase": 0.8,
+          "max_steer": 0.58,
+          "gamma": 0.9985,
+          "enable_emotion_effects": true,
+          "mood_traction": 0.18,
+          "tilt_steering": 0.22,
+          "enable_dependence": true,
+          "anxiety_steering": 0.42,
+          "operating_cost": 8.0,
+          "casino_open": 90,
+          "casino_close": 145,
+          "casino_round_interval": 24,
+          "timeout_shortfall_penalty": 0.25,
+          "starting_debt": 1000.0,
+          "debt_time_weight": 0.65
+        },
+        "agent": {
+          "width": 128,
+          "quantiles": 24,
+          "learning_rate": 0.0001,
+          "temperature_rate": 7e-05,
+          "target_rate": 0.008,
+          "risk_weight": 0.0,
+          "upside_weight": 0.55,
+          "tail_mass": 0.2,
+          "demo_weight": 7.0,
+          "gamma": 0.9985
+        },
+        "stage": 650,
+        "metrics": {
+          "episodes": 48,
+          "success": 0.0,
+          "success_after_repayment": 0,
+          "debt_cleared": 0.0,
+          "mean_debt_free_tick": null,
+          "mean_final_debt": 1040.3558349609375,
+          "crash": 0.9791666666666666,
+          "timeout": 0.020833333333333332,
+          "mean_capital": -842.6928736368815,
+          "tail20_capital": -986.6525268554688,
+          "mean_finish_time": 372.9375,
+          "mean_habit": 0.2413858324289322,
+          "mean_anxiety": 0.7497909069061279,
+          "repeat_gambling": 0.5208333333333334,
+          "hired": 0.0,
+          "fired": 0.08333333333333333,
+          "missed": 0.5833333333333334,
+          "paid": 1.5625,
+          "loans": 0.0,
+          "repayments": 0.0,
+          "spins": 1.3125,
+          "hands": 0.5625,
+          "wins": 0.3958333333333333,
+          "losses": 1.4583333333333333,
+          "pushes": 0.020833333333333332,
+          "sleeps": 0.4583333333333333,
+          "impulses": 0.0
+        },
+        "layers": 3,
+        "seed": 11
+      }
+    }
+  },
+  "scripted_work": {
+    "summary": {
+      "episodes": 128,
+      "success": 0.5,
+      "success_after_repayment": 64,
+      "debt_cleared": 0.9765625,
+      "mean_debt_free_tick": 1373.256,
+      "mean_final_debt": 9.671630859375,
+      "crash": 0.0390625,
+      "timeout": 0.4609375,
+      "mean_capital": 123.4558133482933,
+      "tail20_capital": 52.677896352914665,
+      "mean_finish_time": 1455.046875,
+      "mean_habit": 0.0,
+      "mean_anxiety": 0.011365178972482681,
+      "repeat_gambling": 0.0,
+      "hired": 0.0,
+      "fired": 0.0,
+      "missed": 0.1875,
+      "paid": 8.8984375,
+      "loans": 0.0,
+      "repayments": 2.6953125,
+      "spins": 0.0,
+      "hands": 0.0,
+      "wins": 0.0,
+      "losses": 0.0,
+      "pushes": 0.0,
+      "sleeps": 6.421875,
+      "impulses": 0.0,
+      "mean_debt_free_tick_or_horizon": 1377.3984375,
+      "mean_buyout_tick_or_horizon": 1473.1640625,
+      "buyouts_after_playing": 0
+    },
+    "diagnostics": {
+      "episodes_with_work_offer": 0,
+      "episodes_with_repay_offer": 0,
+      "episodes_with_shift": 128,
+      "episodes_with_repay": 128,
+      "episodes_with_gamble": 0,
+      "episodes_with_intervention": 0,
+      "median_paid": 9.0,
+      "median_terminal_tick": 1461.0,
+      "crashes_before_first_pay": 0,
+      "crashes_after_first_pay": 5
+    },
+    "environment": {
+      "horizon": 1550,
+      "day": 155,
+      "shift_window": 70,
+      "shift_duration": 28,
+      "sleep_duration": 24,
+      "job_duration": 22,
+      "spin_duration": 9,
+      "loan_duration": 5,
+      "starting_cash": 18.0,
+      "late_start_probability": 0.0,
+      "salary": 145.0,
+      "buyout": 115.0,
+      "loan_unit": 60.0,
+      "loan_limit": 300.0,
+      "interest_per_tick": 0.00012,
+      "slot_stake": 55.0,
+      "slot_payout": 325.0,
+      "slot_probability": 0.12,
+      "blackjack_stake": 90.0,
+      "blackjack_win_commission": 0.1,
+      "zone_radius": 1.55,
+      "parking_speed": 0.2,
+      "dt": 0.16,
+      "max_speed": 3.8,
+      "wheelbase": 0.8,
+      "max_steer": 0.58,
+      "gamma": 0.9985,
+      "enable_emotion_effects": true,
+      "mood_traction": 0.18,
+      "tilt_steering": 0.22,
+      "enable_dependence": true,
+      "anxiety_steering": 0.42,
+      "operating_cost": 8.0,
+      "casino_open": 90,
+      "casino_close": 145,
+      "casino_round_interval": 24,
+      "timeout_shortfall_penalty": 0.25,
+      "starting_debt": 1000.0,
+      "debt_time_weight": 0.65,
+      "enable_impulse_override": false
+    },
+    "chase": {
+      "loss": {
+        "resolved_rounds": 0,
+        "episodes": 0,
+        "eligible": 0,
+        "voluntary_at_first": 0,
+        "voluntary_within_one_day": 0
+      },
+      "win": {
+        "resolved_rounds": 0,
+        "episodes": 0,
+        "eligible": 0,
+        "voluntary_at_first": 0,
+        "voluntary_within_one_day": 0
+      },
+      "push": {
+        "resolved_rounds": 0,
+        "episodes": 0,
+        "eligible": 0,
+        "voluntary_at_first": 0,
+        "voluntary_within_one_day": 0
+      }
+    },
+    "cases": {
+      "first_win": 91000,
+      "first_failure": 91002
+    }
+  },
+  "scripted_mixed": {
+    "summary": {
+      "episodes": 128,
+      "success": 0.0234375,
+      "success_after_repayment": 3,
+      "debt_cleared": 0.03125,
+      "mean_debt_free_tick": 1094.75,
+      "mean_final_debt": 1093.890625,
+      "crash": 0.2890625,
+      "timeout": 0.6875,
+      "mean_capital": -963.5517109632492,
+      "tail20_capital": -1187.2139423076924,
+      "mean_finish_time": 1167.0625,
+      "mean_habit": 0.06073123589158058,
+      "mean_anxiety": 0.7186802625656128,
+      "repeat_gambling": 0.1953125,
+      "hired": 0.0,
+      "fired": 0.6796875,
+      "missed": 1.578125,
+      "paid": 1.53125,
+      "loans": 0.0,
+      "repayments": 0.0859375,
+      "spins": 0.921875,
+      "hands": 0.0859375,
+      "wins": 0.1875,
+      "losses": 0.8125,
+      "pushes": 0.0078125,
+      "sleeps": 0.8515625,
+      "impulses": 0.0,
+      "mean_debt_free_tick_or_horizon": 1535.7734375,
+      "mean_buyout_tick_or_horizon": 1539.0390625,
+      "buyouts_after_playing": 3
+    },
+    "diagnostics": {
+      "episodes_with_work_offer": 0,
+      "episodes_with_repay_offer": 0,
+      "episodes_with_shift": 128,
+      "episodes_with_repay": 7,
+      "episodes_with_gamble": 96,
+      "episodes_with_intervention": 0,
+      "median_paid": 1.0,
+      "median_terminal_tick": 1550.0,
+      "crashes_before_first_pay": 0,
+      "crashes_after_first_pay": 37
+    },
+    "environment": {
+      "horizon": 1550,
+      "day": 155,
+      "shift_window": 70,
+      "shift_duration": 28,
+      "sleep_duration": 24,
+      "job_duration": 22,
+      "spin_duration": 9,
+      "loan_duration": 5,
+      "starting_cash": 18.0,
+      "late_start_probability": 0.0,
+      "salary": 145.0,
+      "buyout": 115.0,
+      "loan_unit": 60.0,
+      "loan_limit": 300.0,
+      "interest_per_tick": 0.00012,
+      "slot_stake": 55.0,
+      "slot_payout": 325.0,
+      "slot_probability": 0.12,
+      "blackjack_stake": 90.0,
+      "blackjack_win_commission": 0.1,
+      "zone_radius": 1.55,
+      "parking_speed": 0.2,
+      "dt": 0.16,
+      "max_speed": 3.8,
+      "wheelbase": 0.8,
+      "max_steer": 0.58,
+      "gamma": 0.9985,
+      "enable_emotion_effects": true,
+      "mood_traction": 0.18,
+      "tilt_steering": 0.22,
+      "enable_dependence": true,
+      "anxiety_steering": 0.42,
+      "operating_cost": 8.0,
+      "casino_open": 90,
+      "casino_close": 145,
+      "casino_round_interval": 24,
+      "timeout_shortfall_penalty": 0.25,
+      "starting_debt": 1000.0,
+      "debt_time_weight": 0.65,
+      "enable_impulse_override": false
+    },
+    "chase": {
+      "loss": {
+        "resolved_rounds": 104,
+        "episodes": 87,
+        "eligible": 10,
+        "voluntary_at_first": 10,
+        "voluntary_within_one_day": 10
+      },
+      "win": {
+        "resolved_rounds": 24,
+        "episodes": 20,
+        "eligible": 5,
+        "voluntary_at_first": 5,
+        "voluntary_within_one_day": 5
+      },
+      "push": {
+        "resolved_rounds": 1,
+        "episodes": 1,
+        "eligible": 0,
+        "voluntary_at_first": 0,
+        "voluntary_within_one_day": 0
+      }
+    },
+    "cases": {
+      "first_win": 91015,
+      "first_failure": 91000,
+      "history_with_both_games": 91062,
+      "first_repeat_after_loss": 91041,
+      "work_sleep_and_repeat": 91041,
+      "win_work_sleep_and_repeat": 91079
+    }
+  },
+  "mixed_demos_urgency_1_seed_11": {
+    "summary": {
+      "episodes": 128,
+      "success": 0.2265625,
+      "success_after_repayment": 29,
+      "debt_cleared": 0.265625,
+      "mean_debt_free_tick": 1167.764705882353,
+      "mean_final_debt": 682.2682495117188,
+      "crash": 0.2109375,
+      "timeout": 0.5625,
+      "mean_capital": -622.4508937299252,
+      "tail20_capital": -1226.4962158203125,
+      "mean_finish_time": 1241.078125,
+      "mean_habit": 0.060282763093709946,
+      "mean_anxiety": 0.4860098659992218,
+      "repeat_gambling": 0.25,
+      "hired": 0.0,
+      "fired": 0.5234375,
+      "missed": 1.25,
+      "paid": 3.671875,
+      "loans": 0.0,
+      "repayments": 2.46875,
+      "spins": 0.9609375,
+      "hands": 0.0,
+      "wins": 0.171875,
+      "losses": 0.7890625,
+      "pushes": 0.0,
+      "sleeps": 0.515625,
+      "impulses": 0.0,
+      "mean_debt_free_tick_or_horizon": 1448.46875,
+      "mean_buyout_tick_or_horizon": 1486.875,
+      "buyouts_after_playing": 23
+    },
+    "diagnostics": {
+      "episodes_with_work_offer": 0,
+      "episodes_with_repay_offer": 0,
+      "episodes_with_shift": 128,
+      "episodes_with_repay": 72,
+      "episodes_with_gamble": 91,
+      "episodes_with_intervention": 0,
+      "median_paid": 3.0,
+      "median_terminal_tick": 1550.0,
+      "crashes_before_first_pay": 0,
+      "crashes_after_first_pay": 27
+    },
+    "environment": {
+      "horizon": 1550,
+      "day": 155,
+      "shift_window": 70,
+      "shift_duration": 28,
+      "sleep_duration": 24,
+      "job_duration": 22,
+      "spin_duration": 9,
+      "loan_duration": 5,
+      "starting_cash": 18.0,
+      "late_start_probability": 0.0,
+      "salary": 145.0,
+      "buyout": 115.0,
+      "loan_unit": 60.0,
+      "loan_limit": 300.0,
+      "interest_per_tick": 0.00012,
+      "slot_stake": 55.0,
+      "slot_payout": 325.0,
+      "slot_probability": 0.12,
+      "blackjack_stake": 90.0,
+      "blackjack_win_commission": 0.1,
+      "zone_radius": 1.55,
+      "parking_speed": 0.2,
+      "dt": 0.16,
+      "max_speed": 3.8,
+      "wheelbase": 0.8,
+      "max_steer": 0.58,
+      "gamma": 0.9985,
+      "enable_emotion_effects": true,
+      "mood_traction": 0.18,
+      "tilt_steering": 0.22,
+      "enable_dependence": true,
+      "anxiety_steering": 0.42,
+      "operating_cost": 8.0,
+      "casino_open": 90,
+      "casino_close": 145,
+      "casino_round_interval": 24,
+      "timeout_shortfall_penalty": 0.25,
+      "starting_debt": 1000.0,
+      "debt_time_weight": 1.0,
+      "enable_impulse_override": false
+    },
+    "chase": {
+      "loss": {
+        "resolved_rounds": 101,
+        "episodes": 76,
+        "eligible": 32,
+        "voluntary_at_first": 32,
+        "voluntary_within_one_day": 32
+      },
+      "win": {
+        "resolved_rounds": 22,
+        "episodes": 22,
+        "eligible": 0,
+        "voluntary_at_first": 0,
+        "voluntary_within_one_day": 0
+      },
+      "push": {
+        "resolved_rounds": 0,
+        "episodes": 0,
+        "eligible": 0,
+        "voluntary_at_first": 0,
+        "voluntary_within_one_day": 0
+      }
+    },
+    "cases": {
+      "first_win": 91010,
+      "first_failure": 91000,
+      "first_repeat_after_loss": 91000
+    },
+    "probes": {
+      "pairs": 256,
+      "loss_mean": 0.133762925863266,
+      "win_mean_matched": 0.16280439496040344,
+      "win_mean_with_payout": 0.06684562563896179,
+      "loss_minus_win": -0.02904146909713745,
+      "paired_bootstrap_ci": [
+        -0.03134476449340582,
+        -0.026798284891992808
+      ],
+      "modal_loss": 13,
+      "modal_win": 21,
+      "loss_feature_changes": {
+        "anxiety": {
+          "mean_delta": -0.0030482388101518154,
+          "mean_absolute_delta": 0.0030482388101518154
+        },
+        "cash_plus_100": {
+          "mean_delta": -0.0283343568444252,
+          "mean_absolute_delta": 0.0283343568444252
+        },
+        "debt_minus_250": {
+          "mean_delta": -0.0242142416536808,
+          "mean_absolute_delta": 0.0242142416536808
+        },
+        "fatigue_plus_20pp": {
+          "mean_delta": -0.07834227383136749,
+          "mean_absolute_delta": 0.07834227383136749
+        },
+        "habit": {
+          "mean_delta": -0.018149498850107193,
+          "mean_absolute_delta": 0.018149498850107193
+        },
+        "mood": {
+          "mean_delta": 0.05538558587431908,
+          "mean_absolute_delta": 0.05538558587431908
+        },
+        "tilt": {
+          "mean_delta": 0.0007615146460011601,
+          "mean_absolute_delta": 0.0007622411358170211
+        },
+        "two_days_later": {
+          "mean_delta": -0.013765980489552021,
+          "mean_absolute_delta": 0.013765980489552021
+        }
+      }
+    },
+    "checkpoint": {
+      "file": "debt_research/models/mixed_demos_urgency_1_seed_11/selected.npz",
+      "sha256": "c316daa6f10d54e7441d7f482758b9822e6d1f5aa8eb12a4d42cd4941d46c2e8",
+      "metadata": {
+        "seed": 11,
+        "urgency": 1.0,
+        "budget": 50,
+        "expert": "mixed",
+        "iteration": 50,
+        "validation": {
+          "episodes": 48,
+          "success": 0.22916666666666666,
+          "success_after_repayment": 11,
+          "debt_cleared": 0.2708333333333333,
+          "mean_debt_free_tick": 1318.3846153846155,
+          "mean_final_debt": 654.1423950195312,
+          "crash": 0.1875,
+          "timeout": 0.5833333333333334,
+          "mean_capital": -602.6175276438395,
+          "tail20_capital": -1231.378369140625,
+          "mean_finish_time": 1362.9583333333333,
+          "mean_habit": 0.05965923145413399,
+          "mean_anxiety": 0.4603337347507477,
+          "repeat_gambling": 0.3958333333333333,
+          "hired": 0.0,
+          "fired": 0.5416666666666666,
+          "missed": 1.2708333333333333,
+          "paid": 4.25,
+          "loans": 0.0,
+          "repayments": 2.9791666666666665,
+          "spins": 1.125,
+          "hands": 0.0,
+          "wins": 0.0625,
+          "losses": 1.0625,
+          "pushes": 0.0,
+          "sleeps": 0.4166666666666667,
+          "impulses": 0.0
+        }
+      }
+    }
+  },
+  "mixed_demos_urgency_1_seed_11_imitation": {
+    "summary": {
+      "episodes": 128,
+      "success": 0.0,
+      "success_after_repayment": 0,
+      "debt_cleared": 0.0,
+      "mean_debt_free_tick": null,
+      "mean_final_debt": 1166.660888671875,
+      "crash": 0.1953125,
+      "timeout": 0.8046875,
+      "mean_capital": -1055.92955493927,
+      "tail20_capital": -1230.685030423678,
+      "mean_finish_time": 1320.1015625,
+      "mean_habit": 0.0689997673034668,
+      "mean_anxiety": 0.7498387098312378,
+      "repeat_gambling": 0.3359375,
+      "hired": 0.0,
+      "fired": 0.8046875,
+      "missed": 1.796875,
+      "paid": 1.1953125,
+      "loans": 0.0,
+      "repayments": 0.0,
+      "spins": 1.2109375,
+      "hands": 0.0,
+      "wins": 0.1640625,
+      "losses": 1.046875,
+      "pushes": 0.0,
+      "sleeps": 0.4453125,
+      "impulses": 0.0,
+      "mean_debt_free_tick_or_horizon": 1550.0,
+      "mean_buyout_tick_or_horizon": 1550.0,
+      "buyouts_after_playing": 0
+    },
+    "diagnostics": {
+      "episodes_with_work_offer": 0,
+      "episodes_with_repay_offer": 0,
+      "episodes_with_shift": 128,
+      "episodes_with_repay": 0,
+      "episodes_with_gamble": 112,
+      "episodes_with_intervention": 0,
+      "median_paid": 1.0,
+      "median_terminal_tick": 1550.0,
+      "crashes_before_first_pay": 0,
+      "crashes_after_first_pay": 25
+    },
+    "environment": {
+      "horizon": 1550,
+      "day": 155,
+      "shift_window": 70,
+      "shift_duration": 28,
+      "sleep_duration": 24,
+      "job_duration": 22,
+      "spin_duration": 9,
+      "loan_duration": 5,
+      "starting_cash": 18.0,
+      "late_start_probability": 0.0,
+      "salary": 145.0,
+      "buyout": 115.0,
+      "loan_unit": 60.0,
+      "loan_limit": 300.0,
+      "interest_per_tick": 0.00012,
+      "slot_stake": 55.0,
+      "slot_payout": 325.0,
+      "slot_probability": 0.12,
+      "blackjack_stake": 90.0,
+      "blackjack_win_commission": 0.1,
+      "zone_radius": 1.55,
+      "parking_speed": 0.2,
+      "dt": 0.16,
+      "max_speed": 3.8,
+      "wheelbase": 0.8,
+      "max_steer": 0.58,
+      "gamma": 0.9985,
+      "enable_emotion_effects": true,
+      "mood_traction": 0.18,
+      "tilt_steering": 0.22,
+      "enable_dependence": true,
+      "anxiety_steering": 0.42,
+      "operating_cost": 8.0,
+      "casino_open": 90,
+      "casino_close": 145,
+      "casino_round_interval": 24,
+      "timeout_shortfall_penalty": 0.25,
+      "starting_debt": 1000.0,
+      "debt_time_weight": 1.0,
+      "enable_impulse_override": false
+    },
+    "chase": {
+      "loss": {
+        "resolved_rounds": 134,
+        "episodes": 105,
+        "eligible": 33,
+        "voluntary_at_first": 33,
+        "voluntary_within_one_day": 33
+      },
+      "win": {
+        "resolved_rounds": 21,
+        "episodes": 20,
+        "eligible": 7,
+        "voluntary_at_first": 7,
+        "voluntary_within_one_day": 7
+      },
+      "push": {
+        "resolved_rounds": 0,
+        "episodes": 0,
+        "eligible": 0,
+        "voluntary_at_first": 0,
+        "voluntary_within_one_day": 0
+      }
+    },
+    "cases": {
+      "first_failure": 91000,
+      "first_repeat_after_loss": 91000
+    },
+    "probes": {
+      "pairs": 256,
+      "loss_mean": 0.13609889149665833,
+      "win_mean_matched": 0.18218782544136047,
+      "win_mean_with_payout": 0.12044969201087952,
+      "loss_minus_win": -0.046088945120573044,
+      "paired_bootstrap_ci": [
+        -0.04903275594115257,
+        -0.043246162310242656
+      ],
+      "modal_loss": 8,
+      "modal_win": 19,
+      "loss_feature_changes": {
+        "anxiety": {
+          "mean_delta": -0.0009643154917284846,
+          "mean_absolute_delta": 0.0009643154917284846
+        },
+        "cash_plus_100": {
+          "mean_delta": -0.014575203880667686,
+          "mean_absolute_delta": 0.014575203880667686
+        },
+        "debt_minus_250": {
+          "mean_delta": -0.020471781492233276,
+          "mean_absolute_delta": 0.020471781492233276
+        },
+        "fatigue_plus_20pp": {
+          "mean_delta": -0.07308286428451538,
+          "mean_absolute_delta": 0.07308286428451538
+        },
+        "habit": {
+          "mean_delta": -0.018721800297498703,
+          "mean_absolute_delta": 0.018721800297498703
+        },
+        "mood": {
+          "mean_delta": 0.06904233992099762,
+          "mean_absolute_delta": 0.06904233992099762
+        },
+        "tilt": {
+          "mean_delta": 0.0027788090519607067,
+          "mean_absolute_delta": 0.0027788090519607067
+        },
+        "two_days_later": {
+          "mean_delta": -0.023124180734157562,
+          "mean_absolute_delta": 0.023124180734157562
+        }
+      }
+    },
+    "checkpoint": {
+      "file": "debt_research/models/mixed_demos_urgency_1_seed_11/imitation.npz",
+      "sha256": "9c2283c47fe53867d59f3d3d570990de9328b3a773b25b2c6b88ca05926f06f5",
+      "metadata": {
+        "seed": 11,
+        "urgency": 1.0,
+        "budget": 50,
+        "expert": "mixed",
+        "iteration": 0
+      }
+    }
+  },
+  "mixed_demos_urgency_1_seed_29": {
+    "summary": {
+      "episodes": 128,
+      "success": 0.0390625,
+      "success_after_repayment": 5,
+      "debt_cleared": 0.046875,
+      "mean_debt_free_tick": 1061.8333333333333,
+      "mean_final_debt": 1040.69482421875,
+      "crash": 0.0234375,
+      "timeout": 0.9375,
+      "mean_capital": -1058.0284102261066,
+      "tail20_capital": -1234.772465632512,
+      "mean_finish_time": 1517.6328125,
+      "mean_habit": 0.0940546914935112,
+      "mean_anxiety": 0.6732723712921143,
+      "repeat_gambling": 0.7890625,
+      "hired": 0.0,
+      "fired": 0.9375,
+      "missed": 2.1640625,
+      "paid": 1.484375,
+      "loans": 0.0,
+      "repayments": 0.5625,
+      "spins": 1.78125,
+      "hands": 0.0,
+      "wins": 0.1875,
+      "losses": 1.59375,
+      "pushes": 0.0,
+      "sleeps": 0.21875,
+      "impulses": 0.0,
+      "mean_debt_free_tick_or_horizon": 1527.1171875,
+      "mean_buyout_tick_or_horizon": 1538.5234375,
+      "buyouts_after_playing": 5
+    },
+    "diagnostics": {
+      "episodes_with_work_offer": 0,
+      "episodes_with_repay_offer": 0,
+      "episodes_with_shift": 127,
+      "episodes_with_repay": 24,
+      "episodes_with_gamble": 127,
+      "episodes_with_intervention": 0,
+      "median_paid": 1.0,
+      "median_terminal_tick": 1550.0,
+      "crashes_before_first_pay": 0,
+      "crashes_after_first_pay": 3
+    },
+    "environment": {
+      "horizon": 1550,
+      "day": 155,
+      "shift_window": 70,
+      "shift_duration": 28,
+      "sleep_duration": 24,
+      "job_duration": 22,
+      "spin_duration": 9,
+      "loan_duration": 5,
+      "starting_cash": 18.0,
+      "late_start_probability": 0.0,
+      "salary": 145.0,
+      "buyout": 115.0,
+      "loan_unit": 60.0,
+      "loan_limit": 300.0,
+      "interest_per_tick": 0.00012,
+      "slot_stake": 55.0,
+      "slot_payout": 325.0,
+      "slot_probability": 0.12,
+      "blackjack_stake": 90.0,
+      "blackjack_win_commission": 0.1,
+      "zone_radius": 1.55,
+      "parking_speed": 0.2,
+      "dt": 0.16,
+      "max_speed": 3.8,
+      "wheelbase": 0.8,
+      "max_steer": 0.58,
+      "gamma": 0.9985,
+      "enable_emotion_effects": true,
+      "mood_traction": 0.18,
+      "tilt_steering": 0.22,
+      "enable_dependence": true,
+      "anxiety_steering": 0.42,
+      "operating_cost": 8.0,
+      "casino_open": 90,
+      "casino_close": 145,
+      "casino_round_interval": 24,
+      "timeout_shortfall_penalty": 0.25,
+      "starting_debt": 1000.0,
+      "debt_time_weight": 1.0,
+      "enable_impulse_override": false
+    },
+    "chase": {
+      "loss": {
+        "resolved_rounds": 204,
+        "episodes": 114,
+        "eligible": 101,
+        "voluntary_at_first": 101,
+        "voluntary_within_one_day": 101
+      },
+      "win": {
+        "resolved_rounds": 24,
+        "episodes": 24,
+        "eligible": 0,
+        "voluntary_at_first": 0,
+        "voluntary_within_one_day": 0
+      },
+      "push": {
+        "resolved_rounds": 0,
+        "episodes": 0,
+        "eligible": 0,
+        "voluntary_at_first": 0,
+        "voluntary_within_one_day": 0
+      }
+    },
+    "cases": {
+      "first_win": 91024,
+      "first_failure": 91000,
+      "first_repeat_after_loss": 91000,
+      "work_sleep_and_repeat": 91010,
+      "win_work_sleep_and_repeat": 91038
+    },
+    "probes": {
+      "pairs": 256,
+      "loss_mean": 0.26264578104019165,
+      "win_mean_matched": 0.26006919145584106,
+      "win_mean_with_payout": 0.08825123310089111,
+      "loss_minus_win": 0.0025765816681087017,
+      "paired_bootstrap_ci": [
+        0.001425746953464113,
+        0.0037422008055727892
+      ],
+      "modal_loss": 41,
+      "modal_win": 32,
+      "loss_feature_changes": {
+        "anxiety": {
+          "mean_delta": -3.7436853745020926e-05,
+          "mean_absolute_delta": 0.0003117462620139122
+        },
+        "cash_plus_100": {
+          "mean_delta": -0.06125916913151741,
+          "mean_absolute_delta": 0.06125916913151741
+        },
+        "debt_minus_250": {
+          "mean_delta": -0.05148965120315552,
+          "mean_absolute_delta": 0.05148965120315552
+        },
+        "fatigue_plus_20pp": {
+          "mean_delta": -0.12128786742687225,
+          "mean_absolute_delta": 0.12128786742687225
+        },
+        "habit": {
+          "mean_delta": -0.02352404035627842,
+          "mean_absolute_delta": 0.02352404035627842
+        },
+        "mood": {
+          "mean_delta": 0.023740384727716446,
+          "mean_absolute_delta": 0.023740384727716446
+        },
+        "tilt": {
+          "mean_delta": -0.0007640511030331254,
+          "mean_absolute_delta": 0.0007777660503052175
+        },
+        "two_days_later": {
+          "mean_delta": -0.008518004789948463,
+          "mean_absolute_delta": 0.008518004789948463
+        }
+      }
+    },
+    "checkpoint": {
+      "file": "debt_research/models/mixed_demos_urgency_1_seed_29/selected.npz",
+      "sha256": "0ff74ca139f7cd40298865c5ac9dd5a92a22b766ac2097af08d9609beb741f31",
+      "metadata": {
+        "seed": 29,
+        "urgency": 1.0,
+        "budget": 50,
+        "expert": "mixed",
+        "iteration": 40,
+        "validation": {
+          "episodes": 48,
+          "success": 0.08333333333333333,
+          "success_after_repayment": 4,
+          "debt_cleared": 0.08333333333333333,
+          "mean_debt_free_tick": 1046.75,
+          "mean_final_debt": 1023.8857421875,
+          "crash": 0.020833333333333332,
+          "timeout": 0.8958333333333334,
+          "mean_capital": -1022.7326466242472,
+          "tail20_capital": -1231.7240112304687,
+          "mean_finish_time": 1495.75,
+          "mean_habit": 0.0945703387260437,
+          "mean_anxiety": 0.6569159626960754,
+          "repeat_gambling": 0.7916666666666666,
+          "hired": 0.0,
+          "fired": 0.8958333333333334,
+          "missed": 2.0,
+          "paid": 1.7083333333333333,
+          "loans": 0.0,
+          "repayments": 0.6666666666666666,
+          "spins": 1.7916666666666667,
+          "hands": 0.0,
+          "wins": 0.1875,
+          "losses": 1.6041666666666667,
+          "pushes": 0.0,
+          "sleeps": 0.125,
+          "impulses": 0.0
+        }
+      }
+    }
+  },
+  "mixed_demos_urgency_1_seed_29_imitation": {
+    "summary": {
+      "episodes": 128,
+      "success": 0.0,
+      "success_after_repayment": 0,
+      "debt_cleared": 0.0,
+      "mean_debt_free_tick": null,
+      "mean_final_debt": 1170.866455078125,
+      "crash": 0.15625,
+      "timeout": 0.84375,
+      "mean_capital": -1057.2835102081299,
+      "tail20_capital": -1231.5043006310095,
+      "mean_finish_time": 1350.3984375,
+      "mean_habit": 0.07130561769008636,
+      "mean_anxiety": 0.7496113777160645,
+      "repeat_gambling": 0.4765625,
+      "hired": 0.0,
+      "fired": 0.84375,
+      "missed": 1.8828125,
+      "paid": 1.2265625,
+      "loans": 0.0,
+      "repayments": 0.0,
+      "spins": 1.3515625,
+      "hands": 0.0,
+      "wins": 0.1875,
+      "losses": 1.1640625,
+      "pushes": 0.0,
+      "sleeps": 0.6015625,
+      "impulses": 0.0,
+      "mean_debt_free_tick_or_horizon": 1550.0,
+      "mean_buyout_tick_or_horizon": 1550.0,
+      "buyouts_after_playing": 0
+    },
+    "diagnostics": {
+      "episodes_with_work_offer": 0,
+      "episodes_with_repay_offer": 0,
+      "episodes_with_shift": 128,
+      "episodes_with_repay": 0,
+      "episodes_with_gamble": 108,
+      "episodes_with_intervention": 0,
+      "median_paid": 1.0,
+      "median_terminal_tick": 1550.0,
+      "crashes_before_first_pay": 0,
+      "crashes_after_first_pay": 20
+    },
+    "environment": {
+      "horizon": 1550,
+      "day": 155,
+      "shift_window": 70,
+      "shift_duration": 28,
+      "sleep_duration": 24,
+      "job_duration": 22,
+      "spin_duration": 9,
+      "loan_duration": 5,
+      "starting_cash": 18.0,
+      "late_start_probability": 0.0,
+      "salary": 145.0,
+      "buyout": 115.0,
+      "loan_unit": 60.0,
+      "loan_limit": 300.0,
+      "interest_per_tick": 0.00012,
+      "slot_stake": 55.0,
+      "slot_payout": 325.0,
+      "slot_probability": 0.12,
+      "blackjack_stake": 90.0,
+      "blackjack_win_commission": 0.1,
+      "zone_radius": 1.55,
+      "parking_speed": 0.2,
+      "dt": 0.16,
+      "max_speed": 3.8,
+      "wheelbase": 0.8,
+      "max_steer": 0.58,
+      "gamma": 0.9985,
+      "enable_emotion_effects": true,
+      "mood_traction": 0.18,
+      "tilt_steering": 0.22,
+      "enable_dependence": true,
+      "anxiety_steering": 0.42,
+      "operating_cost": 8.0,
+      "casino_open": 90,
+      "casino_close": 145,
+      "casino_round_interval": 24,
+      "timeout_shortfall_penalty": 0.25,
+      "starting_debt": 1000.0,
+      "debt_time_weight": 1.0,
+      "enable_impulse_override": false
+    },
+    "chase": {
+      "loss": {
+        "resolved_rounds": 149,
+        "episodes": 102,
+        "eligible": 40,
+        "voluntary_at_first": 40,
+        "voluntary_within_one_day": 40
+      },
+      "win": {
+        "resolved_rounds": 24,
+        "episodes": 23,
+        "eligible": 10,
+        "voluntary_at_first": 10,
+        "voluntary_within_one_day": 10
+      },
+      "push": {
+        "resolved_rounds": 0,
+        "episodes": 0,
+        "eligible": 0,
+        "voluntary_at_first": 0,
+        "voluntary_within_one_day": 0
+      }
+    },
+    "cases": {
+      "first_failure": 91000,
+      "first_repeat_after_loss": 91000,
+      "work_sleep_and_repeat": 91046
+    },
+    "probes": {
+      "pairs": 256,
+      "loss_mean": 0.2255663424730301,
+      "win_mean_matched": 0.29312390089035034,
+      "win_mean_with_payout": 0.19407325983047485,
+      "loss_minus_win": -0.06755754351615906,
+      "paired_bootstrap_ci": [
+        -0.07039332706481219,
+        -0.0646340724080801
+      ],
+      "modal_loss": 25,
+      "modal_win": 64,
+      "loss_feature_changes": {
+        "anxiety": {
+          "mean_delta": 0.0025571780279278755,
+          "mean_absolute_delta": 0.0025571780279278755
+        },
+        "cash_plus_100": {
+          "mean_delta": -0.019968630746006966,
+          "mean_absolute_delta": 0.019968630746006966
+        },
+        "debt_minus_250": {
+          "mean_delta": -0.04851565510034561,
+          "mean_absolute_delta": 0.04851565510034561
+        },
+        "fatigue_plus_20pp": {
+          "mean_delta": -0.11097560822963715,
+          "mean_absolute_delta": 0.11097560822963715
+        },
+        "habit": {
+          "mean_delta": -0.02272942289710045,
+          "mean_absolute_delta": 0.02272942289710045
+        },
+        "mood": {
+          "mean_delta": 0.08852977305650711,
+          "mean_absolute_delta": 0.08852977305650711
+        },
+        "tilt": {
+          "mean_delta": 0.0032456640619784594,
+          "mean_absolute_delta": 0.0032456640619784594
+        },
+        "two_days_later": {
+          "mean_delta": -0.009842472150921822,
+          "mean_absolute_delta": 0.009842472150921822
+        }
+      }
+    },
+    "checkpoint": {
+      "file": "debt_research/models/mixed_demos_urgency_1_seed_29/imitation.npz",
+      "sha256": "9026d17eec0fa7894ef18622b3a9ceb57f9771488f6ddd431b440d1234dcae52",
+      "metadata": {
+        "seed": 29,
+        "urgency": 1.0,
+        "budget": 50,
+        "expert": "mixed",
+        "iteration": 0
+      }
+    }
+  },
+  "mixed_demos_urgency_1_seed_47": {
+    "summary": {
+      "episodes": 128,
+      "success": 0.1640625,
+      "success_after_repayment": 21,
+      "debt_cleared": 0.234375,
+      "mean_debt_free_tick": 1366.4,
+      "mean_final_debt": 594.3499755859375,
+      "crash": 0.3046875,
+      "timeout": 0.53125,
+      "mean_capital": -534.7078678309917,
+      "tail20_capital": -1070.4994084284856,
+      "mean_finish_time": 1262.625,
+      "mean_habit": 0.05853966623544693,
+      "mean_anxiety": 0.4618600606918335,
+      "repeat_gambling": 0.0,
+      "hired": 0.0,
+      "fired": 0.46875,
+      "missed": 1.125,
+      "paid": 4.2734375,
+      "loans": 0.0,
+      "repayments": 3.203125,
+      "spins": 0.7265625,
+      "hands": 0.0,
+      "wins": 0.1171875,
+      "losses": 0.609375,
+      "pushes": 0.0,
+      "sleeps": 0.234375,
+      "impulses": 0.0,
+      "mean_debt_free_tick_or_horizon": 1506.96875,
+      "mean_buyout_tick_or_horizon": 1538.875,
+      "buyouts_after_playing": 18
+    },
+    "diagnostics": {
+      "episodes_with_work_offer": 0,
+      "episodes_with_repay_offer": 0,
+      "episodes_with_shift": 128,
+      "episodes_with_repay": 106,
+      "episodes_with_gamble": 93,
+      "episodes_with_intervention": 0,
+      "median_paid": 2.0,
+      "median_terminal_tick": 1550.0,
+      "crashes_before_first_pay": 0,
+      "crashes_after_first_pay": 39
+    },
+    "environment": {
+      "horizon": 1550,
+      "day": 155,
+      "shift_window": 70,
+      "shift_duration": 28,
+      "sleep_duration": 24,
+      "job_duration": 22,
+      "spin_duration": 9,
+      "loan_duration": 5,
+      "starting_cash": 18.0,
+      "late_start_probability": 0.0,
+      "salary": 145.0,
+      "buyout": 115.0,
+      "loan_unit": 60.0,
+      "loan_limit": 300.0,
+      "interest_per_tick": 0.00012,
+      "slot_stake": 55.0,
+      "slot_payout": 325.0,
+      "slot_probability": 0.12,
+      "blackjack_stake": 90.0,
+      "blackjack_win_commission": 0.1,
+      "zone_radius": 1.55,
+      "parking_speed": 0.2,
+      "dt": 0.16,
+      "max_speed": 3.8,
+      "wheelbase": 0.8,
+      "max_steer": 0.58,
+      "gamma": 0.9985,
+      "enable_emotion_effects": true,
+      "mood_traction": 0.18,
+      "tilt_steering": 0.22,
+      "enable_dependence": true,
+      "anxiety_steering": 0.42,
+      "operating_cost": 8.0,
+      "casino_open": 90,
+      "casino_close": 145,
+      "casino_round_interval": 24,
+      "timeout_shortfall_penalty": 0.25,
+      "starting_debt": 1000.0,
+      "debt_time_weight": 1.0,
+      "enable_impulse_override": false
+    },
+    "chase": {
+      "loss": {
+        "resolved_rounds": 78,
+        "episodes": 78,
+        "eligible": 0,
+        "voluntary_at_first": 0,
+        "voluntary_within_one_day": 0
+      },
+      "win": {
+        "resolved_rounds": 15,
+        "episodes": 15,
+        "eligible": 0,
+        "voluntary_at_first": 0,
+        "voluntary_within_one_day": 0
+      },
+      "push": {
+        "resolved_rounds": 0,
+        "episodes": 0,
+        "eligible": 0,
+        "voluntary_at_first": 0,
+        "voluntary_within_one_day": 0
+      }
+    },
+    "cases": {
+      "first_win": 91000,
+      "first_failure": 91001
+    },
+    "probes": {
+      "pairs": 256,
+      "loss_mean": 0.05159084498882294,
+      "win_mean_matched": 0.05399873107671738,
+      "win_mean_with_payout": 0.02140248380601406,
+      "loss_minus_win": -0.0024078823626041412,
+      "paired_bootstrap_ci": [
+        -0.0028141185059212146,
+        -0.0019743020355235787
+      ],
+      "modal_loss": 0,
+      "modal_win": 0,
+      "loss_feature_changes": {
+        "anxiety": {
+          "mean_delta": -0.0008808829006738961,
+          "mean_absolute_delta": 0.0008808829006738961
+        },
+        "cash_plus_100": {
+          "mean_delta": -0.011239959858357906,
+          "mean_absolute_delta": 0.011239959858357906
+        },
+        "debt_minus_250": {
+          "mean_delta": -0.004514136351644993,
+          "mean_absolute_delta": 0.004514136351644993
+        },
+        "fatigue_plus_20pp": {
+          "mean_delta": -0.028451833873987198,
+          "mean_absolute_delta": 0.028451833873987198
+        },
+        "habit": {
+          "mean_delta": -0.007669077254831791,
+          "mean_absolute_delta": 0.007669077254831791
+        },
+        "mood": {
+          "mean_delta": 0.011186428368091583,
+          "mean_absolute_delta": 0.011186428368091583
+        },
+        "tilt": {
+          "mean_delta": 0.001151935663074255,
+          "mean_absolute_delta": 0.001151935663074255
+        },
+        "two_days_later": {
+          "mean_delta": -0.013256658799946308,
+          "mean_absolute_delta": 0.013256658799946308
+        }
+      }
+    },
+    "checkpoint": {
+      "file": "debt_research/models/mixed_demos_urgency_1_seed_47/selected.npz",
+      "sha256": "98aeca748c0c70de3ca21db8e73e36b66ab7d6ed6cdc91fdfa04d23f487e6c50",
+      "metadata": {
+        "seed": 47,
+        "urgency": 1.0,
+        "budget": 50,
+        "expert": "mixed",
+        "iteration": 20,
+        "validation": {
+          "episodes": 48,
+          "success": 0.22916666666666666,
+          "success_after_repayment": 11,
+          "debt_cleared": 0.4375,
+          "mean_debt_free_tick": 1410.4285714285713,
+          "mean_final_debt": 379.5638732910156,
+          "crash": 0.2708333333333333,
+          "timeout": 0.5,
+          "mean_capital": -292.30961525440216,
+          "tail20_capital": -992.7521240234375,
+          "mean_finish_time": 1326.4791666666667,
+          "mean_habit": 0.0635661706328392,
+          "mean_anxiety": 0.30423879623413086,
+          "repeat_gambling": 0.0,
+          "hired": 0.0,
+          "fired": 0.3125,
+          "missed": 0.8125,
+          "paid": 6.041666666666667,
+          "loans": 0.0,
+          "repayments": 4.833333333333333,
+          "spins": 0.9166666666666666,
+          "hands": 0.0,
+          "wins": 0.08333333333333333,
+          "losses": 0.8333333333333334,
+          "pushes": 0.0,
+          "sleeps": 0.2916666666666667,
+          "impulses": 0.0
+        }
+      }
+    }
+  },
+  "mixed_demos_urgency_1_seed_47_imitation": {
+    "summary": {
+      "episodes": 128,
+      "success": 0.0,
+      "success_after_repayment": 0,
+      "debt_cleared": 0.0,
+      "mean_debt_free_tick": null,
+      "mean_final_debt": 1197.393310546875,
+      "crash": 0.0,
+      "timeout": 1.0,
+      "mean_capital": -1135.333767414093,
+      "tail20_capital": -1235.7992741511418,
+      "mean_finish_time": 1550.0,
+      "mean_habit": 0.07559491693973541,
+      "mean_anxiety": 0.7500021457672119,
+      "repeat_gambling": 0.484375,
+      "hired": 0.0,
+      "fired": 1.0,
+      "missed": 2.1640625,
+      "paid": 1.0078125,
+      "loans": 0.0,
+      "repayments": 0.0,
+      "spins": 1.4609375,
+      "hands": 0.0,
+      "wins": 0.1796875,
+      "losses": 1.28125,
+      "pushes": 0.0,
+      "sleeps": 0.46875,
+      "impulses": 0.0,
+      "mean_debt_free_tick_or_horizon": 1550.0,
+      "mean_buyout_tick_or_horizon": 1550.0,
+      "buyouts_after_playing": 0
+    },
+    "diagnostics": {
+      "episodes_with_work_offer": 0,
+      "episodes_with_repay_offer": 0,
+      "episodes_with_shift": 125,
+      "episodes_with_repay": 0,
+      "episodes_with_gamble": 125,
+      "episodes_with_intervention": 0,
+      "median_paid": 1.0,
+      "median_terminal_tick": 1550.0,
+      "crashes_before_first_pay": 0,
+      "crashes_after_first_pay": 0
+    },
+    "environment": {
+      "horizon": 1550,
+      "day": 155,
+      "shift_window": 70,
+      "shift_duration": 28,
+      "sleep_duration": 24,
+      "job_duration": 22,
+      "spin_duration": 9,
+      "loan_duration": 5,
+      "starting_cash": 18.0,
+      "late_start_probability": 0.0,
+      "salary": 145.0,
+      "buyout": 115.0,
+      "loan_unit": 60.0,
+      "loan_limit": 300.0,
+      "interest_per_tick": 0.00012,
+      "slot_stake": 55.0,
+      "slot_payout": 325.0,
+      "slot_probability": 0.12,
+      "blackjack_stake": 90.0,
+      "blackjack_win_commission": 0.1,
+      "zone_radius": 1.55,
+      "parking_speed": 0.2,
+      "dt": 0.16,
+      "max_speed": 3.8,
+      "wheelbase": 0.8,
+      "max_steer": 0.58,
+      "gamma": 0.9985,
+      "enable_emotion_effects": true,
+      "mood_traction": 0.18,
+      "tilt_steering": 0.22,
+      "enable_dependence": true,
+      "anxiety_steering": 0.42,
+      "operating_cost": 8.0,
+      "casino_open": 90,
+      "casino_close": 145,
+      "casino_round_interval": 24,
+      "timeout_shortfall_penalty": 0.25,
+      "starting_debt": 1000.0,
+      "debt_time_weight": 1.0,
+      "enable_impulse_override": false
+    },
+    "chase": {
+      "loss": {
+        "resolved_rounds": 164,
+        "episodes": 119,
+        "eligible": 56,
+        "voluntary_at_first": 53,
+        "voluntary_within_one_day": 53
+      },
+      "win": {
+        "resolved_rounds": 23,
+        "episodes": 22,
+        "eligible": 9,
+        "voluntary_at_first": 9,
+        "voluntary_within_one_day": 9
+      },
+      "push": {
+        "resolved_rounds": 0,
+        "episodes": 0,
+        "eligible": 0,
+        "voluntary_at_first": 0,
+        "voluntary_within_one_day": 0
+      }
+    },
+    "cases": {
+      "first_failure": 91000,
+      "first_repeat_after_loss": 91000
+    },
+    "probes": {
+      "pairs": 256,
+      "loss_mean": 0.19383971393108368,
+      "win_mean_matched": 0.2539878487586975,
+      "win_mean_with_payout": 0.17928975820541382,
+      "loss_minus_win": -0.06014815717935562,
+      "paired_bootstrap_ci": [
+        -0.06279824413359165,
+        -0.05747280269861222
+      ],
+      "modal_loss": 20,
+      "modal_win": 56,
+      "loss_feature_changes": {
+        "anxiety": {
+          "mean_delta": -0.0053362976759672165,
+          "mean_absolute_delta": 0.0053362976759672165
+        },
+        "cash_plus_100": {
+          "mean_delta": -0.016812670975923538,
+          "mean_absolute_delta": 0.016812670975923538
+        },
+        "debt_minus_250": {
+          "mean_delta": -0.016389701515436172,
+          "mean_absolute_delta": 0.016389701515436172
+        },
+        "fatigue_plus_20pp": {
+          "mean_delta": -0.09280309081077576,
+          "mean_absolute_delta": 0.09280309081077576
+        },
+        "habit": {
+          "mean_delta": -0.02229331061244011,
+          "mean_absolute_delta": 0.02229331061244011
+        },
+        "mood": {
+          "mean_delta": 0.08791312575340271,
+          "mean_absolute_delta": 0.08791312575340271
+        },
+        "tilt": {
+          "mean_delta": 0.0055696675553917885,
+          "mean_absolute_delta": 0.0055696675553917885
+        },
+        "two_days_later": {
+          "mean_delta": -0.028716232627630234,
+          "mean_absolute_delta": 0.028716232627630234
+        }
+      }
+    },
+    "checkpoint": {
+      "file": "debt_research/models/mixed_demos_urgency_1_seed_47/imitation.npz",
+      "sha256": "8f7ad0b35427ebdaaf585c892b833aa8b99d7cd25adb1cada25fe362d5aba9a5",
+      "metadata": {
+        "seed": 47,
+        "urgency": 1.0,
+        "budget": 50,
+        "expert": "mixed",
+        "iteration": 0
+      }
+    }
+  },
+  "urgency_0.25_seed_11": {
+    "summary": {
+      "episodes": 128,
+      "success": 0.6796875,
+      "success_after_repayment": 87,
+      "debt_cleared": 0.921875,
+      "mean_debt_free_tick": 1290.8135593220338,
+      "mean_final_debt": 40.626953125,
+      "crash": 0.0078125,
+      "timeout": 0.3125,
+      "mean_capital": 104.84095646440983,
+      "tail20_capital": -86.35053891402025,
+      "mean_finish_time": 1460.6171875,
+      "mean_habit": 0.0,
+      "mean_anxiety": 0.036886390298604965,
+      "repeat_gambling": 0.0,
+      "hired": 0.0,
+      "fired": 0.0703125,
+      "missed": 0.3359375,
+      "paid": 8.7109375,
+      "loans": 0.0,
+      "repayments": 3.2578125,
+      "spins": 0.0,
+      "hands": 0.0,
+      "wins": 0.0,
+      "losses": 0.0,
+      "pushes": 0.0,
+      "sleeps": 5.9765625,
+      "impulses": 0.0,
+      "mean_debt_free_tick_or_horizon": 1311.0625,
+      "mean_buyout_tick_or_horizon": 1460.6796875,
+      "buyouts_after_playing": 0
+    },
+    "diagnostics": {
+      "episodes_with_work_offer": 0,
+      "episodes_with_repay_offer": 0,
+      "episodes_with_shift": 128,
+      "episodes_with_repay": 128,
+      "episodes_with_gamble": 0,
+      "episodes_with_intervention": 0,
+      "median_paid": 9.0,
+      "median_terminal_tick": 1395.0,
+      "crashes_before_first_pay": 0,
+      "crashes_after_first_pay": 1
+    },
+    "environment": {
+      "horizon": 1550,
+      "day": 155,
+      "shift_window": 70,
+      "shift_duration": 28,
+      "sleep_duration": 24,
+      "job_duration": 22,
+      "spin_duration": 9,
+      "loan_duration": 5,
+      "starting_cash": 18.0,
+      "late_start_probability": 0.0,
+      "salary": 145.0,
+      "buyout": 115.0,
+      "loan_unit": 60.0,
+      "loan_limit": 300.0,
+      "interest_per_tick": 0.00012,
+      "slot_stake": 55.0,
+      "slot_payout": 325.0,
+      "slot_probability": 0.12,
+      "blackjack_stake": 90.0,
+      "blackjack_win_commission": 0.1,
+      "zone_radius": 1.55,
+      "parking_speed": 0.2,
+      "dt": 0.16,
+      "max_speed": 3.8,
+      "wheelbase": 0.8,
+      "max_steer": 0.58,
+      "gamma": 0.9985,
+      "enable_emotion_effects": true,
+      "mood_traction": 0.18,
+      "tilt_steering": 0.22,
+      "enable_dependence": true,
+      "anxiety_steering": 0.42,
+      "operating_cost": 8.0,
+      "casino_open": 90,
+      "casino_close": 145,
+      "casino_round_interval": 24,
+      "timeout_shortfall_penalty": 0.25,
+      "starting_debt": 1000.0,
+      "debt_time_weight": 0.25,
+      "enable_impulse_override": false
+    },
+    "chase": {
+      "loss": {
+        "resolved_rounds": 0,
+        "episodes": 0,
+        "eligible": 0,
+        "voluntary_at_first": 0,
+        "voluntary_within_one_day": 0
+      },
+      "win": {
+        "resolved_rounds": 0,
+        "episodes": 0,
+        "eligible": 0,
+        "voluntary_at_first": 0,
+        "voluntary_within_one_day": 0
+      },
+      "push": {
+        "resolved_rounds": 0,
+        "episodes": 0,
+        "eligible": 0,
+        "voluntary_at_first": 0,
+        "voluntary_within_one_day": 0
+      }
+    },
+    "cases": {
+      "first_win": 91000,
+      "first_failure": 91002
+    },
+    "probes": {
+      "pairs": 256,
+      "loss_mean": 2.306491296621971e-05,
+      "win_mean_matched": 7.668932812521234e-05,
+      "win_mean_with_payout": 2.0737050363095477e-05,
+      "loss_minus_win": -5.362441879697144e-05,
+      "paired_bootstrap_ci": [
+        -5.997743837724556e-05,
+        -4.7721824375912544e-05
+      ],
+      "modal_loss": 0,
+      "modal_win": 0,
+      "loss_feature_changes": {
+        "anxiety": {
+          "mean_delta": 3.734603382099522e-08,
+          "mean_absolute_delta": 5.701373595456971e-08
+        },
+        "cash_plus_100": {
+          "mean_delta": -7.94479092292022e-06,
+          "mean_absolute_delta": 7.968139470904134e-06
+        },
+        "debt_minus_250": {
+          "mean_delta": 1.153086145677662e-06,
+          "mean_absolute_delta": 1.206297383760102e-06
+        },
+        "fatigue_plus_20pp": {
+          "mean_delta": -1.7154412489617243e-05,
+          "mean_absolute_delta": 1.7154412489617243e-05
+        },
+        "habit": {
+          "mean_delta": 1.1657184728619541e-07,
+          "mean_absolute_delta": 1.4730210295965662e-07
+        },
+        "mood": {
+          "mean_delta": 5.2274990594014525e-05,
+          "mean_absolute_delta": 5.2274990594014525e-05
+        },
+        "tilt": {
+          "mean_delta": 1.7092449411393318e-07,
+          "mean_absolute_delta": 2.246731582999928e-07
+        },
+        "two_days_later": {
+          "mean_delta": -1.6278224848065292e-06,
+          "mean_absolute_delta": 2.7348394269210985e-06
+        }
+      }
+    },
+    "checkpoint": {
+      "file": "debt_research/models/urgency_0.25_seed_11/selected.npz",
+      "sha256": "e0df3b27c6f6e3c07b70d6dc8fc9783a4363f3549834cb9bf7d03920ed0c150a",
+      "metadata": {
+        "seed": 11,
+        "urgency": 0.25,
+        "iteration": 40,
+        "budget": 50,
+        "validation": {
+          "episodes": 48,
+          "success": 0.75,
+          "success_after_repayment": 36,
+          "debt_cleared": 0.8333333333333334,
+          "mean_debt_free_tick": 1240.425,
+          "mean_final_debt": 95.64946746826172,
+          "crash": 0.0,
+          "timeout": 0.25,
+          "mean_capital": 49.60057226816813,
+          "tail20_capital": -355.5690719604492,
+          "mean_finish_time": 1450.7291666666667,
+          "mean_habit": 0.0,
+          "mean_anxiety": 0.08427400141954422,
+          "repeat_gambling": 0.0,
+          "hired": 0.0,
+          "fired": 0.16666666666666666,
+          "missed": 0.5,
+          "paid": 8.333333333333334,
+          "loans": 0.0,
+          "repayments": 2.8958333333333335,
+          "spins": 0.0,
+          "hands": 0.0,
+          "wins": 0.0,
+          "losses": 0.0,
+          "pushes": 0.0,
+          "sleeps": 5.75,
+          "impulses": 0.0
+        }
+      }
+    }
+  },
+  "urgency_0.25_seed_29": {
+    "summary": {
+      "episodes": 128,
+      "success": 0.734375,
+      "success_after_repayment": 94,
+      "debt_cleared": 0.7890625,
+      "mean_debt_free_tick": 1266.1386138613861,
+      "mean_final_debt": 71.2835922241211,
+      "crash": 0.15625,
+      "timeout": 0.109375,
+      "mean_capital": 53.22935909032822,
+      "tail20_capital": -340.75827143742487,
+      "mean_finish_time": 1366.734375,
+      "mean_habit": 0.0,
+      "mean_anxiety": 0.0792812928557396,
+      "repeat_gambling": 0.0,
+      "hired": 0.0,
+      "fired": 0.078125,
+      "missed": 0.34375,
+      "paid": 8.2265625,
+      "loans": 0.0,
+      "repayments": 4.375,
+      "spins": 0.0,
+      "hands": 0.0,
+      "wins": 0.0,
+      "losses": 0.0,
+      "pushes": 0.0,
+      "sleeps": 4.4453125,
+      "impulses": 0.0,
+      "mean_debt_free_tick_or_horizon": 1326.015625,
+      "mean_buyout_tick_or_horizon": 1463.203125,
+      "buyouts_after_playing": 0
+    },
+    "diagnostics": {
+      "episodes_with_work_offer": 0,
+      "episodes_with_repay_offer": 0,
+      "episodes_with_shift": 128,
+      "episodes_with_repay": 128,
+      "episodes_with_gamble": 0,
+      "episodes_with_intervention": 0,
+      "median_paid": 9.0,
+      "median_terminal_tick": 1386.5,
+      "crashes_before_first_pay": 0,
+      "crashes_after_first_pay": 20
+    },
+    "environment": {
+      "horizon": 1550,
+      "day": 155,
+      "shift_window": 70,
+      "shift_duration": 28,
+      "sleep_duration": 24,
+      "job_duration": 22,
+      "spin_duration": 9,
+      "loan_duration": 5,
+      "starting_cash": 18.0,
+      "late_start_probability": 0.0,
+      "salary": 145.0,
+      "buyout": 115.0,
+      "loan_unit": 60.0,
+      "loan_limit": 300.0,
+      "interest_per_tick": 0.00012,
+      "slot_stake": 55.0,
+      "slot_payout": 325.0,
+      "slot_probability": 0.12,
+      "blackjack_stake": 90.0,
+      "blackjack_win_commission": 0.1,
+      "zone_radius": 1.55,
+      "parking_speed": 0.2,
+      "dt": 0.16,
+      "max_speed": 3.8,
+      "wheelbase": 0.8,
+      "max_steer": 0.58,
+      "gamma": 0.9985,
+      "enable_emotion_effects": true,
+      "mood_traction": 0.18,
+      "tilt_steering": 0.22,
+      "enable_dependence": true,
+      "anxiety_steering": 0.42,
+      "operating_cost": 8.0,
+      "casino_open": 90,
+      "casino_close": 145,
+      "casino_round_interval": 24,
+      "timeout_shortfall_penalty": 0.25,
+      "starting_debt": 1000.0,
+      "debt_time_weight": 0.25,
+      "enable_impulse_override": false
+    },
+    "chase": {
+      "loss": {
+        "resolved_rounds": 0,
+        "episodes": 0,
+        "eligible": 0,
+        "voluntary_at_first": 0,
+        "voluntary_within_one_day": 0
+      },
+      "win": {
+        "resolved_rounds": 0,
+        "episodes": 0,
+        "eligible": 0,
+        "voluntary_at_first": 0,
+        "voluntary_within_one_day": 0
+      },
+      "push": {
+        "resolved_rounds": 0,
+        "episodes": 0,
+        "eligible": 0,
+        "voluntary_at_first": 0,
+        "voluntary_within_one_day": 0
+      }
+    },
+    "cases": {
+      "first_win": 91000,
+      "first_failure": 91001
+    },
+    "probes": {
+      "pairs": 256,
+      "loss_mean": 2.19140156332287e-06,
+      "win_mean_matched": 8.84286237123888e-06,
+      "win_mean_with_payout": 1.4811939763603732e-06,
+      "loss_minus_win": -6.651461262663361e-06,
+      "paired_bootstrap_ci": [
+        -7.420522615575465e-06,
+        -5.912733286095318e-06
+      ],
+      "modal_loss": 0,
+      "modal_win": 0,
+      "loss_feature_changes": {
+        "anxiety": {
+          "mean_delta": -1.130768101376134e-08,
+          "mean_absolute_delta": 1.3755379946189805e-08
+        },
+        "cash_plus_100": {
+          "mean_delta": -1.0971695019179606e-06,
+          "mean_absolute_delta": 1.0971695019179606e-06
+        },
+        "debt_minus_250": {
+          "mean_delta": 3.4190094311270514e-07,
+          "mean_absolute_delta": 3.4190094311270514e-07
+        },
+        "fatigue_plus_20pp": {
+          "mean_delta": -1.6141359537868993e-06,
+          "mean_absolute_delta": 1.6141359537868993e-06
+        },
+        "habit": {
+          "mean_delta": 9.597862060672924e-09,
+          "mean_absolute_delta": 9.647738608009604e-09
+        },
+        "mood": {
+          "mean_delta": 6.473473149526399e-06,
+          "mean_absolute_delta": 6.767108061467297e-06
+        },
+        "tilt": {
+          "mean_delta": 7.970390925038373e-08,
+          "mean_absolute_delta": 7.970390925038373e-08
+        },
+        "two_days_later": {
+          "mean_delta": -6.064787498871738e-07,
+          "mean_absolute_delta": 6.064787498871738e-07
+        }
+      }
+    },
+    "checkpoint": {
+      "file": "debt_research/models/urgency_0.25_seed_29/selected.npz",
+      "sha256": "0cc35816eed0c34c2ec15ac8dec6640956efe04e5466a6e532cd6d96a270fe88",
+      "metadata": {
+        "seed": 29,
+        "urgency": 0.25,
+        "iteration": 40,
+        "budget": 50,
+        "validation": {
+          "episodes": 48,
+          "success": 0.8125,
+          "success_after_repayment": 39,
+          "debt_cleared": 0.8541666666666666,
+          "mean_debt_free_tick": 1247.8048780487804,
+          "mean_final_debt": 48.933685302734375,
+          "crash": 0.16666666666666666,
+          "timeout": 0.020833333333333332,
+          "mean_capital": 87.84367370605469,
+          "tail20_capital": -207.25912017822264,
+          "mean_finish_time": 1358.1875,
+          "mean_habit": 0.0,
+          "mean_anxiety": 0.05465906858444214,
+          "repeat_gambling": 0.0,
+          "hired": 0.0,
+          "fired": 0.020833333333333332,
+          "missed": 0.20833333333333334,
+          "paid": 8.4375,
+          "loans": 0.0,
+          "repayments": 4.520833333333333,
+          "spins": 0.0,
+          "hands": 0.0,
+          "wins": 0.0,
+          "losses": 0.0,
+          "pushes": 0.0,
+          "sleeps": 4.479166666666667,
+          "impulses": 0.0
+        }
+      }
+    }
+  },
+  "urgency_0.25_seed_47": {
+    "summary": {
+      "episodes": 128,
+      "success": 0.765625,
+      "success_after_repayment": 98,
+      "debt_cleared": 0.828125,
+      "mean_debt_free_tick": 1284.1037735849056,
+      "mean_final_debt": 71.55136108398438,
+      "crash": 0.21875,
+      "timeout": 0.015625,
+      "mean_capital": 48.51712214946747,
+      "tail20_capital": -356.36428392850434,
+      "mean_finish_time": 1340.3203125,
+      "mean_habit": 0.0,
+      "mean_anxiety": 0.07460501790046692,
+      "repeat_gambling": 0.0,
+      "hired": 0.015625,
+      "fired": 0.0234375,
+      "missed": 0.21875,
+      "paid": 8.203125,
+      "loans": 0.0,
+      "repayments": 3.671875,
+      "spins": 0.0,
+      "hands": 0.0,
+      "wins": 0.0,
+      "losses": 0.0,
+      "pushes": 0.0,
+      "sleeps": 4.6875,
+      "impulses": 0.0,
+      "mean_debt_free_tick_or_horizon": 1329.8046875,
+      "mean_buyout_tick_or_horizon": 1466.5625,
+      "buyouts_after_playing": 0
+    },
+    "diagnostics": {
+      "episodes_with_work_offer": 0,
+      "episodes_with_repay_offer": 0,
+      "episodes_with_shift": 128,
+      "episodes_with_repay": 128,
+      "episodes_with_gamble": 0,
+      "episodes_with_intervention": 0,
+      "median_paid": 9.0,
+      "median_terminal_tick": 1404.5,
+      "crashes_before_first_pay": 0,
+      "crashes_after_first_pay": 28
+    },
+    "environment": {
+      "horizon": 1550,
+      "day": 155,
+      "shift_window": 70,
+      "shift_duration": 28,
+      "sleep_duration": 24,
+      "job_duration": 22,
+      "spin_duration": 9,
+      "loan_duration": 5,
+      "starting_cash": 18.0,
+      "late_start_probability": 0.0,
+      "salary": 145.0,
+      "buyout": 115.0,
+      "loan_unit": 60.0,
+      "loan_limit": 300.0,
+      "interest_per_tick": 0.00012,
+      "slot_stake": 55.0,
+      "slot_payout": 325.0,
+      "slot_probability": 0.12,
+      "blackjack_stake": 90.0,
+      "blackjack_win_commission": 0.1,
+      "zone_radius": 1.55,
+      "parking_speed": 0.2,
+      "dt": 0.16,
+      "max_speed": 3.8,
+      "wheelbase": 0.8,
+      "max_steer": 0.58,
+      "gamma": 0.9985,
+      "enable_emotion_effects": true,
+      "mood_traction": 0.18,
+      "tilt_steering": 0.22,
+      "enable_dependence": true,
+      "anxiety_steering": 0.42,
+      "operating_cost": 8.0,
+      "casino_open": 90,
+      "casino_close": 145,
+      "casino_round_interval": 24,
+      "timeout_shortfall_penalty": 0.25,
+      "starting_debt": 1000.0,
+      "debt_time_weight": 0.25,
+      "enable_impulse_override": false
+    },
+    "chase": {
+      "loss": {
+        "resolved_rounds": 0,
+        "episodes": 0,
+        "eligible": 0,
+        "voluntary_at_first": 0,
+        "voluntary_within_one_day": 0
+      },
+      "win": {
+        "resolved_rounds": 0,
+        "episodes": 0,
+        "eligible": 0,
+        "voluntary_at_first": 0,
+        "voluntary_within_one_day": 0
+      },
+      "push": {
+        "resolved_rounds": 0,
+        "episodes": 0,
+        "eligible": 0,
+        "voluntary_at_first": 0,
+        "voluntary_within_one_day": 0
+      }
+    },
+    "cases": {
+      "first_win": 91000,
+      "first_failure": 91008
+    },
+    "probes": {
+      "pairs": 256,
+      "loss_mean": 4.6861405280651525e-06,
+      "win_mean_matched": 1.7601723811822012e-05,
+      "win_mean_with_payout": 3.778113295993535e-06,
+      "loss_minus_win": -1.291558328375686e-05,
+      "paired_bootstrap_ci": [
+        -1.4507896798932051e-05,
+        -1.13715100724221e-05
+      ],
+      "modal_loss": 0,
+      "modal_win": 0,
+      "loss_feature_changes": {
+        "anxiety": {
+          "mean_delta": 5.475946807109722e-08,
+          "mean_absolute_delta": 5.475946807109722e-08
+        },
+        "cash_plus_100": {
+          "mean_delta": -1.9296696791570866e-06,
+          "mean_absolute_delta": 1.9296696791570866e-06
+        },
+        "debt_minus_250": {
+          "mean_delta": 7.70709220887511e-07,
+          "mean_absolute_delta": 7.70709220887511e-07
+        },
+        "fatigue_plus_20pp": {
+          "mean_delta": -3.470909177849535e-06,
+          "mean_absolute_delta": 3.470909177849535e-06
+        },
+        "habit": {
+          "mean_delta": 1.1454407911060116e-07,
+          "mean_absolute_delta": 1.1454407911060116e-07
+        },
+        "mood": {
+          "mean_delta": 1.2125129615014885e-05,
+          "mean_absolute_delta": 1.2951588360010646e-05
+        },
+        "tilt": {
+          "mean_delta": 1.181133271188628e-07,
+          "mean_absolute_delta": 1.181133271188628e-07
+        },
+        "two_days_later": {
+          "mean_delta": -1.4460047168540768e-06,
+          "mean_absolute_delta": 1.455628989788238e-06
+        }
+      }
+    },
+    "checkpoint": {
+      "file": "debt_research/models/urgency_0.25_seed_47/selected.npz",
+      "sha256": "2e14761f58784f96f000c6c2ea2fc73a036615ea849708ad7cc0e3e52bf359b5",
+      "metadata": {
+        "seed": 47,
+        "urgency": 0.25,
+        "iteration": 30,
+        "budget": 50,
+        "validation": {
+          "episodes": 48,
+          "success": 0.8333333333333334,
+          "success_after_repayment": 40,
+          "debt_cleared": 0.9375,
+          "mean_debt_free_tick": 1259.4,
+          "mean_final_debt": 23.466005325317383,
+          "crash": 0.16666666666666666,
+          "timeout": 0.0,
+          "mean_capital": 110.47911183039348,
+          "tail20_capital": -77.3599952697754,
+          "mean_finish_time": 1384.5833333333333,
+          "mean_habit": 0.0,
+          "mean_anxiety": 0.027521491050720215,
+          "repeat_gambling": 0.0,
+          "hired": 0.0,
+          "fired": 0.0,
+          "missed": 0.16666666666666666,
+          "paid": 8.645833333333334,
+          "loans": 0.0,
+          "repayments": 3.6666666666666665,
+          "spins": 0.0,
+          "hands": 0.0,
+          "wins": 0.0,
+          "losses": 0.0,
+          "pushes": 0.0,
+          "sleeps": 4.833333333333333,
+          "impulses": 0.0
+        }
+      }
+    }
+  },
+  "urgency_1_seed_11": {
+    "summary": {
+      "episodes": 128,
+      "success": 0.5859375,
+      "success_after_repayment": 75,
+      "debt_cleared": 0.6015625,
+      "mean_debt_free_tick": 1207.7272727272727,
+      "mean_final_debt": 218.06387329101562,
+      "crash": 0.015625,
+      "timeout": 0.3984375,
+      "mean_capital": -86.72411996126175,
+      "tail20_capital": -478.72889592097357,
+      "mean_finish_time": 1454.875,
+      "mean_habit": 0.0,
+      "mean_anxiety": 0.19535765051841736,
+      "repeat_gambling": 0.0,
+      "hired": 0.0,
+      "fired": 0.375,
+      "missed": 0.9375,
+      "paid": 7.453125,
+      "loans": 0.0,
+      "repayments": 2.34375,
+      "spins": 0.0,
+      "hands": 0.0,
+      "wins": 0.0,
+      "losses": 0.0,
+      "pushes": 0.0,
+      "sleeps": 5.1171875,
+      "impulses": 0.0,
+      "mean_debt_free_tick_or_horizon": 1344.1015625,
+      "mean_buyout_tick_or_horizon": 1462.1640625,
+      "buyouts_after_playing": 0
+    },
+    "diagnostics": {
+      "episodes_with_work_offer": 0,
+      "episodes_with_repay_offer": 0,
+      "episodes_with_shift": 128,
+      "episodes_with_repay": 128,
+      "episodes_with_gamble": 0,
+      "episodes_with_intervention": 0,
+      "median_paid": 9.0,
+      "median_terminal_tick": 1391.5,
+      "crashes_before_first_pay": 0,
+      "crashes_after_first_pay": 2
+    },
+    "environment": {
+      "horizon": 1550,
+      "day": 155,
+      "shift_window": 70,
+      "shift_duration": 28,
+      "sleep_duration": 24,
+      "job_duration": 22,
+      "spin_duration": 9,
+      "loan_duration": 5,
+      "starting_cash": 18.0,
+      "late_start_probability": 0.0,
+      "salary": 145.0,
+      "buyout": 115.0,
+      "loan_unit": 60.0,
+      "loan_limit": 300.0,
+      "interest_per_tick": 0.00012,
+      "slot_stake": 55.0,
+      "slot_payout": 325.0,
+      "slot_probability": 0.12,
+      "blackjack_stake": 90.0,
+      "blackjack_win_commission": 0.1,
+      "zone_radius": 1.55,
+      "parking_speed": 0.2,
+      "dt": 0.16,
+      "max_speed": 3.8,
+      "wheelbase": 0.8,
+      "max_steer": 0.58,
+      "gamma": 0.9985,
+      "enable_emotion_effects": true,
+      "mood_traction": 0.18,
+      "tilt_steering": 0.22,
+      "enable_dependence": true,
+      "anxiety_steering": 0.42,
+      "operating_cost": 8.0,
+      "casino_open": 90,
+      "casino_close": 145,
+      "casino_round_interval": 24,
+      "timeout_shortfall_penalty": 0.25,
+      "starting_debt": 1000.0,
+      "debt_time_weight": 1.0,
+      "enable_impulse_override": false
+    },
+    "chase": {
+      "loss": {
+        "resolved_rounds": 0,
+        "episodes": 0,
+        "eligible": 0,
+        "voluntary_at_first": 0,
+        "voluntary_within_one_day": 0
+      },
+      "win": {
+        "resolved_rounds": 0,
+        "episodes": 0,
+        "eligible": 0,
+        "voluntary_at_first": 0,
+        "voluntary_within_one_day": 0
+      },
+      "push": {
+        "resolved_rounds": 0,
+        "episodes": 0,
+        "eligible": 0,
+        "voluntary_at_first": 0,
+        "voluntary_within_one_day": 0
+      }
+    },
+    "cases": {
+      "first_win": 91000,
+      "first_failure": 91002
+    },
+    "probes": {
+      "pairs": 256,
+      "loss_mean": 3.3309508580714464e-05,
+      "win_mean_matched": 8.881035319063812e-05,
+      "win_mean_with_payout": 3.0460443667834625e-05,
+      "loss_minus_win": -5.5500851885881275e-05,
+      "paired_bootstrap_ci": [
+        -6.125648560555419e-05,
+        -5.009682554373285e-05
+      ],
+      "modal_loss": 0,
+      "modal_win": 0,
+      "loss_feature_changes": {
+        "anxiety": {
+          "mean_delta": -1.0128803751285886e-07,
+          "mean_absolute_delta": 1.0383168103089702e-07
+        },
+        "cash_plus_100": {
+          "mean_delta": -9.660867362981662e-06,
+          "mean_absolute_delta": 1.0012894563260488e-05
+        },
+        "debt_minus_250": {
+          "mean_delta": 1.756478695824626e-06,
+          "mean_absolute_delta": 1.8562541299615987e-06
+        },
+        "fatigue_plus_20pp": {
+          "mean_delta": -2.4125009076669812e-05,
+          "mean_absolute_delta": 2.4125009076669812e-05
+        },
+        "habit": {
+          "mean_delta": 8.70079475134844e-08,
+          "mean_absolute_delta": 1.7541989905112132e-07
+        },
+        "mood": {
+          "mean_delta": 5.419732042355463e-05,
+          "mean_absolute_delta": 5.622908065561205e-05
+        },
+        "tilt": {
+          "mean_delta": 3.600977720452647e-07,
+          "mean_absolute_delta": 4.1946645978896413e-07
+        },
+        "two_days_later": {
+          "mean_delta": -1.2185739706183085e-06,
+          "mean_absolute_delta": 4.305296897655353e-06
+        }
+      }
+    },
+    "checkpoint": {
+      "file": "debt_research/models/urgency_1_seed_11/selected.npz",
+      "sha256": "b312b83ace54b5859c9d78a217f2027cdeeef18d57a8230148a508c0b3db1033",
+      "metadata": {
+        "seed": 11,
+        "urgency": 1.0,
+        "iteration": 40,
+        "budget": 50,
+        "validation": {
+          "episodes": 48,
+          "success": 0.6666666666666666,
+          "success_after_repayment": 32,
+          "debt_cleared": 0.6875,
+          "mean_debt_free_tick": 1205.7575757575758,
+          "mean_final_debt": 178.8776397705078,
+          "crash": 0.0,
+          "timeout": 0.3333333333333333,
+          "mean_capital": -39.90612252553304,
+          "tail20_capital": -479.08641357421874,
+          "mean_finish_time": 1451.7708333333333,
+          "mean_habit": 0.0,
+          "mean_anxiety": 0.15773534774780273,
+          "repeat_gambling": 0.0,
+          "hired": 0.0,
+          "fired": 0.3125,
+          "missed": 0.7916666666666666,
+          "paid": 7.75,
+          "loans": 0.0,
+          "repayments": 2.4791666666666665,
+          "spins": 0.0,
+          "hands": 0.0,
+          "wins": 0.0,
+          "losses": 0.0,
+          "pushes": 0.0,
+          "sleeps": 5.291666666666667,
+          "impulses": 0.0
+        }
+      }
+    }
+  },
+  "urgency_1_seed_29": {
+    "summary": {
+      "episodes": 128,
+      "success": 0.71875,
+      "success_after_repayment": 92,
+      "debt_cleared": 0.78125,
+      "mean_debt_free_tick": 1282.09,
+      "mean_final_debt": 83.3338623046875,
+      "crash": 0.1953125,
+      "timeout": 0.0859375,
+      "mean_capital": 43.929464519023895,
+      "tail20_capital": -380.6230486356295,
+      "mean_finish_time": 1350.765625,
+      "mean_habit": 0.0,
+      "mean_anxiety": 0.08779695630073547,
+      "repeat_gambling": 0.0,
+      "hired": 0.0,
+      "fired": 0.0390625,
+      "missed": 0.265625,
+      "paid": 8.1640625,
+      "loans": 0.0,
+      "repayments": 4.0625,
+      "spins": 0.0,
+      "hands": 0.0,
+      "wins": 0.0,
+      "losses": 0.0,
+      "pushes": 0.0,
+      "sleeps": 4.65625,
+      "impulses": 0.0,
+      "mean_debt_free_tick_or_horizon": 1340.6953125,
+      "mean_buyout_tick_or_horizon": 1474.15625,
+      "buyouts_after_playing": 0
+    },
+    "diagnostics": {
+      "episodes_with_work_offer": 0,
+      "episodes_with_repay_offer": 0,
+      "episodes_with_shift": 128,
+      "episodes_with_repay": 128,
+      "episodes_with_gamble": 0,
+      "episodes_with_intervention": 0,
+      "median_paid": 9.0,
+      "median_terminal_tick": 1392.0,
+      "crashes_before_first_pay": 0,
+      "crashes_after_first_pay": 25
+    },
+    "environment": {
+      "horizon": 1550,
+      "day": 155,
+      "shift_window": 70,
+      "shift_duration": 28,
+      "sleep_duration": 24,
+      "job_duration": 22,
+      "spin_duration": 9,
+      "loan_duration": 5,
+      "starting_cash": 18.0,
+      "late_start_probability": 0.0,
+      "salary": 145.0,
+      "buyout": 115.0,
+      "loan_unit": 60.0,
+      "loan_limit": 300.0,
+      "interest_per_tick": 0.00012,
+      "slot_stake": 55.0,
+      "slot_payout": 325.0,
+      "slot_probability": 0.12,
+      "blackjack_stake": 90.0,
+      "blackjack_win_commission": 0.1,
+      "zone_radius": 1.55,
+      "parking_speed": 0.2,
+      "dt": 0.16,
+      "max_speed": 3.8,
+      "wheelbase": 0.8,
+      "max_steer": 0.58,
+      "gamma": 0.9985,
+      "enable_emotion_effects": true,
+      "mood_traction": 0.18,
+      "tilt_steering": 0.22,
+      "enable_dependence": true,
+      "anxiety_steering": 0.42,
+      "operating_cost": 8.0,
+      "casino_open": 90,
+      "casino_close": 145,
+      "casino_round_interval": 24,
+      "timeout_shortfall_penalty": 0.25,
+      "starting_debt": 1000.0,
+      "debt_time_weight": 1.0,
+      "enable_impulse_override": false
+    },
+    "chase": {
+      "loss": {
+        "resolved_rounds": 0,
+        "episodes": 0,
+        "eligible": 0,
+        "voluntary_at_first": 0,
+        "voluntary_within_one_day": 0
+      },
+      "win": {
+        "resolved_rounds": 0,
+        "episodes": 0,
+        "eligible": 0,
+        "voluntary_at_first": 0,
+        "voluntary_within_one_day": 0
+      },
+      "push": {
+        "resolved_rounds": 0,
+        "episodes": 0,
+        "eligible": 0,
+        "voluntary_at_first": 0,
+        "voluntary_within_one_day": 0
+      }
+    },
+    "cases": {
+      "first_win": 91001,
+      "first_failure": 91000
+    },
+    "probes": {
+      "pairs": 256,
+      "loss_mean": 4.658124453271739e-06,
+      "win_mean_matched": 1.6468669855385087e-05,
+      "win_mean_with_payout": 3.4339532248850446e-06,
+      "loss_minus_win": -1.1810543583123945e-05,
+      "paired_bootstrap_ci": [
+        -1.3067882855466451e-05,
+        -1.0542443033045857e-05
+      ],
+      "modal_loss": 0,
+      "modal_win": 0,
+      "loss_feature_changes": {
+        "anxiety": {
+          "mean_delta": -1.691605078235625e-08,
+          "mean_absolute_delta": 3.481554955442334e-08
+        },
+        "cash_plus_100": {
+          "mean_delta": -2.143936626453069e-06,
+          "mean_absolute_delta": 2.143936626453069e-06
+        },
+        "debt_minus_250": {
+          "mean_delta": 5.576922603722778e-07,
+          "mean_absolute_delta": 5.576922603722778e-07
+        },
+        "fatigue_plus_20pp": {
+          "mean_delta": -3.3331152735627256e-06,
+          "mean_absolute_delta": 3.3331152735627256e-06
+        },
+        "habit": {
+          "mean_delta": 1.6706486860584846e-08,
+          "mean_absolute_delta": 1.6933903168592224e-08
+        },
+        "mood": {
+          "mean_delta": 1.147722105088178e-05,
+          "mean_absolute_delta": 1.2173837603768334e-05
+        },
+        "tilt": {
+          "mean_delta": 1.4549607385561103e-07,
+          "mean_absolute_delta": 1.4549607385561103e-07
+        },
+        "two_days_later": {
+          "mean_delta": -1.0514715995668666e-06,
+          "mean_absolute_delta": 1.0514715995668666e-06
+        }
+      }
+    },
+    "checkpoint": {
+      "file": "debt_research/models/urgency_1_seed_29/selected.npz",
+      "sha256": "e8bdcf7bed7b9da25b3ff33f993c10ca9ba1deb0c159764f4548004a33a714be",
+      "metadata": {
+        "seed": 29,
+        "urgency": 1.0,
+        "iteration": 50,
+        "budget": 50,
+        "validation": {
+          "episodes": 48,
+          "success": 0.7291666666666666,
+          "success_after_repayment": 35,
+          "debt_cleared": 0.75,
+          "mean_debt_free_tick": 1280.9444444444443,
+          "mean_final_debt": 138.22943115234375,
+          "crash": 0.125,
+          "timeout": 0.14583333333333334,
+          "mean_capital": -6.757688840230306,
+          "tail20_capital": -561.0088653564453,
+          "mean_finish_time": 1406.0,
+          "mean_habit": 0.0,
+          "mean_anxiety": 0.12433144450187683,
+          "repeat_gambling": 0.0,
+          "hired": 0.0,
+          "fired": 0.14583333333333334,
+          "missed": 0.4583333333333333,
+          "paid": 7.875,
+          "loans": 0.0,
+          "repayments": 3.625,
+          "spins": 0.0,
+          "hands": 0.0,
+          "wins": 0.0,
+          "losses": 0.0,
+          "pushes": 0.0,
+          "sleeps": 4.666666666666667,
+          "impulses": 0.0
+        }
+      }
+    }
+  },
+  "urgency_1_seed_47": {
+    "summary": {
+      "episodes": 128,
+      "success": 0.8125,
+      "success_after_repayment": 104,
+      "debt_cleared": 0.921875,
+      "mean_debt_free_tick": 1287.0762711864406,
+      "mean_final_debt": 33.59556579589844,
+      "crash": 0.1015625,
+      "timeout": 0.0859375,
+      "mean_capital": 105.6363525390625,
+      "tail20_capital": -96.56903369610126,
+      "mean_finish_time": 1386.3984375,
+      "mean_habit": 0.0,
+      "mean_anxiety": 0.03607206046581268,
+      "repeat_gambling": 0.0,
+      "hired": 0.0,
+      "fired": 0.0078125,
+      "missed": 0.203125,
+      "paid": 8.6328125,
+      "loans": 0.0,
+      "repayments": 3.328125,
+      "spins": 0.0,
+      "hands": 0.0,
+      "wins": 0.0,
+      "losses": 0.0,
+      "pushes": 0.0,
+      "sleeps": 5.2109375,
+      "impulses": 0.0,
+      "mean_debt_free_tick_or_horizon": 1307.6171875,
+      "mean_buyout_tick_or_horizon": 1456.171875,
+      "buyouts_after_playing": 0
+    },
+    "diagnostics": {
+      "episodes_with_work_offer": 0,
+      "episodes_with_repay_offer": 0,
+      "episodes_with_shift": 128,
+      "episodes_with_repay": 128,
+      "episodes_with_gamble": 0,
+      "episodes_with_intervention": 0,
+      "median_paid": 9.0,
+      "median_terminal_tick": 1366.0,
+      "crashes_before_first_pay": 0,
+      "crashes_after_first_pay": 13
+    },
+    "environment": {
+      "horizon": 1550,
+      "day": 155,
+      "shift_window": 70,
+      "shift_duration": 28,
+      "sleep_duration": 24,
+      "job_duration": 22,
+      "spin_duration": 9,
+      "loan_duration": 5,
+      "starting_cash": 18.0,
+      "late_start_probability": 0.0,
+      "salary": 145.0,
+      "buyout": 115.0,
+      "loan_unit": 60.0,
+      "loan_limit": 300.0,
+      "interest_per_tick": 0.00012,
+      "slot_stake": 55.0,
+      "slot_payout": 325.0,
+      "slot_probability": 0.12,
+      "blackjack_stake": 90.0,
+      "blackjack_win_commission": 0.1,
+      "zone_radius": 1.55,
+      "parking_speed": 0.2,
+      "dt": 0.16,
+      "max_speed": 3.8,
+      "wheelbase": 0.8,
+      "max_steer": 0.58,
+      "gamma": 0.9985,
+      "enable_emotion_effects": true,
+      "mood_traction": 0.18,
+      "tilt_steering": 0.22,
+      "enable_dependence": true,
+      "anxiety_steering": 0.42,
+      "operating_cost": 8.0,
+      "casino_open": 90,
+      "casino_close": 145,
+      "casino_round_interval": 24,
+      "timeout_shortfall_penalty": 0.25,
+      "starting_debt": 1000.0,
+      "debt_time_weight": 1.0,
+      "enable_impulse_override": false
+    },
+    "chase": {
+      "loss": {
+        "resolved_rounds": 0,
+        "episodes": 0,
+        "eligible": 0,
+        "voluntary_at_first": 0,
+        "voluntary_within_one_day": 0
+      },
+      "win": {
+        "resolved_rounds": 0,
+        "episodes": 0,
+        "eligible": 0,
+        "voluntary_at_first": 0,
+        "voluntary_within_one_day": 0
+      },
+      "push": {
+        "resolved_rounds": 0,
+        "episodes": 0,
+        "eligible": 0,
+        "voluntary_at_first": 0,
+        "voluntary_within_one_day": 0
+      }
+    },
+    "cases": {
+      "first_win": 91000,
+      "first_failure": 91009
+    },
+    "probes": {
+      "pairs": 256,
+      "loss_mean": 9.871962902252562e-06,
+      "win_mean_matched": 3.64538500434719e-05,
+      "win_mean_with_payout": 6.921814929228276e-06,
+      "loss_minus_win": -2.658188714121934e-05,
+      "paired_bootstrap_ci": [
+        -2.9920450651843565e-05,
+        -2.3477130616811338e-05
+      ],
+      "modal_loss": 0,
+      "modal_win": 0,
+      "loss_feature_changes": {
+        "anxiety": {
+          "mean_delta": 1.1578195113770562e-07,
+          "mean_absolute_delta": 1.1578195113770562e-07
+        },
+        "cash_plus_100": {
+          "mean_delta": -4.051276391692227e-06,
+          "mean_absolute_delta": 4.051276391692227e-06
+        },
+        "debt_minus_250": {
+          "mean_delta": 1.64469895480579e-06,
+          "mean_absolute_delta": 1.64469895480579e-06
+        },
+        "fatigue_plus_20pp": {
+          "mean_delta": -7.02028546584188e-06,
+          "mean_absolute_delta": 7.02028546584188e-06
+        },
+        "habit": {
+          "mean_delta": 2.2783446240737248e-07,
+          "mean_absolute_delta": 2.2783446240737248e-07
+        },
+        "mood": {
+          "mean_delta": 2.4872200810932554e-05,
+          "mean_absolute_delta": 2.5598554202588275e-05
+        },
+        "tilt": {
+          "mean_delta": 2.548378859046352e-07,
+          "mean_absolute_delta": 2.548378859046352e-07
+        },
+        "two_days_later": {
+          "mean_delta": -2.844469236151781e-06,
+          "mean_absolute_delta": 2.844469236151781e-06
+        }
+      }
+    },
+    "checkpoint": {
+      "file": "debt_research/models/urgency_1_seed_47/selected.npz",
+      "sha256": "08fa89332ec2e5520f7e71537717b8b10d02ebb48e47708354b4a77558cbd604",
+      "metadata": {
+        "seed": 47,
+        "urgency": 1.0,
+        "iteration": 40,
+        "budget": 50,
+        "validation": {
+          "episodes": 48,
+          "success": 0.7916666666666666,
+          "success_after_repayment": 38,
+          "debt_cleared": 0.9375,
+          "mean_debt_free_tick": 1271.1555555555556,
+          "mean_final_debt": 31.04091453552246,
+          "crash": 0.14583333333333334,
+          "timeout": 0.0625,
+          "mean_capital": 108.80687713623047,
+          "tail20_capital": -75.50951538085937,
+          "mean_finish_time": 1372.8541666666667,
+          "mean_habit": 0.0,
+          "mean_anxiety": 0.032333262264728546,
+          "repeat_gambling": 0.0,
+          "hired": 0.0,
+          "fired": 0.0,
+          "missed": 0.16666666666666666,
+          "paid": 8.645833333333334,
+          "loans": 0.0,
+          "repayments": 3.2083333333333335,
+          "spins": 0.0,
+          "hands": 0.0,
+          "wins": 0.0,
+          "losses": 0.0,
+          "pushes": 0.0,
+          "sleeps": 5.229166666666667,
+          "impulses": 0.0
+        }
+      }
+    }
+  }
+}

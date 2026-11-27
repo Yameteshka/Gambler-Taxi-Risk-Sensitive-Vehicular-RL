@@ -1,0 +1,5 @@
+FOOD_PATH_WITNESS {"level": 3, "scenario_ids": [11, 12, 13, 14, 15, 16], "ownership": 6, "outcomes": [1, 1, 1, 1, 1, 1], "times": [145, 146, 145, 140, 139, 146], "meals": [1, 1, 1, 1, 1, 1], "paid_shifts": [0, 0, 0, 0, 0, 0], "manual_diagnostic_only": true}
+FOOD_PATH_WITNESS {"level": 4, "scenario_ids": [11, 12, 13, 14, 15, 16], "ownership": 6, "outcomes": [1, 1, 1, 1, 1, 1], "times": [207, 204, 202, 200, 197, 200], "meals": [1, 1, 1, 1, 1, 1], "paid_shifts": [0, 0, 0, 0, 0, 0], "manual_diagnostic_only": true}
+FOOD_PATH_WITNESS {"level": 5, "scenario_ids": [11, 12, 13, 14, 15, 16], "ownership": 6, "outcomes": [1, 1, 1, 1, 1, 1], "times": [308, 310, 310, 312, 312, 308], "meals": [1, 1, 1, 1, 1, 1], "paid_shifts": [1, 1, 1, 1, 1, 1], "manual_diagnostic_only": true}
+FOOD_PATH_WITNESS {"level": 6, "scenario_ids": [11, 12, 13, 14, 15, 16], "ownership": 6, "outcomes": [1, 1, 1, 1, 1, 1], "times": [210, 198, 203, 201, 199, 199], "meals": [1, 1, 1, 1, 1, 1], "paid_shifts": [0, 0, 0, 0, 0, 0], "manual_diagnostic_only": true}
+OWNERSHIP_CURRICULUM_CHECK True

@@ -1,0 +1,12 @@
+[
+  {
+    "kind": "dsac_gru",
+    "exit_code": 0,
+    "elapsed_seconds": 376.11208071799996
+  },
+  {
+    "kind": "ppo_gru",
+    "exit_code": 0,
+    "elapsed_seconds": 73.593462988
+  }
+]

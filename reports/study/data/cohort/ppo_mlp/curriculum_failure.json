@@ -1,0 +1,6 @@
+{
+  "reason": "Actor failed its lesson gate after both physical and decision exposure caps",
+  "stage": 12,
+  "physical_transitions": 6431870,
+  "network_decisions": 151552
+}

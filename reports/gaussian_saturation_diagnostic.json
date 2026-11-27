@@ -1,0 +1,52 @@
+[
+  {
+    "path": "runs\\pilots\\dsac_mlp_10d_curriculum_dynamic_repA\\c841130afb_4194304",
+    "kind": "dsac_mlp",
+    "step": 1048576,
+    "raw_gaussian_mean": [
+      -1.702654242515564,
+      -0.5235020518302917
+    ],
+    "raw_log_standard_deviation": [
+      -0.45743751525878906,
+      -0.9529865980148315
+    ],
+    "hard_std_clip_active": [
+      false,
+      false
+    ],
+    "bounded_mean_control": [
+      -0.9122339487075806,
+      -0.4763500988483429
+    ],
+    "std": [
+      0.6329033374786377,
+      0.3855877220630646
+    ]
+  },
+  {
+    "path": "runs\\pilots\\ppo_mlp_10d_curriculum_dynamic_repA\\bc803ef785_4194304",
+    "kind": "ppo_mlp",
+    "step": 1048576,
+    "raw_gaussian_mean": [
+      0.6771013736724854,
+      0.5273507833480835
+    ],
+    "raw_log_standard_deviation": [
+      -1.8118476867675781,
+      -1.6951627731323242
+    ],
+    "hard_std_clip_active": [
+      false,
+      false
+    ],
+    "bounded_mean_control": [
+      0.5822325348854065,
+      0.47923094034194946
+    ],
+    "std": [
+      0.16335204243659973,
+      0.18356934189796448
+    ]
+  }
+]

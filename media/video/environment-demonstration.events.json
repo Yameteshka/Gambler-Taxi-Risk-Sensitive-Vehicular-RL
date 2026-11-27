@@ -1,0 +1,238 @@
+[
+  {
+    "tick": 53,
+    "text": "Shift completed: wages received."
+  },
+  {
+    "tick": 183,
+    "text": "Shift completed: wages received."
+  },
+  {
+    "tick": 230,
+    "text": "Meal delivered; satiety restored by the recorded portion."
+  },
+  {
+    "tick": 232,
+    "text": "Meal delivered; satiety restored by the recorded portion."
+  },
+  {
+    "tick": 234,
+    "text": "Meal delivered; satiety restored by the recorded portion."
+  },
+  {
+    "tick": 236,
+    "text": "Meal delivered; satiety restored by the recorded portion."
+  },
+  {
+    "tick": 238,
+    "text": "Meal delivered; satiety restored by the recorded portion."
+  },
+  {
+    "tick": 240,
+    "text": "Meal delivered; satiety restored by the recorded portion."
+  },
+  {
+    "tick": 242,
+    "text": "Meal delivered; satiety restored by the recorded portion."
+  },
+  {
+    "tick": 244,
+    "text": "Meal delivered; satiety restored by the recorded portion."
+  },
+  {
+    "tick": 246,
+    "text": "Meal delivered; satiety restored by the recorded portion."
+  },
+  {
+    "tick": 248,
+    "text": "Meal delivered; satiety restored by the recorded portion."
+  },
+  {
+    "tick": 250,
+    "text": "Meal delivered; satiety restored by the recorded portion."
+  },
+  {
+    "tick": 252,
+    "text": "Meal delivered; satiety restored by the recorded portion."
+  },
+  {
+    "tick": 260,
+    "text": "Meal delivered; satiety restored by the recorded portion."
+  },
+  {
+    "tick": 333,
+    "text": "Sleep completed."
+  },
+  {
+    "tick": 402,
+    "text": "Shift completed: wages received."
+  },
+  {
+    "tick": 440,
+    "text": "Meal delivered; satiety restored by the recorded portion."
+  },
+  {
+    "tick": 442,
+    "text": "Meal delivered; satiety restored by the recorded portion."
+  },
+  {
+    "tick": 444,
+    "text": "Meal delivered; satiety restored by the recorded portion."
+  },
+  {
+    "tick": 446,
+    "text": "Meal delivered; satiety restored by the recorded portion."
+  },
+  {
+    "tick": 448,
+    "text": "Meal delivered; satiety restored by the recorded portion."
+  },
+  {
+    "tick": 450,
+    "text": "Meal delivered; satiety restored by the recorded portion."
+  },
+  {
+    "tick": 452,
+    "text": "Meal delivered; satiety restored by the recorded portion."
+  },
+  {
+    "tick": 454,
+    "text": "Meal delivered; satiety restored by the recorded portion."
+  },
+  {
+    "tick": 456,
+    "text": "Meal delivered; satiety restored by the recorded portion."
+  },
+  {
+    "tick": 465,
+    "text": "Scheduled-payment shortfall: late fee charged."
+  },
+  {
+    "tick": 479,
+    "text": "Refueling completed."
+  },
+  {
+    "tick": 551,
+    "text": "Shift completed: wages received."
+  },
+  {
+    "tick": 648,
+    "text": "Shift completed: wages received."
+  },
+  {
+    "tick": 689,
+    "text": "Meal delivered; satiety restored by the recorded portion."
+  },
+  {
+    "tick": 691,
+    "text": "Meal delivered; satiety restored by the recorded portion."
+  },
+  {
+    "tick": 693,
+    "text": "Meal delivered; satiety restored by the recorded portion."
+  },
+  {
+    "tick": 695,
+    "text": "Meal delivered; satiety restored by the recorded portion."
+  },
+  {
+    "tick": 697,
+    "text": "Meal delivered; satiety restored by the recorded portion."
+  },
+  {
+    "tick": 699,
+    "text": "Meal delivered; satiety restored by the recorded portion."
+  },
+  {
+    "tick": 701,
+    "text": "Meal delivered; satiety restored by the recorded portion."
+  },
+  {
+    "tick": 703,
+    "text": "Meal delivered; satiety restored by the recorded portion."
+  },
+  {
+    "tick": 705,
+    "text": "Meal delivered; satiety restored by the recorded portion."
+  },
+  {
+    "tick": 707,
+    "text": "Meal delivered; satiety restored by the recorded portion."
+  },
+  {
+    "tick": 709,
+    "text": "Meal delivered; satiety restored by the recorded portion."
+  },
+  {
+    "tick": 711,
+    "text": "Meal delivered; satiety restored by the recorded portion."
+  },
+  {
+    "tick": 733,
+    "text": "Refueling completed."
+  },
+  {
+    "tick": 786,
+    "text": "Sleep completed."
+  },
+  {
+    "tick": 846,
+    "text": "Shift completed: wages received."
+  },
+  {
+    "tick": 884,
+    "text": "Meal delivered; satiety restored by the recorded portion."
+  },
+  {
+    "tick": 886,
+    "text": "Meal delivered; satiety restored by the recorded portion."
+  },
+  {
+    "tick": 888,
+    "text": "Meal delivered; satiety restored by the recorded portion."
+  },
+  {
+    "tick": 890,
+    "text": "Meal delivered; satiety restored by the recorded portion."
+  },
+  {
+    "tick": 892,
+    "text": "Meal delivered; satiety restored by the recorded portion."
+  },
+  {
+    "tick": 894,
+    "text": "Meal delivered; satiety restored by the recorded portion."
+  },
+  {
+    "tick": 896,
+    "text": "Meal delivered; satiety restored by the recorded portion."
+  },
+  {
+    "tick": 898,
+    "text": "Meal delivered; satiety restored by the recorded portion."
+  },
+  {
+    "tick": 900,
+    "text": "Meal delivered; satiety restored by the recorded portion."
+  },
+  {
+    "tick": 922,
+    "text": "Refueling completed."
+  },
+  {
+    "tick": 930,
+    "text": "Scheduled-payment shortfall: late fee charged."
+  },
+  {
+    "tick": 992,
+    "text": "Shift completed: wages received."
+  },
+  {
+    "tick": 1025,
+    "text": "Car payment: $1053.71."
+  },
+  {
+    "tick": 1052,
+    "text": "Ownership completed"
+  }
+]

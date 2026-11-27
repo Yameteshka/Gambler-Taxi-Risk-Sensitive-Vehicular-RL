@@ -1,0 +1,168 @@
+{
+  "method": "Validated architectures trained sequentially on one ownership reset curriculum; frozen tests deferred for partial cohorts.",
+  "order": [
+    [
+      "hybrid_dsac",
+      "mlp"
+    ],
+    [
+      "hybrid_ppo",
+      "mlp"
+    ],
+    [
+      "hybrid_dsac",
+      "gru"
+    ],
+    [
+      "hybrid_ppo",
+      "gru"
+    ]
+  ],
+  "initialization_seed": 301,
+  "budget_per_model": 33554432,
+  "economic_demonstrations": false,
+  "public_food_menu": true,
+  "final_training_debt": 500,
+  "cold_start_fraction": null,
+  "cold_exploration_epsilon": null,
+  "service_observation_features": 194,
+  "curriculum": {
+    "name": "ownership_frontier",
+    "lessons": [
+      {
+        "name": "ownership_endpoint"
+      },
+      {
+        "name": "bank_settlement"
+      },
+      {
+        "name": "earning_required"
+      },
+      {
+        "name": "meal_then_ownership"
+      },
+      {
+        "name": "meal_then_settlement"
+      },
+      {
+        "name": "meal_then_earning"
+      },
+      {
+        "name": "food_approach"
+      },
+      {
+        "name": "fuel_required"
+      },
+      {
+        "name": "fatigued_home"
+      },
+      {
+        "name": "personal_debt"
+      },
+      {
+        "name": "home_debt_250"
+      },
+      {
+        "name": "home_debt_350"
+      },
+      {
+        "name": "home_debt_500"
+      },
+      {
+        "name": "standard_home_actor"
+      }
+    ],
+    "original_principal": 500,
+    "transition_kernel_constant": true,
+    "reset_rehearsal": 0.2,
+    "min_physical_per_lesson": 65536,
+    "min_network_decisions_per_lesson": 2048,
+    "diagnostic_cap_requires_both": true,
+    "max_decisions_per_lesson": 65536,
+    "max_physical_per_lesson": 786432
+  },
+  "training_scenarios": [
+    11,
+    10010
+  ],
+  "selection_validation": [
+    1000001,
+    1000064
+  ],
+  "new_standard_final_scenarios": [
+    3000001,
+    3000256
+  ],
+  "new_adverse_banks": "3100001 + 100000*k, each 256 scenarios; one matched control per bank",
+  "limitations": "One initialization per architecture is exploratory; scenario replication is not independent training replication. Five-day and continuing evaluation are horizon transfer, not separate horizon-specific retraining.",
+  "sources": {
+    "src/algorithms/hybrid_dsac.py": "ed62910dc1f00343873bf3b4e846a94453e8f84c3082e2b166b22a985197718f",
+    "src/algorithms/recurrent_dsac.py": "0543be5d41221fc43331640d93614cf4dc118bd3533c20063c71c186c99138d3",
+    "src/analytic_checks.py": "2ce5f6fdeb53600d7113f64bbc5c2db499da8088a803318a6044c18ebf5d10c9",
+    "src/audit_results.py": "d9606fd4135824db9820043af05a828934d33aa43b6b481691e266044f48d2df",
+    "src/audit_strategy.py": "06c988e8dbfa700be4bcf4a6cb78c8ce966ac1077667c71323cbc17c29b53b4c",
+    "src/build_reports.py": "f62f4808d6281ca01298ca3d3b394c2cc1aad5c834f3d2a1aa075ff52028350d",
+    "src/critic_certificate.py": "3ea3549e643cf00c1d8c0c563b1db94d9fe115cf7591962c275d97e32f3a8336",
+    "src/env/__init__.py": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+    "src/env/base.py": "bcfb81a2b6e20892077e3e32274f5f2ad06e30e8c3c19deda8d84409de1eb33c",
+    "src/env/cards.py": "bcc275ea8b62dc724a5962c407e09a762035cd04d898a9ef7bed50f30a5a0cdd",
+    "src/env/city.py": "76d63e3bf981748996f33eecb255533d41de1355a171f83698e69522eba9b600",
+    "src/env/resource_taxi.py": "18ae1619c1bde0522e7e1713403193d48195b6fbbe27af70085a93b50fb5c510",
+    "src/env/tasks.py": "0b5b26623354a0f5d8cc6a81285da680c1cd86a79d705434c3e0007b872c0610",
+    "src/evaluate.py": "0d8a38d5a04b49953138935628e0b4102fbaffcaeb5e1397ac2cb006a0356918",
+    "src/evaluate_strategy.py": "cbc7278dbe9c27052f4e946f7defa8e4df58e8a98102864ae188248a41b5469c",
+    "src/models.py": "6ee6a29079cf54ed9dd29f7dda5539adca026d074988a153b64b4595a0699e50",
+    "src/navigation.py": "e827c2f8dbbaf1d1b0a93665c2caf74a5cd6f82b82bb628d94549bdaac6bcb26",
+    "src/ownership_curriculum.py": "05f375c8ea1e7c2b8f5d11e3bccbd98abc4ffdfd17f8f95ef7832d61e4f13c3d",
+    "src/policy_probes.py": "4adb5d70c5d3044bbf0301b6854fcc6d4e93481aefb218c0b6353cdfcf453924",
+    "src/progressive_curriculum.py": "6d7516747e25e3ed19091eccd0be61ddd9609198899bb4c63ee322cec319ee0a",
+    "src/protocol.py": "3c5290543c8683b4e242946897e08d415c5c6bcc897ec4c7b25b5c14d10617ab",
+    "src/render_replay.py": "26f40319e8044c8d734d9e4b5cf2e0c3ade05b0730403ee0602bb6903a7cd419",
+    "src/resource_curriculum.py": "c5904bf1fa01a6e11e109cbc9174761716432d1a29693ab2990761be5acd274b",
+    "src/run_suite.py": "40286896afe51dd3d64d7bbb1f61c868d48d7006cd8ed328d6d4afb1d688ed64",
+    "src/statistics_report.py": "79329826d28e2925fbba34bfd44437deeb92d108b41274b2fe0d96b05664c49c",
+    "src/strategy.py": "27c0ee905f4fa4733a0c1ecbacc262eb719b92b58ed754857c4c97f5153dda37",
+    "src/strategy_training.py": "338e1ef67051c18974546c32cc2a7008d029ee9438cc7b617c7249022a1ad6ac",
+    "src/telemetry.py": "de2395a528def357753ffc393f421422171df6a4640146718a0ce4dd76a523a8",
+    "src/train.py": "44b64dd4e3850eea1cba20f3d40a00bc2283ddceced97ea3e99ea67093b995df",
+    "src/utils/__init__.py": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+    "src/utils/autoreset.py": "4c1943534abfd0acd5e3a9aef62030565707e976d9cd981bf1de0ac24e27f589",
+    "src/utils/renderer.py": "f3e8fafe6cc4bd263e6a003a258047f3978e17138e39c7f2793175b1c8ebd6fb",
+    "src/utils/utils.py": "5ed497161778550e682f55616387055ae3137ad6f067ca40719a97e297a5faeb",
+    "src/verify.py": "bec92b840168493015330cac0152f9c6e6d475444519b5c202ba136d808b5e96",
+    "src/verify_learning.py": "d0329933cfb24c2cab00a4ae521f6e956d5db47edf3db406add586e6de097166",
+    "src/verify_strategy.py": "91a6c22944e300b142d2ea9ea6ad39684b5792315a99210ea02dbcb2f900d8b6"
+  },
+  "driver_sha256": "a8b96cf246b15cacbe4f1c7b305f3c43c9c1f44c940e8eed6021c4137dc313c2",
+  "treatment": {
+    "reward_shaping": "disabled",
+    "navigation_cue": "disabled",
+    "predictive_driver": "enabled",
+    "predictive_escape": "enabled",
+    "replay_warmup": "2048",
+    "dsac_settings": "{\"actor_learning_rate\": 0.0001, \"automatic_temperature\": false, \"continuous_temperature\": 3e-06, \"critic_layer_norm\": true, \"discrete_temperature\": 3e-06, \"gradient_steps\": 64, \"learning_rate\": 0.0003, \"minibatch_size\": 128, \"multihead_critic\": false, \"recurrent_observation_skip\": true, \"sample_target_action\": true, \"separate_recurrent_encoders\": true, \"target_rate\": 0.005}",
+    "network_decision_budget": "262144",
+    "physical_transition_budget": "33554432",
+    "protocol_revision": "ownership_frontier_01"
+  },
+  "network_decision_budget_per_model": 262144,
+  "primary_training_budget_unit": "network decisions; physical ticks reported separately",
+  "wrapper_sha256": "6bad4a2d51f40e47cfb8e9e9ea8fbbdbf648b4736e0825d5647e618d6385ab2b",
+  "external_objective_unchanged": true,
+  "local_checks_required": true,
+  "agent_count": 4,
+  "final_tests_deferred": false,
+  "driver_forecast": {
+    "standard": 40,
+    "longer_guard": 60,
+    "candidate_holds": [
+      4,
+      12
+    ],
+    "clock_fuel_fatigue_advance": true,
+    "mean_route_distance_cost": 0.5,
+    "planning_traffic_margin": 0.0,
+    "actual_collision_radius_unchanged": true,
+    "short_guard_fallback_when_all_nominal_continuations_fail": true
+  }
+}

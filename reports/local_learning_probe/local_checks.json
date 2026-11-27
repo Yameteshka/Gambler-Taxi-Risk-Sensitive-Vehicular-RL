@@ -1,0 +1,27 @@
+[
+  {
+    "check": "target_regression",
+    "exit_code": 0,
+    "elapsed_seconds": 33.746707696
+  },
+  {
+    "check": "target_regression_normalized",
+    "exit_code": 0,
+    "elapsed_seconds": 35.777021077
+  },
+  {
+    "check": "ppo_resource_learning",
+    "exit_code": 0,
+    "elapsed_seconds": 36.265046103
+  },
+  {
+    "check": "driver_brake",
+    "exit_code": 0,
+    "elapsed_seconds": 26.013526118
+  },
+  {
+    "check": "driver_predictive",
+    "exit_code": 0,
+    "elapsed_seconds": 26.450379462
+  }
+]

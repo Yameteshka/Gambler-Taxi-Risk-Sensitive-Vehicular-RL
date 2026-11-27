@@ -1,0 +1,65 @@
+{
+  "ppo_mlp": {
+    "episodes": 64,
+    "ownership": 0,
+    "observed_completed_actions": {
+      "paid": 119,
+      "missed": 9,
+      "loans": 78,
+      "car_payments": 164,
+      "micro_payments": 51,
+      "spins": 0,
+      "hands": 0,
+      "wins": 0,
+      "losses": 0,
+      "pushes": 0,
+      "sleeps": 0,
+      "meals": 0,
+      "refills": 0,
+      "fees": 0
+    },
+    "scope": "Completed actions by the frozen selected policy."
+  },
+  "ppo_gru": {
+    "episodes": 64,
+    "ownership": 0,
+    "observed_completed_actions": {
+      "paid": 123,
+      "missed": 19,
+      "loans": 24,
+      "car_payments": 84,
+      "micro_payments": 4,
+      "spins": 1,
+      "hands": 0,
+      "wins": 0,
+      "losses": 1,
+      "pushes": 0,
+      "sleeps": 53,
+      "meals": 49,
+      "refills": 1,
+      "fees": 1
+    },
+    "scope": "Completed actions by the frozen selected policy."
+  },
+  "dsac_mlp": {
+    "episodes": 64,
+    "ownership": 0,
+    "observed_completed_actions": {
+      "paid": 24,
+      "missed": 156,
+      "loans": 480,
+      "car_payments": 101,
+      "micro_payments": 456,
+      "spins": 0,
+      "hands": 0,
+      "wins": 0,
+      "losses": 0,
+      "pushes": 0,
+      "sleeps": 2,
+      "meals": 0,
+      "refills": 0,
+      "fees": 0
+    },
+    "scope": "Completed actions by the frozen selected policy."
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "interface": "strategy",
+  "active_physical_steps_replayed": 57056,
+  "active_service_decisions_replayed": 1176,
+  "maximum_logged_float_error": 0.0,
+  "policy_reproduced": true,
+  "checkpoint_sha256": "9b2a150d1543cf4a4728ee792175c73480a4b0ba11019f8f92279852acb1409f",
+  "trace_sha256": {
+    "trace_00000.npz": "10ec0d09e13265c4cc03326a186de61491690a52f8b4edd7707d1460efedb250",
+    "decision_00000.npz": "1350481b51c2db9fdc63b12357d8f45e7cb14462d2b5d4175eabe625015066ba"
+  },
+  "scope": "Full policy-and-controller replay and exact per-loan receipt checks."
+}

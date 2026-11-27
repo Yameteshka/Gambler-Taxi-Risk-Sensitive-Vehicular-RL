@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "resumed_from_decisions": 512,
+  "stopped_at_decisions": 1024,
+  "physical_ticks": 104718,
+  "not_declared_trained": true,
+  "scope": "Engineering smoke only, no promoted weights."
+}

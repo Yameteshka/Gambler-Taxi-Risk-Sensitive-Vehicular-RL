@@ -1,0 +1,42 @@
+[
+  {
+    "tick": 1,
+    "text": "Intention selected: Work."
+  },
+  {
+    "tick": 59,
+    "text": "Shift completed: wages received."
+  },
+  {
+    "tick": 60,
+    "text": "Intention selected: Pay car in full."
+  },
+  {
+    "tick": 158,
+    "text": "Car payment: $275.00."
+  },
+  {
+    "tick": 161,
+    "text": "Intention selected: Work."
+  },
+  {
+    "tick": 240,
+    "text": "Shift completed: wages received."
+  },
+  {
+    "tick": 241,
+    "text": "Intention selected: Car payment 100."
+  },
+  {
+    "tick": 336,
+    "text": "Car payment: $100.00."
+  },
+  {
+    "tick": 339,
+    "text": "Intention selected: Work."
+  },
+  {
+    "tick": 349,
+    "text": "Starvation"
+  }
+]

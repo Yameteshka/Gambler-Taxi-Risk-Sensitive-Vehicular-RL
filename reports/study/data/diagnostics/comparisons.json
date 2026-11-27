@@ -1,0 +1,1128 @@
+{
+  "M01_dsac_minus_ppo": {
+    "status": "complete",
+    "ownership_difference": {
+      "mean_difference": 0.0,
+      "paired_crossed_bootstrap_95ci": [
+        0.0,
+        0.0
+      ],
+      "training_repetitions": 5,
+      "scenarios": 256
+    },
+    "return_difference": {
+      "mean_difference": -0.014069272438064218,
+      "paired_crossed_bootstrap_95ci": [
+        -0.018902192441018997,
+        -0.007147566683997866
+      ],
+      "training_repetitions": 5,
+      "scenarios": 256
+    }
+  },
+  "M02_ppo_gru_minus_mlp": {
+    "status": "complete",
+    "ownership_difference": {
+      "mean_difference": 0.0,
+      "paired_crossed_bootstrap_95ci": [
+        0.0,
+        0.0
+      ],
+      "training_repetitions": 5,
+      "scenarios": 256
+    },
+    "return_difference": {
+      "mean_difference": 0.002782330958871171,
+      "paired_crossed_bootstrap_95ci": [
+        0.00019560246539185755,
+        0.005357161972642642
+      ],
+      "training_repetitions": 5,
+      "scenarios": 256
+    }
+  },
+  "H01_hybrid_dsac_mlp_5d_minus_10d": {
+    "status": "partial",
+    "ownership_difference": {
+      "mean_difference": 0.0,
+      "paired_crossed_bootstrap_95ci": [
+        0.0,
+        0.0
+      ],
+      "training_repetitions": 1,
+      "scenarios": 256
+    },
+    "return_difference": {
+      "mean_difference": -0.02085473370971158,
+      "paired_crossed_bootstrap_95ci": [
+        -0.021490203451685376,
+        -0.0202340485608147
+      ],
+      "training_repetitions": 1,
+      "scenarios": 256
+    }
+  },
+  "H01_hybrid_ppo_mlp_5d_minus_10d": {
+    "status": "partial",
+    "ownership_difference": {
+      "mean_difference": 0.0,
+      "paired_crossed_bootstrap_95ci": [
+        0.0,
+        0.0
+      ],
+      "training_repetitions": 1,
+      "scenarios": 256
+    },
+    "return_difference": {
+      "mean_difference": -0.006791673455154523,
+      "paired_crossed_bootstrap_95ci": [
+        -0.0070566544789471665,
+        -0.006547700663941214
+      ],
+      "training_repetitions": 1,
+      "scenarios": 256
+    }
+  },
+  "H01_hybrid_ppo_gru_5d_minus_10d": {
+    "status": "partial",
+    "ownership_difference": {
+      "mean_difference": 0.0,
+      "paired_crossed_bootstrap_95ci": [
+        0.0,
+        0.0
+      ],
+      "training_repetitions": 1,
+      "scenarios": 256
+    },
+    "return_difference": {
+      "mean_difference": -0.00010220266995020211,
+      "paired_crossed_bootstrap_95ci": [
+        -0.0002917595957114827,
+        3.643567106337286e-05
+      ],
+      "training_repetitions": 1,
+      "scenarios": 256
+    }
+  },
+  "H01_hybrid_dsac_mlp_open_minus_10d": {
+    "status": "pending",
+    "matched_training_repetitions": 0
+  },
+  "H01_hybrid_ppo_mlp_open_minus_10d": {
+    "status": "pending",
+    "matched_training_repetitions": 0
+  },
+  "H01_hybrid_ppo_gru_open_minus_10d": {
+    "status": "pending",
+    "matched_training_repetitions": 0
+  },
+  "T01_treatment_minus_reference": {
+    "status": "pending",
+    "matched_training_repetitions": 0
+  },
+  "T02_treatment_minus_reference": {
+    "status": "pending",
+    "matched_training_repetitions": 0
+  },
+  "T03_treatment_minus_reference": {
+    "status": "pending",
+    "matched_training_repetitions": 0
+  },
+  "T04_treatment_minus_reference": {
+    "status": "pending",
+    "matched_training_repetitions": 0
+  },
+  "T05_treatment_minus_reference": {
+    "status": "pending",
+    "matched_training_repetitions": 0
+  },
+  "T06_treatment_minus_reference": {
+    "status": "pending",
+    "matched_training_repetitions": 0
+  },
+  "T07_treatment_minus_reference": {
+    "status": "pending",
+    "matched_training_repetitions": 0
+  },
+  "T08_treatment_minus_reference": {
+    "status": "pending",
+    "matched_training_repetitions": 0
+  },
+  "T09_treatment_minus_reference": {
+    "status": "pending",
+    "matched_training_repetitions": 0
+  },
+  "T10_treatment_minus_reference": {
+    "status": "pending",
+    "matched_training_repetitions": 0
+  },
+  "T11_treatment_minus_reference": {
+    "status": "pending",
+    "matched_training_repetitions": 0
+  },
+  "X01_mlp": {
+    "status": "pending",
+    "matched_training_repetitions": 0
+  },
+  "X01_gru": {
+    "status": "pending",
+    "matched_training_repetitions": 0
+  },
+  "X02_mlp": {
+    "status": "pending",
+    "matched_training_repetitions": 0
+  },
+  "X02_gru": {
+    "status": "pending",
+    "matched_training_repetitions": 0
+  },
+  "X03_accelerated_minus_standard_calendar": {
+    "status": "pending",
+    "matched_training_repetitions": 0
+  },
+  "frozen_hybrid_dsac_mlp_weakened_control": {
+    "status": "complete",
+    "ownership_difference": {
+      "mean_difference": 0.0,
+      "paired_crossed_bootstrap_95ci": [
+        0.0,
+        0.0
+      ],
+      "training_repetitions": 5,
+      "scenarios": 256
+    },
+    "return_difference": {
+      "mean_difference": -1.5266030095517637e-05,
+      "paired_crossed_bootstrap_95ci": [
+        -0.00016016102978028357,
+        0.00018630374324857252
+      ],
+      "training_repetitions": 5,
+      "scenarios": 256
+    }
+  },
+  "frozen_hybrid_dsac_mlp_actuation_noise": {
+    "status": "complete",
+    "ownership_difference": {
+      "mean_difference": 0.0,
+      "paired_crossed_bootstrap_95ci": [
+        0.0,
+        0.0
+      ],
+      "training_repetitions": 5,
+      "scenarios": 256
+    },
+    "return_difference": {
+      "mean_difference": -0.0008947191410697997,
+      "paired_crossed_bootstrap_95ci": [
+        -0.002749283986049704,
+        0.00012363595276838164
+      ],
+      "training_repetitions": 5,
+      "scenarios": 256
+    }
+  },
+  "frozen_hybrid_dsac_mlp_driving_guard": {
+    "status": "complete",
+    "ownership_difference": {
+      "mean_difference": 0.0,
+      "paired_crossed_bootstrap_95ci": [
+        0.0,
+        0.0
+      ],
+      "training_repetitions": 5,
+      "scenarios": 256
+    },
+    "return_difference": {
+      "mean_difference": -0.0001015172281768173,
+      "paired_crossed_bootstrap_95ci": [
+        -0.0002734053463791497,
+        5.3566625865641866e-05
+      ],
+      "training_repetitions": 5,
+      "scenarios": 256
+    }
+  },
+  "frozen_hybrid_dsac_mlp_low_fuel": {
+    "status": "complete",
+    "ownership_difference": {
+      "mean_difference": 0.0,
+      "paired_crossed_bootstrap_95ci": [
+        0.0,
+        0.0
+      ],
+      "training_repetitions": 5,
+      "scenarios": 256
+    },
+    "return_difference": {
+      "mean_difference": -0.002974071161588654,
+      "paired_crossed_bootstrap_95ci": [
+        -0.00840455264245975,
+        -1.6409282834501955e-05
+      ],
+      "training_repetitions": 5,
+      "scenarios": 256
+    }
+  },
+  "frozen_hybrid_dsac_mlp_low_satiety": {
+    "status": "complete",
+    "ownership_difference": {
+      "mean_difference": 0.0,
+      "paired_crossed_bootstrap_95ci": [
+        0.0,
+        0.0
+      ],
+      "training_repetitions": 5,
+      "scenarios": 256
+    },
+    "return_difference": {
+      "mean_difference": -0.0023778664588462563,
+      "paired_crossed_bootstrap_95ci": [
+        -0.007793673294509062,
+        0.00044894531165482463
+      ],
+      "training_repetitions": 5,
+      "scenarios": 256
+    }
+  },
+  "frozen_hybrid_dsac_mlp_low_liquidity": {
+    "status": "complete",
+    "ownership_difference": {
+      "mean_difference": 0.0,
+      "paired_crossed_bootstrap_95ci": [
+        0.0,
+        0.0
+      ],
+      "training_repetitions": 5,
+      "scenarios": 256
+    },
+    "return_difference": {
+      "mean_difference": -0.000296852586325258,
+      "paired_crossed_bootstrap_95ci": [
+        -0.0012101912913203706,
+        0.0003029275663720905
+      ],
+      "training_repetitions": 5,
+      "scenarios": 256
+    }
+  },
+  "frozen_hybrid_dsac_mlp_low_income": {
+    "status": "complete",
+    "ownership_difference": {
+      "mean_difference": 0.0,
+      "paired_crossed_bootstrap_95ci": [
+        0.0,
+        0.0
+      ],
+      "training_repetitions": 5,
+      "scenarios": 256
+    },
+    "return_difference": {
+      "mean_difference": -0.002081018075114116,
+      "paired_crossed_bootstrap_95ci": [
+        -0.004938854452193482,
+        -0.000245861551957205
+      ],
+      "training_repetitions": 5,
+      "scenarios": 256
+    }
+  },
+  "frozen_hybrid_dsac_mlp_fuel_price_shock": {
+    "status": "complete",
+    "ownership_difference": {
+      "mean_difference": 0.0,
+      "paired_crossed_bootstrap_95ci": [
+        0.0,
+        0.0
+      ],
+      "training_repetitions": 5,
+      "scenarios": 256
+    },
+    "return_difference": {
+      "mean_difference": 6.234296597540378e-06,
+      "paired_crossed_bootstrap_95ci": [
+        -5.699230372556485e-05,
+        8.920349413529039e-05
+      ],
+      "training_repetitions": 5,
+      "scenarios": 256
+    }
+  },
+  "frozen_hybrid_dsac_mlp_personal_debt_start": {
+    "status": "complete",
+    "ownership_difference": {
+      "mean_difference": 0.0,
+      "paired_crossed_bootstrap_95ci": [
+        0.0,
+        0.0
+      ],
+      "training_repetitions": 5,
+      "scenarios": 256
+    },
+    "return_difference": {
+      "mean_difference": -0.00472284207935445,
+      "paired_crossed_bootstrap_95ci": [
+        -0.011551985713740578,
+        -6.189918174641222e-05
+      ],
+      "training_repetitions": 5,
+      "scenarios": 256
+    }
+  },
+  "frozen_hybrid_dsac_mlp_adverse_combination": {
+    "status": "complete",
+    "ownership_difference": {
+      "mean_difference": 0.0,
+      "paired_crossed_bootstrap_95ci": [
+        0.0,
+        0.0
+      ],
+      "training_repetitions": 5,
+      "scenarios": 256
+    },
+    "return_difference": {
+      "mean_difference": -0.005568893818417564,
+      "paired_crossed_bootstrap_95ci": [
+        -0.013583867731213103,
+        -0.00048255208952468836
+      ],
+      "training_repetitions": 5,
+      "scenarios": 256
+    }
+  },
+  "frozen_hybrid_dsac_mlp_meal_mean_only": {
+    "status": "complete",
+    "ownership_difference": {
+      "mean_difference": 0.0,
+      "paired_crossed_bootstrap_95ci": [
+        0.0,
+        0.0
+      ],
+      "training_repetitions": 5,
+      "scenarios": 256
+    },
+    "return_difference": {
+      "mean_difference": -4.02034493163228e-07,
+      "paired_crossed_bootstrap_95ci": [
+        -2.394578332314268e-06,
+        4.1220046114176464e-08
+      ],
+      "training_repetitions": 5,
+      "scenarios": 256
+    }
+  },
+  "frozen_hybrid_dsac_mlp_meal_high_variance": {
+    "status": "complete",
+    "ownership_difference": {
+      "mean_difference": 0.0,
+      "paired_crossed_bootstrap_95ci": [
+        0.0,
+        0.0
+      ],
+      "training_repetitions": 5,
+      "scenarios": 256
+    },
+    "return_difference": {
+      "mean_difference": 1.6272533684968948e-07,
+      "paired_crossed_bootstrap_95ci": [
+        -7.888302206993103e-08,
+        9.228760609403236e-07
+      ],
+      "training_repetitions": 5,
+      "scenarios": 256
+    }
+  },
+  "frozen_hybrid_dsac_mlp_food_site_identity_swap": {
+    "status": "complete",
+    "ownership_difference": {
+      "mean_difference": 0.0,
+      "paired_crossed_bootstrap_95ci": [
+        0.0,
+        0.0
+      ],
+      "training_repetitions": 5,
+      "scenarios": 256
+    },
+    "return_difference": {
+      "mean_difference": 7.117307395674289e-05,
+      "paired_crossed_bootstrap_95ci": [
+        -4.536653868854046e-06,
+        0.00015665516577428193
+      ],
+      "training_repetitions": 5,
+      "scenarios": 256
+    }
+  },
+  "frozen_hybrid_dsac_mlp_5d": {
+    "status": "complete",
+    "ownership_difference": {
+      "mean_difference": 0.0,
+      "paired_crossed_bootstrap_95ci": [
+        0.0,
+        0.0
+      ],
+      "training_repetitions": 5,
+      "scenarios": 256
+    },
+    "return_difference": {
+      "mean_difference": -7.66669400036335e-06,
+      "paired_crossed_bootstrap_95ci": [
+        -8.597506806836463e-05,
+        6.445587059715762e-05
+      ],
+      "training_repetitions": 5,
+      "scenarios": 256
+    }
+  },
+  "frozen_hybrid_dsac_mlp_open": {
+    "status": "complete",
+    "ownership_difference": {
+      "mean_difference": 0.0,
+      "paired_crossed_bootstrap_95ci": [
+        0.0,
+        0.0
+      ],
+      "training_repetitions": 5,
+      "scenarios": 256
+    },
+    "return_difference": {
+      "mean_difference": 1.0329188080504537e-05,
+      "paired_crossed_bootstrap_95ci": [
+        -3.609837498515844e-05,
+        5.8623448712751266e-05
+      ],
+      "training_repetitions": 5,
+      "scenarios": 256
+    }
+  },
+  "frozen_hybrid_ppo_mlp_weakened_control": {
+    "status": "complete",
+    "ownership_difference": {
+      "mean_difference": 0.0,
+      "paired_crossed_bootstrap_95ci": [
+        0.0,
+        0.0
+      ],
+      "training_repetitions": 5,
+      "scenarios": 256
+    },
+    "return_difference": {
+      "mean_difference": 4.436915041878819e-05,
+      "paired_crossed_bootstrap_95ci": [
+        -9.82629093050491e-05,
+        0.00020722794564790093
+      ],
+      "training_repetitions": 5,
+      "scenarios": 256
+    }
+  },
+  "frozen_hybrid_ppo_mlp_actuation_noise": {
+    "status": "complete",
+    "ownership_difference": {
+      "mean_difference": 0.0,
+      "paired_crossed_bootstrap_95ci": [
+        0.0,
+        0.0
+      ],
+      "training_repetitions": 5,
+      "scenarios": 256
+    },
+    "return_difference": {
+      "mean_difference": -0.0023941742780152707,
+      "paired_crossed_bootstrap_95ci": [
+        -0.004216335529490607,
+        -0.000596286425861763
+      ],
+      "training_repetitions": 5,
+      "scenarios": 256
+    }
+  },
+  "frozen_hybrid_ppo_mlp_driving_guard": {
+    "status": "complete",
+    "ownership_difference": {
+      "mean_difference": 0.0,
+      "paired_crossed_bootstrap_95ci": [
+        0.0,
+        0.0
+      ],
+      "training_repetitions": 5,
+      "scenarios": 256
+    },
+    "return_difference": {
+      "mean_difference": 5.6310673244297504e-06,
+      "paired_crossed_bootstrap_95ci": [
+        -4.831430269405246e-06,
+        2.8290654445299858e-05
+      ],
+      "training_repetitions": 5,
+      "scenarios": 256
+    }
+  },
+  "frozen_hybrid_ppo_mlp_low_fuel": {
+    "status": "complete",
+    "ownership_difference": {
+      "mean_difference": 0.0,
+      "paired_crossed_bootstrap_95ci": [
+        0.0,
+        0.0
+      ],
+      "training_repetitions": 5,
+      "scenarios": 256
+    },
+    "return_difference": {
+      "mean_difference": -0.011439331178553402,
+      "paired_crossed_bootstrap_95ci": [
+        -0.014168280230951496,
+        -0.008733739871095167
+      ],
+      "training_repetitions": 5,
+      "scenarios": 256
+    }
+  },
+  "frozen_hybrid_ppo_mlp_low_satiety": {
+    "status": "complete",
+    "ownership_difference": {
+      "mean_difference": 0.0,
+      "paired_crossed_bootstrap_95ci": [
+        0.0,
+        0.0
+      ],
+      "training_repetitions": 5,
+      "scenarios": 256
+    },
+    "return_difference": {
+      "mean_difference": -0.010626049170969053,
+      "paired_crossed_bootstrap_95ci": [
+        -0.013478122518572491,
+        -0.007818336938362338
+      ],
+      "training_repetitions": 5,
+      "scenarios": 256
+    }
+  },
+  "frozen_hybrid_ppo_mlp_low_liquidity": {
+    "status": "complete",
+    "ownership_difference": {
+      "mean_difference": 0.0,
+      "paired_crossed_bootstrap_95ci": [
+        0.0,
+        0.0
+      ],
+      "training_repetitions": 5,
+      "scenarios": 256
+    },
+    "return_difference": {
+      "mean_difference": -2.449157182127237e-06,
+      "paired_crossed_bootstrap_95ci": [
+        -6.697794204228557e-05,
+        6.891234457725652e-05
+      ],
+      "training_repetitions": 5,
+      "scenarios": 256
+    }
+  },
+  "frozen_hybrid_ppo_mlp_low_income": {
+    "status": "complete",
+    "ownership_difference": {
+      "mean_difference": 0.0,
+      "paired_crossed_bootstrap_95ci": [
+        0.0,
+        0.0
+      ],
+      "training_repetitions": 5,
+      "scenarios": 256
+    },
+    "return_difference": {
+      "mean_difference": -0.006822910759365186,
+      "paired_crossed_bootstrap_95ci": [
+        -0.007821419051761041,
+        -0.005846736898383825
+      ],
+      "training_repetitions": 5,
+      "scenarios": 256
+    }
+  },
+  "frozen_hybrid_ppo_mlp_fuel_price_shock": {
+    "status": "complete",
+    "ownership_difference": {
+      "mean_difference": 0.0,
+      "paired_crossed_bootstrap_95ci": [
+        0.0,
+        0.0
+      ],
+      "training_repetitions": 5,
+      "scenarios": 256
+    },
+    "return_difference": {
+      "mean_difference": 1.9247038289904593e-05,
+      "paired_crossed_bootstrap_95ci": [
+        -1.937731678481214e-05,
+        6.322305634967045e-05
+      ],
+      "training_repetitions": 5,
+      "scenarios": 256
+    }
+  },
+  "frozen_hybrid_ppo_mlp_personal_debt_start": {
+    "status": "complete",
+    "ownership_difference": {
+      "mean_difference": 0.0,
+      "paired_crossed_bootstrap_95ci": [
+        0.0,
+        0.0
+      ],
+      "training_repetitions": 5,
+      "scenarios": 256
+    },
+    "return_difference": {
+      "mean_difference": -0.0012895290972664952,
+      "paired_crossed_bootstrap_95ci": [
+        -0.002097043024841696,
+        -0.0006585813492711171
+      ],
+      "training_repetitions": 5,
+      "scenarios": 256
+    }
+  },
+  "frozen_hybrid_ppo_mlp_adverse_combination": {
+    "status": "complete",
+    "ownership_difference": {
+      "mean_difference": 0.0,
+      "paired_crossed_bootstrap_95ci": [
+        0.0,
+        0.0
+      ],
+      "training_repetitions": 5,
+      "scenarios": 256
+    },
+    "return_difference": {
+      "mean_difference": -0.019203554635168985,
+      "paired_crossed_bootstrap_95ci": [
+        -0.02200457279352122,
+        -0.016470621900371046
+      ],
+      "training_repetitions": 5,
+      "scenarios": 256
+    }
+  },
+  "frozen_hybrid_ppo_mlp_meal_mean_only": {
+    "status": "complete",
+    "ownership_difference": {
+      "mean_difference": 0.0,
+      "paired_crossed_bootstrap_95ci": [
+        0.0,
+        0.0
+      ],
+      "training_repetitions": 5,
+      "scenarios": 256
+    },
+    "return_difference": {
+      "mean_difference": 0.0,
+      "paired_crossed_bootstrap_95ci": [
+        0.0,
+        0.0
+      ],
+      "training_repetitions": 5,
+      "scenarios": 256
+    }
+  },
+  "frozen_hybrid_ppo_mlp_meal_high_variance": {
+    "status": "complete",
+    "ownership_difference": {
+      "mean_difference": 0.0,
+      "paired_crossed_bootstrap_95ci": [
+        0.0,
+        0.0
+      ],
+      "training_repetitions": 5,
+      "scenarios": 256
+    },
+    "return_difference": {
+      "mean_difference": 0.0,
+      "paired_crossed_bootstrap_95ci": [
+        0.0,
+        0.0
+      ],
+      "training_repetitions": 5,
+      "scenarios": 256
+    }
+  },
+  "frozen_hybrid_ppo_mlp_food_site_identity_swap": {
+    "status": "complete",
+    "ownership_difference": {
+      "mean_difference": 0.0,
+      "paired_crossed_bootstrap_95ci": [
+        0.0,
+        0.0
+      ],
+      "training_repetitions": 5,
+      "scenarios": 256
+    },
+    "return_difference": {
+      "mean_difference": 1.0068051051348447e-05,
+      "paired_crossed_bootstrap_95ci": [
+        -4.1738879954209554e-05,
+        7.139816705603152e-05
+      ],
+      "training_repetitions": 5,
+      "scenarios": 256
+    }
+  },
+  "frozen_hybrid_ppo_mlp_5d": {
+    "status": "complete",
+    "ownership_difference": {
+      "mean_difference": 0.0,
+      "paired_crossed_bootstrap_95ci": [
+        0.0,
+        0.0
+      ],
+      "training_repetitions": 5,
+      "scenarios": 256
+    },
+    "return_difference": {
+      "mean_difference": -4.653268260881305e-05,
+      "paired_crossed_bootstrap_95ci": [
+        -0.0001403859794663731,
+        8.886526047717758e-06
+      ],
+      "training_repetitions": 5,
+      "scenarios": 256
+    }
+  },
+  "frozen_hybrid_ppo_mlp_open": {
+    "status": "complete",
+    "ownership_difference": {
+      "mean_difference": 0.0,
+      "paired_crossed_bootstrap_95ci": [
+        0.0,
+        0.0
+      ],
+      "training_repetitions": 5,
+      "scenarios": 256
+    },
+    "return_difference": {
+      "mean_difference": -1.928427373059094e-05,
+      "paired_crossed_bootstrap_95ci": [
+        -7.009304536040872e-05,
+        2.1629216789733604e-05
+      ],
+      "training_repetitions": 5,
+      "scenarios": 256
+    }
+  },
+  "frozen_hybrid_ppo_gru_weakened_control": {
+    "status": "complete",
+    "ownership_difference": {
+      "mean_difference": 0.0,
+      "paired_crossed_bootstrap_95ci": [
+        0.0,
+        0.0
+      ],
+      "training_repetitions": 5,
+      "scenarios": 256
+    },
+    "return_difference": {
+      "mean_difference": -7.728171767666936e-05,
+      "paired_crossed_bootstrap_95ci": [
+        -0.0002683239377802238,
+        4.9947265943046645e-05
+      ],
+      "training_repetitions": 5,
+      "scenarios": 256
+    }
+  },
+  "frozen_hybrid_ppo_gru_actuation_noise": {
+    "status": "complete",
+    "ownership_difference": {
+      "mean_difference": 0.0,
+      "paired_crossed_bootstrap_95ci": [
+        0.0,
+        0.0
+      ],
+      "training_repetitions": 5,
+      "scenarios": 256
+    },
+    "return_difference": {
+      "mean_difference": -0.004113366885576397,
+      "paired_crossed_bootstrap_95ci": [
+        -0.005215544761304046,
+        -0.0024477663860307075
+      ],
+      "training_repetitions": 5,
+      "scenarios": 256
+    }
+  },
+  "frozen_hybrid_ppo_gru_driving_guard": {
+    "status": "complete",
+    "ownership_difference": {
+      "mean_difference": 0.0,
+      "paired_crossed_bootstrap_95ci": [
+        0.0,
+        0.0
+      ],
+      "training_repetitions": 5,
+      "scenarios": 256
+    },
+    "return_difference": {
+      "mean_difference": 5.459028761833906e-06,
+      "paired_crossed_bootstrap_95ci": [
+        -2.2492837160825728e-07,
+        3.10114020248875e-05
+      ],
+      "training_repetitions": 5,
+      "scenarios": 256
+    }
+  },
+  "frozen_hybrid_ppo_gru_low_fuel": {
+    "status": "complete",
+    "ownership_difference": {
+      "mean_difference": 0.0,
+      "paired_crossed_bootstrap_95ci": [
+        0.0,
+        0.0
+      ],
+      "training_repetitions": 5,
+      "scenarios": 256
+    },
+    "return_difference": {
+      "mean_difference": -0.014157917740521952,
+      "paired_crossed_bootstrap_95ci": [
+        -0.014518028734164546,
+        -0.013757764880429022
+      ],
+      "training_repetitions": 5,
+      "scenarios": 256
+    }
+  },
+  "frozen_hybrid_ppo_gru_low_satiety": {
+    "status": "complete",
+    "ownership_difference": {
+      "mean_difference": 0.0,
+      "paired_crossed_bootstrap_95ci": [
+        0.0,
+        0.0
+      ],
+      "training_repetitions": 5,
+      "scenarios": 256
+    },
+    "return_difference": {
+      "mean_difference": -0.013425413897493854,
+      "paired_crossed_bootstrap_95ci": [
+        -0.013757255888485816,
+        -0.013065064249240095
+      ],
+      "training_repetitions": 5,
+      "scenarios": 256
+    }
+  },
+  "frozen_hybrid_ppo_gru_low_liquidity": {
+    "status": "complete",
+    "ownership_difference": {
+      "mean_difference": 0.0,
+      "paired_crossed_bootstrap_95ci": [
+        0.0,
+        0.0
+      ],
+      "training_repetitions": 5,
+      "scenarios": 256
+    },
+    "return_difference": {
+      "mean_difference": 1.0344648035243154e-05,
+      "paired_crossed_bootstrap_95ci": [
+        -5.7695964787853885e-05,
+        9.341775221400889e-05
+      ],
+      "training_repetitions": 5,
+      "scenarios": 256
+    }
+  },
+  "frozen_hybrid_ppo_gru_low_income": {
+    "status": "complete",
+    "ownership_difference": {
+      "mean_difference": 0.0,
+      "paired_crossed_bootstrap_95ci": [
+        0.0,
+        0.0
+      ],
+      "training_repetitions": 5,
+      "scenarios": 256
+    },
+    "return_difference": {
+      "mean_difference": -0.007775542809395119,
+      "paired_crossed_bootstrap_95ci": [
+        -0.007949129489134066,
+        -0.007588413006596966
+      ],
+      "training_repetitions": 5,
+      "scenarios": 256
+    }
+  },
+  "frozen_hybrid_ppo_gru_fuel_price_shock": {
+    "status": "complete",
+    "ownership_difference": {
+      "mean_difference": 0.0,
+      "paired_crossed_bootstrap_95ci": [
+        0.0,
+        0.0
+      ],
+      "training_repetitions": 5,
+      "scenarios": 256
+    },
+    "return_difference": {
+      "mean_difference": -6.748997839167714e-06,
+      "paired_crossed_bootstrap_95ci": [
+        -3.953272869694046e-05,
+        -5.83604560233657e-09
+      ],
+      "training_repetitions": 5,
+      "scenarios": 256
+    }
+  },
+  "frozen_hybrid_ppo_gru_personal_debt_start": {
+    "status": "complete",
+    "ownership_difference": {
+      "mean_difference": 0.0,
+      "paired_crossed_bootstrap_95ci": [
+        0.0,
+        0.0
+      ],
+      "training_repetitions": 5,
+      "scenarios": 256
+    },
+    "return_difference": {
+      "mean_difference": -0.0007499377708882094,
+      "paired_crossed_bootstrap_95ci": [
+        -0.0014255646507081111,
+        -0.0003388616751180962
+      ],
+      "training_repetitions": 5,
+      "scenarios": 256
+    }
+  },
+  "frozen_hybrid_ppo_gru_adverse_combination": {
+    "status": "complete",
+    "ownership_difference": {
+      "mean_difference": 0.0,
+      "paired_crossed_bootstrap_95ci": [
+        0.0,
+        0.0
+      ],
+      "training_repetitions": 5,
+      "scenarios": 256
+    },
+    "return_difference": {
+      "mean_difference": -0.02198916281340644,
+      "paired_crossed_bootstrap_95ci": [
+        -0.022448285000282342,
+        -0.021493378023296827
+      ],
+      "training_repetitions": 5,
+      "scenarios": 256
+    }
+  },
+  "frozen_hybrid_ppo_gru_meal_mean_only": {
+    "status": "complete",
+    "ownership_difference": {
+      "mean_difference": 0.0,
+      "paired_crossed_bootstrap_95ci": [
+        0.0,
+        0.0
+      ],
+      "training_repetitions": 5,
+      "scenarios": 256
+    },
+    "return_difference": {
+      "mean_difference": 0.0,
+      "paired_crossed_bootstrap_95ci": [
+        0.0,
+        0.0
+      ],
+      "training_repetitions": 5,
+      "scenarios": 256
+    }
+  },
+  "frozen_hybrid_ppo_gru_meal_high_variance": {
+    "status": "complete",
+    "ownership_difference": {
+      "mean_difference": 0.0,
+      "paired_crossed_bootstrap_95ci": [
+        0.0,
+        0.0
+      ],
+      "training_repetitions": 5,
+      "scenarios": 256
+    },
+    "return_difference": {
+      "mean_difference": 0.0,
+      "paired_crossed_bootstrap_95ci": [
+        0.0,
+        0.0
+      ],
+      "training_repetitions": 5,
+      "scenarios": 256
+    }
+  },
+  "frozen_hybrid_ppo_gru_food_site_identity_swap": {
+    "status": "complete",
+    "ownership_difference": {
+      "mean_difference": 0.0,
+      "paired_crossed_bootstrap_95ci": [
+        0.0,
+        0.0
+      ],
+      "training_repetitions": 5,
+      "scenarios": 256
+    },
+    "return_difference": {
+      "mean_difference": 5.627225618809462e-07,
+      "paired_crossed_bootstrap_95ci": [
+        -2.601301821414381e-07,
+        2.6821759820450056e-06
+      ],
+      "training_repetitions": 5,
+      "scenarios": 256
+    }
+  },
+  "frozen_hybrid_ppo_gru_5d": {
+    "status": "complete",
+    "ownership_difference": {
+      "mean_difference": 0.0,
+      "paired_crossed_bootstrap_95ci": [
+        0.0,
+        0.0
+      ],
+      "training_repetitions": 5,
+      "scenarios": 256
+    },
+    "return_difference": {
+      "mean_difference": 9.046576451510191e-07,
+      "paired_crossed_bootstrap_95ci": [
+        2.693268470466137e-08,
+        3.059171140193935e-06
+      ],
+      "training_repetitions": 5,
+      "scenarios": 256
+    }
+  },
+  "frozen_hybrid_ppo_gru_open": {
+    "status": "complete",
+    "ownership_difference": {
+      "mean_difference": 0.0,
+      "paired_crossed_bootstrap_95ci": [
+        0.0,
+        0.0
+      ],
+      "training_repetitions": 5,
+      "scenarios": 256
+    },
+    "return_difference": {
+      "mean_difference": -1.1497584637254477e-06,
+      "paired_crossed_bootstrap_95ci": [
+        -2.6568458997644485e-05,
+        2.15474161086604e-05
+      ],
+      "training_repetitions": 5,
+      "scenarios": 256
+    }
+  }
+}

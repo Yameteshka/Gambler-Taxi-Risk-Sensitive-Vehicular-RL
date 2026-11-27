@@ -1,0 +1,59 @@
+{
+  "test": "test2_stacked",
+  "passed": false,
+  "updates": 5000,
+  "initial_alpha_discrete": 0.05,
+  "final_alpha_discrete": 0.020760148763656616,
+  "fixed_replay_decisions": 10240,
+  "target_entropy_fraction": 0.2,
+  "initial": [
+    {
+      "context": "low_fuel",
+      "entropy": 0.0030772036407142878,
+      "minimum_max_probability": 0.9996576905250549,
+      "median_max_probability": 0.9996842741966248
+    },
+    {
+      "context": "bank",
+      "entropy": 0.0017886462155729532,
+      "minimum_max_probability": 0.9998125433921814,
+      "median_max_probability": 0.9998281002044678
+    }
+  ],
+  "final": [
+    {
+      "context": "low_fuel",
+      "entropy": 0.051436878740787506,
+      "minimum_max_probability": 0.9911825656890869,
+      "median_max_probability": 0.9916044473648071
+    },
+    {
+      "context": "bank",
+      "entropy": 1.143742322921753,
+      "minimum_max_probability": 0.633967399597168,
+      "median_max_probability": 0.6439543962478638
+    }
+  ],
+  "first_curriculum_stage": {
+    "wins": 16,
+    "starvation": 0,
+    "meals_per_episode": 0.0,
+    "refills_per_episode": 0.0,
+    "terminal_at_zero_fuel": 0
+  },
+  "food_prerequisite": {
+    "wins": 0,
+    "starvation": 16,
+    "meals_per_episode": 2.25,
+    "refills_per_episode": 0.0,
+    "terminal_at_zero_fuel": 0
+  },
+  "standard": {
+    "wins": 0,
+    "starvation": 16,
+    "meals_per_episode": 0.0,
+    "refills_per_episode": 0.0,
+    "terminal_at_zero_fuel": 0
+  },
+  "scope": "Warm fork adapted to 370 features with real two-frame observations and fresh optimizer states."
+}

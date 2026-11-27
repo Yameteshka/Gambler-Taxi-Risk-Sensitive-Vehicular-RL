@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "devices": [
+    "cuda:0"
+  ],
+  "active_physical_steps": 34346,
+  "feature_count": 194,
+  "actor_parameter_change": 0.009485815651714802,
+  "losses": [
+    0.006860437802970409,
+    -7.473229197785258e-05,
+    0.000599999912083149,
+    0.001199999824166298,
+    -0.165432408452034,
+    2.779270887374878
+  ],
+  "scope": "One real collection and parameter update; no evidence of improved task learning."
+}

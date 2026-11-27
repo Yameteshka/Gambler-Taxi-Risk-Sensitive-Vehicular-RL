@@ -1,0 +1,30 @@
+{
+  "passed": true,
+  "interface": "strategy",
+  "active_physical_steps_replayed": 183623,
+  "active_service_decisions_replayed": 5295,
+  "maximum_logged_float_error": 0.0,
+  "policy_reproduced": true,
+  "checkpoint_sha256": "9b2a150d1543cf4a4728ee792175c73480a4b0ba11019f8f92279852acb1409f",
+  "trace_sha256": {
+    "trace_00000.npz": "9c88d65038d4cc917dde168524b46eb97f94d7909bc33250e0f65fa9e1bb2420",
+    "decision_00000.npz": "272dcc4a5c4b296246f1c4fe12a0599d78b05d1fcfb18957b48bafb5c14fd538",
+    "trace_00001.npz": "6c36d24045f0ffd2b70ed1d0ffa59f833617836c25839976304ed09678a4d057",
+    "decision_00001.npz": "20840fd12b31f5e06323ef2736002334fd71ceeef8f9abb6eb95e228d8a139df",
+    "trace_00002.npz": "4d37c43ff9f97d2e1841d0cbd2771220b2cd86c42940714c351a0136712504a1",
+    "decision_00002.npz": "e84b42bcfc4b555c3be13dadcc3c079011c74d00924f3aa1800af8c98f6a4833",
+    "trace_00003.npz": "f4f3a5edbe72d109c2f478b78d740a371fdb54e5b2d4c9cf530db7c2ffe2b1a1",
+    "decision_00003.npz": "7062a6b89616bf8ba84bfbb8234501f8e861fd24c6e9019ff3f470f22f234b96",
+    "trace_00004.npz": "69ac49948dc58a48f4b1407eecf6011c843728f88020f3bbc90a98e31d3d39b9",
+    "decision_00004.npz": "1b079c7435c3c30208be6cbf8906e4c69d4fe66d94755a44cb40e485b7c74d81",
+    "trace_00005.npz": "a6b8de3f6b54f209c41b8323f92518ed08c42dbacb54b6347b844ddf8ab5543a",
+    "decision_00005.npz": "bc7dfbf4eed3d3173db854260cc3cb8337f42abf8a052a99a3341d779d9b999e",
+    "trace_00006.npz": "ab64103fa10e5b9ceae50834459f1935748084cf18472a4e99c398d601a7ffd1",
+    "decision_00006.npz": "f019bc5fc5b9903fa28bdf74cc6bc705f730d893802120448a9201f91104b201",
+    "trace_00007.npz": "e36220e4f9ed3f5160d94f19eb88eab80b322485b8d00d60098ecd8b92105caa",
+    "decision_00007.npz": "b037fab1e02cc10f7cda39f8195bcafad981558cc67bfbb24a15f69b09184923",
+    "trace_00008.npz": "584d6ffc8830381eef054f5e064110b31f3dc1da9cb42de67c48839aa15ac1e8",
+    "decision_00008.npz": "a368588a9de36f5a5ddedb44cb986fa165fc48053be1322ef0e6bb74fccbc9c2"
+  },
+  "scope": "Full policy-and-controller replay and exact per-loan receipt checks."
+}

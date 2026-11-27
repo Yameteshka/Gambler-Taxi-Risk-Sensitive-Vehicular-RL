@@ -1,0 +1,27 @@
+[
+  {
+    "script": "check_driver_forecast.py",
+    "exit_code": 0,
+    "elapsed_seconds": 58.358528354
+  },
+  {
+    "script": "check_ownership_curriculum.py",
+    "exit_code": 0,
+    "elapsed_seconds": 94.28970786300002
+  },
+  {
+    "script": "driver_departure_probe.py",
+    "exit_code": 0,
+    "elapsed_seconds": 70.06204771
+  },
+  {
+    "script": "all_routes_probe.py",
+    "exit_code": 0,
+    "elapsed_seconds": 32.66131036600001
+  },
+  {
+    "script": "check_dsac_targets.py",
+    "exit_code": 0,
+    "elapsed_seconds": 39.21607650100003
+  }
+]

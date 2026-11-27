@@ -1,0 +1,13 @@
+{
+  "test": "test4",
+  "passed": true,
+  "standard_starts": 28,
+  "reset_sample_size": 100,
+  "collector_starts_seen": 106,
+  "collector_network_decisions": 512,
+  "bitwise_equal": true,
+  "wins": [
+    59,
+    59
+  ]
+}

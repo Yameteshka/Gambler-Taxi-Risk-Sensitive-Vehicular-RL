@@ -1,0 +1,29 @@
+{
+  "date": "2026-11-23",
+  "policy": "DSAC GRU",
+  "inference": "sampled",
+  "development_scenarios": [
+    1000001,
+    1000064
+  ],
+  "episode_count": 64,
+  "ownership": 60,
+  "starvation": 4,
+  "summary_matches_archive": true,
+  "endpoint_arrays_match_archive": [
+    "car_debt",
+    "cash",
+    "counters",
+    "external_return",
+    "loan_balance",
+    "loan_ids",
+    "loan_opened",
+    "loan_principal",
+    "loan_rates",
+    "micro_debt",
+    "outcome",
+    "scenario_id",
+    "time"
+  ],
+  "frozen_source_sha256": "51522110a4927e843cbc1e3809b5f58418c2891440b0e17f1cf0ccb7736b33e3"
+}

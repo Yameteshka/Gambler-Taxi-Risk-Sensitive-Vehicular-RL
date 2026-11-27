@@ -1,0 +1,46 @@
+{
+  "driver": "predictive",
+  "routes": 90,
+  "arrivals": 90,
+  "collisions": 0,
+  "elapsed_seconds": 4.133194118000006,
+  "by_pair": {
+    "Bank -> Work": {
+      "arrivals": 10,
+      "collisions": 0
+    },
+    "Work -> Bank": {
+      "arrivals": 10,
+      "collisions": 0
+    },
+    "Bank -> Garage": {
+      "arrivals": 10,
+      "collisions": 0
+    },
+    "Home -> Work": {
+      "arrivals": 10,
+      "collisions": 0
+    },
+    "Home -> Restaurant": {
+      "arrivals": 10,
+      "collisions": 0
+    },
+    "Restaurant -> Work": {
+      "arrivals": 10,
+      "collisions": 0
+    },
+    "Home -> Fuel station": {
+      "arrivals": 10,
+      "collisions": 0
+    },
+    "Fuel station -> Work": {
+      "arrivals": 10,
+      "collisions": 0
+    },
+    "Restaurant -> Bank": {
+      "arrivals": 10,
+      "collisions": 0
+    }
+  },
+  "scope": "90 matched development routes, fixed initial heading. Not a full-game success rate."
+}
