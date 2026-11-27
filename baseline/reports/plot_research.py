@@ -1,4 +1,4 @@
-"""Generate the workshop figures from the saved test results and trajectory logs."""
+"""Generate the figures from the saved test results and trajectory logs."""
 
 import json
 from pathlib import Path

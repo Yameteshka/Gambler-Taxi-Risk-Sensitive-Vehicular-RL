@@ -1,7 +1,6 @@
 # Assignment 2: Learning and Evaluation
 
 Iuliia Kurnaeva  
-2026-11-19 04:08 UTC
 
 ## Experimental setup
 

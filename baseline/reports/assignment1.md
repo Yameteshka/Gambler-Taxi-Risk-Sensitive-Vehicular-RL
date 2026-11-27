@@ -1,7 +1,6 @@
 # Assignment 1: Gambler’s Taxi Environment
 
 Iuliia Kurnaeva  
-14 November 2026
 
 ## 1. Vehicle dynamics, state, actions, and observations
 

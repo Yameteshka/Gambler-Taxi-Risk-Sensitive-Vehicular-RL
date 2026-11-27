@@ -1,7 +1,6 @@
 # Gambler’s Taxi: Implementation plan
 
 Iuliia Kurnaeva  
-18 November 2026
 
 ## 1. Scope and intended outcome
 

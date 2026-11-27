@@ -1,7 +1,6 @@
 # Assignment 2: Reinforcement learning
 
 Iuliia Kurnaeva  
-23 November 2026
 
 ## Research question and experimental setup
 

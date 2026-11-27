@@ -1,8 +1,7 @@
 # Gambler’s Taxi: Diagnosing long-horizon risk in hybrid-action reinforcement learning
 
 Iuliia Kurnaeva  
-14 November 2026
-Workshop research report
+research report
 
 ## Abstract
 

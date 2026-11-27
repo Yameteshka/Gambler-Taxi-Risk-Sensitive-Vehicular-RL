@@ -1,7 +1,6 @@
 # Assignment 2: Hybrid Distributional SAC for Gambler’s Taxi
 
 Iuliia Kurnaeva  
-14 November 2026
 
 ## 1. Experimental setup and reinforcement-learning model
 

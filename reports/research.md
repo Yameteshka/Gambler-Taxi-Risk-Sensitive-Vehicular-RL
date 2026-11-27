@@ -1,7 +1,6 @@
 # Gambler’s Taxi — Skill transfer in a resource-constrained driving task
 
 Iuliia Kurnaeva  
-23 November 2026
 
 ## Abstract
 

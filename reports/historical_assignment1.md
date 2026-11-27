@@ -1,7 +1,6 @@
 # Assignment 1: Gambler's Taxi Environment
 
 Iuliia Kurnaeva  
-2026-11-19 04:08 UTC
 
 ## Scope and development
 

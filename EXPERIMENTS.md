@@ -1,7 +1,6 @@
 # Gambler’s Taxi: Experiment protocol
 
 Iuliia Kurnaeva  
-18 November 2026
 
 ## All comparisons at a glance
 

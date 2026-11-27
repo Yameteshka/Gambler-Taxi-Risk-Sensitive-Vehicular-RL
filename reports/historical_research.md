@@ -1,7 +1,6 @@
 # Financial Deadlines, Survival Costs and Voluntary Risk in a Driving Task
 
 Iuliia Kurnaeva  
-2026-11-19 04:08 UTC
 
 ## Abstract and current evidence
 

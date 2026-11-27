@@ -2,7 +2,7 @@
 
 A JAX driving simulator for studying long-horizon decisions under risk. Drive through traffic, work, rest, gamble, and manage debt. In the main campaign, clear $1,000 at the bank and buy out the taxi before the ten-day deadline.
 
-[Environment report](reports/assignment1.md), [Reinforcement learning report](reports/assignment2.md), [Workshop research report](reports/debt_research.md) and [Learned $1,000 buyout video](artifacts/debt_research/cases/seed_91038.mp4)
+[Environment report](reports/assignment1.md), [Reinforcement learning report](reports/assignment2.md), [research report](reports/debt_research.md) and [Learned $1,000 buyout video](artifacts/debt_research/cases/seed_91038.mp4)
 
 ## What is included
 
@@ -150,7 +150,7 @@ The figure script reads the saved evaluation and trajectory files and regenerate
 | [src/debt_learning.py](src/debt_learning.py) | Destination PPO |
 | [src/debt_research.py](src/debt_research.py) | Held-out evaluation and paired gambling probes |
 | [src/debt_decisions.py](src/debt_decisions.py) | Controlled input interventions |
-| [reports/](reports/) | Two IAEML reports and the workshop report |
+| [reports/](reports/) | Two IAEML reports and the report |
 | [artifacts/](artifacts/) | Checkpoints, metrics, logs, and videos |
 
 The environment and renderer build on the [InnoRL IAEML starter repository](https://github.com/InnoRL/IAEML-assignment). The reports cite the algorithm and behavioral research used in the project.

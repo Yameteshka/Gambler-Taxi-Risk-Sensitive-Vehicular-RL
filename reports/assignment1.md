@@ -1,7 +1,6 @@
 # Assignment 1: Environment
 
 Iuliia Kurnaeva  
-23 November 2026
 
 ## Design motivation
 
